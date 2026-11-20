@@ -65,6 +65,18 @@ export function ProductCard({
             </button>
           </div>
 
+          {/* touch devices have no hover, so give them a permanent quick-add */}
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              add(product.slug, 1);
+            }}
+            aria-label={`Add ${product.name} to cart`}
+            className="absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/95 text-ink shadow-lift backdrop-blur transition-colors active:bg-ink active:text-white md:hidden"
+          >
+            <IconPlus size={15} />
+          </button>
+
           {product.stock === 0 && (
             <div className="absolute inset-0 flex items-center justify-center bg-white/70 backdrop-blur-[1px]">
               <span className="rounded-full bg-ink px-3 py-1.5 text-[11px] uppercase tracking-[0.16em] text-white">
