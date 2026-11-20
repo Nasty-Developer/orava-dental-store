@@ -86,7 +86,12 @@ export const itemVariants: Variants = {
   show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: easing } },
 };
 
-/** Word-by-word headline reveal used in the hero. */
+/**
+ * Line-by-line headline reveal.
+ *
+ * Uses an animated clip-path instead of `overflow: hidden` so tight display
+ * line-heights never crop ascenders or descenders.
+ */
 export function RevealLines({
   lines,
   className,
@@ -103,16 +108,23 @@ export function RevealLines({
   return (
     <span className={className}>
       {lines.map((line, i) => (
-        <span key={i} className="block overflow-hidden">
-          <motion.span
-            className={`block ${lineClassName ?? ""}`}
-            initial={reduce ? false : { y: "108%" }}
-            animate={reduce ? undefined : { y: "0%" }}
-            transition={{ duration: 1.05, delay: delay + i * 0.09, ease: easing }}
-          >
-            {line}
-          </motion.span>
-        </span>
+        <motion.span
+          key={i}
+          className={`block ${lineClassName ?? ""}`}
+          initial={
+            reduce
+              ? false
+              : { clipPath: "inset(-20% 0 100% 0)", y: "0.08em", opacity: 0 }
+          }
+          animate={
+            reduce
+              ? undefined
+              : { clipPath: "inset(-20% 0 -20% 0)", y: "0em", opacity: 1 }
+          }
+          transition={{ duration: 1.05, delay: delay + i * 0.09, ease: easing }}
+        >
+          {line}
+        </motion.span>
       ))}
     </span>
   );
