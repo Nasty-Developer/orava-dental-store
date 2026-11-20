@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --header-h: 76px;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: "ss01" on, "cv05" on, "cv11" on;
+    letter-spacing: -0.011em;
+  }
+
+  ::selection {
+    background: #0c6e8f;
+    color: #fff;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Slim, quiet scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d3dde2;
+    border-radius: 99px;
+    border: 3px solid #fff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b6c5cd;
+  }
+
+  input, select, textarea, button {
+    font: inherit;
+    letter-spacing: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid #0c6e8f;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .shell-tight {
+    @apply mx-auto w-full max-w-[1080px] px-5 sm:px-8;
+  }
+
+  /* ── Typography ─────────────────────────────── */
+  .display {
+    @apply font-display font-normal;
+    font-feature-settings: "liga" on;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.22em] text-ink-faint;
+  }
+
+  .lede {
+    @apply text-[15.5px] leading-[1.65] text-ink-mute sm:text-[17px];
+  }
+
+  /* ── Buttons ────────────────────────────────── */
+  .btn {
+    @apply relative inline-flex select-none items-center justify-center gap-2 rounded-full
+           text-[13.5px] font-medium tracking-[-0.005em] transition-all duration-500;
+    transition-timing-function: var(--ease-expo);
+  }
+
+  .btn-primary {
+    @apply btn bg-ink px-7 py-[15px] text-white;
+    box-shadow: 0 1px 2px rgba(10, 26, 34, 0.14);
+  }
+  .btn-primary:hover {
+    background: #0c6e8f;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px -14px rgba(12, 110, 143, 0.75);
+  }
+  .btn-primary:active {
+    transform: translateY(0) scale(0.985);
+  }
+
+  .btn-ghost {
+    @apply btn border border-line-strong bg-white/60 px-7 py-[15px] text-ink;
+  }
+  .btn-ghost:hover {
+    @apply border-ink/25 bg-white;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px -16px rgba(10, 26, 34, 0.35);
+  }
+  .btn-ghost:active {
+    transform: translateY(0) scale(0.985);
+  }
+
+  .btn-quiet {
+    @apply btn px-4 py-2 text-ink-mute hover:text-ink;
+  }
+
+  /* underline that grows from the left */
+  .link-underline {
+    @apply relative inline-block;
+  }
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    width: 100%;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.55s var(--ease-expo);
+  }
+  .link-underline:hover::after {
+    transform: scaleX(1);
+  }
+
+  /* ── Surfaces ───────────────────────────────── */
+  .hairline {
+    @apply h-px w-full bg-line;
+  }
+
+  .tile {
+    @apply relative overflow-hidden bg-canvas-tint;
+  }
+
+  .card {
+    @apply relative bg-white;
+  }
+
+  .field {
+    @apply w-full rounded-none border-0 border-b border-line-strong bg-transparent
+           px-0 py-3 text-[15px] text-ink placeholder:text-ink-faint
+           transition-colors duration-300 focus:border-clinic-600 focus:outline-none;
+  }
+  .field:focus {
+    box-shadow: none;
+  }
+
+  .label {
+    @apply mb-1 block text-[11px] font-medium uppercase tracking-[0.16em] text-ink-faint;
+  }
+
+  /* ── Badges ─────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line-strong/70
+           bg-white/90 px-2.5 py-1 text-[10.5px] font-medium uppercase tracking-[0.14em]
+           text-ink-soft backdrop-blur;
+  }
+
+  /* ── Skeleton shimmer ───────────────────────── */
+  .shimmer {
+    @apply relative overflow-hidden bg-canvas-deep;
+  }
+  .shimmer::after {
+    content: "";
+    @apply absolute inset-0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.75), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 1.6s infinite;
+  }
+}
+
+@layer utilities {
+  .grain {
+    position: relative;
+  }
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.35;
+    background-image: radial-gradient(rgba(10, 26, 34, 0.055) 0.5px, transparent 0.5px);
+    background-size: 4px 4px;
+  }
+
+  .text-shadow-none {
+    text-shadow: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  }
+}
+
+/* ── Motion preferences ─────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
