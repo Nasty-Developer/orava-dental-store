@@ -1,31 +1,291 @@
 import type { ProductVisual } from "@/data/products";
 import type { CategorySlug } from "@/data/categories";
 
-const C = {
-  ink: "#0A1A22",
-  inkSoft: "#22343E",
-  blue: "#0C6E8F",
-  blueSoft: "#B9D8E3",
-  steel: "#C9D5DB",
-  steelDeep: "#A9B8C0",
-  paper: "#FFFFFF",
-  tint: "#E7EFF3",
-  warm: "#D9A574",
-};
+/**
+ * Placeholder product artwork.
+ *
+ * These are original SOMIL illustrations, drawn so a 300-SKU catalogue still
+ * looks like one brand until real photography arrives. Nothing here is traced
+ * from or copied out of a supplier catalogue.
+ *
+ * To use a real photo for one product, set `image` on that product in
+ * src/data/products.ts — <ProductArt> is skipped automatically.
+ */
+
+const ink = "#0A1A22";
+const blue = "#0C6E8F";
+const blueSoft = "#BBD4DF";
+const steel = "#C6D3D9";
+const paper = "#FFFFFF";
+const tint = "#E7EFF3";
 
 export const categoryTint: Record<CategorySlug, string> = {
-  whitening: "#EAF2F6",
-  brushes: "#F1F4F5",
-  rinses: "#E9F3F5",
-  clinical: "#EDF1F4",
-  kids: "#FAF2EA",
-  ortho: "#F0F2F4",
+  restorative: "#EDF3F6",
+  endodontics: "#E9F1F5",
+  prosthodontics: "#F1F3F5",
+  impression: "#EAF2F4",
+  instruments: "#F0F3F5",
+  burs: "#EDF2F5",
+  handpieces: "#E8EFF3",
+  orthodontics: "#EEF3F7",
+  implantology: "#E9F0F4",
+  "oral-surgery": "#EDF2F5",
+  periodontics: "#EBF2F4",
+  pedodontics: "#FBF3EC",
+  laboratory: "#F1F3F4",
+  consumables: "#EFF3F5",
+  "infection-control": "#E8F1F4",
+  sterilization: "#EDF3F5",
+  equipment: "#EAF0F4",
+  imaging: "#E9F0F5",
+  preventive: "#EBF3F6",
+  whitening: "#E9F2F6",
+  digital: "#EAF1F5",
+  anaesthetics: "#EDF2F6",
+  "clinic-kits": "#EFF2F4",
 };
 
-/**
- * Placeholder product artwork — a consistent, drawn product family.
- * Swap for real photography by adding `image` to a product in products.ts.
- */
+const Shadow = () => (
+  <ellipse cx="150" cy="248" rx="56" ry="8" fill={ink} opacity="0.055" />
+);
+
+const Spec = () => (
+  <rect x="176" y="150" width="26" height="3" rx="1.5" fill={blue} opacity="0.35" />
+);
+
+function Syringe() {
+  return (
+    <>
+      <rect x="124" y="38" width="52" height="9" rx="4.5" fill={ink} />
+      <rect x="142" y="46" width="16" height="34" fill={steel} />
+      <rect x="116" y="78" width="68" height="128" rx="10" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="124" y="118" width="52" height="80" rx="6" fill={blueSoft} />
+      <rect x="136" y="204" width="28" height="16" rx="3" fill={ink} />
+      <path d="M144 220h12l-4 24h-4z" fill={ink} />
+      {[96, 108, 132, 144, 156, 168, 180, 192].map((y) => (
+        <rect key={y} x="124" y={y} width="10" height="2" rx="1" fill={steel} />
+      ))}
+    </>
+  );
+}
+
+function Bottle() {
+  return (
+    <>
+      <rect x="132" y="52" width="36" height="32" rx="5" fill={ink} />
+      <rect x="138" y="82" width="24" height="16" fill={paper} stroke={steel} strokeWidth="2" />
+      <path
+        d="M108 118c0-11 8-20 18-20h48c10 0 18 9 18 20v112c0 8-6 14-14 14h-56c-8 0-14-6-14-14z"
+        fill={paper}
+        stroke={steel}
+        strokeWidth="2"
+      />
+      <path d="M112 190h76v38c0 7-5 12-12 12h-52c-7 0-12-5-12-12z" fill={blueSoft} opacity="0.7" />
+      <rect x="108" y="140" width="84" height="46" fill={tint} />
+      <rect x="122" y="152" width="40" height="3" rx="1.5" fill={ink} opacity="0.45" />
+      <rect x="122" y="162" width="56" height="3" rx="1.5" fill={ink} opacity="0.2" />
+      <rect x="122" y="172" width="30" height="3" rx="1.5" fill={ink} opacity="0.2" />
+    </>
+  );
+}
+
+function Tube() {
+  return (
+    <>
+      <rect x="138" y="50" width="24" height="28" rx="4" fill={ink} />
+      <path d="M122 78h56c4 0 7 3 7 7v118h-70V85c0-4 3-7 7-7z" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="112" y="203" width="76" height="14" rx="2" fill={steel} />
+      <rect x="115" y="118" width="70" height="42" fill={tint} />
+      <rect x="126" y="128" width="34" height="3" rx="1.5" fill={ink} opacity="0.45" />
+      <rect x="126" y="138" width="48" height="3" rx="1.5" fill={ink} opacity="0.2" />
+      <rect x="115" y="172" width="70" height="6" fill={blue} opacity="0.55" />
+    </>
+  );
+}
+
+function Box() {
+  return (
+    <>
+      <path d="M96 112l22-22h104l-22 22z" fill={tint} stroke={steel} strokeWidth="2" />
+      <path d="M200 112l22-22v100l-22 22z" fill={steel} opacity="0.55" />
+      <rect x="96" y="112" width="104" height="100" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="96" y="150" width="104" height="34" fill={blue} opacity="0.1" />
+      <rect x="110" y="160" width="44" height="3" rx="1.5" fill={ink} opacity="0.45" />
+      <rect x="110" y="170" width="60" height="3" rx="1.5" fill={ink} opacity="0.2" />
+    </>
+  );
+}
+
+function Instrument() {
+  return (
+    <>
+      <g transform="rotate(-42 150 160)">
+        <circle cx="150" cy="92" r="34" fill={paper} stroke={steel} strokeWidth="2" />
+        <circle cx="150" cy="92" r="24" fill={tint} />
+        <rect x="144" y="124" width="12" height="118" rx="6" fill={steel} />
+        <rect x="141" y="150" width="18" height="10" rx="3" fill={ink} />
+      </g>
+    </>
+  );
+}
+
+function Bur() {
+  return (
+    <>
+      <rect x="142" y="56" width="16" height="104" rx="4" fill={steel} />
+      <rect x="138" y="150" width="24" height="12" rx="2" fill={ink} />
+      <circle cx="150" cy="184" r="22" fill={paper} stroke={steel} strokeWidth="2" />
+      <path d="M132 176q18 8 36 0M132 190q18 8 36 0" stroke={blue} strokeWidth="2" fill="none" opacity="0.5" />
+    </>
+  );
+}
+
+function Handpiece() {
+  return (
+    <>
+      <rect x="126" y="92" width="48" height="146" rx="24" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="136" y="120" width="28" height="70" rx="14" fill={tint} />
+      <rect x="116" y="58" width="68" height="46" rx="16" fill={ink} />
+      <rect x="146" y="40" width="8" height="20" rx="4" fill={steel} />
+      <circle cx="150" cy="81" r="6" fill={blueSoft} />
+      <rect x="132" y="214" width="36" height="6" rx="3" fill={steel} />
+    </>
+  );
+}
+
+function File() {
+  return (
+    <>
+      <rect x="136" y="48" width="28" height="44" rx="5" fill={ink} />
+      <rect x="147" y="92" width="6" height="86" fill={steel} />
+      <path d="M143 178h14l-4 56h-6z" fill={steel} />
+      <path d="M143 190l14 6M143 204l14 6M143 218l14 6" stroke={blue} strokeWidth="2" opacity="0.55" />
+      <rect x="176" y="120" width="26" height="3" rx="1.5" fill={blue} opacity="0.35" />
+      <rect x="176" y="134" width="18" height="3" rx="1.5" fill={blue} opacity="0.35" />
+    </>
+  );
+}
+
+function Bracket() {
+  return (
+    <>
+      <rect x="62" y="150" width="176" height="7" rx="3.5" fill={steel} />
+      <rect x="124" y="130" width="52" height="46" rx="7" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="124" y="148" width="52" height="10" fill={ink} />
+      <circle cx="150" cy="153" r="30" fill="none" stroke={blue} strokeWidth="2.5" opacity="0.55" />
+    </>
+  );
+}
+
+function Implant() {
+  return (
+    <>
+      <path d="M130 78h40l-6 30h-28z" fill={paper} stroke={steel} strokeWidth="2" />
+      <path d="M136 108h28l-6 104q-8 14-16 0z" fill={steel} />
+      {[124, 138, 152, 166, 180, 194].map((y) => (
+        <path key={y} d={`M137 ${y}l26 7`} stroke={paper} strokeWidth="2" opacity="0.9" />
+      ))}
+      <rect x="176" y="150" width="26" height="3" rx="1.5" fill={blue} opacity="0.35" />
+    </>
+  );
+}
+
+function Suture() {
+  return (
+    <>
+      <path d="M96 96q34-34 62 0t-14 54" stroke={ink} strokeWidth="3.5" fill="none" strokeLinecap="round" />
+      <path d="M144 150q-22 26 6 44t52-6" stroke={blue} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+      <circle cx="196" cy="196" r="34" fill={tint} stroke={steel} strokeWidth="2" />
+      <circle cx="196" cy="196" r="14" fill={paper} stroke={steel} strokeWidth="2" />
+    </>
+  );
+}
+
+function Carpule() {
+  return (
+    <>
+      <rect x="114" y="80" width="72" height="140" rx="36" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="122" y="132" width="56" height="80" rx="28" fill={blueSoft} />
+      <rect x="114" y="66" width="72" height="18" rx="9" fill={ink} />
+      <circle cx="150" cy="94" r="9" fill={ink} />
+      <rect x="176" y="150" width="26" height="3" rx="1.5" fill={blue} opacity="0.35" />
+    </>
+  );
+}
+
+function PPE() {
+  return (
+    <>
+      <path d="M104 120c0-14 11-24 24-24h44c13 0 24 10 24 24v50c0 20-16 34-46 34s-46-14-46-34z" fill={paper} stroke={steel} strokeWidth="2" />
+      <path d="M104 138h92M104 156h92M104 174h92" stroke={steel} strokeWidth="2" />
+      <path d="M104 128c-14 4-20 18-14 30M196 128c14 4 20 18 14 30" stroke={ink} strokeWidth="2" fill="none" opacity="0.5" />
+      <rect x="176" y="150" width="26" height="3" rx="1.5" fill={blue} opacity="0.35" />
+    </>
+  );
+}
+
+function Machine() {
+  return (
+    <>
+      <rect x="80" y="98" width="140" height="112" rx="14" fill={paper} stroke={steel} strokeWidth="2" />
+      <rect x="98" y="116" width="104" height="54" rx="7" fill={tint} />
+      <path d="M108 152l14-16 12 12 16-22 14 26" stroke={blue} strokeWidth="2.5" fill="none" strokeLinecap="round" />
+      <circle cx="150" cy="192" r="11" fill={ink} />
+      <rect x="112" y="210" width="12" height="16" rx="3" fill={steel} />
+      <rect x="176" y="210" width="12" height="16" rx="3" fill={steel} />
+    </>
+  );
+}
+
+function Impression() {
+  return (
+    <>
+      <ellipse cx="150" cy="112" rx="54" ry="18" fill={tint} stroke={steel} strokeWidth="2" />
+      <path d="M96 112v96c0 10 24 18 54 18s54-8 54-18v-96" fill={paper} stroke={steel} strokeWidth="2" />
+      <ellipse cx="150" cy="104" rx="56" ry="19" fill={steel} />
+      <ellipse cx="150" cy="100" rx="56" ry="19" fill={ink} opacity="0.85" />
+      <rect x="118" y="150" width="64" height="3" rx="1.5" fill={ink} opacity="0.3" />
+      <rect x="126" y="162" width="48" height="3" rx="1.5" fill={ink} opacity="0.15" />
+    </>
+  );
+}
+
+function Crown() {
+  return (
+    <>
+      <g transform="translate(150 158) scale(2.5) translate(-24 -22)">
+        <path
+          d="M24 9c-3 0-4.6 1.4-6.8 1.4-2 0-3.6-1.2-5.4.6-2.2 2.2-1.8 5.6-1 9.2.6 3 1 6 1.5 9 .4 2.2.8 4.8 1.7 6.6.5 1.2 1.8 2 2.9 1.6 1.2-.4 1.6-1.4 2-3.1.5-2.6 1.1-5.7 2-7.7.5-1.1 1.5-1.8 2.5-1.8h1.2c1 0 2 .7 2.5 1.8.9 2 1.5 5.1 2 7.7.4 1.7.8 2.7 2 3.1 1.1.4 2.4-.4 2.9-1.6.9-1.8 1.3-4.4 1.7-6.6.5-3 .9-6 1.5-9 .8-3.6 1.2-7-1-9.2-1.8-1.8-3.4-.6-5.4-.6C28.6 10.4 27 9 24 9Z"
+          fill={paper}
+          stroke={ink}
+          strokeWidth="1.1"
+          strokeLinejoin="round"
+        />
+        <path d="M24 9c-3 0-4.6 1.4-6.8 1.4-2 0-3.6-1.2-5.4.6-1.4 1.4-1.6 3.4-1.3 5.6h27c.3-2.2.1-4.2-1.3-5.6-1.8-1.8-3.4-.6-5.4-.6C28.6 10.4 27 9 24 9Z" fill={blueSoft} />
+      </g>
+    </>
+  );
+}
+
+const MOTIFS: Record<ProductVisual, () => React.JSX.Element> = {
+  syringe: Syringe,
+  bottle: Bottle,
+  tube: Tube,
+  box: Box,
+  instrument: Instrument,
+  bur: Bur,
+  handpiece: Handpiece,
+  file: File,
+  bracket: Bracket,
+  implant: Implant,
+  suture: Suture,
+  carpule: Carpule,
+  ppe: PPE,
+  machine: Machine,
+  impression: Impression,
+  crown: Crown,
+};
+
 export function ProductArt({
   visual,
   className = "",
@@ -35,253 +295,18 @@ export function ProductArt({
   className?: string;
   title?: string;
 }) {
+  const Motif = MOTIFS[visual] ?? Box;
   return (
     <svg
-      viewBox="0 0 300 340"
+      viewBox="0 0 300 300"
       className={className}
-      role={title ? "img" : "presentation"}
+      role={title ? "img" : undefined}
       aria-label={title}
       aria-hidden={title ? undefined : true}
-      fill="none"
     >
-      {/* ground shadow */}
-      <ellipse cx="150" cy="301" rx="82" ry="10" fill={C.ink} opacity="0.07" />
-      <ellipse cx="150" cy="300" rx="46" ry="5.5" fill={C.ink} opacity="0.07" />
-
-      {visual === "serum" && (
-        <g>
-          <rect x="126" y="62" width="48" height="46" rx="9" fill={C.ink} />
-          <rect x="133" y="70" width="10" height="30" rx="5" fill="#fff" opacity="0.12" />
-          <rect x="120" y="104" width="60" height="184" rx="16" fill={C.paper} />
-          <rect x="120" y="104" width="60" height="184" rx="16" stroke={C.steel} />
-          <path d="M120 150h60v10h-60z" fill={C.blue} opacity="0.1" />
-          <rect x="133" y="176" width="34" height="4" rx="2" fill={C.ink} opacity="0.55" />
-          <rect x="133" y="188" width="24" height="3" rx="1.5" fill={C.ink} opacity="0.2" />
-          <rect x="133" y="197" width="30" height="3" rx="1.5" fill={C.ink} opacity="0.2" />
-          <rect x="133" y="228" width="34" height="34" rx="17" fill={C.tint} />
-          <circle cx="150" cy="245" r="9" stroke={C.blue} strokeWidth="1.5" opacity="0.6" />
-          <rect x="136" y="112" width="7" height="150" rx="3.5" fill="#fff" opacity="0.75" />
-        </g>
-      )}
-
-      {visual === "strips" && (
-        <g transform="rotate(-7 150 175)">
-          <rect x="92" y="86" width="116" height="164" rx="12" fill={C.paper} stroke={C.steel} />
-          <rect x="92" y="86" width="116" height="34" rx="12" fill={C.blue} opacity="0.09" />
-          <path d="M92 120h116" stroke={C.steel} strokeDasharray="4 5" />
-          <rect x="112" y="146" width="76" height="52" rx="6" fill={C.tint} />
-          <path d="M112 146l18 18v-18z" fill={C.paper} />
-          <rect x="112" y="216" width="46" height="4" rx="2" fill={C.ink} opacity="0.45" />
-          <rect x="112" y="228" width="30" height="3" rx="1.5" fill={C.ink} opacity="0.18" />
-          <circle cx="182" cy="230" r="10" stroke={C.blue} strokeWidth="1.4" opacity="0.55" />
-          <rect x="100" y="94" width="6" height="148" rx="3" fill="#fff" opacity="0.6" />
-        </g>
-      )}
-
-      {visual === "kit" && (
-        <g>
-          <rect x="150" y="70" width="34" height="112" rx="9" fill={C.paper} stroke={C.steel} />
-          <rect x="150" y="70" width="34" height="26" rx="8" fill={C.ink} opacity="0.85" />
-          <rect x="82" y="150" width="136" height="122" rx="10" fill={C.paper} stroke={C.steel} />
-          <rect x="82" y="150" width="136" height="20" rx="10" fill={C.blue} opacity="0.1" />
-          <path d="M82 170h136" stroke={C.steel} />
-          <rect x="100" y="192" width="52" height="4" rx="2" fill={C.ink} opacity="0.5" />
-          <rect x="100" y="204" width="34" height="3" rx="1.5" fill={C.ink} opacity="0.2" />
-          <circle cx="176" cy="222" r="26" fill={C.tint} />
-          <circle cx="176" cy="222" r="14" stroke={C.blue} strokeWidth="1.4" opacity="0.55" />
-          <path d="M176 208v28M162 222h28" stroke={C.blue} strokeWidth="1.4" opacity="0.35" />
-        </g>
-      )}
-
-      {visual === "brush" && (
-        <g>
-          <rect x="133" y="56" width="34" height="72" rx="16" fill={C.paper} stroke={C.steel} />
-          {[0, 1, 2, 3].map((i) => (
-            <rect
-              key={i}
-              x={139 + i * 6}
-              y="66"
-              width="2.6"
-              height="34"
-              rx="1.3"
-              fill={C.blueSoft}
-            />
-          ))}
-          <rect x="139" y="104" width="22" height="8" rx="4" fill={C.ink} opacity="0.75" />
-          <rect x="136" y="112" width="28" height="176" rx="14" fill={C.paper} stroke={C.steel} />
-          <rect x="136" y="112" width="28" height="20" rx="10" fill={C.ink} opacity="0.08" />
-          <circle cx="150" cy="176" r="9" fill={C.tint} />
-          <circle cx="150" cy="176" r="4" fill={C.blue} opacity="0.7" />
-          <rect x="145" y="196" width="10" height="52" rx="5" fill={C.ink} opacity="0.06" />
-          <rect x="141" y="118" width="6" height="160" rx="3" fill="#fff" opacity="0.7" />
-        </g>
-      )}
-
-      {visual === "floss" && (
-        <g>
-          <circle cx="150" cy="168" r="62" fill={C.paper} stroke={C.steel} />
-          <circle cx="150" cy="168" r="44" stroke={C.tint} strokeWidth="10" />
-          <circle cx="150" cy="168" r="22" fill={C.tint} />
-          <circle cx="150" cy="168" r="7" fill={C.blue} opacity="0.55" />
-          <path
-            d="M150 106c0-22 14-32 34-32s30 12 30 30"
-            stroke={C.inkSoft}
-            strokeWidth="2"
-            strokeLinecap="round"
-            opacity="0.5"
-          />
-          <path d="M96 168h-14M204 168h14" stroke={C.steelDeep} strokeWidth="2" strokeLinecap="round" />
-          <rect x="122" y="150" width="56" height="4" rx="2" fill={C.ink} opacity="0.35" />
-          <rect x="130" y="162" width="40" height="3" rx="1.5" fill={C.ink} opacity="0.15" />
-        </g>
-      )}
-
-      {visual === "bottle" && (
-        <g>
-          <rect x="130" y="56" width="40" height="42" rx="7" fill={C.ink} />
-          <rect x="136" y="64" width="8" height="26" rx="4" fill="#fff" opacity="0.12" />
-          <path
-            d="M136 98h28c22 0 34 14 34 34v140c0 9-7 16-16 16H118c-9 0-16-7-16-16V132c0-20 12-34 34-34z"
-            fill={C.paper}
-            stroke={C.steel}
-          />
-          <rect x="106" y="166" width="88" height="66" rx="6" fill={C.blue} opacity="0.09" />
-          <rect x="122" y="182" width="56" height="5" rx="2.5" fill={C.ink} opacity="0.5" />
-          <rect x="122" y="196" width="38" height="3.5" rx="1.75" fill={C.ink} opacity="0.18" />
-          <rect x="122" y="206" width="46" height="3.5" rx="1.75" fill={C.ink} opacity="0.18" />
-          <path d="M120 120h6v152h-6z" fill="#fff" opacity="0.6" />
-        </g>
-      )}
-
-      {visual === "mist" && (
-        <g>
-          <rect x="136" y="58" width="28" height="30" rx="5" fill={C.ink} />
-          <rect x="142" y="88" width="16" height="16" rx="3" fill={C.steel} />
-          <rect x="134" y="104" width="32" height="184" rx="12" fill={C.paper} stroke={C.steel} />
-          <rect x="134" y="150" width="32" height="60" fill={C.blue} opacity="0.1" />
-          <rect x="142" y="168" width="16" height="3.5" rx="1.75" fill={C.ink} opacity="0.4" />
-          <rect x="142" y="178" width="11" height="3" rx="1.5" fill={C.ink} opacity="0.16" />
-          <g stroke={C.blue} strokeWidth="1.6" strokeLinecap="round" opacity="0.5">
-            <path d="M176 62l10-6" />
-            <path d="M180 74h12" />
-            <path d="M176 86l10 6" />
-          </g>
-          <rect x="139" y="112" width="5" height="168" rx="2.5" fill="#fff" opacity="0.7" />
-        </g>
-      )}
-
-      {visual === "gel" && (
-        <g>
-          <rect x="138" y="52" width="24" height="26" rx="4" fill={C.ink} />
-          <path
-            d="M132 78h36c6 0 10 5 10 11v156c0 6-4 10-10 10h-36c-6 0-10-4-10-10V89c0-6 4-11 10-11z"
-            fill={C.paper}
-            stroke={C.steel}
-          />
-          <rect x="118" y="128" width="64" height="70" rx="5" fill={C.blue} opacity="0.09" />
-          <rect x="132" y="146" width="36" height="4" rx="2" fill={C.ink} opacity="0.45" />
-          <rect x="132" y="158" width="24" height="3" rx="1.5" fill={C.ink} opacity="0.16" />
-          <circle cx="150" cy="186" r="11" stroke={C.blue} strokeWidth="1.4" opacity="0.5" />
-          <path d="M118 232h64" stroke={C.steel} strokeDasharray="3 4" />
-          <path d="M118 240h64" stroke={C.steel} strokeDasharray="3 4" />
-          <path d="M118 248h64" stroke={C.steel} strokeDasharray="3 4" />
-        </g>
-      )}
-
-      {visual === "scaler" && (
-        <g>
-          <g transform="rotate(-14 150 180)">
-            <rect x="126" y="118" width="48" height="150" rx="18" fill={C.paper} stroke={C.steel} />
-            <rect x="126" y="118" width="48" height="26" rx="13" fill={C.ink} opacity="0.85" />
-            <circle cx="150" cy="186" r="8" fill={C.tint} />
-            <circle cx="150" cy="186" r="3.5" fill={C.blue} opacity="0.8" />
-            <rect x="142" y="210" width="16" height="42" rx="8" fill={C.ink} opacity="0.05" />
-            <path d="M150 118V86" stroke={C.steelDeep} strokeWidth="3" strokeLinecap="round" />
-            <path d="M150 86l10-24" stroke={C.inkSoft} strokeWidth="2.4" strokeLinecap="round" />
-          </g>
-          <path
-            d="M96 300c26 0 30-22 52-22"
-            stroke={C.steelDeep}
-            strokeWidth="2.4"
-            strokeLinecap="round"
-            opacity="0.8"
-          />
-          <circle cx="150" cy="300" r="4" fill={C.blue} opacity="0.35" />
-        </g>
-      )}
-
-      {visual === "mirror" && (
-        <g>
-          <circle cx="150" cy="140" r="58" fill={C.paper} stroke={C.steel} strokeWidth="1.5" />
-          <circle cx="150" cy="140" r="48" fill={C.tint} opacity="0.75" />
-          <path d="M118 108a44 44 0 0 1 40-12" stroke="#fff" strokeWidth="6" strokeLinecap="round" opacity="0.85" />
-          <g transform="rotate(20 150 230)">
-            <rect x="142" y="196" width="16" height="96" rx="8" fill={C.paper} stroke={C.steel} />
-            <rect x="142" y="212" width="16" height="24" fill={C.ink} opacity="0.07" />
-          </g>
-          <circle cx="150" cy="140" r="58" stroke={C.blue} strokeWidth="1" opacity="0.15" />
-        </g>
-      )}
-
-      {visual === "kidbrush" && (
-        <g>
-          <rect x="128" y="76" width="44" height="52" rx="20" fill={C.paper} stroke={C.steel} />
-          {[0, 1, 2].map((i) => (
-            <rect key={i} x={136 + i * 10} y="86" width="4" height="26" rx="2" fill={C.warm} opacity="0.8" />
-          ))}
-          <path
-            d="M136 128h28c8 0 12 6 12 14v104c0 12-8 20-26 20s-26-8-26-20V142c0-8 4-14 12-14z"
-            fill={C.paper}
-            stroke={C.steel}
-          />
-          <circle cx="150" cy="200" r="14" fill={C.warm} opacity="0.22" />
-          <path
-            d="M150 192l3.4 6.9 7.6 1.1-5.5 5.4 1.3 7.6-6.8-3.6-6.8 3.6 1.3-7.6-5.5-5.4 7.6-1.1z"
-            fill={C.warm}
-            opacity="0.85"
-          />
-        </g>
-      )}
-
-      {visual === "aligner" && (
-        <g>
-          <path
-            d="M92 122c0-14 12-24 26-24h64c14 0 26 10 26 24 0 10-6 16-6 26v34c0 16-12 26-26 26h-52c-14 0-26-10-26-26v-34c0-10-6-16-6-26z"
-            fill={C.paper}
-            stroke={C.blueSoft}
-            strokeWidth="1.6"
-          />
-          <path
-            d="M108 126c0-8 8-14 18-14h48c10 0 18 6 18 14 0 8-6 12-6 20v30c0 10-8 16-18 16h-36c-10 0-18-6-18-16v-30c0-8-6-12-6-20z"
-            fill={C.tint}
-            opacity="0.85"
-          />
-          {[0, 1, 2, 3, 4].map((i) => (
-            <ellipse
-              key={i}
-              cx={122 + i * 14}
-              cy={148}
-              rx="6"
-              ry="10"
-              fill={C.paper}
-              stroke={C.blueSoft}
-            />
-          ))}
-          <path d="M96 190h108" stroke={C.blueSoft} strokeDasharray="5 6" opacity="0.8" />
-        </g>
-      )}
-
-      {visual === "wax" && (
-        <g>
-          <ellipse cx="150" cy="132" rx="66" ry="22" fill={C.tint} />
-          <path d="M84 132v76c0 12 30 22 66 22s66-10 66-22v-76" fill={C.paper} stroke={C.steel} />
-          <ellipse cx="150" cy="132" rx="66" ry="22" fill={C.paper} stroke={C.steel} />
-          <ellipse cx="150" cy="132" rx="48" ry="15" fill={C.tint} opacity="0.8" />
-          <rect x="126" y="126" width="48" height="5" rx="2.5" fill={C.ink} opacity="0.35" />
-          <rect x="136" y="140" width="28" height="3" rx="1.5" fill={C.ink} opacity="0.14" />
-          <path d="M96 160v44c0 8 24 16 54 16s54-8 54-16v-44" stroke={C.blue} strokeWidth="1" opacity="0.12" />
-        </g>
-      )}
+      <Shadow />
+      <Motif />
+      <Spec />
     </svg>
   );
 }

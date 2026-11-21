@@ -19,7 +19,8 @@ import {
   IconReturn,
 } from "@/components/icons";
 
-const heroProduct = products[0];
+const heroProduct =
+  featuredProducts.find((p) => p.price !== null) ?? featuredProducts[0] ?? products[0];
 
 export default function HomePage() {
   return (
@@ -59,8 +60,8 @@ function Hero() {
 
           <Reveal delay={0.45} y={12}>
             <p className="lede mt-7 max-w-[430px]">
-              Whitening, brushing and rinse essentials developed with practising dentists — for
-              people who treat their mouth like the rest of their health.
+              Restorative, endodontic, orthodontic and surgical supplies for Indian dental
+              practices — sourced from the brands clinicians already trust, confirmed on WhatsApp.
             </p>
           </Reveal>
 
@@ -87,16 +88,10 @@ function Hero() {
 
           <Reveal delay={0.65} y={12}>
             <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-line pt-6">
-              <div className="flex items-center gap-2">
-                <div className="flex gap-0.5 text-clinic-600">
-                  {[0, 1, 2, 3, 4].map((i) => (
-                    <IconStar key={i} size={12} />
-                  ))}
-                </div>
-                <span className="text-[12.5px] text-ink-mute">
-                  <span className="text-ink">4.8</span> from 1,900+ orders
-                </span>
-              </div>
+              <p className="text-[12.5px] text-ink-mute">
+                <span className="text-ink">{products.length}</span> products across{" "}
+                <span className="text-ink">{categories.length}</span> clinical areas
+              </p>
               <p className="text-[12.5px] text-ink-mute">
                 Free delivery over {formatINR(site.freeShippingThreshold)}
               </p>
@@ -135,21 +130,21 @@ function Hero() {
 
                 {/* floating specs */}
                 <div className="absolute left-4 top-4 sm:left-6 sm:top-6">
-                  <span className="badge">Bestseller · 01</span>
+                  <span className="badge">Featured</span>
                 </div>
 
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between sm:bottom-6 sm:left-6 sm:right-6">
                   <div className="rounded-lg bg-white/85 px-3.5 py-2.5 backdrop-blur-md">
                     <p className="text-[10px] uppercase tracking-[0.16em] text-ink-faint">
-                      Active
+                      Brand
                     </p>
-                    <p className="mt-0.5 text-[12.5px] text-ink">5.5% H₂O₂ · pH 7.1</p>
+                    <p className="mt-0.5 max-w-[150px] truncate text-[12.5px] text-ink">{heroProduct.brand}</p>
                   </div>
                   <div className="hidden rounded-lg bg-white/85 px-3.5 py-2.5 text-right backdrop-blur-md sm:block">
                     <p className="text-[10px] uppercase tracking-[0.16em] text-ink-faint">
-                      Course
+                      Category
                     </p>
-                    <p className="mt-0.5 text-[12.5px] text-ink">30 nights</p>
+                    <p className="mt-0.5 text-[12.5px] text-ink">{categories.find((c) => c.slug === heroProduct.category)?.shortName}</p>
                   </div>
                 </div>
               </div>
@@ -160,7 +155,7 @@ function Hero() {
                   <div className="min-w-0">
                     <p className="truncate text-[13.5px] text-ink">{heroProduct.name}</p>
                     <p className="mt-0.5 truncate text-[11.5px] text-ink-faint">
-                      {heroProduct.subtitle}
+                      {heroProduct.subcategory}
                     </p>
                   </div>
                   <Link
@@ -211,23 +206,39 @@ function CategoryGrid() {
             <p className="eyebrow">The shelf</p>
           </Reveal>
           <Reveal delay={0.06} y={14}>
-            <h2 className="mt-3 display text-display-lg text-ink">Six things that matter.</h2>
+            <h2 className="mt-3 display text-display-lg text-ink">Twenty-three areas.</h2>
           </Reveal>
         </div>
         <Reveal delay={0.12} y={10}>
           <p className="max-w-[330px] text-[13.5px] leading-relaxed text-ink-mute">
-            We stock a narrow range on purpose. Each product earns its place against a clinical
-            need, not a marketing calendar.
+            From composites and rotary files to autoclaves and intraoral scanners — organised the
+            way a practice actually buys, not the way a catalogue is printed.
           </p>
         </Reveal>
       </div>
 
-      <RevealGroup className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {categories.map((c) => (
+      <RevealGroup className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {categories.slice(0, 7).map((c) => (
           <StaggerItem key={c.slug}>
             <CategoryTile slug={c.slug} />
           </StaggerItem>
         ))}
+        <StaggerItem>
+          <Link
+            href="/categories"
+            className="group flex h-full min-h-[168px] flex-col justify-between rounded-[10px] border border-line bg-white p-5 transition-colors hover:border-ink"
+          >
+            <span className="text-[10px] uppercase tracking-[0.18em] text-ink-faint">All areas</span>
+            <span className="flex items-end justify-between gap-3">
+              <span className="font-display text-[22px] leading-[1.1] tracking-[-0.01em]">
+                View all {categories.length}
+              </span>
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line text-ink transition-all duration-500 group-hover:border-ink group-hover:bg-ink group-hover:text-white">
+                <IconArrowUpRight size={14} />
+              </span>
+            </span>
+          </Link>
+        </StaggerItem>
       </RevealGroup>
     </section>
   );

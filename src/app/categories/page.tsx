@@ -19,8 +19,8 @@ export default function CategoriesPage() {
     <>
       <PageHeader
         eyebrow="Browse"
-        title="Six clinical categories."
-        lede="A narrow shelf by design. Each category answers one need, so choosing takes a minute rather than an evening."
+        title="Twenty-three clinical areas."
+        lede="The catalogue is organised the way a practice buys: by clinical procedure, then by product type. Every area carries its own brands, pack sizes and refills."
         crumbs={[{ label: "Categories" }]}
       />
 

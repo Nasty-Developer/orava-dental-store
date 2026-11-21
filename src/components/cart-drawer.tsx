@@ -138,7 +138,7 @@ export function CartDrawer() {
                                 <IconTrash size={15} />
                               </button>
                             </div>
-                            <p className="mt-0.5 text-[11.5px] text-ink-faint">{item.product.size}</p>
+                            <p className="mt-0.5 text-[11.5px] text-ink-faint">{item.product.packaging ?? item.product.brand}</p>
 
                             <div className="mt-3 flex items-center justify-between">
                               <div className="flex items-center rounded-full border border-line">

@@ -65,19 +65,21 @@ export const site = {
 } as const;
 
 export const trustPoints = [
-  { label: "Dentist-formulated", detail: "Reviewed by practising clinicians" },
-  { label: "Free delivery over ₹1,499", detail: "Dispatched within 24 hours" },
-  { label: "7-day returns", detail: "Unopened products, no questions" },
+  { label: "Authorised sourcing", detail: "Genuine stock, batch verified" },
+  { label: "Free delivery over ₹1,499", detail: "Tracked, across India" },
+  { label: "Price on request", detail: "Confirmed before dispatch" },
   { label: "Order on WhatsApp", detail: "A real person replies" },
 ] as const;
 
 export const marqueeItems = [
-  "Clinician-formulated",
-  "Non-abrasive whitening",
-  "BIS-compliant packaging",
-  "Cruelty-free",
+  "Restorative",
+  "Endodontics",
+  "Orthodontics",
+  "Implantology",
+  "Instruments",
+  "Infection control",
+  "Sterilization",
+  "Imaging",
   "Ships across India",
-  "Dentist-reviewed",
   "No online payment",
-  "7-day returns",
 ] as const;

@@ -416,7 +416,7 @@ export default function CheckoutPage() {
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-[12.5px] text-ink">{i.product.name}</p>
-                    <p className="text-[11px] text-ink-faint">{i.product.size}</p>
+                    <p className="text-[11px] text-ink-faint">{i.product.packaging ?? i.product.brand}</p>
                   </div>
                   <span className="text-[12.5px] tabular-nums text-ink-soft">
                     {formatINR(i.lineTotal)}

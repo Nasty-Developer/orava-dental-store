@@ -205,10 +205,10 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
         .filter(
           (p) =>
             p.name.toLowerCase().includes(term) ||
-            p.subtitle.toLowerCase().includes(term) ||
-            p.shortDescription.toLowerCase().includes(term) ||
+            p.brand.toLowerCase().includes(term) ||
+            p.subcategory.toLowerCase().includes(term) ||
             p.category.includes(term) ||
-            (p.tags ?? []).some((t) => t.includes(term)),
+            p.summary.toLowerCase().includes(term),
         )
         .slice(0, 6)
     : [];
@@ -279,9 +279,9 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
                   <span className="h-14 w-14 shrink-0 rounded-md bg-canvas-deep" />
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-[14px] text-ink">{p.name}</span>
-                    <span className="block truncate text-[12px] text-ink-faint">{p.subtitle}</span>
+                    <span className="block truncate text-[12px] text-ink-faint">{p.brand} · {p.subcategory}</span>
                   </span>
-                  <span className="text-[13px] tabular-nums text-ink-soft">{formatINR(p.price)}</span>
+                  <span className="text-[13px] tabular-nums text-ink-soft">{p.price !== null ? formatINR(p.price) : "On request"}</span>
                   <IconArrowRight size={16} className="text-ink-faint transition-transform group-hover:translate-x-0.5" />
                 </Link>
               ))}

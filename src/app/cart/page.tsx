@@ -104,7 +104,7 @@ export default function CartPage() {
                           >
                             {item.product.name}
                           </Link>
-                          <p className="mt-1 text-[12px] text-ink-faint">{item.product.size}</p>
+                          <p className="mt-1 text-[12px] text-ink-faint">{item.product.packaging ?? item.product.brand}</p>
                           <p className="mt-1.5 text-[12px] text-ink-mute">
                             {formatINR(item.product.price)} each
                           </p>

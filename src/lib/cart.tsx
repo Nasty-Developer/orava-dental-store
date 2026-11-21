@@ -76,7 +76,8 @@ function reducer(state: State, action: Action): State {
 export type CartItem = {
   slug: string;
   qty: number;
-  product: (typeof products)[number];
+  /** Only priced products can be added to a cart, so price is always known here. */
+  product: (typeof products)[number] & { price: number };
   lineTotal: number;
 };
 
@@ -167,12 +168,13 @@ export function CartProvider({ children }: { children: ReactNode }) {
     return state.lines
       .map((line) => {
         const product = products.find((p) => p.slug === line.slug);
-        if (!product) return null;
+        // products without a confirmed price are handled by enquiry, not the cart
+        if (!product || product.price === null) return null;
         return {
           slug: line.slug,
           qty: line.qty,
           product,
-          lineTotal: product.price * line.qty,
+          lineTotal: (product.price as number) * line.qty,
         };
       })
       .filter((x): x is CartItem => x !== null);

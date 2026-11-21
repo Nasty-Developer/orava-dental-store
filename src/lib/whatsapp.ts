@@ -28,7 +28,7 @@ const inr = (n: number) =>
   }).format(n);
 
 export type OrderLine = {
-  product: Pick<Product, "slug" | "name" | "price" | "size">;
+  product: { slug: string; name: string; packaging: string | null; price: number };
   qty: number;
 };
 
@@ -56,7 +56,7 @@ export function buildOrderMessage(lines: OrderLine[], customer: OrderCustomer) {
   const rows = lines
     .map(
       (l, i) =>
-        `${i + 1}. ${l.product.name} (${l.product.size})\n` +
+        `${i + 1}. ${l.product.name}${l.product.packaging ? ` (${l.product.packaging})` : ""}\n` +
         `    Qty: ${l.qty} × ${inr(l.product.price)} = ${inr(l.product.price * l.qty)}`,
     )
     .join("\n");
@@ -94,14 +94,19 @@ export function buildOrderMessage(lines: OrderLine[], customer: OrderCustomer) {
 
 /** Single-product enquiry message from a product page. */
 export function buildProductEnquiry(product: Product, qty = 1) {
+  const bits = [`*${product.name}*`, product.brand];
+  if (product.packaging) bits.push(`Pack: ${product.packaging}`);
+  if (product.price !== null) {
+    bits.push(`Qty: ${qty} × ${inr(product.price)} = ${inr(product.price * qty)}`);
+  } else {
+    bits.push(`Qty: ${qty}`);
+  }
   return [
     `Hello ${site.name}, I'd like to order:`,
     "",
-    `*${product.name}*`,
-    `${product.size}`,
-    `Qty: ${qty} × ${inr(product.price)} = ${inr(product.price * qty)}`,
+    ...bits,
     "",
-    "Please share availability and delivery time.",
+    "Please share the price, availability and delivery time.",
   ].join("\n");
 }
 

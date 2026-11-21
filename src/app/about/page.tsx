@@ -103,11 +103,11 @@ export default function AboutPage() {
       {/* visual band */}
       <section className="border-y border-line bg-canvas-tint/50">
         <div className="shell grid grid-cols-2 divide-x divide-line md:grid-cols-4">
-          {["serum", "brush", "bottle", "aligner"].map((v, i) => (
+          {(["tube", "instrument", "bottle", "bracket"] as const).map((v, i) => (
             <Reveal key={v} delay={i * 0.05} y={0}>
               <div className="relative aspect-square overflow-hidden">
                 <ProductArt
-                  visual={v as "serum"}
+                  visual={v}
                   className="h-full w-full scale-[1.05] p-4 transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.12]"
                 />
               </div>

@@ -6,6 +6,11 @@ into a WhatsApp message and confirmed by a person.
 Live: https://somil-dental-products.vercel.app
 Repo: https://github.com/Nasty-Developer/orava-dental-store
 
+## Catalogue
+
+344 products across 23 clinical areas, managed entirely in code.
+See **[docs/CATALOGUE.md](docs/CATALOGUE.md)** for how to add products, photos and prices.
+
 ## Stack
 
 Next.js 15 (App Router) · TypeScript · Tailwind CSS · Framer Motion.

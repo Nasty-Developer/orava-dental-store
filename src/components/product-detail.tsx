@@ -4,299 +4,288 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import type { Product } from "@/data/products";
+import { productsByCategory } from "@/data/products";
 import { categoryMap } from "@/data/categories";
-import { formatINR, buildProductEnquiry, orderLink } from "@/lib/whatsapp";
 import { site } from "@/data/site";
+import { formatINR, orderLink, buildProductEnquiry } from "@/lib/whatsapp";
 import { useCart } from "@/lib/cart";
-import { ProductArt, categoryTint } from "@/components/product-art";
+import { ProductArt, categoryTint } from "./product-art";
+import { ProductCard } from "./product-card";
 import {
   IconMinus,
   IconPlus,
   IconWhatsApp,
-  IconStar,
-  IconTruck,
-  IconShield,
-  IconReturn,
+  IconArrowRight,
   IconCheck,
   IconChevronDown,
-} from "@/components/icons";
+} from "./icons";
+
+function Accordion({
+  title,
+  children,
+  open,
+  onToggle,
+}: {
+  title: string;
+  children: React.ReactNode;
+  open: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <div className="border-b border-line">
+      <button
+        onClick={onToggle}
+        aria-expanded={open}
+        className="flex w-full items-center justify-between gap-4 py-4 text-left"
+      >
+        <span className="text-[13.5px] font-medium tracking-[-0.01em]">{title}</span>
+        <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.3 }}>
+          <IconChevronDown size={15} className="text-ink-mute" />
+        </motion.span>
+      </button>
+      <motion.div
+        initial={false}
+        animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
+        transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
+        className="overflow-hidden"
+      >
+        <div className="pb-5 text-[13.5px] leading-relaxed text-ink-mute">{children}</div>
+      </motion.div>
+    </div>
+  );
+}
 
 export function ProductDetail({ product }: { product: Product }) {
   const { add } = useCart();
   const [qty, setQty] = useState(1);
-  const [openSection, setOpenSection] = useState<string | null>("description");
+  const [open, setOpen] = useState<string | null>("specs");
   const category = categoryMap[product.category];
-  const onSale = product.compareAt && product.compareAt > product.price;
-  const lowStock = product.stock > 0 && product.stock <= 12;
+  const priced = product.price !== null;
 
-  const sections = [
-    {
-      id: "description",
-      title: "Full description",
-      body: <p className="leading-[1.75]">{product.description}</p>,
-    },
-    {
-      id: "highlights",
-      title: "Why it works",
-      body: (
-        <ul className="space-y-2.5">
-          {product.highlights.map((h) => (
-            <li key={h} className="flex gap-2.5">
-              <IconCheck size={15} className="mt-0.5 shrink-0 text-clinic-600" />
-              <span>{h}</span>
-            </li>
-          ))}
-        </ul>
-      ),
-    },
-    {
-      id: "specs",
-      title: "Specifications",
-      body: (
-        <dl className="divide-y divide-line">
-          {product.specs.map((s) => (
-            <div key={s.label} className="flex justify-between gap-6 py-2.5">
-              <dt className="text-ink-faint">{s.label}</dt>
-              <dd className="text-right text-ink">{s.value}</dd>
-            </div>
-          ))}
-        </dl>
-      ),
-    },
-    {
-      id: "shipping",
-      title: "Shipping & returns",
-      body: (
-        <div className="space-y-3">
-          <p>
-            Dispatched within 24 hours on working days. Metro cities usually receive orders in
-            2–4 days, the rest of India in 4–7.
-          </p>
-          <p>
-            Free delivery over {formatINR(site.freeShippingThreshold)}, otherwise a flat{" "}
-            {formatINR(site.shippingFlat)}. Unopened products can be returned within 7 days.
-          </p>
-          <Link href="/shipping-returns" className="inline-block text-clinic-700 underline underline-offset-4">
-            Read the full policy
-          </Link>
-        </div>
-      ),
-    },
-  ];
+  const related = productsByCategory(product.category)
+    .filter((p) => p.slug !== product.slug)
+    .sort((a, b) => (a.subcategory === product.subcategory ? -1 : 0) - (b.subcategory === product.subcategory ? -1 : 0))
+    .slice(0, 4);
 
   return (
-    <div className="shell py-8 md:py-12">
-      <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
-        {/* ── visual ── */}
+    <div className="shell pt-8">
+      {/* breadcrumb */}
+      <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-[11.5px] text-ink-faint">
+        <Link href="/shop" className="transition-colors hover:text-ink">Shop</Link>
+        <span>/</span>
+        <Link href={`/categories/${product.category}`} className="transition-colors hover:text-ink">
+          {category?.shortName}
+        </Link>
+        <span>/</span>
+        <span className="text-ink-mute">{product.subcategory}</span>
+      </nav>
+
+      <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,460px)] lg:gap-16">
+        {/* visual */}
         <div className="lg:sticky lg:top-[100px] lg:self-start">
           <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
+            initial={{ opacity: 0, scale: 0.985 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-            className="group relative overflow-hidden rounded-[12px]"
+            className="relative overflow-hidden rounded-[12px]"
             style={{ backgroundColor: categoryTint[product.category] }}
           >
-            <svg
-              className="pointer-events-none absolute inset-0 h-full w-full"
-              viewBox="0 0 600 620"
-              fill="none"
-              aria-hidden
-            >
-              <circle cx="300" cy="310" r="210" stroke="#0C6E8F" strokeOpacity="0.08" />
-              <circle cx="300" cy="310" r="150" stroke="#0C6E8F" strokeOpacity="0.06" />
-            </svg>
-            <div className="relative aspect-square w-full">
+            <div className="aspect-[4/5] w-full sm:aspect-square">
               <ProductArt
                 visual={product.visual}
                 title={product.name}
-                className="absolute inset-0 h-full w-full scale-[0.9] p-8 transition-transform duration-[1100ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[0.96]"
+                className="h-full w-full p-8 sm:p-14"
               />
             </div>
-
-            <div className="absolute left-4 top-4 flex flex-col gap-1.5">
-              {product.badge && <span className="badge">{product.badge}</span>}
-              {onSale && (
-                <span className="badge border-clinic-600/20 text-clinic-700">
-                  Save {formatINR(product.compareAt! - product.price)}
-                </span>
-              )}
-            </div>
-
-            <div className="absolute bottom-4 right-4">
-              <span className="rounded-full bg-white/80 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-ink-faint backdrop-blur">
-                {category?.shortName}
-              </span>
-            </div>
+            <span className="absolute left-4 top-4 rounded-full bg-white/85 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-ink-mute backdrop-blur">
+              Illustration
+            </span>
           </motion.div>
-
-          <div className="mt-3 grid grid-cols-3 gap-3">
-            {[
-              { icon: IconTruck, label: "Ships in 24h" },
-              { icon: IconShield, label: "Dentist-reviewed" },
-              { icon: IconReturn, label: "7-day returns" },
-            ].map((f) => (
-              <div
-                key={f.label}
-                className="flex flex-col items-center gap-2 rounded-lg border border-line px-2 py-3.5 text-center"
-              >
-                <f.icon size={17} className="text-clinic-600/70" />
-                <span className="text-[11px] leading-tight text-ink-mute">{f.label}</span>
-              </div>
-            ))}
-          </div>
+          <p className="mt-3 text-[11.5px] leading-relaxed text-ink-faint">
+            Placeholder illustration. The manufacturer photograph will replace this once supplied.
+          </p>
         </div>
 
-        {/* ── info ── */}
-        <div className="pt-1">
-          <div className="flex items-center gap-2 text-[10.5px] uppercase tracking-[0.16em] text-ink-faint">
-            <Link href={`/categories/${product.category}`} className="transition-colors hover:text-clinic-700">
-              {category?.name}
-            </Link>
-          </div>
-
-          <h1 className="mt-3 display text-display-md text-ink">{product.name}</h1>
-          <p className="mt-2 text-[14px] text-ink-mute">{product.subtitle}</p>
-
-          <div className="mt-4 flex items-center gap-3">
-            <div className="flex gap-0.5 text-clinic-600">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <IconStar
-                  key={i}
-                  size={12}
-                  className={i < Math.round(product.rating) ? "" : "text-line-strong"}
-                />
-              ))}
-            </div>
-            <span className="text-[12.5px] text-ink-mute">
-              {product.rating.toFixed(1)} · {product.reviewCount} reviews
-            </span>
-          </div>
-
-          <div className="mt-6 flex items-baseline gap-3">
-            <span className="text-[28px] tabular-nums tracking-[-0.02em] text-ink">
-              {formatINR(product.price)}
-            </span>
-            {onSale && (
-              <span className="text-[15px] tabular-nums text-ink-faint line-through">
-                {formatINR(product.compareAt!)}
-              </span>
-            )}
-            <span className="text-[12px] text-ink-faint">{product.size}</span>
-          </div>
-
-          <p className="mt-5 max-w-[460px] text-[14px] leading-relaxed text-ink-soft">
-            {product.shortDescription}
+        {/* buy column */}
+        <div className="pb-4">
+          <p className="text-[11px] uppercase tracking-[0.22em] text-clinic-600">{product.brand}</p>
+          <h1 className="mt-3 font-display text-[clamp(1.9rem,3.4vw,2.7rem)] leading-[1.08] tracking-[-0.02em]">
+            {product.name}
+          </h1>
+          <p className="mt-2.5 text-[13px] text-ink-mute">
+            {product.subcategory}
+            {product.packaging ? ` · ${product.packaging}` : ""}
           </p>
 
-          <div className="mt-7 flex items-center gap-2.5">
-            <span
-              className={`inline-flex items-center gap-1.5 text-[12px] ${
-                product.stock === 0
-                  ? "text-ink-faint"
-                  : lowStock
-                    ? "text-amber-700"
-                    : "text-clinic-700"
-              }`}
-            >
-              <span
-                className={`h-1.5 w-1.5 rounded-full ${
-                  product.stock === 0
-                    ? "bg-line-strong"
-                    : lowStock
-                      ? "bg-amber-500"
-                      : "bg-clinic-500"
-                }`}
-              />
-              {product.stock === 0
-                ? "Out of stock"
-                : lowStock
-                  ? `Only ${product.stock} left`
-                  : "In stock"}
-            </span>
-            <span className="text-[11.5px] text-ink-faint">· Dispatched from Mumbai</span>
+          {/* price */}
+          <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            {priced ? (
+              <>
+                <span className="font-display text-[26px] leading-none tracking-[-0.01em]">
+                  {formatINR(product.price as number)}
+                </span>
+                <span className="text-[11.5px] text-ink-faint">indicative, incl. taxes</span>
+              </>
+            ) : (
+              <span className="font-display text-[24px] leading-none tracking-[-0.01em] text-ink-mute">
+                Price on request
+              </span>
+            )}
           </div>
+          <p className="mt-2 text-[11.5px] leading-relaxed text-ink-faint">
+            Final price, batch and availability are confirmed by our team on WhatsApp before dispatch.
+          </p>
 
-          {/* actions */}
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <div className="flex items-center justify-between rounded-full border border-line-strong px-1.5 py-1 sm:w-[124px]">
+          <p className="mt-6 max-w-[46ch] text-[14px] leading-relaxed text-ink-soft">
+            {product.summary}
+          </p>
+
+          {/* quantity + actions */}
+          <div className="mt-7 flex flex-wrap items-center gap-3">
+            <div className="flex items-center rounded-full border border-line-strong">
               <button
                 onClick={() => setQty((q) => Math.max(1, q - 1))}
-                className="rounded-full p-2 text-ink-mute transition-colors hover:text-ink disabled:opacity-40"
-                disabled={qty <= 1}
                 aria-label="Decrease quantity"
+                className="flex h-11 w-11 items-center justify-center rounded-full text-ink-mute transition-colors hover:text-ink"
               >
-                <IconMinus size={15} />
+                <IconMinus size={13} />
               </button>
-              <span className="w-6 text-center text-[14px] tabular-nums" aria-live="polite">
-                {qty}
-              </span>
+              <span className="min-w-6 text-center text-[13.5px] tabular-nums">{qty}</span>
               <button
                 onClick={() => setQty((q) => Math.min(20, q + 1))}
-                className="rounded-full p-2 text-ink-mute transition-colors hover:text-ink"
                 aria-label="Increase quantity"
+                className="flex h-11 w-11 items-center justify-center rounded-full text-ink-mute transition-colors hover:text-ink"
               >
-                <IconPlus size={15} />
+                <IconPlus size={13} />
               </button>
             </div>
 
-            <button
-              onClick={() => add(product.slug, qty)}
-              disabled={product.stock === 0}
-              className="btn-primary flex-1 disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              Add to cart
-              <span className="text-white/60">·</span>
-              {formatINR(product.price * qty)}
-            </button>
+            {priced ? (
+              <button
+                onClick={() => add(product.slug, qty)}
+                className="btn-primary flex-1 min-w-[190px] sm:flex-none"
+              >
+                Add to cart
+                <IconArrowRight size={15} />
+              </button>
+            ) : (
+              <a
+                href={orderLink(buildProductEnquiry(product, qty))}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary flex-1 min-w-[190px] sm:flex-none"
+              >
+                <IconWhatsApp size={16} />
+                Enquire on WhatsApp
+              </a>
+            )}
           </div>
 
           <a
             href={orderLink(buildProductEnquiry(product, qty))}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-ghost mt-3 w-full"
+            className="mt-3 inline-flex items-center gap-2 text-[12.5px] text-ink-mute underline decoration-line-strong underline-offset-4 transition-colors hover:text-ink"
           >
-            <IconWhatsApp size={16} className="text-clinic-700" />
-            Order this on WhatsApp
+            <IconWhatsApp size={14} />
+            Ask about this product
           </a>
 
-          <p className="mt-4 max-w-[440px] text-[11.5px] leading-relaxed text-ink-faint">
-            {site.orderNotice}
-          </p>
+          {/* reassurance */}
+          <ul className="mt-7 space-y-2.5 border-t border-line pt-6">
+            {[
+              "Availability and batch confirmed on WhatsApp before dispatch",
+              "Genuine stock sourced through authorised distributors",
+              "Delivery across India, tracked",
+            ].map((line) => (
+              <li key={line} className="flex items-start gap-2.5 text-[12.5px] leading-relaxed text-ink-mute">
+                <IconCheck size={13} className="mt-0.5 shrink-0 text-clinic-600" />
+                {line}
+              </li>
+            ))}
+          </ul>
 
-          {/* accordion */}
-          <div className="mt-10 border-t border-line">
-            {sections.map((s) => {
-              const open = openSection === s.id;
-              return (
-                <div key={s.id} className="border-b border-line">
-                  <button
-                    onClick={() => setOpenSection(open ? null : s.id)}
-                    aria-expanded={open}
-                    className="flex w-full items-center justify-between gap-4 py-4 text-left text-[14px] text-ink"
-                  >
-                    {s.title}
-                    <IconChevronDown
-                      size={16}
-                      className={`shrink-0 text-ink-faint transition-transform duration-400 ${
-                        open ? "rotate-180" : ""
-                      }`}
-                    />
-                  </button>
-                  <motion.div
-                    initial={false}
-                    animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }}
-                    transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                    className="overflow-hidden"
-                  >
-                    <div className="pb-5 text-[13.5px] leading-relaxed text-ink-mute">{s.body}</div>
-                  </motion.div>
-                </div>
-              );
-            })}
+          {/* accordions */}
+          <div className="mt-7">
+            <Accordion
+              title="Specifications"
+              open={open === "specs"}
+              onToggle={() => setOpen(open === "specs" ? null : "specs")}
+            >
+              {product.specs.length ? (
+                <dl className="divide-y divide-line">
+                  {product.specs.map((s) => (
+                    <div key={s.label} className="grid grid-cols-[minmax(0,150px)_minmax(0,1fr)] gap-3 py-2">
+                      <dt className="text-ink-faint">{s.label}</dt>
+                      <dd className="text-ink-soft">{s.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              ) : (
+                <p>Full specifications for this item are being verified and will be published shortly.</p>
+              )}
+            </Accordion>
+
+            <Accordion
+              title="Packaging"
+              open={open === "pack"}
+              onToggle={() => setOpen(open === "pack" ? null : "pack")}
+            >
+              <p>
+                {product.packaging
+                  ? `Supplied as ${product.packaging}. Pack size and contents are confirmed against the manufacturer label before dispatch.`
+                  : "Pack size is confirmed on request against the manufacturer label."}
+              </p>
+            </Accordion>
+
+            <Accordion
+              title="Ordering & delivery"
+              open={open === "delivery"}
+              onToggle={() => setOpen(open === "delivery" ? null : "delivery")}
+            >
+              <p>
+                Orders are placed over WhatsApp and confirmed by our team. Nothing is charged on this
+                website. Delivery timelines depend on stock and your location, and are shared with your
+                confirmation. See{" "}
+                <Link href="/shipping-returns" className="underline decoration-line-strong underline-offset-4 hover:text-ink">
+                  shipping & returns
+                </Link>
+                .
+              </p>
+            </Accordion>
           </div>
+
+          <p className="mt-6 text-[11.5px] text-ink-faint">
+            Questions? Email{" "}
+            <a href={`mailto:${site.email}`} className="underline decoration-line-strong underline-offset-4 hover:text-ink">
+              {site.email}
+            </a>{" "}
+            or call {site.support.display}.
+          </p>
         </div>
       </div>
+
+      {/* related */}
+      {related.length > 0 && (
+        <section className="mt-20 border-t border-line pt-12">
+          <div className="flex items-end justify-between gap-6">
+            <h2 className="font-display text-[clamp(1.5rem,2.6vw,2rem)] leading-[1.1] tracking-[-0.02em]">
+              More in {category?.shortName}
+            </h2>
+            <Link
+              href={`/categories/${product.category}`}
+              className="shrink-0 text-[12.5px] text-ink-mute underline decoration-line-strong underline-offset-4 transition-colors hover:text-ink"
+            >
+              View all
+            </Link>
+          </div>
+          <div className="mt-8 grid grid-cols-2 gap-x-5 gap-y-9 md:grid-cols-4">
+            {related.map((p) => (
+              <ProductCard key={p.slug} product={p} />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }
