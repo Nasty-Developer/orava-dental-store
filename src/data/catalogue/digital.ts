@@ -20,7 +20,12 @@ export const digital: Product[] = [
     price: 3140,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-blz-intravue-900-ai-intraoral-scanner-tip-adult.webp",
+      alt: "Waldent BLZ IntraVue 900 Ai Intraoral Scanner Tip - Adult",
+      source: "https://www.waldent.com/products/waldent-blz-intravue-900-ai-intraoral-scanner-tip-adult",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "medit-i900m-true-wireless-intraoral-scanner",

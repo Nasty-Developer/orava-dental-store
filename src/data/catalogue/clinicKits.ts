@@ -140,7 +140,12 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Category", value: "Isolation Instruments" }, { label: "Type", value: "Rubber Dam Clamps" }, { label: "Material", value: "Titanium Coated" }, { label: "Colour", value: "Black" }, { label: "Reusable", value: "Yes" }],
     price: 3615,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-rubber-dam-clamps-kit-titanium-black-set-of-11-k16-4.webp",
+      alt: "Waldent Rubber Dam Clamps Kit Titanium Black (set of 11) (K16/4)",
+      source: "https://www.waldent.com/products/waldent-titaniumblack",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-pedo-rubber-dam-frame-small-16-139",
@@ -153,7 +158,12 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Product Type", value: "Rubber Dam Frame" }, { label: "Brand", value: "Waldent" }, { label: "Model", value: "Pedo Rubber Dam Frame - Small (16/139)" }, { label: "Size", value: "Small" }, { label: "Application", value: "Pediatric Dentistry" }],
     price: 290,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-pedo-rubber-dam-frame-small-16-139.webp",
+      alt: "Waldent Pedo Rubber Dam Frame - Small (16/139)",
+      source: "https://www.waldent.com/products/waldent-pedo-rubber-dam-frame-small-16-139",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "oro-safety-wear-surgery-kit",

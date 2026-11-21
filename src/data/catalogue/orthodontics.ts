@@ -20,7 +20,12 @@ export const orthodontics: Product[] = [
     price: 762,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-orthodontic-tweed-loop-forming-pliers-10-107.webp",
+      alt: "Waldent Orthodontic Tweed Loop Forming Pliers 10/107",
+      source: "https://www.waldent.com/products/waldent-orthodontic-tweed",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-ortho-self-ligating-brackets-mbt-0-022-hk-3-4-5",

@@ -20,7 +20,12 @@ export const instruments: Product[] = [
     price: 12990,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k1.webp",
+      alt: "Waldent Tooth Extraction Forcep Kit set of 12 - Anatomic Ultra (K1/11)",
+      source: "https://www.waldent.com/products/waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k1-11",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5",
@@ -34,7 +39,12 @@ export const instruments: Product[] = [
     price: 2990,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5.webp",
+      alt: "Waldent Composite Anterior Instrument Kit - Blue - Set of 5 (K14/5)",
+      source: "https://www.waldent.com/products/waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-p-k-thomas-wax-carvers-set-of-5-k15-8",
@@ -47,7 +57,12 @@ export const instruments: Product[] = [
     specs: [{ label: "Product Type", value: "Wax Carver Set" }, { label: "Brand", value: "Waldent" }, { label: "Model", value: "K15/8" }, { label: "Technique", value: "P.K Thomas waxing" }, { label: "Set Quantity", value: "5 double-ended carvers" }],
     price: 734,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-p-k-thomas-wax-carvers-set-of-5-k15-8.webp",
+      alt: "Waldent P.K Thomas Wax Carvers - Set of 5 (K15/8)",
+      source: "https://www.waldent.com/products/waldent-p-k-thomas-wax-carvers-set-of-5-k15-8",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "gdc-micro-friedman-with-legrange-bending-s-shape-bone-rongeur",

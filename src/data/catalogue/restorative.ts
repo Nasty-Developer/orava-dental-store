@@ -20,7 +20,12 @@ export const restorative: Product[] = [
     price: 2090,
     visual: "syringe",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-nanofill-zirconium-composite-kit.webp",
+      alt: "Waldent NanoFill Zirconium Composite Kit",
+      source: "https://www.waldent.com/products/waldent-nanofill-zirconium-composite-kit",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "polydentia-mywedge-interproximal-wedges-assorted-7100-pack-of",
@@ -61,7 +66,12 @@ export const restorative: Product[] = [
     price: 990,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-implant-holding-tweezer-19-173.webp",
+      alt: "Waldent Implant Holding Tweezers (19/173)",
+      source: "https://www.waldent.com/products/waldent-implant-holding-tweezers-19-173",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "prime-dent-hybrid-composite-restorative-kit-made-in-usa-7-x-4",
@@ -127,7 +137,12 @@ export const restorative: Product[] = [
     specs: [{ label: "Category", value: "Etchant" }, { label: "Type", value: "Etchant Gel" }, { label: "Composition", value: "37% phosphoric acid Thickening agent" }, { label: "Color", value: "Blue" }],
     price: 125,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/waldent-bestetch.webp",
+      alt: "Waldent BESTEtch",
+      source: "https://www.waldent.com/products/waldent-bestetch",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "dentgist-nano-bond-5th-gen-bonding-agent",

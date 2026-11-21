@@ -61,7 +61,12 @@ export const sterilization: Product[] = [
     price: 131250,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-schuster-class-b-autoclave-23l.webp",
+      alt: "Waldent Schuster Class B Autoclave 23L",
+      source: "https://www.waldent.com/products/waldent-schuster-class-b-autoclave-23l",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-schuster-class-b-autoclave-23l-with-sterilization-reels",

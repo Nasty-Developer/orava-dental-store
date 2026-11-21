@@ -61,7 +61,12 @@ export const oralSurgery: Product[] = [
     price: 8384,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-oral-surgical-impaction-kit-set-of-21-k9-2.webp",
+      alt: "Waldent Oral Surgical Impaction Kit Set of 21 (K9/2)",
+      source: "https://www.waldent.com/products/walse21",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "julldent-sonic-pneumatic-elevator-kit-204",
@@ -179,7 +184,12 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Formulation", value: "Sterile, liquid hemostatic agent designed for dental use." }, { label: "Volume", value: "Typically available in 15ml or 30ml bottles." }, { label: "Composition", value: "Contains active ingredients such as ferric sulfate or similar compounds for effective coagulation." }],
     price: 130,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-hemostatic-liquid.webp",
+      alt: "Waldent Hemostatic Liquid",
+      source: "https://www.waldent.com/products/waldent-hemostatic-liquid",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "ethicon-mersilk-2-0-black-braided-suture",

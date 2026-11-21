@@ -20,7 +20,12 @@ export const handpieces: Product[] = [
     price: 3090,
     visual: "handpiece",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-internal-water-spray-straight-handpiece-w-156.webp",
+      alt: "Waldent Internal Water Spray Straight Handpiece (W-156)",
+      source: "https://www.waldent.com/products/waldent-internal-water-spray-straight-handpiece-w-156",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-internal-water-spray-contra-angle-handpiece-w-155",
@@ -34,7 +39,12 @@ export const handpieces: Product[] = [
     price: 3152,
     visual: "handpiece",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-internal-water-spray-contra-angle-handpiece-w-155.webp",
+      alt: "Waldent Internal Water Spray Contra Angle Handpiece (W-155)",
+      source: "https://www.waldent.com/products/waldent-internal-water-spray-contra-angle-handpiece-w-155",
+      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
+    },
   },
   {
     slug: "waldent-surgical-saw-handpiece-reciprocating-up-and-down",
