@@ -22,13 +22,14 @@ photograph per product, matched by full product title, stored locally as 1200 ×
 Six Waldent products deliberately keep their illustration, because the brand's listing was not
 the same product:
 
-| Product | Why it was skipped |
-|---|---|
-| Dental X-Ray Film E-Speed (Pack Of 100) | Waldent lists IOPA film, not E-Speed |
-| Surgical Saw Handpiece - Reciprocating | only a generic "Surgical Handpiece" exists |
-| Schuster Class B Autoclave 23L Combo | combo includes a sealer and distiller; single-unit photo would misrepresent it |
-| Sun B-Class Autoclave with Printer Combo | only the distiller in the combo is listed separately |
-| Orthodontic Pliers / Impression Trays variants | no title-level match on the brand site |
+| Product | Closest brand listing | Why it was skipped |
+|---|---|---|
+| New Dental Clinic Setup Kit | Dental Aspirating Syringe | a setup kit is not a syringe |
+| Surgical Saw Handpiece - Reciprocating (DGZ-R) | "Surgical Handpiece" | generic listing, cannot confirm the model |
+| Dental X-Ray Film E-Speed (Pack Of 100) | "X-Ray Film IOPA (Pack Of 100)" | IOPA and E-Speed are different films |
+| Crown & Bridge Holding Forceps With Rings - Curved (21/105) | Temporary Crown Removing Pliers (21/104) | adjacent catalogue number, different instrument |
+| Schuster Class B Autoclave 23L Combo | Schuster autoclave with Foseal + Aqua combo | the bundles differ, so the photo would misrepresent the contents |
+| Sun B-Class Autoclave + Distiller Combo | same Schuster combo | different autoclave brand |
 
 ## Why this is slow, honestly
 
