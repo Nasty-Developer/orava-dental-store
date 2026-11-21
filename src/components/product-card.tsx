@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 import type { Product } from "@/data/products";
 import { formatINR, buildProductEnquiry, orderLink } from "@/lib/whatsapp";
 import { useCart } from "@/lib/cart";
-import { ProductArt, categoryTint } from "./product-art";
+import { categoryTint } from "./product-art";
+import { ProductShot } from "./product-shot";
 import { IconPlus, IconWhatsApp } from "./icons";
 
 export function ProductCard({
@@ -34,21 +35,14 @@ export function ProductCard({
           style={{ backgroundColor: categoryTint[product.category] }}
         >
           <div className="aspect-[4/5] w-full">
-            {product.image ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={product.image.src}
-                alt={product.image.alt ?? product.name}
-                loading={priority ? "eager" : "lazy"}
-                className="h-full w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
-              />
-            ) : (
-              <ProductArt
-                visual={product.visual}
-                title={product.name}
-                className="h-full w-full scale-[1.02] p-3 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]"
-              />
-            )}
+            <ProductShot
+              image={product.image}
+              visual={product.visual}
+              title={product.name}
+              priority={priority}
+              className="transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
+              artClassName="h-full w-full scale-[1.02] p-3 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]"
+            />
           </div>
 
           <div className="pointer-events-none absolute left-3 top-3 flex flex-col items-start gap-1.5">

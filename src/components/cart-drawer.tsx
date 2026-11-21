@@ -4,7 +4,8 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "@/lib/cart";
 import { formatINR } from "@/lib/whatsapp";
-import { ProductArt, categoryTint } from "./product-art";
+import { categoryTint } from "./product-art";
+import { ProductShot } from "./product-shot";
 import { site } from "@/data/site";
 import {
   IconClose,
@@ -115,9 +116,12 @@ export function CartDrawer() {
                             className="relative h-[92px] w-[80px] shrink-0 overflow-hidden rounded-md"
                             style={{ backgroundColor: categoryTint[item.product.category] }}
                           >
-                            <ProductArt
+                            <ProductShot
+                              image={item.product.image}
                               visual={item.product.visual}
-                              className="h-full w-full scale-[1.15] object-contain p-1"
+                              title={item.product.name}
+                              className="p-1"
+                              artClassName="h-full w-full scale-[1.15] object-contain p-1"
                             />
                           </Link>
 

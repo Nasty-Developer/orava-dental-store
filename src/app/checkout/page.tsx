@@ -6,7 +6,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "@/lib/cart";
 import { site } from "@/data/site";
 import { buildOrderMessage, formatINR, orderLink } from "@/lib/whatsapp";
-import { ProductArt, categoryTint } from "@/components/product-art";
+import { categoryTint } from "@/components/product-art";
+import { ProductShot } from "@/components/product-shot";
 import {
   IconWhatsApp,
   IconArrowRight,
@@ -409,7 +410,12 @@ export default function CheckoutPage() {
                     className="relative h-14 w-12 shrink-0 overflow-hidden rounded-md"
                     style={{ backgroundColor: categoryTint[i.product.category] }}
                   >
-                    <ProductArt visual={i.product.visual} className="h-full w-full scale-[1.15]" />
+                    <ProductShot
+                      image={i.product.image}
+                      visual={i.product.visual}
+                      title={i.product.name}
+                      artClassName="h-full w-full scale-[1.15]"
+                    />
                     <span className="absolute -right-1 -top-1 flex h-4 w-4 items-center justify-center rounded-full bg-ink text-[9px] text-white">
                       {i.qty}
                     </span>

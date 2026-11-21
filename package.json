@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "images:import": "node tools/import-product-image.mjs",
+    "images:check": "node tools/check-product-images.mjs",
+    "images:queue": "node tools/product-image-queue.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

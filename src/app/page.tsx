@@ -4,6 +4,7 @@ import { categories } from "@/data/categories";
 import { products, featuredProducts, popularProducts } from "@/data/products";
 import { formatINR, orderLink, supportLink, mailLink } from "@/lib/whatsapp";
 import { ProductArt, categoryTint } from "@/components/product-art";
+import { ProductShot } from "@/components/product-shot";
 import { ProductCard } from "@/components/product-card";
 import { Reveal, RevealGroup, RevealLines, StaggerItem } from "@/components/reveal";
 import {
@@ -121,10 +122,13 @@ function Hero() {
                 </svg>
 
                 <div className="relative aspect-[10/11] w-full sm:aspect-[6/5] lg:aspect-[10/11]">
-                  <ProductArt
+                  <ProductShot
+                    image={heroProduct.image}
                     visual={heroProduct.visual}
                     title={heroProduct.name}
-                    className="absolute inset-0 h-full w-full scale-[0.92] p-6 sm:p-10"
+                    priority
+                    className="absolute inset-0 h-full w-full object-contain p-2 sm:p-4"
+                    artClassName="absolute inset-0 h-full w-full scale-[0.92] p-6 sm:p-10"
                   />
                 </div>
 

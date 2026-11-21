@@ -4,7 +4,8 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCart } from "@/lib/cart";
 import { formatINR } from "@/lib/whatsapp";
-import { ProductArt, categoryTint } from "@/components/product-art";
+import { categoryTint } from "@/components/product-art";
+import { ProductShot } from "@/components/product-shot";
 import { site } from "@/data/site";
 import {
   IconMinus,
@@ -89,9 +90,11 @@ export default function CartPage() {
                       className="relative h-[110px] w-[92px] shrink-0 overflow-hidden rounded-lg sm:h-[132px] sm:w-[110px]"
                       style={{ backgroundColor: categoryTint[item.product.category] }}
                     >
-                      <ProductArt
+                      <ProductShot
+                        image={item.product.image}
                         visual={item.product.visual}
-                        className="h-full w-full scale-[1.12]"
+                        title={item.product.name}
+                        artClassName="h-full w-full scale-[1.12]"
                       />
                     </Link>
 

@@ -9,7 +9,8 @@ import { categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
 import { formatINR, orderLink, buildProductEnquiry } from "@/lib/whatsapp";
 import { useCart } from "@/lib/cart";
-import { ProductArt, categoryTint } from "./product-art";
+import { categoryTint } from "./product-art";
+import { ProductShot } from "./product-shot";
 import { ProductCard } from "./product-card";
 import {
   IconMinus,
@@ -91,19 +92,26 @@ export function ProductDetail({ product }: { product: Product }) {
             style={{ backgroundColor: categoryTint[product.category] }}
           >
             <div className="aspect-[4/5] w-full sm:aspect-square">
-              <ProductArt
+              <ProductShot
+                image={product.image}
                 visual={product.visual}
                 title={product.name}
-                className="h-full w-full p-8 sm:p-14"
+                priority
+                className="p-4 sm:p-6"
+                artClassName="h-full w-full p-8 sm:p-14"
               />
             </div>
-            <span className="absolute left-4 top-4 rounded-full bg-white/85 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-ink-mute backdrop-blur">
-              Illustration
-            </span>
+            {!product.image && (
+              <span className="absolute left-4 top-4 rounded-full bg-white/85 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-ink-mute backdrop-blur">
+                Illustration
+              </span>
+            )}
           </motion.div>
-          <p className="mt-3 text-[11.5px] leading-relaxed text-ink-faint">
-            Placeholder illustration. The manufacturer photograph will replace this once supplied.
-          </p>
+          {!product.image && (
+            <p className="mt-3 text-[11.5px] leading-relaxed text-ink-faint">
+              Placeholder illustration. The manufacturer photograph will replace this once supplied.
+            </p>
+          )}
         </div>
 
         {/* buy column */}
