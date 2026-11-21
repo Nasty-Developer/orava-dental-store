@@ -9,7 +9,10 @@
     "lint": "next lint",
     "images:import": "node tools/import-product-image.mjs",
     "images:check": "node tools/check-product-images.mjs",
-    "images:queue": "node tools/product-image-queue.mjs"
+    "images:queue": "node tools/product-image-queue.mjs",
+    "images:register": "node tools/image-register.mjs",
+    "images:permissions": "node tools/photo-permissions.mjs",
+    "images:drafts": "node tools/media-kit-drafts.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

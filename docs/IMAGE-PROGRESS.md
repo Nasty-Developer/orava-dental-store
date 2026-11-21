@@ -5,63 +5,77 @@ Last updated 2026-11-22.
 | | Products |
 |---|---|
 | Catalogue total | 344 |
-| Real photograph, verified match | **27** |
-| Still on the placeholder illustration | 317 |
-| Wrong or duplicate photographs | 0 |
+| Photograph live with written permission | **0** |
+| Photograph sourced and staged, not published | 27 |
+| Illustration in use (temporary placeholder) | 317 |
+| Incorrect or duplicate photographs | 0 |
 
-`npm run images:check` validates every photograph before deploy. `npm run images:queue`
-regenerates the waiting list. `docs/sourcing/*.json` records, per brand, what matched and what
-did not.
+Full per-product detail: [PRODUCT-IMAGE-REGISTER.md](./PRODUCT-IMAGE-REGISTER.md) and
+[PRODUCT-IMAGE-REGISTER.csv](./PRODUCT-IMAGE-REGISTER.csv). Permission requests:
+[OUTREACH-MEDIA-KITS.md](./OUTREACH-MEDIA-KITS.md). Sourcing routes:
+[IMAGE-SOURCING.md](./IMAGE-SOURCING.md).
 
-## What is live
+## The rule now enforced in code
 
-**Waldent, 27 of 33 products.** Sourced from Waldent's own storefront (waldent.com), one
-photograph per product, matched by full product title, stored locally as 1200 × 1200 WebP under
-250 KB, each with the exact product page recorded as its source.
+No manufacturer's copyrighted photograph is published without written permission.
+That is not a note in a document, it is a gate:
 
-Six Waldent products deliberately keep their illustration, because the brand's listing was not
-the same product:
+- `ProductImage` carries `permission: "granted" | "pending"`.
+- `npm run images:check` fails on any photograph that is not `permission: "granted"`, so an
+  unpermitted image cannot reach a deploy.
+- `tools/photo-permissions.mjs` withdraws unpermitted photographs to
+  `staging/product-photos/<brand>/`, reports what is staged, and restores a brand once its
+  written permission is on file:
 
-| Product | Closest brand listing | Why it was skipped |
+  ```bash
+  node tools/photo-permissions.mjs --grant "Waldent" --ref "Email from <name>, <date>"
+  ```
+
+## What changed on 2026-11-22
+
+27 Waldent photographs were sourced from Waldent's own product pages and briefly published.
+Tanvi then confirmed the rule: nothing copyrighted goes live without written permission. Those
+27 are withdrawn to staging with their source pages and licence notes intact, and all 344
+products are on their illustrations again.
+
+They are not lost work. The matching, the optimised files and the per-product source records all
+stand, and the six products whose brand listing did not match exactly were never included. One
+written yes from Waldent's dealer team puts 27 photographs live with a single command.
+
+## What is staged
+
+| Brand | Staged | Source |
+|---|---|---|
+| Waldent | 27 of 33 listed | waldent.com product pages, one photograph per product, exact title match |
+
+Six Waldent products were deliberately excluded because the brand's listing is a different
+product:
+
+| Product | Closest brand listing | Why excluded |
 |---|---|---|
 | New Dental Clinic Setup Kit | Dental Aspirating Syringe | a setup kit is not a syringe |
-| Surgical Saw Handpiece - Reciprocating (DGZ-R) | "Surgical Handpiece" | generic listing, cannot confirm the model |
+| Surgical Saw Handpiece - Reciprocating (DGZ-R) | "Surgical Handpiece" | generic listing, model cannot be confirmed |
 | Dental X-Ray Film E-Speed (Pack Of 100) | "X-Ray Film IOPA (Pack Of 100)" | IOPA and E-Speed are different films |
 | Crown & Bridge Holding Forceps With Rings - Curved (21/105) | Temporary Crown Removing Pliers (21/104) | adjacent catalogue number, different instrument |
-| Schuster Class B Autoclave 23L Combo | Schuster autoclave with Foseal + Aqua combo | the bundles differ, so the photo would misrepresent the contents |
+| Schuster Class B Autoclave 23L Combo | Schuster autoclave with Foseal + Aqua combo | bundles differ, photo would misrepresent contents |
 | Sun B-Class Autoclave + Distiller Combo | same Schuster combo | different autoclave brand |
 
-## Why this is slow, honestly
+## The remaining 317
 
-Only one of the brands checked publishes a machine-readable catalogue (Waldent runs a Shopify
-storefront with a product sitemap). GDC, Woodpecker, Oracraft, Ammdent, Labodent, Maarc,
-Polydentia and Vishal Dentocare do not: their sites are JS shells, PDF catalogues or dealer-only
-portals, so each product has to be found by hand or supplied by the brand.
+130 brands. Only Waldent publishes a machine-readable catalogue with per-product images; the
+rest are JS shells, PDF catalogues or dealer portals, so their photographs come from a media kit
+or from Tanvi's own camera, not from scraping.
 
-129 brands remain. Two routes get there:
+Media-kit requests are drafted for the seven largest brands (Waldent 33, GDC 21, Woodpecker 10,
+Oracraft 8, Labodent 7, Ammdent 7, Maarc 6 = 92 products). Five have verified contact addresses;
+Oracraft and Labodent need their contact confirming first. Nothing has been sent.
 
-1. **Brand media kits.** One message per brand returns every SKU at once, with permission. This is
-   the only route that scales to 344 and the only one that makes the rights position clean.
-   Request template: [IMAGE-SOURCING.md](./IMAGE-SOURCING.md).
-2. **Your own photographs.** Any number of products, no permission needed, and the best possible
-   accuracy. Drop files anywhere and they import with one command.
+## Order of work
 
-## Rights position, stated plainly
-
-Every sourced photograph carries the exact product page it came from. The licence field currently
-reads:
-
-> "Waldent official product image, www.waldent.com, sourced 2026-11-22; reseller permission
-> requested, not yet confirmed"
-
-That is an accurate description, not a permission. Brand product photography is the brand's
-copyright, and using it without confirmation is a risk that sits with the store. The clean fix is
-the media-kit request above; a written yes from Waldent's dealer team converts 27 records from
-"requested" to "granted" in one edit. If any brand objects, the whole brand can be pulled in one
-command and those products revert to their illustrations.
-
-## Next
-
-1. Send the media-kit request to Waldent (confirm the 27), then GDC, Woodpecker, Oracraft.
-2. Photograph anything already on the shelf; import with `npm run images:import`.
-3. Re-run `npm run images:check` and `npm run images:queue` after each batch.
+1. Tanvi approves the drafts in [OUTREACH-MEDIA-KITS.md](./OUTREACH-MEDIA-KITS.md).
+2. Requests go out from the connected mailbox; replies are tracked per brand.
+3. A written yes runs `--grant` for that brand, which publishes its photographs and records the
+   permission reference.
+4. Anything photographed on the shelf imports immediately with `npm run images:import`, no
+   permission needed.
+5. Re-run `npm run images:register` after every batch.
