@@ -1,0 +1,35 @@
+{
+ "brand": "Purexa",
+ "domain": "purexa.in",
+ "checked": "2026-11-21T22:37:25.887Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "purexa-bamboo-charcoal-adult-and-kids-toothbrush-with-q-shape",
+   "name": "Bamboo Charcoal Adult & Kids Toothbrush with Q-Shape Copper Tongue Cleaner Combo (Pack of 5 Each)",
+   "closest": {
+    "title": "Antioxidant Mouthwash 250ml, A Shape Copper Tongue Cleaner & Bamboo Toothbrush",
+    "page": "https://purexa.in/products/bad-breath-protection-combo",
+    "score": 0.327
+   }
+  },
+  {
+   "slug": "purexa-bamboo-charcoal-adult-toothbrush-and-q-shape-copper",
+   "name": "Bamboo Charcoal Adult Toothbrush & Q-Shape Copper Tongue Cleaner Combo (Pack of 5 Each)",
+   "closest": {
+    "title": "Antioxidant Mouthwash 250ml, A Shape Copper Tongue Cleaner & Bamboo Toothbrush",
+    "page": "https://purexa.in/products/bad-breath-protection-combo",
+    "score": 0.36
+   }
+  },
+  {
+   "slug": "purexa-teeth-whitening-purple-strips-7-treatments-and-v34-color",
+   "name": "Teeth Whitening Purple Strips 7 Treatments & V34 Color Corrector Purple Pen Combo (Pack of 5 Each)",
+   "closest": {
+    "title": "Purple Toothpaste and Teeth Whitening Pen (Teeth Whitening Kit)",
+    "page": "https://purexa.in/products/purple-toothpaste-and-teeth-whitening-pen",
+    "score": 0.218
+   }
+  }
+ ]
+}

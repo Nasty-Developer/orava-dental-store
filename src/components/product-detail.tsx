@@ -102,7 +102,7 @@ export function ProductDetail({ product }: { product: Product }) {
               />
             </div>
             {!product.image && (
-              <span className="absolute left-4 top-4 rounded-full bg-white/85 px-2.5 py-1 text-[10px] uppercase tracking-[0.16em] text-ink-mute backdrop-blur">
+              <span className="absolute left-4 top-4 rounded-full bg-white/85 px-2.5 py-1 text-[10px] uppercase tracking-[0.11em] text-ink-mute backdrop-blur">
                 Illustration
               </span>
             )}
@@ -116,7 +116,7 @@ export function ProductDetail({ product }: { product: Product }) {
 
         {/* buy column */}
         <div className="pb-4">
-          <p className="text-[11px] uppercase tracking-[0.22em] text-clinic-600">{product.brand}</p>
+          <p className="text-[11px] uppercase tracking-[0.13em] text-clinic-600">{product.brand}</p>
           <h1 className="mt-3 font-display text-[clamp(1.9rem,3.4vw,2.7rem)] leading-[1.08] tracking-[-0.02em]">
             {product.name}
           </h1>
@@ -129,13 +129,13 @@ export function ProductDetail({ product }: { product: Product }) {
           <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
             {priced ? (
               <>
-                <span className="font-display text-[26px] leading-none tracking-[-0.01em]">
+                <span className="price font-display text-[26px] leading-none tracking-[-0.01em]">
                   {formatINR(product.price as number)}
                 </span>
                 <span className="text-[11.5px] text-ink-faint">indicative, incl. taxes</span>
               </>
             ) : (
-              <span className="font-display text-[24px] leading-none tracking-[-0.01em] text-ink-mute">
+              <span className="price font-display text-[24px] leading-none tracking-[-0.01em] text-ink-mute">
                 Price on request
               </span>
             )}

@@ -1,0 +1,32 @@
+{
+ "brand": "OSL",
+ "domain": "osldental.com",
+ "checked": "2026-11-21T22:40:47.440Z",
+ "matched": [
+  {
+   "slug": "osl-wire-cincher-distal-end-bending-instrument",
+   "name": "Wire Cincher / Distal End Bending Instrument",
+   "source": "https://osldental.com/product/osl-wire-cincher-distal-end-bending-instrument",
+   "title": "OSL WIRE CINCHER / DISTAL END BENDING INSTRUMENT",
+   "score": 1
+  },
+  {
+   "slug": "osl-beta-3-titanium-cna-mushroom-loop-archwires-pack-of-5",
+   "name": "Beta 3 Titanium CNA Mushroom Loop Archwires (Pack Of 5)",
+   "source": "https://osldental.com/product/osl-beta-3-titanium-cna-mushroom-loop-archwires-pack-of-5",
+   "title": "OSL Beta 3 Titanium CNA Mushroom Loop Archwires (Pack Of 5)",
+   "score": 1
+  }
+ ],
+ "unmatched": [
+  {
+   "slug": "osl-ss-kobayashi-ligature-ties-short-0-010-pack-of-100",
+   "name": "SS Kobayashi Ligature Ties - Short 0.010 (Pack Of 100)",
+   "closest": {
+    "title": "OSL SS Preformed Ligature Ties - Short (Pack Of 100)",
+    "page": "https://osldental.com/product/osl-ss-preformed-ligature-ties-short-pack-of-100",
+    "score": 0.343
+   }
+  }
+ ]
+}

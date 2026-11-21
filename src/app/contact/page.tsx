@@ -77,7 +77,7 @@ export default function ContactPage() {
                   />
                 </div>
                 <p
-                  className={`mt-8 text-[10.5px] uppercase tracking-[0.18em] ${
+                  className={`mt-8 text-[10.5px] uppercase tracking-[0.12em] ${
                     c.primary ? "text-white/45" : "text-ink-faint"
                   }`}
                 >

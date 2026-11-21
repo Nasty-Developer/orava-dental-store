@@ -1,0 +1,23 @@
+{
+ "brand": "Kalabhai",
+ "domain": "kalabhai.com",
+ "checked": "2026-11-21T22:37:17.414Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "kalabhai-ultra-rock-die-brown-stone-3kg",
+   "name": "Ultra Rock Die (Brown) Stone (3kg)",
+   "closest": null
+  },
+  {
+   "slug": "kalabhai-ultra-blue-stone-3kg",
+   "name": "Ultra (Blue) Stone 3Kg",
+   "closest": null
+  },
+  {
+   "slug": "kalabhai-kalstone-green-3kg",
+   "name": "Kalstone (Green) - 3Kg",
+   "closest": null
+  }
+ ]
+}

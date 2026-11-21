@@ -1,0 +1,23 @@
+{
+ "brand": "GDC",
+ "photos": [
+  {
+   "slug": "gdc-x-ray-film-hanger-for-6-films-afh6",
+   "file": "staging/product-photos/gdc/gdc-x-ray-film-hanger-for-6-films-afh6.webp",
+   "alt": "X-RAY FILM HANGER 6",
+   "source": "https://gdc-marketing.com/product/x-ray-film-hanger-6/",
+   "license": "GDC official product image, gdc-marketing.com, sourced 2026-11-21; written permission not yet confirmed",
+   "staged_on": "2026-11-21",
+   "match_score": 1
+  },
+  {
+   "slug": "gdc-x-ray-film-hanger-for-14-films-afh14",
+   "file": "staging/product-photos/gdc/gdc-x-ray-film-hanger-for-14-films-afh14.webp",
+   "alt": "X-RAY FILM HANGER 14",
+   "source": "https://gdc-marketing.com/product/x-ray-film-hanger-14/",
+   "license": "GDC official product image, gdc-marketing.com, sourced 2026-11-21; written permission not yet confirmed",
+   "staged_on": "2026-11-21",
+   "match_score": 1
+  }
+ ]
+}

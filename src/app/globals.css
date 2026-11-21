@@ -23,7 +23,7 @@
   body {
     @apply bg-canvas text-ink font-sans antialiased;
     font-feature-settings: "ss01" on, "cv05" on, "cv11" on;
-    letter-spacing: -0.011em;
+    letter-spacing: -0.008em;
   }
 
   ::selection {
@@ -33,6 +33,8 @@
 
   h1, h2, h3 {
     text-wrap: balance;
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 
   p {
@@ -78,13 +80,22 @@
   }
 
   /* ── Typography ─────────────────────────────── */
+  /* Headings carry the display face; weight and tracking are set once here
+     so every h1-h3 across the store shares one voice. */
   .display {
-    @apply font-display font-normal;
-    font-feature-settings: "liga" on;
+    @apply font-display font-semibold;
+    letter-spacing: -0.022em;
+    font-feature-settings: "liga" on, "ss01" on;
+  }
+
+  /* Prices and quantities line up in columns. */
+  .price {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" on;
   }
 
   .eyebrow {
-    @apply text-[11px] font-medium uppercase tracking-[0.22em] text-ink-faint;
+    @apply text-[11px] font-semibold uppercase tracking-[0.13em] text-ink-faint;
   }
 
   .lede {
@@ -170,13 +181,13 @@
   }
 
   .label {
-    @apply mb-1 block text-[11px] font-medium uppercase tracking-[0.16em] text-ink-faint;
+    @apply mb-1 block text-[11px] font-semibold uppercase tracking-[0.1em] text-ink-faint;
   }
 
   /* ── Badges ─────────────────────────────────── */
   .badge {
     @apply inline-flex items-center gap-1.5 rounded-full border border-line-strong/70
-           bg-white/90 px-2.5 py-1 text-[10.5px] font-medium uppercase tracking-[0.14em]
+           bg-white/90 px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.08em]
            text-ink-soft backdrop-blur;
   }
 

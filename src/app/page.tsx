@@ -139,13 +139,13 @@ function Hero() {
 
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between sm:bottom-6 sm:left-6 sm:right-6">
                   <div className="rounded-lg bg-white/85 px-3.5 py-2.5 backdrop-blur-md">
-                    <p className="text-[10px] uppercase tracking-[0.16em] text-ink-faint">
+                    <p className="text-[10px] uppercase tracking-[0.11em] text-ink-faint">
                       Brand
                     </p>
                     <p className="mt-0.5 max-w-[150px] truncate text-[12.5px] text-ink">{heroProduct.brand}</p>
                   </div>
                   <div className="hidden rounded-lg bg-white/85 px-3.5 py-2.5 text-right backdrop-blur-md sm:block">
-                    <p className="text-[10px] uppercase tracking-[0.16em] text-ink-faint">
+                    <p className="text-[10px] uppercase tracking-[0.11em] text-ink-faint">
                       Category
                     </p>
                     <p className="mt-0.5 text-[12.5px] text-ink">{categories.find((c) => c.slug === heroProduct.category)?.shortName}</p>
@@ -232,7 +232,7 @@ function CategoryGrid() {
             href="/categories"
             className="group flex h-full min-h-[168px] flex-col justify-between rounded-[10px] border border-line bg-white p-5 transition-colors hover:border-ink"
           >
-            <span className="text-[10px] uppercase tracking-[0.18em] text-ink-faint">All areas</span>
+            <span className="text-[10px] uppercase tracking-[0.12em] text-ink-faint">All areas</span>
             <span className="flex items-end justify-between gap-3">
               <span className="font-display text-[22px] leading-[1.1] tracking-[-0.01em]">
                 View all {categories.length}
@@ -265,15 +265,15 @@ function CategoryTile({ slug }: { slug: string }) {
         />
         <div className="relative flex h-full flex-col">
           <div className="flex items-start justify-between">
-            <p className="text-[10.5px] uppercase tracking-[0.18em] text-ink-faint">
+            <p className="text-[10.5px] uppercase tracking-[0.12em] text-ink-faint">
               {String(c.order).padStart(2, "0")} · {count} products
             </p>
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/0 text-ink-faint transition-all duration-500 group-hover:bg-white group-hover:text-ink">
               <IconArrowUpRight size={15} />
             </span>
           </div>
-          <div className="mt-auto max-w-[62%]">
-            <h3 className="font-display text-[24px] leading-[1.1] tracking-[-0.02em] text-ink">
+          <div className="mt-auto max-w-[68%]">
+            <h3 className="break-words font-display text-[21px] leading-[1.12] tracking-[-0.015em] text-ink">
               {c.shortName}
             </h3>
             <p className="mt-1.5 text-[12.5px] leading-snug text-ink-mute">{c.blurb}</p>
@@ -436,7 +436,7 @@ function PopularRail() {
               className="w-[68%] shrink-0 snap-start sm:w-[42%] lg:w-[calc((100%-60px)/4)]"
             >
               <div className="mb-3 flex items-baseline gap-2">
-                <span className="text-[10.5px] tabular-nums tracking-[0.14em] text-ink-faint">
+                <span className="text-[10.5px] tabular-nums tracking-[0.1em] text-ink-faint">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <span className="h-px flex-1 bg-line" />
@@ -532,7 +532,7 @@ function SupportBand() {
 
           <div className="relative grid gap-10 lg:grid-cols-12 lg:items-end">
             <div className="lg:col-span-6">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-white/45">
+              <p className="text-[11px] uppercase tracking-[0.13em] text-white/45">
                 Not sure what you need?
               </p>
               <h2 className="mt-4 display text-display-md text-white">
@@ -558,7 +558,7 @@ function SupportBand() {
                     className="text-white/30 transition-all duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-white"
                   />
                 </div>
-                <p className="mt-6 text-[10.5px] uppercase tracking-[0.16em] text-white/40">
+                <p className="mt-6 text-[10.5px] uppercase tracking-[0.11em] text-white/40">
                   Orders
                 </p>
                 <p className="mt-1 text-[14.5px] text-white">{site.whatsapp.display}</p>
@@ -577,7 +577,7 @@ function SupportBand() {
                     className="text-white/30 transition-all duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-white"
                   />
                 </div>
-                <p className="mt-6 text-[10.5px] uppercase tracking-[0.16em] text-white/40">
+                <p className="mt-6 text-[10.5px] uppercase tracking-[0.11em] text-white/40">
                   Support
                 </p>
                 <p className="mt-1 text-[14.5px] text-white">{site.support.display}</p>

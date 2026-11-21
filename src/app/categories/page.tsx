@@ -46,7 +46,7 @@ export default function CategoriesPage() {
 
                   <div className="min-w-0">
                     <div className="flex items-baseline gap-3">
-                      <span className="text-[10.5px] tabular-nums tracking-[0.14em] text-ink-faint">
+                      <span className="text-[10.5px] tabular-nums tracking-[0.1em] text-ink-faint">
                         {String(c.order).padStart(2, "0")}
                       </span>
                       <h2 className="font-display text-[26px] leading-tight tracking-[-0.02em] text-ink">

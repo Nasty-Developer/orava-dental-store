@@ -29,8 +29,9 @@ const config: Config = {
         steel: "#9AAAB3",
       },
       fontFamily: {
-        display: ["var(--font-display)", "Georgia", "serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        wordmark: ["var(--font-wordmark)", "Georgia", "serif"],
       },
       fontSize: {
         "display-xl": ["clamp(3.2rem, 7vw, 6.2rem)", { lineHeight: "0.94", letterSpacing: "-0.03em" }],

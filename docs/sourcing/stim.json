@@ -1,0 +1,32 @@
+{
+ "brand": "Stim",
+ "domain": "stim.in",
+ "checked": "2026-11-21T22:37:48.173Z",
+ "matched": [
+  {
+   "slug": "stim-floss-pack-of-12",
+   "name": "Floss (Pack of 12)",
+   "source": "https://stim.in/products/stim-flosser-pick-and-floss",
+   "title": "Floss Picks 40 units (Pack of 2)",
+   "score": 0.97
+  },
+  {
+   "slug": "stim-flosal-pack-of-1",
+   "name": "Flosal (Pack of 1)",
+   "source": "https://stim.in/products/flosal-pick-for-molars-pack-of-3",
+   "title": "Flosal Pick for Molars (Pack of 3)",
+   "score": 0.98
+  }
+ ],
+ "unmatched": [
+  {
+   "slug": "stim-unique-brush-pack-of-12",
+   "name": "Unique Brush (Pack Of 12)",
+   "closest": {
+    "title": "Kids Toothpaste (50g) with Brush",
+    "page": "https://stim.in/products/junior-kids-toothpaste-with-brush-50g",
+    "score": 0.3
+   }
+  }
+ ]
+}

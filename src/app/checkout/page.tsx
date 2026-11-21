@@ -189,7 +189,7 @@ export default function CheckoutPage() {
 
           <div className="mt-8 overflow-hidden rounded-xl border border-line">
             <div className="flex items-center justify-between border-b border-line bg-canvas-tint/60 px-5 py-3">
-              <p className="text-[11px] uppercase tracking-[0.16em] text-ink-faint">
+              <p className="text-[11px] uppercase tracking-[0.11em] text-ink-faint">
                 Message preview · Ref {submitted.ref}
               </p>
               <button

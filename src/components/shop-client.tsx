@@ -31,7 +31,7 @@ function FilterSection({
 }) {
   return (
     <div className="border-b border-line py-5 first:pt-0">
-      <p className="mb-3 flex items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-ink-faint">
+      <p className="mb-3 flex items-center gap-2 text-[11px] uppercase tracking-[0.12em] text-ink-faint">
         {title}
         {typeof count === "number" && count > 0 && (
           <span className="rounded-full bg-clinic-50 px-1.5 py-0.5 text-[9.5px] tracking-normal text-clinic-700">
@@ -253,7 +253,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
         {/* desktop filters */}
         <aside className="hidden lg:sticky lg:top-[100px] lg:block lg:self-start">
           <div className="flex items-baseline justify-between">
-            <p className="text-[11px] uppercase tracking-[0.18em] text-ink-faint">Filters</p>
+            <p className="text-[11px] uppercase tracking-[0.12em] text-ink-faint">Filters</p>
           </div>
           <div className="mt-4">{filters}</div>
         </aside>

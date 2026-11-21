@@ -1,0 +1,35 @@
+{
+ "brand": "HMD",
+ "domain": "hmdhealthcare.com",
+ "checked": "2026-11-21T22:42:25.974Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "hmd-unolok-syringe-5ml-26-gauge-1-5-inch-needle",
+   "name": "Unolok Syringe 5ml | 26 Gauge | 1.5 Inch Needle",
+   "closest": {
+    "title": "Unolok Insulin Syringes",
+    "page": "https://hmdhealthcare.com/product/insulin-unolok/",
+    "score": 0.15
+   }
+  },
+  {
+   "slug": "hmd-unolok-syringe-5ml-27-gauge-1-5-inch-needle",
+   "name": "Unolok Syringe 5ml | 27 Gauge | 1.5 Inch Needle",
+   "closest": {
+    "title": "Unolok Insulin Syringes",
+    "page": "https://hmdhealthcare.com/product/insulin-unolok/",
+    "score": 0.15
+   }
+  },
+  {
+   "slug": "hmd-unolok-syringe-5ml-24-gauge-1-inch-needle",
+   "name": "Unolok Syringe 5ml | 24 Gauge | 1 Inch Needle",
+   "closest": {
+    "title": "Unolok Insulin Syringes",
+    "page": "https://hmdhealthcare.com/product/insulin-unolok/",
+    "score": 0.171
+   }
+  }
+ ]
+}

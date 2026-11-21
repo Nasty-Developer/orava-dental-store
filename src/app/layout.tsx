@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Inter, Manrope, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
 import { CartProvider } from "@/lib/cart";
@@ -9,16 +9,26 @@ import { CartDrawer } from "@/components/cart-drawer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { LoadingScreen } from "@/components/loading-screen";
 
-const display = Instrument_Serif({
+/* Headings: Manrope, a geometric grotesque that stays crisp at large sizes. */
+const display = Manrope({
   subsets: ["latin"],
-  weight: "400",
+  weight: ["500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
 
+/* Body, navigation, buttons, tables, product copy: Inter. */
 const sans = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
+  display: "swap",
+});
+
+/* The wordmark keeps a serif voice, but a modern low-contrast one. */
+const wordmark = Source_Serif_4({
+  subsets: ["latin"],
+  weight: ["600"],
+  variable: "--font-wordmark",
   display: "swap",
 });
 
@@ -83,7 +93,7 @@ const orgJsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-IN" className={`${display.variable} ${sans.variable}`}>
+    <html lang="en-IN" className={`${display.variable} ${sans.variable} ${wordmark.variable}`}>
       <body>
         <LoadingScreen />
         <script

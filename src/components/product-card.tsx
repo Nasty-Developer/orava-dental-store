@@ -96,10 +96,10 @@ export function ProductCard({
         </div>
 
         <div className={compact ? "mt-3" : "mt-4"}>
-          <p className="text-[10.5px] uppercase tracking-[0.16em] text-ink-faint">
+          <p className="text-[10.5px] uppercase tracking-[0.11em] text-ink-faint">
             {product.brand}
           </p>
-          <h3 className="mt-1.5 text-[14.5px] leading-snug text-ink transition-colors group-hover:text-clinic-700">
+          <h3 className="mt-1.5 text-[15px] font-semibold leading-snug tracking-[-0.01em] text-ink transition-colors group-hover:text-clinic-700">
             {product.name}
           </h3>
           {!compact && (
@@ -110,7 +110,7 @@ export function ProductCard({
           )}
           <div className="mt-2.5 flex items-baseline gap-2">
             {priced ? (
-              <span className="text-[14px] tabular-nums text-ink">
+              <span className="price text-[14.5px] font-semibold tabular-nums text-ink">
                 {formatINR(product.price as number)}
               </span>
             ) : (

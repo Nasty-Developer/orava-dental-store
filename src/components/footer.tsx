@@ -62,7 +62,7 @@ export function Footer() {
               >
                 <IconWhatsApp size={15} className="text-ink-faint" />
                 {site.whatsapp.display}
-                <span className="text-[10px] uppercase tracking-[0.14em] text-ink-faint">
+                <span className="text-[10px] uppercase tracking-[0.1em] text-ink-faint">
                   orders
                 </span>
               </a>
@@ -72,7 +72,7 @@ export function Footer() {
               >
                 <IconPhone size={15} className="text-ink-faint" />
                 {site.support.display}
-                <span className="text-[10px] uppercase tracking-[0.14em] text-ink-faint">
+                <span className="text-[10px] uppercase tracking-[0.1em] text-ink-faint">
                   support
                 </span>
               </a>

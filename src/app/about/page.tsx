@@ -69,7 +69,7 @@ export default function AboutPage() {
                 “Most people do not need more products. They need the right three, used
                 properly.”
               </p>
-              <p className="mt-6 text-[12px] uppercase tracking-[0.16em] text-ink-faint">
+              <p className="mt-6 text-[12px] uppercase tracking-[0.11em] text-ink-faint">
                 The founding note
               </p>
             </Reveal>
@@ -157,7 +157,7 @@ export default function AboutPage() {
                 <p className="font-display text-[38px] leading-none tracking-[-0.03em] text-ink md:text-[46px]">
                   {n.value}
                 </p>
-                <p className="mt-3 text-[11.5px] uppercase tracking-[0.14em] text-ink-faint">
+                <p className="mt-3 text-[11.5px] uppercase tracking-[0.1em] text-ink-faint">
                   {n.label}
                 </p>
               </div>
