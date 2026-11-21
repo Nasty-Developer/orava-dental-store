@@ -340,7 +340,7 @@ function StandardsBand() {
       <div className="grid gap-14 lg:grid-cols-12 lg:gap-10">
         <div className="lg:col-span-4">
           <Reveal y={8}>
-            <p className="eyebrow">Why Orava</p>
+            <p className="eyebrow">Why SOMIL</p>
           </Reveal>
           <Reveal delay={0.06} y={14}>
             <h2 className="mt-3 display text-display-md text-ink">
@@ -350,7 +350,7 @@ function StandardsBand() {
           <Reveal delay={0.12} y={10}>
             <p className="lede mt-5">
               Oral care is one of the few categories where the marketing is louder than the
-              evidence. We built Orava the other way round.
+              evidence. We built SOMIL the other way round.
             </p>
           </Reveal>
           <Reveal delay={0.18} y={10}>

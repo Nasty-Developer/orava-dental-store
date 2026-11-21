@@ -23,7 +23,9 @@ type Action =
   | { type: "remove"; slug: string }
   | { type: "clear" };
 
-const STORAGE_KEY = "orava.cart.v1";
+const STORAGE_KEY = "somil.cart.v1";
+/** Carts saved before the SOMIL rebrand are carried over once. */
+const LEGACY_KEY = "orava.cart.v1";
 const MAX_QTY = 20;
 
 function reducer(state: State, action: Action): State {
@@ -128,7 +130,13 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   // hydrate once on mount
   useEffect(() => {
-    dispatch({ type: "hydrate", lines: parseStored(localStorage.getItem(STORAGE_KEY)) });
+    const current = localStorage.getItem(STORAGE_KEY);
+    const legacy = current ? null : localStorage.getItem(LEGACY_KEY);
+    dispatch({ type: "hydrate", lines: parseStored(current ?? legacy) });
+    if (!current && legacy) {
+      localStorage.setItem(STORAGE_KEY, legacy);
+      localStorage.removeItem(LEGACY_KEY);
+    }
   }, []);
 
   // persist + sync across tabs

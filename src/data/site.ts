@@ -4,12 +4,17 @@
  */
 
 export const site = {
-  name: "Orava",
-  legalName: "Orava Dental Care",
+  /** Full brand name, used in titles, legal copy and metadata. */
+  name: "SOMIL Dental Products",
+  /** Short mark used in the header, loading screen and tight spaces. */
+  shortName: "SOMIL",
+  /** Secondary line of the brand lockup. */
+  descriptor: "Dental Products",
+  legalName: "SOMIL Dental Products",
   tagline: "Clinical oral care, quietly perfected.",
   description:
-    "Orava is a premium dental care house offering clinician-grade whitening, brushing and rinse essentials for people who treat their mouth like the rest of their health.",
-  url: "https://orava-dental-store.vercel.app",
+    "SOMIL Dental Products is a premium dental care house in Mumbai, offering clinician-reviewed whitening, brushing and rinse essentials, with every order confirmed personally on WhatsApp.",
+  url: "https://somil-dental-products.vercel.app",
 
   /** Order line. Every checkout is sent here. */
   whatsapp: {
@@ -17,20 +22,20 @@ export const site = {
     number: "9185914349144",
     display: "+91 85914 349144",
     /** pre-filled opener used for general enquiries */
-    greeting: "Hello Orava, I'd like some help choosing the right products.",
+    greeting: "Hello SOMIL Dental Products, I'd like some help choosing the right products.",
   },
 
   /** Support line. Enquiries only, never orders. */
   support: {
     number: "918433553501",
     display: "+91 84335 53501",
-    greeting: "Hello Orava, I have a question about an existing order.",
+    greeting: "Hello SOMIL Dental Products, I have a question about an existing order.",
   },
 
   email: "tanudevworks@gmail.com",
 
   address: {
-    line1: "Orava Dental Care",
+    line1: "SOMIL Dental Products",
     line2: "Kurla West, Mumbai",
     region: "Maharashtra 400070",
     country: "India",

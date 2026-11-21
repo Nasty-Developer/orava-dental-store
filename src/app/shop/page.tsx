@@ -8,7 +8,7 @@ import { products } from "@/data/products";
 export const metadata: Metadata = {
   title: "Shop all dental care",
   description:
-    "Browse the full Orava range: enamel-safe whitening, sonic brushes, alcohol-free rinses, clinical gels and orthodontic kits.",
+    "Browse the full SOMIL range: enamel-safe whitening, sonic brushes, alcohol-free rinses, clinical gels and orthodontic kits.",
   alternates: { canonical: "/shop" },
 };
 

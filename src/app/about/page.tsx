@@ -10,7 +10,7 @@ import { orderLink } from "@/lib/whatsapp";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Orava is a small, clinician-reviewed oral care house in Mumbai. A narrow shelf, honest claims and orders confirmed by people.",
+    "SOMIL Dental Products is a small, clinician-reviewed oral care house in Mumbai. A narrow shelf, honest claims and orders confirmed by people.",
   alternates: { canonical: "/about" },
 };
 
@@ -56,7 +56,7 @@ export default function AboutPage() {
             not a campaign.
           </>
         }
-        lede="Orava began with a simple irritation: the oral care aisle is full of loud claims and thin evidence. We wanted a shelf where every product could be defended."
+        lede="SOMIL began with a simple irritation: the oral care aisle is full of loud claims and thin evidence. We wanted a shelf where every product could be defended."
         crumbs={[{ label: "About" }]}
       />
 

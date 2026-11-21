@@ -8,6 +8,7 @@ import { useCart } from "@/lib/cart";
 import { site } from "@/data/site";
 import { products } from "@/data/products";
 import { formatINR } from "@/lib/whatsapp";
+import { Wordmark } from "./wordmark";
 import {
   IconBag,
   IconClose,
@@ -23,15 +24,6 @@ const NAV = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
-
-export function Wordmark({ className = "" }: { className?: string }) {
-  return (
-    <span className={`inline-flex items-baseline gap-[3px] ${className}`}>
-      <span className="font-display text-[25px] leading-none tracking-[-0.025em]">Orava</span>
-      <span className="mb-[3px] h-[5px] w-[5px] rounded-full bg-clinic-600" />
-    </span>
-  );
-}
 
 export function Header() {
   const pathname = usePathname();

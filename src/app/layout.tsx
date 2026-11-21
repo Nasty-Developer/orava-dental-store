@@ -7,6 +7,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { CartDrawer } from "@/components/cart-drawer";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
+import { LoadingScreen } from "@/components/loading-screen";
 
 const display = Instrument_Serif({
   subsets: ["latin"],
@@ -25,10 +26,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: `${site.name} — Premium Dental Care Essentials`,
-    template: `%s · ${site.name}`,
+    template: `%s · ${site.shortName}`,
   },
   description: site.description,
   keywords: [
+    "SOMIL Dental Products",
     "dental products",
     "teeth whitening",
     "sonic toothbrush",
@@ -83,6 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-IN" className={`${display.variable} ${sans.variable}`}>
       <body>
+        <LoadingScreen />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}

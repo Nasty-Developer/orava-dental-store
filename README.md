@@ -1,73 +1,91 @@
-# Orava — Dental Care Store
+# SOMIL Dental Products
 
-A premium dental products storefront built with Next.js 15 (App Router), TypeScript and
-Tailwind CSS. Orders are placed over WhatsApp; there is no online payment and no admin panel.
+A premium dental care storefront. Browsing is fully online; every order is composed
+into a WhatsApp message and confirmed by a person.
 
-Live: https://orava-dental-store.vercel.app
+Live: https://somil-dental-products.vercel.app
+Repo: https://github.com/Nasty-Developer/orava-dental-store
 
-## Run locally
+## Stack
+
+Next.js 15 (App Router) · TypeScript · Tailwind CSS · Framer Motion.
+Fully static/SSG, so it deploys to Vercel with no server or database.
+No payment gateway, no admin panel.
+
+## Editing content
+
+Everything customer-facing lives in three files.
+
+| What | Where |
+| --- | --- |
+| Brand name, phone numbers, email, address, shipping rules, notices | `src/data/site.ts` |
+| Products (name, price, stock, description, specs, images) | `src/data/products.ts` |
+| Categories | `src/data/categories.ts` |
+
+### Add a product
+
+Append an object to the `products` array in `src/data/products.ts`. The slug becomes
+the URL (`/product/<slug>`). Nothing else needs to change: the shop grid, category
+pages, search, related products and the sitemap all read from that array.
+
+```ts
+{
+  slug: "enamel-repair-gel",
+  name: "Enamel Repair Gel",
+  category: "clinical",
+  price: 1299,
+  compareAt: 1599,          // optional, shows a strikethrough
+  size: "50 ml",
+  shortDescription: "One line shown on cards.",
+  description: "Full paragraph shown on the product page.",
+  highlights: ["…", "…"],
+  specs: [{ label: "Volume", value: "50 ml" }],
+  stock: 24,                 // 0 shows Sold out
+  featured: true,            // appears on the homepage
+  popular: true,             // appears in "Popular this week"
+  rating: 4.8,
+  reviewCount: 128,
+  visual: "gel",             // placeholder art key
+  image: "/products/enamel-repair-gel.jpg",  // optional real photo
+}
+```
+
+### Real product photography
+
+Drop files into `public/products/` and add `image: "/products/<file>.jpg"` to a
+product. Anything without an `image` keeps the drawn SVG placeholder from
+`src/components/product-art.tsx`, so the catalogue never looks broken while you
+photograph the range.
+
+### Brand
+
+The name, descriptor and legal name are in `src/data/site.ts` (`name`, `shortName`,
+`descriptor`, `legalName`). The header, footer, loading screen, page titles, JSON-LD
+and order messages all read from those values.
+
+## Orders
+
+`src/lib/whatsapp.ts` builds the order message: customer, phone, address, every line
+with quantity and unit price, subtotal, shipping, total and notes, then opens it
+against `site.whatsapp.number`. Orders are never marked paid or confirmed on the site.
+
+## Loading screen
+
+`src/components/loading-screen.tsx` renders in the server HTML, so it is painted on
+first frame rather than popping in after hydration. It shows once per page load and
+is skipped on client-side navigation, respects `prefers-reduced-motion`, and hides
+itself if JavaScript is unavailable.
+
+## Local development
 
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # production build
+npm run build
 ```
 
-## Where things live
+## Phase 2 (not wired)
 
-```
-src/
-  data/
-    site.ts          brand, contact numbers, shipping thresholds, currency
-    products.ts      THE PRODUCT CATALOGUE — edit this to add or change products
-    categories.ts    the six categories
-  components/        reusable UI (header, footer, cart drawer, product cards, art)
-  lib/
-    cart.tsx         cart state + localStorage persistence
-    whatsapp.ts      WhatsApp message composition and links
-  app/               routes
-```
-
-## Adding a product
-
-Open `src/data/products.ts` and append an object to the `products` array:
-
-```ts
-{
-  slug: "enamel-mint-toothpaste",       // URL: /product/enamel-mint-toothpaste
-  name: "Enamel Mint Toothpaste",
-  subtitle: "1,450 ppm fluoride",
-  category: "clinical",                  // whitening | brushes | rinses | clinical | kids | ortho
-  price: 399,                            // INR, whole rupees
-  compareAt: 499,                        // optional "was" price
-  size: "100 g",
-  shortDescription: "One line for cards.",
-  description: "The full paragraph shown on the product page.",
-  highlights: ["Point one", "Point two"],
-  specs: [{ label: "Fluoride", value: "1,450 ppm" }],
-  stock: 40,
-  rating: 4.5,
-  reviewCount: 12,
-  visual: "gel",                         // placeholder art key — see ProductVisual
-  image: "/products/enamel-mint.jpg",    // optional: use a real photo instead
-}
-```
-
-Nothing else needs editing. The product appears in the shop, its category page, search,
-filters and the sitemap automatically.
-
-### Using real photographs
-
-1. Put the file in `public/products/`.
-2. Add `image: "/products/<file>.jpg"` to that product.
-
-`ProductArt` renders the drawn placeholder only when no `image` is set.
-
-## Contact details
-
-All numbers, the email address and the free-shipping threshold live in
-`src/data/site.ts`. Change them there, not in components.
-
-## Deploy
-
-Connected to Vercel; pushing to `main` deploys automatically.
+`db/schema.sql` holds a Supabase (PostgreSQL) schema for products, orders and
+enquiries with row-level security, ready for when the database is provisioned. The
+storefront does not read from it yet.

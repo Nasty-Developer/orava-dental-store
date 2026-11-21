@@ -464,8 +464,8 @@ export const products: Product[] = [
     visual: "mirror",
   },
   {
-    slug: "little-orava-brush-set",
-    name: "Little Orava Brush Set",
+    slug: "little-somil-brush-set",
+    name: "Little SOMIL Brush Set",
     subtitle: "Ages 3–8, two brushes",
     category: "kids",
     price: 549,

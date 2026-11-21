@@ -8,7 +8,7 @@ import { orderLink, supportLink } from "@/lib/whatsapp";
 export const metadata: Metadata = {
   title: "Shipping & Returns",
   description:
-    "Delivery timelines, charges and the 7-day return process for Orava orders across India.",
+    "Delivery timelines, charges and the 7-day return process for SOMIL Dental Products orders across India.",
   alternates: { canonical: "/shipping-returns" },
 };
 
@@ -110,7 +110,7 @@ export default function ShippingReturnsPage() {
                   a form.
                 </p>
                 <a
-                  href={supportLink("Hello Orava, I'd like to return an item from my order.")}
+                  href={supportLink("Hello SOMIL, I'd like to return an item from my order.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary mt-5 w-full"

@@ -1,5 +1,5 @@
 -- ─────────────────────────────────────────────────────────────────────────────
--- Orava · Supabase (PostgreSQL) schema — PHASE 2, not yet wired to the app.
+-- SOMIL Dental Products · Supabase (PostgreSQL) schema — PHASE 2, not yet wired to the app.
 --
 -- The storefront is fully functional without a database: the catalogue is
 -- static and orders travel over WhatsApp. This schema is here for the moment

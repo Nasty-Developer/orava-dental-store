@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Orava collects, uses and stores the information you share when you browse the site or place an order on WhatsApp.",
+    "How SOMIL Dental Products collects, uses and stores the information you share when you browse the site or place an order on WhatsApp.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
 
         <Prose>
           <p>
-            This policy explains how {site.legalName} (“Orava”, “we”) handles personal data when
+            This policy explains how {site.legalName} (“we”, “us”) handles personal data when
             you use this website or place an order with us over WhatsApp. We keep it short
             because we collect very little.
           </p>

@@ -14,7 +14,7 @@ import {
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Talk to the Orava team about products, orders or returns. WhatsApp, phone and email, answered by people.",
+    "Talk to the SOMIL team about products, orders or returns. WhatsApp, phone and email, answered by people.",
   alternates: { canonical: "/contact" },
 };
 

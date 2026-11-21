@@ -5,7 +5,7 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "The terms that apply when you order from Orava, including how WhatsApp orders are confirmed and priced.",
+    "The terms that apply when you order from SOMIL Dental Products, including how WhatsApp orders are confirmed and priced.",
   alternates: { canonical: "/terms" },
 };
 
@@ -24,7 +24,7 @@ export default function TermsPage() {
         <Prose>
           <p>
             These terms apply when you use this website or place an order with {site.legalName}
-            (“Orava”, “we”, “us”). By ordering, you accept them.
+            (“we”, “us”). By ordering, you accept them.
           </p>
 
           <h2>1. Orders are placed on WhatsApp</h2>
@@ -93,7 +93,7 @@ export default function TermsPage() {
 
           <h2>7. Intellectual property</h2>
           <p>
-            The Orava name, text, layout and illustrations on this site belong to us. You may
+            The SOMIL Dental Products name, text, layout and illustrations on this site belong to us. You may
             share links freely. Do not copy the catalogue or product photography for commercial
             use without permission.
           </p>

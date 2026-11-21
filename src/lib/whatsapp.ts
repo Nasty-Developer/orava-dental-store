@@ -51,7 +51,7 @@ export function buildOrderMessage(lines: OrderLine[], customer: OrderCustomer) {
   const subtotal = lines.reduce((s, l) => s + l.product.price * l.qty, 0);
   const shipping = subtotal >= site.freeShippingThreshold ? 0 : site.shippingFlat;
   const total = subtotal + shipping;
-  const ref = `ORV-${Date.now().toString(36).toUpperCase().slice(-6)}`;
+  const ref = `SMD-${Date.now().toString(36).toUpperCase().slice(-6)}`;
 
   const rows = lines
     .map(
@@ -84,7 +84,7 @@ export function buildOrderMessage(lines: OrderLine[], customer: OrderCustomer) {
     "",
     customer.notes ? `*NOTES*\n${customer.notes}` : null,
     "",
-    "_Sent from the Orava website. Please confirm stock and delivery._",
+    "_Sent from the SOMIL Dental Products website. Please confirm stock and delivery._",
   ]
     .filter(Boolean)
     .join("\n");

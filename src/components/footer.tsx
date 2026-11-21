@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { site } from "@/data/site";
 import { categories } from "@/data/categories";
-import { Wordmark } from "./header";
+import { Wordmark } from "./wordmark";
 import { IconWhatsApp, IconMail, IconArrowUpRight, IconPhone } from "./icons";
 import { orderLink, mailLink } from "@/lib/whatsapp";
 
@@ -24,7 +24,7 @@ export function Footer() {
       <div className="shell py-16 md:py-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
-            <Wordmark />
+            <Wordmark size="md" />
             <p className="mt-5 max-w-[280px] text-[13.5px] leading-relaxed text-ink-mute">
               {site.tagline} Clinician-reviewed oral care, dispatched from Mumbai to anywhere
               in India.
