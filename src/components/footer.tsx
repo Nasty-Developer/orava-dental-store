@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/data/site";
-import { categories } from "@/data/categories";
+import { categories, type CategorySlug } from "@/data/categories";
+import { products } from "@/data/products";
 import { Wordmark } from "./wordmark";
 import { IconWhatsApp, IconMail, IconArrowUpRight, IconPhone } from "./icons";
 import { orderLink, mailLink } from "@/lib/whatsapp";
@@ -10,6 +11,28 @@ const legal = [
   { href: "/terms", label: "Terms & Conditions" },
   { href: "/shipping-returns", label: "Shipping & Returns" },
 ];
+
+/**
+ * The footer shows the areas people actually shop by, not all 23. The full
+ * taxonomy stays one click away, and /categories lists every one of them, so a
+ * wall of links never buries the pages that matter.
+ */
+const shopHighlights: CategorySlug[] = [
+  "restorative",
+  "endodontics",
+  "instruments",
+  "burs",
+  "handpieces",
+  "orthodontics",
+  "impression",
+  "prosthodontics",
+  "infection-control",
+  "anaesthetics",
+];
+
+const shopCategories = shopHighlights
+  .map((slug) => categories.find((c) => c.slug === slug))
+  .filter((c): c is (typeof categories)[number] => Boolean(c));
 
 const help = [
   { href: "/contact", label: "Contact" },
@@ -22,8 +45,8 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-line bg-white">
       <div className="shell py-16 md:py-20">
-        <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-4">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12">
+          <div className="md:col-span-1 lg:col-span-3">
             <Wordmark size="md" />
             <p className="mt-5 max-w-[280px] text-[13.5px] leading-relaxed text-ink-mute">
               {site.tagline} Clinician-reviewed oral care, dispatched from Mumbai to anywhere
@@ -63,10 +86,10 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="md:col-span-3">
-            <h3 className="eyebrow">Shop</h3>
-            <ul className="mt-5 space-y-3">
-              {categories.map((c) => (
+          <div className="md:col-span-1 lg:col-span-4">
+            <h3 className="eyebrow">Shop by area</h3>
+            <ul className="mt-5 grid grid-cols-2 gap-x-5 gap-y-3">
+              {shopCategories.map((c) => (
                 <li key={c.slug}>
                   <Link
                     href={`/categories/${c.slug}`}
@@ -77,9 +100,32 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-6 space-y-2.5 border-t border-line pt-5">
+              <Link
+                href="/shop"
+                className="group flex items-center gap-1.5 text-[13px] font-medium text-clinic-700 transition-colors hover:text-clinic-800"
+              >
+                All {products.length} products
+                <IconArrowUpRight
+                  size={13}
+                  className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                />
+              </Link>
+              <Link
+                href="/categories"
+                className="group flex items-center gap-1.5 text-[13px] text-ink-soft transition-colors hover:text-ink"
+              >
+                Browse all {categories.length} categories
+                <IconArrowUpRight
+                  size={13}
+                  className="text-ink-faint transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                />
+              </Link>
+            </div>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-1 lg:col-span-2">
             <h3 className="eyebrow">Company</h3>
             <ul className="mt-5 space-y-3">
               {help.map((l) => (
@@ -95,7 +141,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-1 lg:col-span-3">
             <h3 className="eyebrow">Visit</h3>
             <address className="mt-5 not-italic text-[13.5px] leading-relaxed text-ink-mute">
               {site.address.line1}
