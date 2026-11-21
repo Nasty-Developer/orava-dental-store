@@ -52,6 +52,12 @@ export type ProductImage = {
   /** usage rights, e.g. "Manufacturer press kit, written permission" */
   license: string;
   credit?: string;
+  /**
+   * Whether the rights holder has actually said yes in writing. Only "granted"
+   * may ship: a sourced photograph whose permission is still pending stays in
+   * staging and the product keeps its illustration.
+   */
+  permission?: "granted" | "pending";
 };
 
 export type Product = {

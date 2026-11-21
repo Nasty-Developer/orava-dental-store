@@ -20,12 +20,7 @@ export const equipment: Product[] = [
     price: 8270,
     visual: "machine",
     featured: true,
-    image: {
-      src: "/products/waldent-ultrawave-maxpiezo-4-led-ultrasonic-scaler.webp",
-      alt: "Waldent Ultrawave MaxPiezo 4 LED Ultrasonic Scaler",
-      source: "https://www.waldent.com/products/waldent-ultrawave-maxpiezo-4-led-ultrasonic-scaler",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "waldent-max-piezo-2-ultrasonic-scaler",
@@ -39,12 +34,7 @@ export const equipment: Product[] = [
     price: 5775,
     visual: "machine",
     popular: true,
-    image: {
-      src: "/products/waldent-max-piezo-2-ultrasonic-scaler.webp",
-      alt: "Waldent Max Piezo 2 Ultrasonic Scaler ( 5 Scaler Tips Free )",
-      source: "https://www.waldent.com/products/waldent-max-piezo-2-ultrasonic-scaler-5-scaler-tips-free",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "woodpecker-u-600-led-ultrasonic-scaler",
@@ -111,12 +101,7 @@ export const equipment: Product[] = [
     specs: [{ label: "Motor Power", value: "1.1 HP (efficient and durable performance)" }, { label: "Tank Volume", value: "35 L (ample storage for continuous use)" }, { label: "Maximum Pressure", value: "115 PSI (stable air supply for dental procedures)" }, { label: "Noise Level", value: "≤ 55 dB (quiet, patient-friendly operation)" }, { label: "Technology", value: "Oil-free system (clean, maintenance-free compressed air)" }],
     price: 6815,
     visual: "machine",
-    image: {
-      src: "/products/waldent-oil-free-dental-compressor-head-1-1hp.webp",
-      alt: "Waldent Oil Free Dental Compressor Head 1.1HP",
-      source: "https://www.waldent.com/products/waldent-oil-free-dental-compressor-head-1-1hp",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "waldent-chair-light-for-eezee-portable-dental-chair",

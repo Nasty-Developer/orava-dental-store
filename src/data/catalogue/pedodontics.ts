@@ -20,12 +20,7 @@ export const pedodontics: Product[] = [
     price: 7705,
     visual: "instrument",
     featured: true,
-    image: {
-      src: "/products/waldent-pedodontic-extraction-forceps-kit-premium-set-of-7-k1-9.webp",
-      alt: "Waldent Pedodontic Extraction Forceps Kit - Premium (set of 7) K1/9",
-      source: "https://www.waldent.com/products/waldent-pedodontic-extraction-forceps-kit-premium-set-of-7-k1-9",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "u-ortho-1st-molar-space-maintainer-10set-box",
@@ -131,12 +126,7 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Must be stored at 2", value: "25°C / 36 - 77°F" }],
     price: 125,
     visual: "crown",
-    image: {
-      src: "/products/waldent-caries-detector.webp",
-      alt: "Waldent Caries Detector",
-      source: "https://www.waldent.com/products/waldent-caries-detector",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "kuraray-caries-detector",
@@ -162,12 +152,7 @@ export const pedodontics: Product[] = [
     specs: [],
     price: 335,
     visual: "crown",
-    image: {
-      src: "/products/waldent-fissureseal-pit-and-fissure-sealant-lc.webp",
-      alt: "Waldent FissureSeal Pit &amp; Fissure Sealant LC",
-      source: "https://www.waldent.com/products/waldent-fissureseal",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "vishal-dentocare-v-carie-solve",

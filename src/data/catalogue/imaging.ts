@@ -101,12 +101,7 @@ export const imaging: Product[] = [
     specs: [{ label: "Image Sensor", value: "CMOS 1/4" }, { label: "Focus Range", value: "5mm - 50mm" }, { label: "Backup Mode", value: "Backup to PC automatically" }, { label: "Operating System", value: "Windows & Android" }, { label: "System Operation", value: "Key Control" }],
     price: 3945,
     visual: "machine",
-    image: {
-      src: "/products/waldent-intraoral-camera-usb-model-for-laptop.webp",
-      alt: "Waldent Intraoral Camera USB Model For ( For Laptop )",
-      source: "https://www.waldent.com/products/waldent-intraoralcamera",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "waldent-intra-oral-camera-with-screen-ergo-10-mp",
@@ -119,12 +114,7 @@ export const imaging: Product[] = [
     specs: [{ label: "Manufacturer Model", value: "DA-MC01" }, { label: "Image Sensor", value: "1/4\" CMOS, 10 Megapixel" }, { label: "Image Resolution", value: "1280 × 1024" }, { label: "Focus Range", value: "5 mm – 50 mm" }, { label: "Illumination", value: "6 High-Intensity LEDs" }],
     price: 21000,
     visual: "machine",
-    image: {
-      src: "/products/waldent-intra-oral-camera-with-screen-ergo-10-mp.webp",
-      alt: "Waldent Intra Oral Camera with Screen - Ergo (10 MP)",
-      source: "https://www.waldent.com/products/waldent-iocamerawithmonitor-ergo",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "waldent-intraoral-camera-monitor-clamp",

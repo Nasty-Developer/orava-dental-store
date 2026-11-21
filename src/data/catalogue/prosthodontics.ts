@@ -127,12 +127,7 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Set Contents", value: "14 diamond burs tailored for crown and bridge tooth preparation" }, { label: "Material", value: "High-grade stainless steel shanks with premium diamond grit for durability and precision" }, { label: "Compatibility", value: "Suitable for use with both high-speed and low-speed dental handpieces" }, { label: "Sterilization", value: "Autoclavable and reusable, allowing multiple uses while maintaining sterility" }, { label: "Design", value: "Ergonomically shaped for better handling and control during procedures" }],
     price: 1230,
     visual: "crown",
-    image: {
-      src: "/products/waldent-crown-and-bridge-tooth-preparation-diamond-bur-kit-set.webp",
-      alt: "Waldent Crown &amp; Bridge Tooth Preparation Diamond Bur Kit (Set of 14)",
-      source: "https://www.waldent.com/products/waldent-crown-bridge-tooth-preparation-diamond-bur-kit-set-of-14",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "gdc-post-and-silver-point-removal-forceps-straight-rfstr",

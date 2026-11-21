@@ -20,12 +20,7 @@ export const endodontics: Product[] = [
     price: 1090,
     visual: "file",
     featured: true,
-    image: {
-      src: "/products/waldent-gutta-percha-obturator-bars-pack-of-50.webp",
-      alt: "Waldent Gutta Percha Obturator Bars (Pack of 50)",
-      source: "https://www.waldent.com/products/waldent-gutta-percha-obturator-bars-pack-of-50",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "ammdent-biocanal-bioceramic-root-canal-sealer",
@@ -158,12 +153,7 @@ export const endodontics: Product[] = [
     specs: [{ label: "Material", value: "NiTi" }, { label: "Sterilization", value: "≤126°C" }, { label: "Color", value: "Blue" }, { label: "Length", value: "25mm" }, { label: "Cross Section", value: "S-shaped" }],
     price: null,
     visual: "file",
-    image: {
-      src: "/products/waldent-flexiwave-reciprocating-files-25mm.webp",
-      alt: "Waldent Flexiwave Reciprocating Files  (25mm)",
-      source: "https://www.waldent.com/products/waldent-flexiwave-reciprocating-files-25mm",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "waldent-flexiwave-reciprocating-files-21mm",
@@ -176,12 +166,7 @@ export const endodontics: Product[] = [
     specs: [{ label: "Material", value: "NiTi" }, { label: "Sterilization", value: "≤126°C" }, { label: "Color", value: "Blue" }, { label: "Length", value: "21mm" }, { label: "Cross Section", value: "S shaped" }],
     price: null,
     visual: "file",
-    image: {
-      src: "/products/waldent-flexiwave-reciprocating-files-21mm.webp",
-      alt: "Waldent Flexiwave Reciprocating Files (21mm)",
-      source: "https://www.waldent.com/products/waldent-flexiwave-reciprocating-files-21mm",
-      license: "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-    },
+    image: null,
   },
   {
     slug: "mani-sec-o-k-files-25mm",

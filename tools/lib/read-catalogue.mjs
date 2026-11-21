@@ -47,6 +47,7 @@ export function readCatalogue() {
               alt: (img.match(/alt:\s*"([^"]*)"/) ?? [])[1] ?? null,
               source: (img.match(/source:\s*"([^"]*)"/) ?? [])[1] ?? null,
               license: (img.match(/license:\s*"([^"]*)"/) ?? [])[1] ?? null,
+              permission: (img.match(/permission:\s*"([^"]*)"/) ?? [])[1] ?? null,
             }
           : null,
         raw: body,
