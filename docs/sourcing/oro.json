@@ -1,0 +1,43 @@
+{
+ "brand": "oro",
+ "domain": "orohealthcare.com",
+ "checked": "2026-11-21T22:31:14.914Z",
+ "matched": [
+  {
+   "slug": "oro-x-ray-film-holder-pack-of-4",
+   "name": "X - Ray Film Holder (Pack of 4)",
+   "source": "https://orohealthcare.com/products/oro-x-ray-film-holder",
+   "title": "ORO X-RAY FILM HOLDER",
+   "score": 1
+  }
+ ],
+ "unmatched": [
+  {
+   "slug": "oro-safety-wear-surgery-kit",
+   "name": "Safety Wear Surgery Kit",
+   "closest": {
+    "title": "ORO EYE WEAR",
+    "page": "https://orohealthcare.com/products/oro-eye-wear",
+    "score": 0.2
+   }
+  },
+  {
+   "slug": "oro-opg-bite-block-sleeve-2-7-x-1-1",
+   "name": "OPG Bite Block Sleeve 2.7\\\" x 1.1\\\"",
+   "closest": {
+    "title": "ORO OPG BITE SLEEVE 500 PCS / Box",
+    "page": "https://orohealthcare.com/products/oro-opg-bite-sleeve-500-pcs-box",
+    "score": 0.225
+   }
+  },
+  {
+   "slug": "oro-sterilization-indicator-steam-tape",
+   "name": "Sterilization Indicator Steam Tape",
+   "closest": {
+    "title": "Indicator Tapes",
+    "page": "https://orohealthcare.com/products/indicator-tapes",
+    "score": 0.3
+   }
+  }
+ ]
+}

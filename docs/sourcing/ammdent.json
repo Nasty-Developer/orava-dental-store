@@ -1,0 +1,62 @@
+{
+ "brand": "Ammdent",
+ "domain": "ammdent.com",
+ "checked": "2026-11-21T22:21:50.508Z",
+ "matched": [
+  {
+   "slug": "ammdent-biocanal-bioceramic-root-canal-sealer",
+   "name": "Biocanal Bioceramic Root Canal Sealer",
+   "source": "https://ammdent.com/biocanal/",
+   "title": "AMMDENT Biocanal - Bioceramic Root Canal Sealer – Endodontic Material",
+   "score": 0.98
+  },
+  {
+   "slug": "ammdent-canalarge",
+   "name": "Canalarge",
+   "source": "https://ammdent.com/canalarge/",
+   "title": "AMMDENT Canalarge - Root Canal Irrigant & Chelating Solution – Endodontic Preparation",
+   "score": 0.93
+  },
+  {
+   "slug": "ammdent-lc-cal-excel",
+   "name": "Lc Cal Excel",
+   "source": "https://ammdent.com/lc-cal-excel/",
+   "title": "AMMDENT LC Cal Excel - Light-Cure Calcium Hydroxide Paste – Endodontic Medicament",
+   "score": 0.93
+  },
+  {
+   "slug": "ammdent-d-sense-desensitizing-gel",
+   "name": "D-Sense Desensitizing Gel",
+   "source": "https://ammdent.com/d-sense/",
+   "title": "AMMDENT D-Sense Desensitizing Gel – Fast Relief for Dentinal Hypersensitivity",
+   "score": 0.96
+  },
+  {
+   "slug": "ammdent-flurosolve-for-hypersensitivity",
+   "name": "Flurosolve (For Hypersensitivity)",
+   "source": "https://ammdent.com/fluorosolve/",
+   "title": "AMMDENT FluroSolve - Fluoride Desensitizing Dental Solution for Hypersensitivity",
+   "score": 0.96
+  }
+ ],
+ "unmatched": [
+  {
+   "slug": "ammdent-sterigem-hand-rub-500ml",
+   "name": "Sterigem Hand Rub 500ml",
+   "closest": {
+    "title": "AMMDENT Nano Fill – Nano Hybrid Composite Resin Syringes (All Shades)",
+    "page": "https://ammdent.com/nano-fill-syringes/",
+    "score": 0
+   }
+  },
+  {
+   "slug": "ammdent-nano-fill-hybrid-composite-refill",
+   "name": "Nano Fill Hybrid Composite Refill",
+   "closest": {
+    "title": "AMMDENT Nano Fill Bond – Dental Adhesive System 6 ml",
+    "page": "https://ammdent.com/nano-fill-bond/",
+    "score": 0.3
+   }
+  }
+ ]
+}

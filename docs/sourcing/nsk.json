@@ -1,0 +1,28 @@
+{
+ "brand": "NSK",
+ "domain": "nsk-dental.com",
+ "checked": "2026-11-21T22:32:03.238Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "nsk-fx-plus-with-arv-airotor-handpiece-standard-head-fxp-su-b2",
+   "name": "FX Plus With ARV Airotor Handpiece Standard Head (FXP-SU-B2)",
+   "closest": null
+  },
+  {
+   "slug": "nsk-nlx-nano-brushless-fiber-optic-tabletop-micromotor-y1001362",
+   "name": "NLX Nano Brushless Fiber Optic Tabletop Micromotor (Y1001362)",
+   "closest": null
+  },
+  {
+   "slug": "nsk-s-max-sg20m-implant-contra-angle-handpiece-ca13020001",
+   "name": "S-Max SG20M Implant Contra-Angle Handpiece (CA13020001)",
+   "closest": null
+  },
+  {
+   "slug": "nsk-variosurg-3-fiber-optic-piezoelectric-surgery-unit-y1002726",
+   "name": "VarioSurg 3 Fiber Optic Piezoelectric Surgery Unit (Y1002726)",
+   "closest": null
+  }
+ ]
+}

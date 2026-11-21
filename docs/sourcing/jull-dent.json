@@ -1,0 +1,38 @@
+{
+ "brand": "Jull-Dent",
+ "domain": "julldent.com",
+ "checked": "2026-11-21T22:30:50.883Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "julldent-double-ended-palatal-anesthesia-tool-pat",
+   "name": "Julldent Double-Ended Palatal Anesthesia Tool (PAT)",
+   "closest": null
+  },
+  {
+   "slug": "julldent-micro-trephine-drill-jull-dent-114",
+   "name": "Julldent Micro Trephine Drill (JULL-DENT 114)",
+   "closest": null
+  },
+  {
+   "slug": "julldent-long-diamond-drill-for-quad-zygoma",
+   "name": "Julldent Long Diamond Drill for Quad Zygoma",
+   "closest": null
+  },
+  {
+   "slug": "julldent-bone-profile-drill-6mm-pack-of-1",
+   "name": "Julldent Bone Profile Drill 6mm (Pack of 1)",
+   "closest": null
+  },
+  {
+   "slug": "julldent-sonic-pneumatic-elevator-kit-204",
+   "name": "Julldent Sonic Pneumatic Elevator Kit # 204",
+   "closest": null
+  },
+  {
+   "slug": "julldent-root-extractor-handle-2-0-4x-strength-jull-dent-185",
+   "name": "Julldent Root Extractor Handle 2.0 - 4x Strength (JULL-DENT 185)",
+   "closest": null
+  }
+ ]
+}

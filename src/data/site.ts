@@ -19,8 +19,8 @@ export const site = {
   /** Order line. Every checkout is sent here. */
   whatsapp: {
     /** digits only, country code first */
-    number: "9185914349144",
-    display: "+91 85914 349144",
+    number: "918591434914",
+    display: "+91 85914 34914",
     /** pre-filled opener used for general enquiries */
     greeting: "Hello SOMIL Dental Products, I'd like some help choosing the right products.",
   },

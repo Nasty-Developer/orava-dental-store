@@ -1,0 +1,38 @@
+{
+ "brand": "Vishal Dentocare",
+ "domain": "vishaldentocare.com",
+ "checked": "2026-11-21T22:30:52.033Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "vishal-dentocare-arti-prick-cartridges",
+   "name": "Arti Prick Cartridges",
+   "closest": null
+  },
+  {
+   "slug": "vishal-dentocare-gel-topical-anaesthetic",
+   "name": "Gel Topical Anaesthetic",
+   "closest": null
+  },
+  {
+   "slug": "vishal-dentocare-cmcp",
+   "name": "CMCP",
+   "closest": null
+  },
+  {
+   "slug": "vishal-dentocare-quick-seal-root-canal-sealer-with-dexamethasone",
+   "name": "Quick Seal Root Canal Sealer With Dexamethasone",
+   "closest": null
+  },
+  {
+   "slug": "vishal-dentocare-v-carie-solve",
+   "name": "V‐ CARIE‐ SOLVE",
+   "closest": null
+  },
+  {
+   "slug": "vishal-dentocare-peripack",
+   "name": "Peripack",
+   "closest": null
+  }
+ ]
+}

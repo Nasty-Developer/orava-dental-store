@@ -1,0 +1,23 @@
+{
+ "brand": "Anabond Stedman",
+ "domain": "anabondstedman.com",
+ "checked": "2026-11-21T22:31:58.170Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "anabond-stedman-germafin-neo-5-ltr",
+   "name": "Anabond-Stedman Germafin Neo 5 ltr",
+   "closest": null
+  },
+  {
+   "slug": "anabond-sdf-gold",
+   "name": "Anabond SDF Gold",
+   "closest": null
+  },
+  {
+   "slug": "anabond-blu-flo-flowable-composite",
+   "name": "Anabond BLU-FLO Flowable Composite",
+   "closest": null
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "brand": "Maarc",
+ "domain": "maarcdental.in",
+ "checked": "2026-11-21T22:30:21.684Z",
+ "matched": [
+  {
+   "slug": "maarc-applicator-tips-pack-of-10-9601-010",
+   "name": "Applicator Tips (Pack of 10) (9601/010)",
+   "source": "https://maarcdental.in/product/applicator-tips/",
+   "title": "Applicator Tips",
+   "score": 1
+  },
+  {
+   "slug": "maarc-pro-paste-prophylaxis-paste-9002-090",
+   "name": "Pro-Paste Prophylaxis Paste (9002/090)",
+   "source": "https://maarcdental.in/product/pro-paste-prophylaxis-paste/",
+   "title": "Pro-Paste (Prophylaxis Paste)",
+   "score": 1
+  }
+ ],
+ "unmatched": [
+  {
+   "slug": "maarc-twin-kleen-18-root-canal-irrigant-3032-250",
+   "name": "Twin Kleen 18% Root Canal Irrigant (3032/250)",
+   "closest": {
+    "title": "Rootfyx (Bio Ceramic Root Canal Sealer)",
+    "page": "https://maarcdental.in/product/rootfyx-bio-ceramic-root-canal-sealer/",
+    "score": 0.2
+   }
+  },
+  {
+   "slug": "maarc-bite-wafers-bite-registration-wax-2210-010",
+   "name": "Bite Wafers Bite Registration Wax (2210/010)",
+   "closest": {
+    "title": "Bite Registration Wax (Aluminium Filled)",
+    "page": "https://maarcdental.in/product/bite-registration-wax-aluminium-filled/",
+    "score": 0.45
+   }
+  },
+  {
+   "slug": "maarc-bite-rims-bite-registration-wax-2214-010",
+   "name": "Bite Rims (Bite Registration Wax) (2214/010)",
+   "closest": {
+    "title": "Bite Registration Wax (Aluminium Filled)",
+    "page": "https://maarcdental.in/product/bite-registration-wax-aluminium-filled/",
+    "score": 0.45
+   }
+  },
+  {
+   "slug": "maarc-casting-wax-sheets-2206-200",
+   "name": "Casting Wax Sheets (2206/200)",
+   "closest": {
+    "title": "Casting Wax",
+    "page": "https://maarcdental.in/product/casting-wax/",
+    "score": 0.4
+   }
+  }
+ ]
+}
