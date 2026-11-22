@@ -196,7 +196,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
         </div>
       </FilterSection>
 
-      {subOptions.length > 1 && (
+      {activeCats.length > 0 && subOptions.length > 1 && (
         <FilterSection title="Type" count={activeSubs.length}>
           <div className="max-h-[220px] overflow-y-auto pr-1">
             {subOptions.map((sub) => (
