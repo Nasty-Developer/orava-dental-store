@@ -30,13 +30,13 @@ const categoryName = Object.fromEntries(categories.map((c) => [c.slug, c.name]))
 const csvCell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
 
 const rows = products.map((p, i) => {
-  const live = p.image && p.image.permission === "granted";
+  const live = p.image && ["granted", "owner-approved"].includes(p.image.permission);
   const stage = staged.get(p.slug);
   let status = "Illustration (no photograph sourced)";
   let source = "";
   let permission = "Not applicable: illustration in use";
   if (live) {
-    status = "Photograph live";
+    status = p.image.permission === "granted" ? "Photograph live (brand permission)" : "Photograph live (owner-approved)";
     source = p.image.source;
     permission = "Granted in writing";
   } else if (stage) {
@@ -63,7 +63,7 @@ const csv = [header.map(csvCell).join(",")]
 fs.writeFileSync(path.join(process.cwd(), "docs", "PRODUCT-IMAGE-REGISTER.csv"), csv + "\n");
 
 const count = (fn) => rows.filter(fn).length;
-const liveN = count((r) => r.status === "Photograph live");
+const liveN = count((r) => r.status.startsWith("Photograph live"));
 const stagedN = count((r) => r.status.startsWith("Photograph sourced"));
 const illN = rows.length - liveN - stagedN;
 
@@ -72,7 +72,7 @@ for (const r of rows) {
   if (!byBrand.has(r.brand)) byBrand.set(r.brand, { total: 0, live: 0, staged: 0 });
   const b = byBrand.get(r.brand);
   b.total++;
-  if (r.status === "Photograph live") b.live++;
+  if (r.status.startsWith("Photograph live")) b.live++;
   if (r.status.startsWith("Photograph sourced")) b.staged++;
 }
 const brands = [...byBrand.entries()].sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0]));
@@ -84,12 +84,12 @@ md.push(`Every one of the ${rows.length} catalogue products, its image status, w
 md.push("");
 md.push("| | Products |");
 md.push("|---|---|");
-md.push(`| Photograph live with written permission | ${liveN} |`);
+md.push(`| Photograph live (owner-approved) | ${liveN} |`);
 md.push(`| Photograph sourced, staged, not published | ${stagedN} |`);
 md.push(`| Illustration in use | ${illN} |`);
 md.push(`| **Total** | **${rows.length}** |`);
 md.push("");
-md.push("Nothing is published without written permission: `npm run images:check` fails on any photograph that is not marked `permission: \"granted\"`.");
+md.push("Nothing publishes without authorisation: `npm run images:check` fails on any photograph not marked `permission: \"granted\"` (brand written permission) or `\"owner-approved\"` (Tanvi signed off; brand permission not on file).");
 md.push("");
 md.push("## Brands by outstanding work");
 md.push("");
