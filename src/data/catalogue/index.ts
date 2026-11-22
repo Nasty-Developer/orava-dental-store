@@ -24,7 +24,9 @@ import { digital } from "./digital";
 import { anaesthetics } from "./anaesthetics";
 import { clinicKits } from "./clinicKits";
 
-export const catalogue = [
+import { gateImages } from "@/data/image-rights";
+
+export const catalogue = gateImages([
   ...restorative,
   ...endodontics,
   ...prosthodontics,
@@ -48,4 +50,4 @@ export const catalogue = [
   ...digital,
   ...anaesthetics,
   ...clinicKits,
-];
+]);

@@ -1,3 +1,5 @@
+import { PRODUCT_PHOTOS_LIVE } from "@/data/image-rights";
+
 /**
  * Category card photography.
  *
@@ -12,7 +14,7 @@
 
 export type CategoryShot = { src: string; alt: string };
 
-export const categoryShot: Record<string, CategoryShot> = {
+const categoryShotRaw: Record<string, CategoryShot> = {
   anaesthetics: { src: "/products/d-cult-benz-o-topical-anesthetic-gel.webp", alt: "Benz O Topical Anesthetic Gel" },
   burs: { src: "/products/ss-white-round-finishing-bur-12-blades-7008-pack-of-10.webp", alt: "SS White Round Finishing Bur-12 Blades #7008 (Pack Of 10)" },
   "clinic-kits": { src: "/products/oracraft-offer-package-premium-with-trolly-bag-opp.webp", alt: "Offer Package Premium With Trolly Bag - OPP" },
@@ -37,3 +39,7 @@ export const categoryShot: Record<string, CategoryShot> = {
   sterilization: { src: "/products/shivaah-autoclave-indicator-tape.webp", alt: "Autoclave Indicator Tape" },
   whitening: { src: "/products/healix-inoffice-bleaching-machine.webp", alt: "Inoffice Bleaching Machine" },
 };
+
+export const categoryShot: Record<string, CategoryShot> = PRODUCT_PHOTOS_LIVE
+  ? categoryShotRaw
+  : {};
