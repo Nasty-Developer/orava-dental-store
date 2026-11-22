@@ -4,6 +4,7 @@ import { categories } from "@/data/categories";
 import { products, featuredProducts, popularProducts, brands } from "@/data/products";
 import { formatINR, orderLink, supportLink, mailLink } from "@/lib/whatsapp";
 import { ProductArt, categoryTint } from "@/components/product-art";
+import { categoryShot } from "@/data/category-images";
 import { ProductShot } from "@/components/product-shot";
 import { ProductCard } from "@/components/product-card";
 import { Reveal, RevealGroup, RevealLines, StaggerItem } from "@/components/reveal";
@@ -252,36 +253,47 @@ function CategoryGrid() {
 function CategoryTile({ slug }: { slug: string }) {
   const c = categories.find((x) => x.slug === slug)!;
   const count = products.filter((p) => p.category === c.slug).length;
+  const shot = categoryShot[c.slug];
 
   return (
     <a
       href={`/categories/${c.slug}`}
-      className="group relative block overflow-hidden rounded-[10px]"
-      style={{ backgroundColor: categoryTint[c.slug as keyof typeof categoryTint] }}
+      className="group relative block overflow-hidden rounded-[10px] border border-line bg-white transition-all duration-500 hover:border-clinic-600/40 hover:shadow-lift"
     >
-      <div className="relative aspect-[5/4] w-full p-6">
-        <ProductArt
-          visual={c.visual}
-          className="absolute -right-2 bottom-0 h-[86%] w-[70%] scale-100 opacity-90 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:-translate-y-2 group-hover:scale-[1.05]"
-        />
-        <div className="relative flex h-full flex-col">
-          <div className="flex items-start justify-between">
-            <p className="text-[10.5px] uppercase tracking-[0.12em] text-ink-faint">
-              {String(c.order).padStart(2, "0")} · {count} products
-            </p>
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/0 text-ink-faint transition-all duration-500 group-hover:bg-white group-hover:text-ink">
-              <IconArrowUpRight size={15} />
-            </span>
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-white">
+        {shot ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={shot.src}
+            alt={shot.alt}
+            loading="lazy"
+            decoding="async"
+            className="absolute inset-0 h-full w-full object-contain p-5 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]"
+          />
+        ) : (
+          <div
+            className="absolute inset-0"
+            style={{ backgroundColor: categoryTint[c.slug as keyof typeof categoryTint] }}
+          >
+            <ProductArt visual={c.visual} className="absolute bottom-0 right-0 h-[92%] w-[74%]" />
           </div>
-          <div className="mt-auto max-w-[68%]">
-            <h3 className="break-words font-display text-[21px] leading-[1.12] tracking-[-0.015em] text-ink">
-              {c.shortName}
-            </h3>
-            <p className="mt-1.5 text-[12.5px] leading-snug text-ink-mute">{c.blurb}</p>
-          </div>
-        </div>
+        )}
       </div>
-      <span className="absolute inset-x-0 bottom-0 h-px bg-ink/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+
+      <div className="border-t border-line/70 p-5">
+        <div className="flex items-start justify-between gap-3">
+          <p className="text-[10.5px] uppercase tracking-[0.12em] text-ink-faint">
+            {String(c.order).padStart(2, "0")} · {count} products
+          </p>
+          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-ink-faint transition-all duration-500 group-hover:bg-canvas-tint group-hover:text-ink">
+            <IconArrowUpRight size={14} />
+          </span>
+        </div>
+        <h3 className="mt-2 font-display text-[20px] leading-[1.14] tracking-[-0.015em] text-ink">
+          {c.shortName}
+        </h3>
+        <p className="mt-1.5 line-clamp-2 text-[12.5px] leading-snug text-ink-mute">{c.blurb}</p>
+      </div>
     </a>
   );
 }

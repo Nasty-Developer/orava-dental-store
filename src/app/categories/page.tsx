@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/page-header";
 import { categories } from "@/data/categories";
 import { products } from "@/data/products";
 import { ProductArt, categoryTint } from "@/components/product-art";
+import { categoryShot } from "@/data/category-images";
 import { Reveal, RevealGroup, StaggerItem } from "@/components/reveal";
 import { IconArrowUpRight } from "@/components/icons";
 
@@ -28,6 +29,7 @@ export default function CategoriesPage() {
         <div className="space-y-3">
           {categories.map((c, i) => {
             const list = products.filter((p) => p.category === c.slug);
+            const shot = categoryShot[c.slug];
             return (
               <Reveal key={c.slug} delay={i * 0.04} y={16}>
                 <Link
@@ -35,13 +37,24 @@ export default function CategoriesPage() {
                   className="group grid items-center gap-6 rounded-[10px] p-5 transition-colors duration-500 hover:bg-canvas-tint/70 sm:grid-cols-[1fr_auto] sm:p-7 lg:grid-cols-[88px_1fr_auto_auto] lg:gap-10"
                 >
                   <div
-                    className="relative h-[88px] w-[88px] shrink-0 overflow-hidden rounded-lg"
-                    style={{ backgroundColor: categoryTint[c.slug] }}
+                    className="relative h-[88px] w-[88px] shrink-0 overflow-hidden rounded-lg border border-line bg-white"
+                    style={shot ? undefined : { backgroundColor: categoryTint[c.slug] }}
                   >
-                    <ProductArt
-                      visual={c.visual}
-                      className="h-full w-full scale-[1.1] transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.2]"
-                    />
+                    {shot ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={shot.src}
+                        alt={shot.alt}
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-contain p-1.5 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110"
+                      />
+                    ) : (
+                      <ProductArt
+                        visual={c.visual}
+                        className="h-full w-full scale-[1.1] transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.2]"
+                      />
+                    )}
                   </div>
 
                   <div className="min-w-0">
