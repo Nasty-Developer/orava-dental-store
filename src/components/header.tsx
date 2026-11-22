@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "@/lib/cart";
 import { site } from "@/data/site";
 import { products } from "@/data/products";
+import { categories } from "@/data/categories";
 import { formatINR } from "@/lib/whatsapp";
 import { Wordmark } from "./wordmark";
 import {
@@ -118,10 +119,26 @@ export function Header() {
             </nav>
           </div>
 
+          <form
+            action="/shop"
+            method="get"
+            role="search"
+            className="mx-6 hidden w-[300px] shrink-0 items-center xl:w-[360px] gap-2 rounded-full border border-line bg-canvas-tint/60 px-4 py-2 transition-colors focus-within:border-clinic-600/50 focus-within:bg-white lg:flex"
+          >
+            <IconSearch size={16} className="shrink-0 text-ink-faint" />
+            <input
+              type="search"
+              name="q"
+              placeholder="Search products, brands, areas"
+              aria-label="Search products"
+              className="w-full bg-transparent text-[13px] text-ink outline-none placeholder:text-ink-faint"
+            />
+          </form>
+
           <div className="flex items-center gap-1 sm:gap-2">
             <button
               onClick={() => setSearchOpen(true)}
-              className="group flex items-center gap-2 rounded-full px-3 py-2 text-ink-mute transition-colors hover:text-ink"
+              className="group flex items-center gap-2 rounded-full px-3 py-2 text-ink-mute transition-colors hover:text-ink lg:hidden"
               aria-label="Search products"
             >
               <IconSearch size={18} />
@@ -171,12 +188,110 @@ export function Header() {
               <IconMenu size={20} />
             </button>
           </div>
+
+          <CategoryStrip />
         </div>
       </header>
 
       <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
+  );
+}
+
+const CATEGORY_COUNTS = products.reduce<Record<string, number>>((acc, p) => {
+  acc[p.category] = (acc[p.category] ?? 0) + 1;
+  return acc;
+}, {});
+
+/**
+ * The category bar. Dentists shop by clinical area, so every one of the 23 is
+ * reachable in a single click instead of through a landing page.
+ */
+function CategoryStrip() {
+  const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  useEffect(() => setOpen(false), [pathname]);
+
+  return (
+    <div className="relative hidden border-t border-line/70 lg:block">
+      <div className="shell flex h-11 items-center gap-0.5">
+        <button
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          className={`flex items-center gap-2 rounded-full px-3 py-1.5 text-[12.5px] font-medium transition-colors ${
+            open ? "bg-ink text-white" : "text-ink hover:bg-canvas-tint"
+          }`}
+        >
+          <span aria-hidden className="grid grid-cols-2 gap-[2.5px]">
+            {[0, 1, 2, 3].map((i) => (
+              <span
+                key={i}
+                className={`h-[3px] w-[3px] rounded-full ${open ? "bg-white" : "bg-ink"}`}
+              />
+            ))}
+          </span>
+          All 23 areas
+          <IconArrowRight size={11} className={open ? "-rotate-90" : "rotate-90"} />
+        </button>
+
+        <span aria-hidden className="mx-2 h-4 w-px bg-line" />
+
+        {categories.slice(0, 8).map((c) => (
+          <Link
+            key={c.slug}
+            href={`/categories/${c.slug}`}
+            className="rounded-full px-2.5 py-1.5 text-[12.5px] text-ink-mute transition-colors hover:text-ink"
+          >
+            {c.shortName}
+          </Link>
+        ))}
+
+        <Link
+          href="/shop"
+          className="ml-auto flex items-center gap-1.5 text-[12.5px] text-clinic-700"
+        >
+          <span className="link-underline">Shop all {products.length}</span>
+          <IconArrowRight size={12} />
+        </Link>
+      </div>
+
+      <AnimatePresence>
+        {open && (
+          <>
+            <div
+              className="fixed inset-0 top-[132px] z-30 bg-ink/10"
+              onClick={() => setOpen(false)}
+              aria-hidden
+            />
+            <motion.div
+              initial={{ opacity: 0, y: -6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -6 }}
+              transition={{ duration: 0.18 }}
+              className="absolute left-0 right-0 z-40 border-t border-line bg-white shadow-lift"
+            >
+              <div className="shell grid grid-cols-3 gap-x-8 gap-y-0.5 py-7 xl:grid-cols-4">
+                {categories.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/categories/${c.slug}`}
+                    className="group flex items-baseline justify-between rounded-lg px-3 py-2.5 transition-colors hover:bg-canvas-tint"
+                  >
+                    <span className="text-[13px] text-ink group-hover:text-clinic-700">
+                      {c.name}
+                    </span>
+                    <span className="text-[11px] tabular-nums text-ink-faint">
+                      {CATEGORY_COUNTS[c.slug] ?? 0}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+    </div>
   );
 }
 

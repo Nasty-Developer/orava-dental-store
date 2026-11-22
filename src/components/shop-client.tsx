@@ -91,6 +91,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
   const [activeBrands, setActiveBrands] = useState<string[]>(
     params.get("brand") ? [params.get("brand")!] : [],
   );
+  const [activeSubs, setActiveSubs] = useState<string[]>([]);
   const [sort, setSort] = useState<SortKey>((params.get("sort") as SortKey) ?? "featured");
   const [maxPrice, setMaxPrice] = useState(priceRange.max);
   const [visible, setVisible] = useState(PAGE_SIZE);
@@ -109,7 +110,8 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
     router.replace(qs ? `/shop?${qs}` : "/shop", { scroll: false });
   }, [query, activeCats, activeBrands, sort, router]);
 
-  useEffect(() => setVisible(PAGE_SIZE), [query, activeCats, activeBrands, sort, maxPrice]);
+  useEffect(() => setVisible(PAGE_SIZE), [query, activeCats, activeBrands, activeSubs, sort, maxPrice]);
+  useEffect(() => setActiveSubs([]), [activeCats]);
 
   const toggle = (list: string[], value: string, set: (v: string[]) => void) =>
     set(list.includes(value) ? list.filter((v) => v !== value) : [...list, value]);
@@ -121,6 +123,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
     const list = products.filter((p) => {
       if (activeCats.length && !activeCats.includes(p.category)) return false;
       if (activeBrands.length && !activeBrands.includes(p.brand)) return false;
+      if (activeSubs.length && !activeSubs.includes(p.subcategory)) return false;
       if (p.price !== null && p.price > maxPrice) return false;
       if (!terms.length) return true;
       const hay = [p.name, p.brand, p.subcategory, categoryMap[p.category]?.name ?? "", p.summary]
@@ -150,7 +153,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
         );
     }
     return sorted;
-  }, [query, activeCats, activeBrands, sort, maxPrice]);
+  }, [query, activeCats, activeBrands, activeSubs, sort, maxPrice]);
 
   const brandList = useMemo(() => {
     const q = brandQuery.trim().toLowerCase();
@@ -158,12 +161,21 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
   }, [brandQuery]);
 
   const shownBrands = showAllBrands || brandQuery ? brandList : brandList.slice(0, 12);
-  const activeCount = activeCats.length + activeBrands.length + (query ? 1 : 0);
+  const activeCount = activeCats.length + activeBrands.length + activeSubs.length + (query ? 1 : 0);
+
+  // Refine within the chosen area: "Composite Kits", "Alginate", "Airotor" ...
+  const subOptions = useMemo(() => {
+    const pool = activeCats.length
+      ? products.filter((p) => activeCats.includes(p.category))
+      : products;
+    return [...new Set(pool.map((p) => p.subcategory))].sort((a, b) => a.localeCompare(b));
+  }, [activeCats]);
 
   const clearAll = () => {
     setQuery("");
     setActiveCats([]);
     setActiveBrands([]);
+    setActiveSubs([]);
     setMaxPrice(priceRange.max);
     setSort("featured");
   };
@@ -183,6 +195,28 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
           ))}
         </div>
       </FilterSection>
+
+      {subOptions.length > 1 && (
+        <FilterSection title="Type" count={activeSubs.length}>
+          <div className="max-h-[220px] overflow-y-auto pr-1">
+            {subOptions.map((sub) => (
+              <CheckRow
+                key={sub}
+                label={sub}
+                meta={
+                  products.filter(
+                    (p) =>
+                      p.subcategory === sub &&
+                      (!activeCats.length || activeCats.includes(p.category)),
+                  ).length
+                }
+                checked={activeSubs.includes(sub)}
+                onChange={() => toggle(activeSubs, sub, setActiveSubs)}
+              />
+            ))}
+          </div>
+        </FilterSection>
+      )}
 
       <FilterSection title="Brand" count={activeBrands.length}>
         <div className="relative mb-2">

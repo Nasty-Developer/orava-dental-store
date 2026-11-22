@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { site, marqueeItems, trustPoints } from "@/data/site";
 import { categories } from "@/data/categories";
-import { products, featuredProducts, popularProducts } from "@/data/products";
+import { products, featuredProducts, popularProducts, brands } from "@/data/products";
 import { formatINR, orderLink, supportLink, mailLink } from "@/lib/whatsapp";
 import { ProductArt, categoryTint } from "@/components/product-art";
 import { ProductShot } from "@/components/product-shot";
@@ -30,6 +30,7 @@ export default function HomePage() {
       <TrustMarquee />
       <CategoryGrid />
       <FeaturedProducts />
+      <BrandDiscovery />
       <StandardsBand />
       <PopularRail />
       <OrderSteps />
@@ -349,6 +350,58 @@ const standards = [
   },
 ];
 
+const BRAND_COUNTS = products.reduce<Record<string, number>>((acc, p) => {
+  acc[p.brand] = (acc[p.brand] ?? 0) + 1;
+  return acc;
+}, {});
+const TOP_BRANDS = Object.entries(BRAND_COUNTS)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .slice(0, 24);
+
+/**
+ * Brand discovery. Dentists often arrive knowing the maker, not the category,
+ * so the 130 makers in the catalogue get a direct route in.
+ */
+function BrandDiscovery() {
+  return (
+    <section className="shell py-20 md:py-24">
+      <div className="flex flex-wrap items-end justify-between gap-6">
+        <div>
+          <Reveal y={8}>
+            <p className="eyebrow">Brands</p>
+          </Reveal>
+          <Reveal delay={0.06} y={14}>
+            <h2 className="mt-3 display text-display-md text-ink">Shop the maker you trust.</h2>
+          </Reveal>
+        </div>
+        <Reveal delay={0.1} y={10}>
+          <Link href="/shop" className="inline-flex items-center gap-2 text-[13px] text-clinic-700">
+            <span className="link-underline">All {brands.length} brands</span>
+            <IconArrowUpRight size={14} />
+          </Link>
+        </Reveal>
+      </div>
+
+      <Reveal delay={0.12} y={12}>
+        <div className="mt-9 flex flex-wrap gap-2.5">
+          {TOP_BRANDS.map(([name, n]) => (
+            <Link
+              key={name}
+              href={`/shop?brand=${encodeURIComponent(name)}`}
+              className="group inline-flex items-baseline gap-2 rounded-full border border-line bg-white px-4 py-2.5 transition-all duration-300 hover:border-clinic-600/40 hover:bg-clinic-50"
+            >
+              <span className="text-[13px] text-ink transition-colors group-hover:text-clinic-700">
+                {name}
+              </span>
+              <span className="text-[11px] tabular-nums text-ink-faint">{n}</span>
+            </Link>
+          ))}
+        </div>
+      </Reveal>
+    </section>
+  );
+}
+
 function StandardsBand() {
   return (
     <section className="shell py-20 md:py-28">
@@ -412,7 +465,7 @@ function PopularRail() {
         <div className="flex items-end justify-between gap-6">
           <div>
             <Reveal y={8}>
-              <p className="eyebrow">Popular this week</p>
+              <p className="eyebrow">Popular picks</p>
             </Reveal>
             <Reveal delay={0.06} y={14}>
               <h2 className="mt-3 display text-display-md text-ink">What is moving.</h2>
