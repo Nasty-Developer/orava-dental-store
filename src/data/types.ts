@@ -81,6 +81,17 @@ export type Product = {
   visual: ProductVisual;
   /** set this to use a real photograph instead of the placeholder art */
   image: ProductImage | null;
+  /**
+   * SOMIL private label.
+   *
+   * Set only when SOMIL is genuinely authorised to sell this product under its
+   * own name. While absent, the listing keeps the genuine manufacturer
+   * photograph and identification: a SOMIL pack shot must never stand in for a
+   * third-party product. Enforced by `npm run images:check`.
+   */
+  privateLabelAuthorised?: boolean;
+  /** Who authorised the private label, and when. Required when the flag is set. */
+  privateLabelRef?: string;
   featured?: boolean;
   popular?: boolean;
   tags?: string[];

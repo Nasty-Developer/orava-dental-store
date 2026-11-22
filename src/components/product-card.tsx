@@ -41,7 +41,7 @@ export function ProductCard({
               visual={product.visual}
               title={product.name}
               priority={priority}
-              className="transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
+              className="p-[7%] transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.05]"
               artClassName="h-full w-full scale-[1.02] p-3 transition-transform duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.07]"
             />
           </div>

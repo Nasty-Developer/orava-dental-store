@@ -47,6 +47,23 @@ for (const p of withImage) {
   }
 }
 
+// ── SOMIL private label ──────────────────────────────────────────────────
+// A SOMIL-branded pack shot belongs only on a product SOMIL is genuinely
+// authorised to sell under its own name. Everything else keeps the
+// manufacturer's own photograph and identification.
+const PRIVATE_LABEL_SRC = /\/products\/somil-/;
+for (const p of products) {
+  const src = p.image?.src ?? "";
+  if (PRIVATE_LABEL_SRC.test(src) && p.privateLabelAuthorised !== true) {
+    problems.push(`${p.slug}: uses a SOMIL pack shot but is not marked privateLabelAuthorised`);
+  }
+  if (p.privateLabelAuthorised === true && !p.privateLabelRef) {
+    problems.push(`${p.slug}: privateLabelAuthorised is set with no privateLabelRef (who authorised it, and when)`);
+  }
+}
+const privateLabel = products.filter((p) => p.privateLabelAuthorised === true);
+console.log(`${privateLabel.length}/${products.length} products are authorised SOMIL private label.`);
+
 const missing = products.length - withImage.length;
 console.log(`${withImage.length}/${products.length} products have a real photograph (${missing} still illustrated).`);
 
