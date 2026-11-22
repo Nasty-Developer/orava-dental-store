@@ -116,7 +116,7 @@ export function ProductDetail({ product }: { product: Product }) {
 
         {/* buy column */}
         <div className="pb-4">
-          <p className="text-[11px] uppercase tracking-[0.13em] text-clinic-600">{product.brand}</p>
+          <p className="text-[11px] uppercase tracking-[0.13em] text-clinic-600">{categoryMap[product.category]?.name ?? product.subcategory}</p>
           <h1 className="mt-3 font-display text-[clamp(1.9rem,3.4vw,2.7rem)] leading-[1.08] tracking-[-0.02em]">
             {product.name}
           </h1>
@@ -124,6 +124,7 @@ export function ProductDetail({ product }: { product: Product }) {
             {product.subcategory}
             {product.packaging ? ` · ${product.packaging}` : ""}
           </p>
+          <p className="mt-1 text-[11.5px] text-ink-faint">Brand: {product.brand}</p>
 
           {/* price */}
           <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
@@ -222,7 +223,10 @@ export function ProductDetail({ product }: { product: Product }) {
             >
               {product.specs.length ? (
                 <dl className="divide-y divide-line">
-                  {product.specs.map((s) => (
+                  {[
+                    { label: "Brand", value: product.brand },
+                    ...product.specs.filter((x) => x.label.trim().toLowerCase() !== "brand"),
+                  ].map((s) => (
                     <div key={s.label} className="grid grid-cols-[minmax(0,150px)_minmax(0,1fr)] gap-3 py-2">
                       <dt className="text-ink-faint">{s.label}</dt>
                       <dd className="text-ink-soft">{s.value}</dd>

@@ -6,6 +6,7 @@ import type { Product } from "@/data/products";
 import { formatINR, buildProductEnquiry, orderLink } from "@/lib/whatsapp";
 import { useCart } from "@/lib/cart";
 import { categoryTint } from "./product-art";
+import { categoryMap } from "@/data/categories";
 import { ProductShot } from "./product-shot";
 import { IconPlus, IconWhatsApp } from "./icons";
 
@@ -97,16 +98,19 @@ export function ProductCard({
 
         <div className={compact ? "mt-3" : "mt-4"}>
           <p className="text-[10.5px] uppercase tracking-[0.11em] text-ink-faint">
-            {product.brand}
+            {categoryMap[product.category]?.shortName ?? product.subcategory}
           </p>
           <h3 className="mt-1.5 text-[15px] font-semibold leading-snug tracking-[-0.01em] text-ink transition-colors group-hover:text-clinic-700">
             {product.name}
           </h3>
           {!compact && (
-            <p className="mt-1 line-clamp-1 text-[12.5px] text-ink-mute">
-              {product.subcategory}
-              {product.packaging ? ` · ${product.packaging}` : ""}
-            </p>
+            <>
+              <p className="mt-1 line-clamp-1 text-[12.5px] text-ink-mute">
+                {product.subcategory}
+                {product.packaging ? ` · ${product.packaging}` : ""}
+              </p>
+              <p className="mt-0.5 line-clamp-1 text-[11px] text-ink-faint">{product.brand}</p>
+            </>
           )}
           <div className="mt-2.5 flex items-baseline gap-2">
             {priced ? (

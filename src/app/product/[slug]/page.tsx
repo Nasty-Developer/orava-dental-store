@@ -19,7 +19,7 @@ export async function generateMetadata({
   const product = getProduct(slug);
   if (!product) return { title: "Product not found" };
 
-  const title = `${product.name} — ${product.brand}`;
+  const title = `${product.name} · SOMIL Dental Store`;
   return {
     title,
     description: product.summary,
