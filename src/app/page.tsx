@@ -5,7 +5,6 @@ import { products, featuredProducts, popularProducts, brands } from "@/data/prod
 import { formatINR, orderLink, supportLink, mailLink } from "@/lib/whatsapp";
 import { ProductArt, categoryTint } from "@/components/product-art";
 import { categoryShot } from "@/data/category-images";
-import { ProductShot } from "@/components/product-shot";
 import { ProductCard } from "@/components/product-card";
 import { Reveal, RevealGroup, RevealLines, StaggerItem } from "@/components/reveal";
 import {
@@ -20,9 +19,6 @@ import {
   IconTruck,
   IconReturn,
 } from "@/components/icons";
-
-const heroProduct =
-  featuredProducts.find((p) => p.price !== null) ?? featuredProducts[0] ?? products[0];
 
 export default function HomePage() {
   return (
@@ -106,10 +102,7 @@ function Hero() {
         <div className="lg:col-span-6 lg:col-start-7 xl:col-span-7">
           <Reveal delay={0.2} y={24}>
             <div className="relative">
-              <div
-                className="relative overflow-hidden rounded-[14px]"
-                style={{ backgroundColor: categoryTint[heroProduct.category] }}
-              >
+              <div className="relative overflow-hidden rounded-[14px] bg-white">
                 {/* concentric guides */}
                 <svg
                   className="pointer-events-none absolute inset-0 h-full w-full"
@@ -124,33 +117,41 @@ function Hero() {
                 </svg>
 
                 <div className="relative aspect-[10/11] w-full sm:aspect-[6/5] lg:aspect-[10/11]">
-                  <ProductShot
-                    image={heroProduct.image}
-                    visual={heroProduct.visual}
-                    title={heroProduct.name}
-                    priority
-                    className="absolute inset-0 h-full w-full object-contain p-2 sm:p-4"
-                    artClassName="absolute inset-0 h-full w-full scale-[0.92] p-6 sm:p-10"
+                  {/* SOMIL private-label packaging concept: a branding mockup, not a
+                      photograph of a stocked product, so it carries no brand, price or
+                      link to a real SKU. Swap for a real SOMIL pack shot once private
+                      labelling is authorised. */}
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/brand/somil-hero-composite-1024.webp"
+                    srcSet="/brand/somil-hero-composite-512.webp 512w, /brand/somil-hero-composite-1024.webp 1024w"
+                    sizes="(max-width: 640px) 92vw, (max-width: 1024px) 60vw, 620px"
+                    alt="SOMIL private-label light cure composite packaging concept"
+                    width={1024}
+                    height={683}
+                    fetchPriority="high"
+                    decoding="async"
+                    className="absolute inset-0 h-full w-full object-contain p-3 sm:p-5"
                   />
                 </div>
 
                 {/* floating specs */}
                 <div className="absolute left-4 top-4 sm:left-6 sm:top-6">
-                  <span className="badge">Featured</span>
+                  <span className="badge">Packaging concept</span>
                 </div>
 
                 <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between sm:bottom-6 sm:left-6 sm:right-6">
                   <div className="rounded-lg bg-white/85 px-3.5 py-2.5 backdrop-blur-md">
                     <p className="text-[10px] uppercase tracking-[0.11em] text-ink-faint">
-                      Brand
+                      Label
                     </p>
-                    <p className="mt-0.5 max-w-[150px] truncate text-[12.5px] text-ink">{heroProduct.brand}</p>
+                    <p className="mt-0.5 max-w-[150px] truncate text-[12.5px] text-ink">SOMIL Dental</p>
                   </div>
                   <div className="hidden rounded-lg bg-white/85 px-3.5 py-2.5 text-right backdrop-blur-md sm:block">
                     <p className="text-[10px] uppercase tracking-[0.11em] text-ink-faint">
-                      Category
+                      Range
                     </p>
-                    <p className="mt-0.5 text-[12.5px] text-ink">{categories.find((c) => c.slug === heroProduct.category)?.shortName}</p>
+                    <p className="mt-0.5 text-[12.5px] text-ink">Restorative</p>
                   </div>
                 </div>
               </div>
@@ -159,15 +160,15 @@ function Hero() {
               <div className="absolute -bottom-6 left-1/2 w-[min(92%,340px)] -translate-x-1/2 rounded-xl border border-line bg-white px-5 py-4 shadow-lift lg:-left-10 lg:bottom-8 lg:translate-x-0">
                 <div className="flex items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <p className="truncate text-[13.5px] text-ink">{heroProduct.name}</p>
+                    <p className="truncate text-[13.5px] text-ink">Light Cure Composite kit</p>
                     <p className="mt-0.5 truncate text-[11.5px] text-ink-faint">
-                      {heroProduct.subcategory}
+                      Concept packaging, pending authorisation
                     </p>
                   </div>
                   <Link
-                    href={`/product/${heroProduct.slug}`}
+                    href="/contact"
                     className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line text-ink transition-all duration-500 hover:border-ink hover:bg-ink hover:text-white"
-                    aria-label={`View ${heroProduct.name}`}
+                    aria-label="Ask about SOMIL private label"
                   >
                     <IconArrowUpRight size={15} />
                   </Link>

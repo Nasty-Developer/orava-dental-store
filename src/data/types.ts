@@ -82,6 +82,16 @@ export type Product = {
   /** set this to use a real photograph instead of the placeholder art */
   image: ProductImage | null;
   /**
+   * Where the facts on this row were checked, for products added after the
+   * original catalogue. Absent on the first 344 rows.
+   */
+  source?: string;
+  verification?: {
+    method: string;
+    checkedOn: string;
+    note: string;
+  };
+  /**
    * SOMIL private label.
    *
    * Set only when SOMIL is genuinely authorised to sell this product under its
