@@ -6,9 +6,14 @@ Last updated 2026-11-22.
 |---|---|
 | Catalogue total | 344 |
 | Photograph live with written permission | **0** |
-| Photograph sourced and staged, not published | 27 |
-| Illustration in use (temporary placeholder) | 317 |
+| Exact product photograph sourced, staged, awaiting permission | **342** |
+| Illustration in use (temporary placeholder) | 2 |
 | Incorrect or duplicate photographs | 0 |
+
+342 of 344 now have their **exact** product photograph downloaded at 900 x 900 WebP
+(8.5 MB total) in `staging/product-photos/listing/`, one file per slug, mapped in
+`staging/listing-manifest.json`. Every one of the 23 clinical areas is covered.
+They are staged, not published: the permission gate below still blocks them.
 
 Full per-product detail: [PRODUCT-IMAGE-REGISTER.md](./PRODUCT-IMAGE-REGISTER.md) and
 [PRODUCT-IMAGE-REGISTER.csv](./PRODUCT-IMAGE-REGISTER.csv). Permission requests:
