@@ -1,0 +1,33 @@
+{
+ "brand": "Prime Dental Products",
+ "domain": "prime-dental.in",
+ "checked": "2026-11-21T22:43:10.535Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "prime-dental-citra-wash",
+   "name": "Prime Dental Citra Wash",
+   "closest": null
+  },
+  {
+   "slug": "prime-dental-algingum-alginate-impression-material",
+   "name": "Prime Dental Algingum Alginate Impression Material",
+   "closest": null
+  },
+  {
+   "slug": "prime-dental-prime-chrome-alginate",
+   "name": "Prime Dental Prime Chrome Alginate",
+   "closest": null
+  },
+  {
+   "slug": "prime-dental-bite-registration-putty",
+   "name": "Prime Dental Bite Registration Putty",
+   "closest": null
+  },
+  {
+   "slug": "prime-dental-aster-compo-polishing-paste-for-composite-4gm",
+   "name": "Prime Dental Aster Compo Polishing Paste For Composite 4gm",
+   "closest": null
+  }
+ ]
+}

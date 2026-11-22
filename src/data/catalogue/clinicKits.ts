@@ -20,7 +20,13 @@ export const clinicKits: Product[] = [
     price: 27269,
     visual: "box",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/oracraft-offer-package-standard-with-trolly-bag-ops.webp",
+      alt: "Offer Package Standard With Trolly Bag - OPS product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-offer-package-set-instruments-kit-opp-with-trolley",
@@ -34,7 +40,13 @@ export const clinicKits: Product[] = [
     price: 46280,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/gdc-offer-package-set-instruments-kit-opp-with-trolley.webp",
+      alt: "Offer Package Set Instruments Kit OPP With Trolley product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-offer-package-set-instruments-kit-ops-with-trolley",
@@ -47,7 +59,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Type", value: "Dental Instruments" }, { label: "Material", value: "High-quality stainless steel" }, { label: "Corrosion resistance", value: "Yes" }, { label: "Trolley Color", value: "Not specified" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: 25800,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/gdc-offer-package-set-instruments-kit-ops-with-trolley.webp",
+      alt: "Offer Package Set Instruments Kit OPS With Trolley product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-offer-package-premium-with-trolly-bag-opp",
@@ -61,7 +79,13 @@ export const clinicKits: Product[] = [
     price: 47162,
     visual: "crown",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/oracraft-offer-package-premium-with-trolly-bag-opp.webp",
+      alt: "Offer Package Premium With Trolly Bag - OPP product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-offer-package-premium-set-for-new-clinic-setup-without",
@@ -75,7 +99,13 @@ export const clinicKits: Product[] = [
     price: 44098,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/gdc-offer-package-premium-set-for-new-clinic-setup-without.webp",
+      alt: "Offer Package Premium Set for New Clinic Setup Without Trolley Bag product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-new-dental-clinic-setup-kit",
@@ -88,7 +118,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Type", value: "Instrument Kit" }, { label: "Category", value: "Clinical Setup – General Dentistry" }, { label: "Application", value: "Complete dental clinic establishment" }, { label: "Contents", value: "Multi-disciplinary instrument assortment" }, { label: "Instrument Type", value: "Diagnostic, restorative, surgical, extraction" }],
     price: 27795,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/waldent-new-dental-clinic-setup-kit.webp",
+      alt: "New Dental Clinic Setup Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "samit-glass-slab-7-5cm-x-15cm-x-10mm",
@@ -101,7 +137,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Dimensions", value: "7.5 cm x 15 cm" }, { label: "Thickness", value: "10 mm" }, { label: "Material", value: "High-quality glass" }, { label: "Weight", value: "Lightweight for easy handling" }],
     price: 39,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/samit-glass-slab-7-5cm-x-15cm-x-10mm.webp",
+      alt: "Samit Glass Slab 7.5cm x 15cm x 10mm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-plain-mouth-mirror-tops-set-of-12-mmtp5",
@@ -114,7 +156,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Type", value: "Mouth Mirror Tops" }, { label: "Category", value: "Diagnostic" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: 684,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/oracraft-plain-mouth-mirror-tops-set-of-12-mmtp5.webp",
+      alt: "Plain Mouth Mirror Tops Set Of 12 - MMTP5 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "nobilium-massad-edentulous-low-temp-tray-intro-kit-pack-of-12",
@@ -127,7 +175,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Tray Type", value: "Low-temperature thermoplastic" }, { label: "Flexibility", value: "Moldable for custom fit" }, { label: "Comfort", value: "Minimizes patient discomfort during procedures" }, { label: "Material", value: "High-quality thermoplastic compound" }, { label: "Sterilization", value: "Not autoclavable; for single-patient use" }],
     price: 5385,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/nobilium-massad-edentulous-low-temp-tray-intro-kit-pack-of-12.webp",
+      alt: "Massad Edentulous Low Temp Tray Intro Kit Pack of 12 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-rubber-dam-clamps-kit-titanium-black-set-of-11-k16-4",
@@ -140,7 +194,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Category", value: "Isolation Instruments" }, { label: "Type", value: "Rubber Dam Clamps" }, { label: "Material", value: "Titanium Coated" }, { label: "Colour", value: "Black" }, { label: "Reusable", value: "Yes" }],
     price: 3615,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-rubber-dam-clamps-kit-titanium-black-set-of-11-k16-4.webp",
+      alt: "Rubber Dam Clamps Kit Titanium Black (Set of 11) (K16/4) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-pedo-rubber-dam-frame-small-16-139",
@@ -153,7 +213,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Product Type", value: "Rubber Dam Frame" }, { label: "Brand", value: "Waldent" }, { label: "Model", value: "Pedo Rubber Dam Frame - Small (16/139)" }, { label: "Size", value: "Small" }, { label: "Application", value: "Pediatric Dentistry" }],
     price: 290,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-pedo-rubber-dam-frame-small-16-139.webp",
+      alt: "Pedo Rubber Dam Frame - Small (16/139) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oro-safety-wear-surgery-kit",
@@ -166,7 +232,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Type", value: "Safety Wear Surgery Kit" }, { label: "Material", value: "Non-woven Fabric" }, { label: "Color", value: "Blue" }],
     price: 510,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/oro-safety-wear-surgery-kit.webp",
+      alt: "Safety Wear Surgery Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dental-diagnostic-instruments-pmt",
@@ -179,7 +251,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Category", value: "Diagnostic Instruments" }, { label: "Type", value: "Probe, Mouth mirror and Tweezer" }, { label: "Usage", value: "For initial Dental examination" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/dental-diagnostic-instruments-pmt.webp",
+      alt: "Dental Diagnostic Instruments (PMT) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "et-dental-implant-impression-trays-pack-of-10",
@@ -192,7 +270,13 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Colour", value: "Blue" }, { label: "Material", value: "Plastic" }],
     price: 250,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/et-dental-implant-impression-trays-pack-of-10.webp",
+      alt: "Implant Impression Trays (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "samit-mouldable-impression-trays",
@@ -205,6 +289,12 @@ export const clinicKits: Product[] = [
     specs: [{ label: "Type", value: "Heat-mouldable single-use dental impression tray" }, { label: "Sizes Available", value: "Large, Half, Small, Anterior, Medium" }, { label: "Sterilization", value: "Single-use, non-sterilizable" }, { label: "Flexibility", value: "High adaptability to patient-specific anatomy" }, { label: "Compatibility", value: "Suitable for various impression materials" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/samit-mouldable-impression-trays.webp",
+      alt: "Samit Mouldable Impression Trays product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

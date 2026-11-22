@@ -20,7 +20,13 @@ export const sterilization: Product[] = [
     price: 645,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/cotisen-disposable-plastic-instrument-trays-pack-of-100.webp",
+      alt: "Disposable Plastic Instrument Trays (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "life-steridex-disinfection-soaking-tray-cidex-tray-10-liters",
@@ -34,7 +40,13 @@ export const sterilization: Product[] = [
     price: 5475,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/life-steridex-disinfection-soaking-tray-cidex-tray-10-liters.webp",
+      alt: "Life Steridex Disinfection Soaking Tray (Cidex Tray) - 10 Liters product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "life-steridex-disinfection-soaking-tray-white-10-litres",
@@ -47,7 +59,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Tray includes", value: "lid and perforated inner tray" }, { label: "Capacity", value: "10 Liters." }, { label: "Outer tray dimensions", value: "84cm x 21cm x 14cm (L x W x H)." }, { label: "Inner tray dimensions", value: "70cm x 12cm x 12cm (L x W x H)." }],
     price: 5475,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/life-steridex-disinfection-soaking-tray-white-10-litres.webp",
+      alt: "Life Steridex Disinfection Soaking Tray (White) - 10 Litres product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-schuster-class-b-autoclave-23l",
@@ -61,7 +79,13 @@ export const sterilization: Product[] = [
     price: 131250,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-schuster-class-b-autoclave-23l.webp",
+      alt: "Schuster Class B Autoclave 23L product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-schuster-class-b-autoclave-23l-with-sterilization-reels",
@@ -75,7 +99,13 @@ export const sterilization: Product[] = [
     price: 149000,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-schuster-class-b-autoclave-23l-with-sterilization-reels.webp",
+      alt: "Schuster Class B Autoclave 23L With Sterilization Reels & Pouches Sealing Machine and Water Distiller BST-007 Combo product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sun-b-class-autoclave-with-printer-waldent-water-distiller-bst",
@@ -88,7 +118,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Sterilization Method", value: "Pressure steam" }, { label: "Sterilization scale", value: "All kinds of viruses, bacteria, and prion." }, { label: "Sterilization Temperature", value: "121° degree, 134° degree,user-defined" }, { label: "Sterilization time", value: "121°C- 20 minutes, 134°C - 4 minutes,user-defined (user-defined time)" }, { label: "Sterilization result", value: "100% completed sterilization" }],
     price: 120000,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/sun-b-class-autoclave-with-printer-waldent-water-distiller-bst.webp",
+      alt: "Sun B-Class Autoclave with Printer + Waldent Water Distiller BST-007 Combo product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sun-n-class-front-loading-autoclave-18-litres",
@@ -101,7 +137,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Capacity", value: "18 Litres" }, { label: "Rated Voltage", value: "AC220/110V±10%, 50/60Hz±1Hz" }, { label: "Rated Power", value: "800W" }, { label: "Operating Temp", value: "0-40°C" }, { label: "Fuse Melting Pipe", value: "T15A" }],
     price: 54056,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/sun-n-class-front-loading-autoclave-18-litres.webp",
+      alt: "Sun N-Class Front Loading Autoclave - 18 litres product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "enbio-pro-5-3l-class-b-autoclave",
@@ -114,7 +156,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Autoclave Type", value: "B Type Vacuum Autoclave" }, { label: "Load Type", value: "Solid and hollow instruments, pouched or wrapped instruments, and porous loads" }, { label: "Load Capacity", value: "0.8 kg maximum total load 16 x instrument pouches" }, { label: "Working Pressure", value: "2.1 Bar" }, { label: "Max. Pressure", value: "2.3 Bar" }],
     price: 275000,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/enbio-pro-5-3l-class-b-autoclave.webp",
+      alt: "Pro 5.3L Class B Autoclave product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "fomos-autoclave-foster-plus-17-l",
@@ -127,7 +175,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Model", value: "Foster Plus 17L" }, { label: "Sterilization Level", value: "Class B" }, { label: "Voltage/ Power", value: "110-240v/1800w" }, { label: "Chamber Inner Dimensions (mm)", value: "250×360" }, { label: "Unit Dimensions (mm)", value: "625×438×473" }],
     price: 116514,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/fomos-autoclave-foster-plus-17-l.webp",
+      alt: "Fomos Autoclave Foster Plus 17 L product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oro-sterilization-indicator-steam-tape",
@@ -140,7 +194,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Product Type", value: "Steam Autoclave Indicator Tape" }, { label: "Sterilization Method", value: "Steam Sterilization" }, { label: "Indicator Type", value: "Heat-sensitive chemical indicator ink" }, { label: "Adhesive Type", value: "Non-toxic medical-grade adhesive" }, { label: "Temperature Response", value: "Activated under standard steam sterilization parameters" }],
     price: 295,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/oro-sterilization-indicator-steam-tape.webp",
+      alt: "Sterilization Indicator Steam Tape product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "shivaah-autoclave-indicator-tape",
@@ -153,7 +213,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Application", value: "Sterilization cycle verification in autoclaves" }, { label: "Indicator Type", value: "Heat-sensitive chemical indicator" }, { label: "Adhesive Strength", value: "Strong, ensures tape stays in place during sterilization" }, { label: "Color Change", value: "Changes color when exposed to proper sterilization conditions" }],
     price: 260,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/shivaah-autoclave-indicator-tape.webp",
+      alt: "Autoclave Indicator Tape product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "riverside-bowie-dick-test-pack-pack-of-10",
@@ -166,7 +232,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Sterilizer Type", value: "Pre-vacuum steam sterilizers" }, { label: "Operating Conditions", value: "134°C for 3.5 minutes or 121°C for 15 minutes" }, { label: "Indicator Classification", value: "Class 2 (ISO 11140-1)" }, { label: "ISO Compliance", value: "ISO 11140-4" }, { label: "Visual Indicator", value: "Central sheet color change" }],
     price: 2250,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/riverside-bowie-dick-test-pack-pack-of-10.webp",
+      alt: "Riverside Bowie Dick Test Pack (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "riverside-bowie-dick-test-sheets-pack-of-100",
@@ -179,7 +251,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Chemical Indicator Type", value: "Type 2" }, { label: "Initial Color", value: "Yellow" }, { label: "Final Color", value: "Dark Brown / Black" }, { label: "Sterilizer Type", value: "Vacuum-Assisted Steam Sterilizers" }, { label: "Test Cycle Duration", value: "3.5 minutes at 134ºC or 4 minutes at 132ºC" }],
     price: 6715,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/riverside-bowie-dick-test-sheets-pack-of-100.webp",
+      alt: "Riverside Bowie Dick Test Sheets (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "codyson-ultrasonic-cleaner-cs-1-0-5-litre",
@@ -192,7 +270,13 @@ export const sterilization: Product[] = [
     specs: [{ label: "Tank Capacity", value: "500 ml" }, { label: "Tank Size", value: "15.3x7.3x4.8cm/6.0\"x2.9\"x1.9\"" }, { label: "Ultrasonic Frequency", value: "CS1Pro: 40~45KHz" }, { label: "Power Supply", value: "35W (AC 100~240 V, 50/60 Hz)" }, { label: "Timer Settings", value: "180S, 280S, 380S, 480S, 90S" }],
     price: 4190,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/codyson-ultrasonic-cleaner-cs-1-0-5-litre.webp",
+      alt: "Ultrasonic Cleaner CS 1 (0.5 Litre) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "codyson-ultrasonic-cleaner-cd-4821-2-5-litres",
@@ -205,6 +289,12 @@ export const sterilization: Product[] = [
     specs: [{ label: "Cleaning Tank Capacity", value: "2500ml SUS304 stainless steel" }, { label: "Tank Size/Basket Size", value: "24.5x15x7.6cm" }, { label: "Power Supply", value: "170W" }, { label: "Control", value: "Digital control interface,1 to 30-minute timer,2-color LED display" }, { label: "Ultrasonic Transducer", value: "Industrial-grade Φ38,Improved commercial driving circuit" }],
     price: 7795,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/codyson-ultrasonic-cleaner-cd-4821-2-5-litres.webp",
+      alt: "Ultrasonic Cleaner CD-4821 (2.5 Litres) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

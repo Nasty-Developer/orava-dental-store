@@ -20,7 +20,13 @@ export const prosthodontics: Product[] = [
     price: 385,
     visual: "crown",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-crown-and-bridge-holding-forceps-with-rings-curved-21.webp",
+      alt: "Crown & Bridge Holding Forceps With Rings - Curved (21/105) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hn-dental-crown-o-assist",
@@ -34,7 +40,13 @@ export const prosthodontics: Product[] = [
     price: 2099,
     visual: "crown",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/hn-dental-crown-o-assist.webp",
+      alt: "Crown - O - Assist product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentomech-stainless-steel-fox-plane",
@@ -47,7 +59,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel" }, { label: "Temperature Resistance", value: "Autoclavable at 135°C" }, { label: "Pressure Resistance", value: "Autoclavable at 0.22 MPa" }, { label: "Design", value: "Occlusal flat panel" }, { label: "Edge", value: "Smooth, patient-comfortable edges" }],
     price: 282,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/dentomech-stainless-steel-fox-plane.webp",
+      alt: "Stainless Steel Fox Plane product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mctbio-venus-gauge-gau-01",
@@ -61,7 +79,13 @@ export const prosthodontics: Product[] = [
     price: 9640,
     visual: "crown",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/mctbio-venus-gauge-gau-01.webp",
+      alt: "Venus Gauge (GAU-01) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "superendo-crown-preparation-bur-kit",
@@ -75,7 +99,13 @@ export const prosthodontics: Product[] = [
     price: 597,
     visual: "crown",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/superendo-crown-preparation-bur-kit.webp",
+      alt: "Crown Preparation Bur Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "superendo-crown-preparation-short-shank-diamond-bur-kit-for",
@@ -88,7 +118,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Shank type", value: "Short Shank Friction grip" }, { label: "Material", value: "Stainless steel" }, { label: "Package Dimensions", value: "4.4 x 3.5 x 2.4 inches" }, { label: "Regular", value: "Blue" }, { label: "Superfine", value: "Yellow" }],
     price: 640,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/superendo-crown-preparation-short-shank-diamond-bur-kit-for.webp",
+      alt: "Crown Preparation Short Shank Diamond Bur Kit (For Paediatric Patient Only) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prima-dental-crown-preparation-kit-of-7-diamond-burs",
@@ -101,7 +137,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel" }, { label: "Diameters", value: "012, 014, 016, 018" }, { label: "Length", value: "4.0 mm, 10.0 mm , 8.0 mm" }, { label: "Grit", value: "Fine, Medium" }, { label: "Precision", value: "Designed for crown & bridge restorations" }],
     price: 1700,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/prima-dental-crown-preparation-kit-of-7-diamond-burs.webp",
+      alt: "Crown Preparation Kit of 7 Diamond Burs product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "pivo-crown-preparation-micromotor-burs-kit-contra-angle",
@@ -114,7 +156,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel with diamond coating" }, { label: "Compatibility", value: "Micromotors" }, { label: "Kit Includes", value: "7 burs" }, { label: "Grit", value: "Standard" }],
     price: 369,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/pivo-crown-preparation-micromotor-burs-kit-contra-angle.webp",
+      alt: "Crown Preparation Micromotor Burs Kit - Contra-Angle Handpiece (Set Of 7) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-crown-and-bridge-tooth-preparation-diamond-bur-kit-set",
@@ -127,7 +175,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Set Contents", value: "14 diamond burs tailored for crown and bridge tooth preparation" }, { label: "Material", value: "High-grade stainless steel shanks with premium diamond grit for durability and precision" }, { label: "Compatibility", value: "Suitable for use with both high-speed and low-speed dental handpieces" }, { label: "Sterilization", value: "Autoclavable and reusable, allowing multiple uses while maintaining sterility" }, { label: "Design", value: "Ergonomically shaped for better handling and control during procedures" }],
     price: 1230,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/waldent-crown-and-bridge-tooth-preparation-diamond-bur-kit-set.webp",
+      alt: "Crown & Bridge Tooth Preparation Diamond Bur Kit (Set of 14) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-post-and-silver-point-removal-forceps-straight-rfstr",
@@ -140,7 +194,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 845,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-post-and-silver-point-removal-forceps-straight-rfstr.webp",
+      alt: "Post And Silver Point Removal Forceps - Straight (Rfstr) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "viva-drills-kit-100104",
@@ -153,7 +213,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Tip Type", value: "Patented heat-generating tip" }, { label: "Head Design", value: "Flame-shaped for lateral cutting" }, { label: "Cutting Direction", value: "Non-end cutting" }, { label: "Safety", value: "Modified safe tip with low perforation risk" }, { label: "Identification", value: "Color-coded by size" }],
     price: 1585,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/viva-drills-kit-100104.webp",
+      alt: "Drills Kit (100104) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-post-and-silver-point-removal-forceps-45-degree-rf45",
@@ -166,7 +232,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 845,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-post-and-silver-point-removal-forceps-45-degree-rf45.webp",
+      alt: "Post And Silver Point Removal Forceps - 45 Degree (Rf45) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-post-and-silver-point-removal-forceps-90-degree-rf90",
@@ -179,7 +251,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 820,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-post-and-silver-point-removal-forceps-90-degree-rf90.webp",
+      alt: "Post And Silver Point Removal Forceps - 90 Degree (Rf90) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "superendo-anterior-preparation-burs-kit",
@@ -192,7 +270,13 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Regular", value: "Blue" }, { label: "Fine", value: "Red" }, { label: "Superfine", value: "Yellow" }],
     price: 610,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/superendo-anterior-preparation-burs-kit.webp",
+      alt: "Anterior Preparation Burs Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mik-unwind-md-muscle-deprogrammer",
@@ -205,6 +289,12 @@ export const prosthodontics: Product[] = [
     specs: [{ label: "Function", value: "Anterior muscle deprogramming splint" }, { label: "Material", value: "Hard-setting acrylic or bite registration paste" }, { label: "Principle", value: "Posterior disclusion for muscle relaxation" }, { label: "Benefits", value: "Relieves TMJ disorders, prevents parafunction" }, { label: "Dimensions", value: "30.72 × 28.94 × 29.22 mm" }],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/mik-unwind-md-muscle-deprogrammer.webp",
+      alt: "Unwind MD Muscle Deprogrammer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

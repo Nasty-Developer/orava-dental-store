@@ -34,7 +34,13 @@ export const periodontics: Product[] = [
     price: 664,
     visual: "implant",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/advanced-biotech-periodontal-plus-ab.webp",
+      alt: "Periodontal Plus Ab product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-periosteal-elevator-6-php3",
@@ -47,7 +53,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Model / Code", value: "PHP3" }, { label: "Instrument Number", value: "#6" }, { label: "Tip Size", value: "3mm / 3mm" }, { label: "End Type", value: "Double-Ended" }, { label: "Material", value: "High-Grade Stainless Steel" }],
     price: 1615,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-periosteal-elevator-6-php3.webp",
+      alt: "Periosteal Elevator # 6 Php3 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-vista-tunneling-procedure-instrument-vista2-6",
@@ -61,7 +73,13 @@ export const periodontics: Product[] = [
     price: 1748,
     visual: "implant",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/gdc-vista-tunneling-procedure-instrument-vista2-6.webp",
+      alt: "Vista Tunneling Procedure Instrument (VISTA2 #6) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-vista-tunneling-procedure-instrument-vista3-6",
@@ -75,7 +93,13 @@ export const periodontics: Product[] = [
     price: 1705,
     visual: "implant",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/gdc-vista-tunneling-procedure-instrument-vista3-6.webp",
+      alt: "Vista Tunneling Procedure Instrument (VISTA3 #6) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "angelus-interlig-glass-fiber-splint-single-patient-strip-pack",
@@ -88,7 +112,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Fiber structure", value: "Intertwined scaffold" }, { label: "Optical", value: "Translucent" }, { label: "Thickness", value: "0.2 mm" }, { label: "Width", value: "2 mm" }, { label: "Length", value: "8.5 cm" }],
     price: 3800,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/angelus-interlig-glass-fiber-splint-single-patient-strip-pack.webp",
+      alt: "Interlig Glass Fiber Splint - Single Patient Strip (Pack of 4) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "cologenesis-cologide-gtr-membrane-pack-of-1",
@@ -101,7 +131,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Sizes", value: "10X15mm" }, { label: "Sizes", value: "15X20mm" }, { label: "Sizes", value: "20X32mm" }, { label: "Sizes", value: "30X42mm" }],
     price: null,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/cologenesis-cologide-gtr-membrane-pack-of-1.webp",
+      alt: "Cologenesis ColoGide GTR Membrane - Pack Of 1 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "xcem-osspore-collagen-membranes",
@@ -114,7 +150,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Category", value: "Bone Regeneration Material" }, { label: "Type", value: "Collagen Membranes" }, { label: "Composition", value: "Bovine derived collagen" }, { label: "Size", value: "Available in four sizes: 10 x 15" }, { label: "Sterile/Non", value: "Sterile: Sterile" }],
     price: null,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/xcem-osspore-collagen-membranes.webp",
+      alt: "Osspore Collagen Membranes product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "xcem-osspore-ptfe-membranes",
@@ -127,7 +169,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Category", value: "Bone Regeneration Material" }, { label: "Type", value: "Non-Resorbable Membranes" }, { label: "Composition", value: "PTFE (polytetrafluoroethylene)" }, { label: "Size", value: "Available in three sizes: 10 x 15" }, { label: "Sterile/Non", value: "Sterile: Sterile" }],
     price: null,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/xcem-osspore-ptfe-membranes.webp",
+      alt: "Osspore PTFE Membranes product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentact-fiber-splint-14cm-pack-of-1",
@@ -140,7 +188,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "Length", value: "14 cm" }, { label: "Width", value: "4mm, 2mm" }, { label: "Material", value: "Woven fiber strip without composite layer" }, { label: "Application", value: "Utilizes flowable composite material for strength" }, { label: "Curing Method", value: "Light-cured" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/dentact-fiber-splint-14cm-pack-of-1.webp",
+      alt: "Fiber Splint 14cm (Pack of 1) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-peripack",
@@ -153,7 +207,13 @@ export const periodontics: Product[] = [
     specs: [],
     price: 1360,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-peripack.webp",
+      alt: "Peripack product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gc-coe-pak-periodontal-dressing-standard-pkg-new-pack",
@@ -166,7 +226,13 @@ export const periodontics: Product[] = [
     specs: [],
     price: 2523,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/gc-coe-pak-periodontal-dressing-standard-pkg-new-pack.webp",
+      alt: "Coe Pak Periodontal Dressing Standard Pkg (New Pack) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ribbond-ribbon-fiber-splint-kit",
@@ -179,7 +245,13 @@ export const periodontics: Product[] = [
     specs: [],
     price: 26710,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/ribbond-ribbon-fiber-splint-kit.webp",
+      alt: "Ribbon Fiber Splint Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "polydentia-fiber-splint-with-clips",
@@ -192,7 +264,13 @@ export const periodontics: Product[] = [
     specs: [{ label: "One Layer", value: "4mm x 2m" }, { label: "Three Layer", value: "2mm x 60cm" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/polydentia-fiber-splint-with-clips.webp",
+      alt: "Fiber-Splint With Clips product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "advanced-biotech-healiguide",
@@ -205,6 +283,12 @@ export const periodontics: Product[] = [
     specs: [],
     price: null,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/advanced-biotech-healiguide.webp",
+      alt: "Healiguide product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

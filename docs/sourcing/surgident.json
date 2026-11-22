@@ -1,0 +1,23 @@
+{
+ "brand": "Surgident",
+ "domain": "surgident.co.kr",
+ "checked": "2026-11-21T22:49:17.598Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "surgident-trephine-bur-20mm-long-assorted-sd-ltba",
+   "name": "Trephine Bur 20mm - Long Assorted (SD-LTBA)",
+   "closest": null
+  },
+  {
+   "slug": "surgident-basic-implant-surgical-kit-sd-bk",
+   "name": "Basic Implant Surgical Kit (SD-BK)",
+   "closest": null
+  },
+  {
+   "slug": "surgident-bone-profiler-kit-sd-bp",
+   "name": "Bone Profiler Kit (SD-BP)",
+   "closest": null
+  }
+ ]
+}

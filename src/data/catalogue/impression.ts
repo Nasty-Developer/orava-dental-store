@@ -20,7 +20,13 @@ export const impression: Product[] = [
     price: 279,
     visual: "impression",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/prime-dental-algingum-alginate-impression-material.webp",
+      alt: "Prime Dental Algingum Alginate Impression Material product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "zhermack-tropicalgin-alginate-powder-impression-material",
@@ -34,7 +40,13 @@ export const impression: Product[] = [
     price: 380,
     visual: "impression",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/zhermack-tropicalgin-alginate-powder-impression-material.webp",
+      alt: "Tropicalgin Alginate Powder Impression Material product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gc-impreceed-alginate-powder-impression-material",
@@ -47,7 +59,13 @@ export const impression: Product[] = [
     specs: [{ label: "Category", value: "Impression Material" }, { label: "Type", value: "Alginate Powder" }, { label: "Setting Type", value: "Normal" }, { label: "Mixing Time", value: "20-30s" }, { label: "Working Time", value: "90s" }],
     price: 333,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/gc-impreceed-alginate-powder-impression-material.webp",
+      alt: "Impreceed Alginate Powder Impression Material product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prime-dental-prime-chrome-alginate",
@@ -61,7 +79,13 @@ export const impression: Product[] = [
     price: 319,
     visual: "impression",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/prime-dental-prime-chrome-alginate.webp",
+      alt: "Prime Dental Prime Chrome Alginate product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "zhermack-elite-glass-c401610",
@@ -75,7 +99,13 @@ export const impression: Product[] = [
     price: 2195,
     visual: "impression",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/zhermack-elite-glass-c401610.webp",
+      alt: "Elite Glass (C401610) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prime-dental-bite-registration-putty",
@@ -88,7 +118,13 @@ export const impression: Product[] = [
     specs: [{ label: "Material Type", value: "A-silicone based" }, { label: "Setting Version", value: "Fast Set" }, { label: "Color", value: "Orange" }, { label: "Dispensing System", value: "Jar" }, { label: "Mixing Time", value: "25sec" }],
     price: 1100,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/prime-dental-bite-registration-putty.webp",
+      alt: "Prime Dental Bite Registration Putty product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "coltene-speedex-putty-set-condensation-silicon",
@@ -101,7 +137,13 @@ export const impression: Product[] = [
     specs: [{ label: "Mixing time", value: "00:30 min" }, { label: "Working time", value: "≤1:30 min" }, { label: "Oral setting time", value: "3:00 min" }, { label: "Mixing ratio Light body /Activator", value: "5 ml/1 ml or 5 g/0.88 g" }, { label: "Mixing time", value: "00:30 min" }],
     price: 2914,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/coltene-speedex-putty-set-condensation-silicon.webp",
+      alt: "Coltene Speedex Putty Set (Condensation Silicon) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "zhermack-zetalabor",
@@ -114,7 +156,13 @@ export const impression: Product[] = [
     specs: [{ label: "Mixing time", value: "30 sec" }, { label: "Working time", value: "2:00 min (longer, more time to load and seat the putty)" }, { label: "Setting time", value: "6:00 min" }, { label: "Detail reproduction", value: "20 µm (finer detail capture)" }, { label: "Elastic recovery", value: "98%" }],
     price: 7295,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/zhermack-zetalabor.webp",
+      alt: "Zetalabor product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gc-exabite-ii-nds-set-of-2",
@@ -127,7 +175,13 @@ export const impression: Product[] = [
     specs: [{ label: "Working time", value: "45sec" }, { label: "Minimum time to remove from mouth", value: "45 sec" }, { label: "Maximum strain in compression (%)*", value: "0.9" }, { label: "Recovery from deformation*", value: "99.6" }, { label: "Linear dimensional change (%)*", value: "0.10" }],
     price: 4200,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/gc-exabite-ii-nds-set-of-2.webp",
+      alt: "Exabite II Nds ( Set Of 2 ) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-bite-wafers-bite-registration-wax-2210-010",
@@ -140,7 +194,13 @@ export const impression: Product[] = [
     specs: [{ label: "Material", value: "Aluminum" }, { label: "Purpose", value: "Bite registration & orthodontic relief" }, { label: "Usage", value: "Direct technique for occlusion recording" }, { label: "Application", value: "Bite intermittently, 3–4 times daily" }],
     price: 700,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/maarc-bite-wafers-bite-registration-wax-2210-010.webp",
+      alt: "Bite Wafers Bite Registration Wax (2210/010) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mdm-bite-registration-wax",
@@ -153,7 +213,13 @@ export const impression: Product[] = [
     specs: [{ label: "Dimensional Stability", value: "Does not shrink or distort" }, { label: "Heating Temperature", value: "55°C" }, { label: "Softening Time", value: "Becomes dead soft in less than 1 minute" }, { label: "Adaptability", value: "Adapts to every detail" }, { label: "Setting Temperature", value: "Water or room temperature (27°C)" }],
     price: 145,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/mdm-bite-registration-wax.webp",
+      alt: "Bite Registration Wax product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-bite-rims-bite-registration-wax-2214-010",
@@ -166,7 +232,13 @@ export const impression: Product[] = [
     specs: [{ label: "Uses", value: "Occluding surfaces constructed on temporary or permanent denture bases" }, { label: "Material", value: "Wax" }, { label: "Color", value: "Yellow" }, { label: "Thickness", value: "1mm" }],
     price: 435,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/maarc-bite-rims-bite-registration-wax-2214-010.webp",
+      alt: "Bite Rims (Bite Registration Wax) (2214/010) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mik-bite-ai-bite-registration-wax-pack-of-2",
@@ -179,7 +251,13 @@ export const impression: Product[] = [
     specs: [{ label: "Material", value: "Aluminum-reinforced composite" }, { label: "Shape", value: "Trapezoidal blocks" }, { label: "Thickness", value: "7mm" }, { label: "Ideal for", value: "Full Mouth Rehabilitation, Quadrant Dentistry" }, { label: "Softening methods", value: "Microtorch gas flame, Hot water (55°C to 60°C)" }],
     price: 525,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/mik-bite-ai-bite-registration-wax-pack-of-2.webp",
+      alt: "Bite AI Bite Registration Wax (Pack of 2) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dpi-pinnacle-impression-compound-fp002",
@@ -192,7 +270,13 @@ export const impression: Product[] = [
     specs: [{ label: "Type", value: "Thermoplastic impression compound" }, { label: "Setting Type", value: "Heat-activated" }, { label: "Compatibility", value: "Compatible with a wide range of dental trays" }, { label: "Taste/Odor", value: "Pleasant flavor and low odor" }, { label: "Storage", value: "Store in a cool, dry place to maintain product integrity" }],
     price: 131,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/dpi-pinnacle-impression-compound-fp002.webp",
+      alt: "Pinnacle Impression Compound (FP002) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "samit-impression-compound",
@@ -205,6 +289,12 @@ export const impression: Product[] = [
     specs: [{ label: "Composition", value: "Resin, copal resin, carnauba wax." }, { label: "Elasticity", value: "High elasticity for accurate manipulations." }, { label: "Hydrophilicity", value: "Hydrophilic properties for enhanced accuracy." }, { label: "Tear Resistance", value: "Tear-resistant for durability." }, { label: "Storage Conditions", value: "Store in a cool, dry place away from direct sunlight." }],
     price: 125,
     visual: "impression",
-    image: null,
+    image: {
+      src: "/products/samit-impression-compound.webp",
+      alt: "Samit Impression Compound product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

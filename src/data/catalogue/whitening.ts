@@ -20,7 +20,13 @@ export const whitening: Product[] = [
     price: 1270,
     visual: "tube",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/prevest-florence-teeth-whitening-kit-1-patient.webp",
+      alt: "Prevest Florence Teeth Whitening Kit- 1 Patient product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sdi-polanight-16-advanced-tooth-whitening-kit",
@@ -34,7 +40,13 @@ export const whitening: Product[] = [
     price: 3647,
     visual: "tube",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/sdi-polanight-16-advanced-tooth-whitening-kit.webp",
+      alt: "Polanight 16% Advanced Tooth Whitening Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "purexa-teeth-whitening-purple-strips-7-treatments-and-v34-color",
@@ -47,7 +59,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Combo Contents", value: "5 strip packs + 5 whitening pens" }, { label: "Treatments per Pack", value: "7 treatments (14 strips)" }, { label: "Total Treatments", value: "35 whitening sessions" }, { label: "Whitening Technology", value: "V34 purple color correction" }, { label: "Peroxide Content", value: "Peroxide-free formulation" }],
     price: 5365,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/purexa-teeth-whitening-purple-strips-7-treatments-and-v34-color.webp",
+      alt: "Teeth Whitening Purple Strips 7 Treatments & V34 Color Corrector Purple Pen Combo (Pack of 5 Each) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "healix-inoffice-bleaching-machine",
@@ -61,7 +79,13 @@ export const whitening: Product[] = [
     price: 7029,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/healix-inoffice-bleaching-machine.webp",
+      alt: "Inoffice Bleaching Machine product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "septodont-detartrine",
@@ -75,7 +99,13 @@ export const whitening: Product[] = [
     price: 730,
     visual: "tube",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/septodont-detartrine.webp",
+      alt: "Detartrine product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-pro-paste-prophylaxis-paste-9002-090",
@@ -88,7 +118,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Material", value: "Gel" }, { label: "Packaging Type", value: "Jar" }, { label: "Flavour", value: "Mint" }, { label: "Usage", value: "Root Canal Preparation" }, { label: "Weight", value: "90g" }],
     price: 130,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/maarc-pro-paste-prophylaxis-paste-9002-090.webp",
+      alt: "Pro-Paste Prophylaxis Paste (9002/090) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "d-cult-pro-shine-prophylaxis-paste",
@@ -101,7 +137,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Material", value: "Gel" }, { label: "Color", value: "Blue" }, { label: "Packaging Type", value: "Jar" }, { label: "Weight", value: "50 gm" }, { label: "Flavour", value: "Cardamom" }],
     price: 120,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/d-cult-pro-shine-prophylaxis-paste.webp",
+      alt: "Pro - Shine Prophylaxis Paste product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "rubydent-rubyshine-prophylaxis-paste",
@@ -114,7 +156,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Composition", value: "Aluminium Oxide and excipients" }, { label: "Available Flavors", value: "Mint, Strawberry, Orange, Raspberry" }, { label: "Purpose", value: "Teeth polishing and cleaning" }, { label: "Usage", value: "Dental prophylaxis procedures" }],
     price: 520,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/rubydent-rubyshine-prophylaxis-paste.webp",
+      alt: "RubyShine Prophylaxis Paste product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-d-sense-desensitizing-gel",
@@ -127,7 +175,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Composition", value: "1.1% Natural Sodium fluoride" }, { label: "Treatment Doses per Tube", value: "6 doses" }, { label: "Gel Volume per Dose", value: "3ml" }, { label: "Gel Usage per Tray", value: "Approximately 0.5ml" }],
     price: 365,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/ammdent-d-sense-desensitizing-gel.webp",
+      alt: "D-Sense Desensitizing Gel product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-flurosolve-for-hypersensitivity",
@@ -140,7 +194,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Purpose", value: "Dental hypersensitivity relief and enamel fortification" }, { label: "Active Ingredient", value: "Fluorides" }, { label: "Action", value: "Dual-action - Inhibits microbial growth; Strengthens enamel structure" }, { label: "Application Method", value: "Topical application" }, { label: "Storage", value: "Store in a cool, dry place away from sunlight" }],
     price: 404,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/ammdent-flurosolve-for-hypersensitivity.webp",
+      alt: "Flurosolve (For Hypersensitivity) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "medicept-soloeze-densensitizing-agent",
@@ -153,7 +213,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Desensitizing Agent", value: "HEMA-free formulation" }, { label: "Targeted Use", value: "Alleviates enamel & dentinal hypersensitivity during fillings, cementing, and in sensitive cervical areas" }, { label: "Application Method", value: "Smartbrush for precise, hygienic application" }, { label: "Additional Benefits", value: "Antibacterial properties" }],
     price: 900,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/medicept-soloeze-densensitizing-agent.webp",
+      alt: "Soloeze Densensitizing Agent product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "tokuyama-shield-force-plus-light-cured-desensitizer-3ml",
@@ -166,7 +232,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Type", value: "Light-cured desensitizer" }, { label: "Volume", value: "3ml" }, { label: "Purpose", value: "Treatment of hypersensitive dentin" }, { label: "Composition", value: "Contains phosphoric acid monomer, Bis-GMA, triethylene glycol dimethacrylate, HEMA, camphorquinone, alcohol, and purified water." }, { label: "Indications", value: "Treatment of hypersensitive dentin, reduction of abrasion and erosion of exposed cervical dentin." }],
     price: 3601,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/tokuyama-shield-force-plus-light-cured-desensitizer-3ml.webp",
+      alt: "Shield Force Plus Light-Cured Desensitizer 3ml product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prime-dental-aster-compo-polishing-paste-for-composite-4gm",
@@ -179,7 +251,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Abrasive Type", value: "Alumina-based" }, { label: "Consistency", value: "Thixotropic" }, { label: "Formula", value: "Non-splattering" }, { label: "Texture", value: "Fine grit" }, { label: "Fragrance", value: "Mint-scented" }],
     price: 130,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/prime-dental-aster-compo-polishing-paste-for-composite-4gm.webp",
+      alt: "Prime Dental Aster Compo Polishing Paste For Composite 4gm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "diashine-lucida-composite-polishing-paste",
@@ -192,7 +270,13 @@ export const whitening: Product[] = [
     specs: [{ label: "Product Type", value: "Polishing Compound" }, { label: "Usage", value: "Chairside use for polishing composites and restorative materials" }, { label: "Water Solubility", value: "Completely water-soluble" }, { label: "Finish", value: "Provides a reliable final gloss" }],
     price: 4495,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/diashine-lucida-composite-polishing-paste.webp",
+      alt: "Lucida Composite Polishing Paste product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-glaze-paste-15gm",
@@ -205,6 +289,12 @@ export const whitening: Product[] = [
     specs: [{ label: "Product Type", value: "Dental glaze paste" }, { label: "Form", value: "Ready-to-use paste" }, { label: "Net Quantity", value: "15 grams" }, { label: "Application Area", value: "Final glaze finishing of restorations" }, { label: "Compatible Systems", value: "Metal, zirconia and Titanium restorations" }],
     price: 2625,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/labodent-glaze-paste-15gm.webp",
+      alt: "Glaze Paste 15gm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

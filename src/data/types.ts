@@ -53,11 +53,13 @@ export type ProductImage = {
   license: string;
   credit?: string;
   /**
-   * Whether the rights holder has actually said yes in writing. Only "granted"
-   * may ship: a sourced photograph whose permission is still pending stays in
-   * staging and the product keeps its illustration.
+   * Who authorised publication.
+   *  - "granted"        the brand itself said yes in writing
+   *  - "owner-approved" Tanvi approved publishing without brand permission on
+   *                     file; recorded so the distinction is never lost
+   *  - "pending"        nobody has authorised it; must stay in staging
    */
-  permission?: "granted" | "pending";
+  permission?: "granted" | "owner-approved" | "pending";
 };
 
 export type Product = {

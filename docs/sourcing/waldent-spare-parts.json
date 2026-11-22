@@ -1,0 +1,23 @@
+{
+ "brand": "Waldent Spare Parts",
+ "domain": "waldent.com",
+ "checked": "2026-11-21T22:49:37.690Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "waldent-chair-light-for-eezee-portable-dental-chair",
+   "name": "Waldent Chair Light For Eezee Portable Dental Chair",
+   "closest": null
+  },
+  {
+   "slug": "waldent-intraoral-camera-monitor-clamp",
+   "name": "Waldent Intraoral Camera Monitor Clamp",
+   "closest": null
+  },
+  {
+   "slug": "waldent-cord-for-intraoral-camera-smart-cam-with-pms",
+   "name": "Waldent Cord For Intraoral Camera Smart Cam with PMS",
+   "closest": null
+  }
+ ]
+}

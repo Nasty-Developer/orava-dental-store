@@ -20,7 +20,13 @@ export const consumables: Product[] = [
     price: 295,
     visual: "box",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/oro-opg-bite-block-sleeve-2-7-x-1-1.webp",
+      alt: "OPG bite block sleeve product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "zirc-pink-petal-saliva-ejector-attachment-pack-of-3",
@@ -34,7 +40,13 @@ export const consumables: Product[] = [
     price: 145,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/zirc-pink-petal-saliva-ejector-attachment-pack-of-3.webp",
+      alt: "Pink Petal Saliva Ejector Attachment (Pack of 3) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ivoclar-vivabrush-g-refill-50-pkg",
@@ -47,7 +59,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Application", value: "Varnishes, gels, sealants" }, { label: "Compatibility", value: "Brush holders" }, { label: "Disposable", value: "Yes" }, { label: "Attachment", value: "Easy attachment to brush holders" }],
     price: 1029,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/ivoclar-vivabrush-g-refill-50-pkg.webp",
+      alt: "Ivoclar VivaBrush G Refill (50/Pkg) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-applicator-tips-pack-of-10-9601-010",
@@ -61,7 +79,13 @@ export const consumables: Product[] = [
     price: 490,
     visual: "box",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/maarc-applicator-tips-pack-of-10-9601-010.webp",
+      alt: "Applicator Tips (Pack of 10) (9601/010) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "cotisen-micro-applicators-ultra-fine-black-pack-of-1",
@@ -75,7 +99,13 @@ export const consumables: Product[] = [
     price: 145,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/cotisen-micro-applicators-ultra-fine-black-pack-of-1.webp",
+      alt: "Micro Applicators- Ultra Fine Black (Pack of 1) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "cotisen-cotton-roll-clip-pack-of-5",
@@ -88,7 +118,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Material", value: "High-quality, durable, and non-reactive material for safety and longevity." }, { label: "Design", value: "Ergonomic design for easy handling and secure placement." }, { label: "Compatibility", value: "Accommodates various sizes of cotton rolls for versatility in use." }, { label: "Ease of Use", value: "Simple mechanism for quick placement and removal during procedures." }, { label: "Hygiene", value: "Easily cleanable and sterilizable to maintain infection control standards." }],
     price: 59,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/cotisen-cotton-roll-clip-pack-of-5.webp",
+      alt: "Cotton Roll Clip - Pack of 5 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "et-dental-cotton-holder",
@@ -101,7 +137,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Type", value: "Cotton Holder" }, { label: "Material", value: "Plastic" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Length", value: "Typically around 6-7 inches (varies by model)" }, { label: "Design", value: "Ergonomic handle" }],
     price: 130,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/et-dental-cotton-holder.webp",
+      alt: "Cotton Holder product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "et-dental-mixing-plate-8-wells-with-light-protector",
@@ -114,7 +156,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Number of Wells", value: "8" }, { label: "Light Protector", value: "Yes" }, { label: "Material", value: "Made of high-quality plastic." }, { label: "Usage", value: "Restoration,Laboratory" }, { label: "Integrated Light Protector", value: "Yes" }],
     price: 105,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/et-dental-mixing-plate-8-wells-with-light-protector.webp",
+      alt: "Mixing Plate 8 Wells With Light Protector product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "cotisen-alginate-mixing-spatula-plastic-pk-of-1",
@@ -127,7 +175,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Item Type", value: "Dental Plastic Alginate Spatula" }, { label: "Autoclave", value: "Upto 121℃." }, { label: "Specification", value: "195x32mm." }, { label: "Material", value: "Plastic" }, { label: "Colour", value: "Multicolour" }],
     price: 25,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/cotisen-alginate-mixing-spatula-plastic-pk-of-1.webp",
+      alt: "Alginate Mixing Spatula Plastic pk of 1 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "et-dental-alginate-mixing-spatula-plastic",
@@ -140,7 +194,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Item Type", value: "Dental Plastic Alginate Spatula" }, { label: "Autoclave", value: "Upto 121℃." }, { label: "Specification", value: "185x33mm." }, { label: "Material", value: "Plastic" }, { label: "Colour", value: "Multicolour" }],
     price: 25,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/et-dental-alginate-mixing-spatula-plastic.webp",
+      alt: "Alginate Mixing Spatula Plastic product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "polydentia-vista-tec-protective-face-shields-with-frame",
@@ -153,7 +213,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Shield size", value: "230×162 mm" }, { label: "Frame", value: "Lightweight and durable material for comfortable long-term wear" }, { label: "Shields", value: "Premium optical quality polycarbonate for clear and relaxed vision" }],
     price: 4685,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/polydentia-vista-tec-protective-face-shields-with-frame.webp",
+      alt: "Vista-Tec Protective Face Shields With Frame product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-cotton-holder-accessories-ach",
@@ -166,7 +232,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Type", value: "Cotton Holder" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 885,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/gdc-cotton-holder-accessories-ach.webp",
+      alt: "Cotton Holder Accessories (ACH) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "3m-disposable-2-hole-mixing-wells-pack-of-5",
@@ -179,7 +251,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Material", value: "High-quality plastic" }, { label: "Configuration", value: "2 holes for separate material mixing" }, { label: "Quantity", value: "Disposable, single-use" }],
     price: 109,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/3m-disposable-2-hole-mixing-wells-pack-of-5.webp",
+      alt: "Disposable 2 Hole Mixing Wells (Pack of 5) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-nitrile-examination-gloves-black-pack-of-80",
@@ -192,7 +270,13 @@ export const consumables: Product[] = [
     specs: [{ label: "Material", value: "Nitrile (Acrylonitrile-butadiene rubber)" }, { label: "Colour", value: "Natural BLACK" }, { label: "Sizes", value: "Extra Small (XL), Small (S), Medium (M), Large (L), Extra Large (XL)" }, { label: "Design", value: "Textured and Ambidextrous" }, { label: "Cuff", value: "Rolled Rim" }],
     price: null,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/waldent-nitrile-examination-gloves-black-pack-of-80.webp",
+      alt: "Waldent Nitrile Examination Gloves- Black (Pack of 80) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "agarwals-premium-sterile-combine-dressing-surgical-pads-10cm-x",
@@ -205,6 +289,12 @@ export const consumables: Product[] = [
     specs: [{ label: "Fabric", value: "Absorbent Cotton (Non-Woven)" }, { label: "Size", value: "10 x 10 cm" }, { label: "Available", value: "Pack of 3,5,10&20" }, { label: "Purpose", value: "For wounds and hygiene" }, { label: "Sterile", value: "Yes" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/agarwals-premium-sterile-combine-dressing-surgical-pads-10cm-x.webp",
+      alt: "Agarwals Premium Sterile Combine Dressing Surgical Pads 10cm x 10cm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

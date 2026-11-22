@@ -20,7 +20,13 @@ export const anaesthetics: Product[] = [
     price: 2228,
     visual: "carpule",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/septodont-lignospan-special-50-cartridges.webp",
+      alt: "Lignospan Special (50 cartridges) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-double-ended-palatal-anesthesia-tool-pat",
@@ -34,7 +40,13 @@ export const anaesthetics: Product[] = [
     price: 1995,
     visual: "carpule",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/julldent-double-ended-palatal-anesthesia-tool-pat.webp",
+      alt: "Julldent Double-Ended Palatal Anesthesia Tool (PAT) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sandika-pharma-gee-x-pain-relieving-gel-pack-of-10",
@@ -47,7 +59,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Active Ingredients", value: "20% Benzocaine, 0.2% Chlorhexidine" }, { label: "Usage", value: "Treats mouth ulcers, pain relief" }, { label: "Application", value: "Apply directly, reapply every 3-4 hours" }, { label: "Storage", value: "Store below 30°C" }, { label: "Side Effects", value: "Minimal or no side effects" }],
     price: 870,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/sandika-pharma-gee-x-pain-relieving-gel-pack-of-10.webp",
+      alt: "Gee - X Pain Relieving Gel (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "d-cult-benz-o-topical-anesthetic-gel",
@@ -61,7 +79,13 @@ export const anaesthetics: Product[] = [
     price: 279,
     visual: "carpule",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/d-cult-benz-o-topical-anesthetic-gel.webp",
+      alt: "Benz O Topical Anesthetic Gel product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-arti-prick-cartridges",
@@ -75,7 +99,13 @@ export const anaesthetics: Product[] = [
     price: 1665,
     visual: "carpule",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-arti-prick-cartridges.webp",
+      alt: "Arti Prick Cartridges product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hmd-unolok-syringe-5ml-26-gauge-1-5-inch-needle",
@@ -88,7 +118,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Type", value: "Syringe" }, { label: "Category", value: "General Dentistry" }, { label: "Needle Size", value: "0.45x38mm/26x1.5 inch" }, { label: "Gauge Size", value: "26g" }, { label: "Reusable/Disposable", value: "Disposable" }],
     price: 344,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/hmd-unolok-syringe-5ml-26-gauge-1-5-inch-needle.webp",
+      alt: "Unolok Syringe 5ml | 26 Gauge | 1.5 Inch Needle product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hmd-unolok-syringe-5ml-27-gauge-1-5-inch-needle",
@@ -101,7 +137,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Type", value: "Syringe" }, { label: "Category", value: "General Dentistry" }, { label: "Needle Size", value: "0.40x38mm/27x1.5 inch" }, { label: "Gauge Size", value: "27g" }, { label: "Reusable/Disposable", value: "Disposable" }],
     price: 364,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/hmd-unolok-syringe-5ml-27-gauge-1-5-inch-needle.webp",
+      alt: "Unolok Syringe 5ml | 27 Gauge | 1.5 Inch Needle product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hmd-unolok-syringe-5ml-24-gauge-1-inch-needle",
@@ -114,7 +156,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Type", value: "Syringe" }, { label: "Category", value: "General Dentistry" }, { label: "Needle Size", value: "0.55x25mm/24x1 inch" }, { label: "Gauge Size", value: "24g" }, { label: "Reusable/Disposable", value: "Disposable" }],
     price: 330,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/hmd-unolok-syringe-5ml-24-gauge-1-inch-needle.webp",
+      alt: "Unolok Syringe 5ml | 24 Gauge | 1 Inch Needle product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-star-pen",
@@ -127,7 +175,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "2 speed modes", value: "High Speed, Low Speed" }, { label: "2 aspiration modes", value: "Auto aspiration, Manual aspiration" }, { label: "Lithium battery in charging base", value: "3.7V /2000mAh" }, { label: "Lithium battery in handpiece", value: "3.7V /200mAh" }, { label: "Input Powe", value: "~100V-240V 50Hz/60Hz 0.4A Max" }],
     price: 23495,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/woodpecker-star-pen.webp",
+      alt: "Star Pen product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentalvibe-painless-injection-device-vibe4",
@@ -140,7 +194,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Tip Design", value: "Two-pronged Flexible-Comfort Tip with neoprene-covered arms." }, { label: "Illumination", value: "Integrated LED light for enhanced visibility." }, { label: "Power", value: "Cordless and handheld design for portability." }, { label: "Compatibility", value: "Suitable for use with any anesthetic syringe." }, { label: "Technology", value: "Generation 4 DentalVibe unit for advanced features." }],
     price: 52500,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/dentalvibe-painless-injection-device-vibe4.webp",
+      alt: "Painless Injection Device (VIBE4) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "flexi-tips-for-dentalvibe-injection-comfort-system-gen4tip-pack",
@@ -153,7 +213,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Application", value: "Tailored for Mandibular and Posterior injections." }, { label: "Integration", value: "Easily attaches to DentalVibe unit." }, { label: "Technology", value: "Uses distraction techniques for anxiety reduction." }, { label: "Precision", value: "Facilitates precise, controlled injections." }, { label: "Comfort", value: "Engineered for patient comfort." }],
     price: 8610,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/flexi-tips-for-dentalvibe-injection-comfort-system-gen4tip-pack.webp",
+      alt: "Flexi Tips For DentalVibe Injection Comfort System (GEN4TIP) - Pack of 50 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-gel-topical-anaesthetic",
@@ -166,7 +232,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Formulation", value: "Gel-based topical anaesthetic" }, { label: "Concentration", value: "Typically around 2-5% for effective numbness" }, { label: "Application", value: "Suitable for mucosal surfaces in the oral cavity" }, { label: "Composition", value: "Benzocaine I.P. 20% W/W in water-miscible Base" }],
     price: null,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-gel-topical-anaesthetic.webp",
+      alt: "Gel Topical Anaesthetic product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-dental-syringe-non-aspirating",
@@ -179,7 +251,13 @@ export const anaesthetics: Product[] = [
     specs: [{ label: "Instrument Name", value: "Non-Aspirating Syringe" }, { label: "Type", value: "Dental Surgical Instrument" }, { label: "Category", value: "Oral Surgery" }, { label: "Size", value: "1.8ml, 2.2ml" }, { label: "Material", value: "Stainless Steel" }],
     price: null,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/oracraft-dental-syringe-non-aspirating.webp",
+      alt: "Dental Syringe Non Aspirating product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dr-morepen-ligno-one-2-jelly-pack-of-10",
@@ -192,6 +270,12 @@ export const anaesthetics: Product[] = [
     specs: [],
     price: 335,
     visual: "carpule",
-    image: null,
+    image: {
+      src: "/products/dr-morepen-ligno-one-2-jelly-pack-of-10.webp",
+      alt: "Dr.Morepen Ligno One 2% Jelly (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

@@ -20,7 +20,13 @@ export const orthodontics: Product[] = [
     price: 762,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-orthodontic-tweed-loop-forming-pliers-10-107.webp",
+      alt: "Orthodontic Tweed Loop Forming Pliers 10/107 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-ortho-self-ligating-brackets-mbt-0-022-hk-3-4-5",
@@ -34,7 +40,13 @@ export const orthodontics: Product[] = [
     price: 1980,
     visual: "bracket",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-ortho-self-ligating-brackets-mbt-0-022-hk-3-4-5.webp",
+      alt: "Self Ligating Brackets MBT 0.022 HK 3-4-5 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-distal-bending-instrument-75-0mm-55-0mm-2815",
@@ -47,7 +59,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Type", value: "Wire Bending Instrument" }, { label: "Category", value: "Orthodontics Instruments" }, { label: "Material", value: "Stainless Steel" }, { label: "Corrosion resistance", value: "Yes" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: 1040,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/gdc-distal-bending-instrument-75-0mm-55-0mm-2815.webp",
+      alt: "Distal Bending Instrument 75.0mm/ 55.0mm (2815) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "osl-wire-cincher-distal-end-bending-instrument",
@@ -61,7 +79,13 @@ export const orthodontics: Product[] = [
     price: 900,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/osl-wire-cincher-distal-end-bending-instrument.webp",
+      alt: "Wire Cincher / Distal End Bending Instrument product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "u-ortho-separators",
@@ -75,7 +99,13 @@ export const orthodontics: Product[] = [
     price: 270,
     visual: "bracket",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/u-ortho-separators.webp",
+      alt: "U Ortho Separators product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "osl-ss-kobayashi-ligature-ties-short-0-010-pack-of-100",
@@ -88,7 +118,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Type", value: "Short" }, { label: "Size", value: "0.010" }, { label: "Material", value: "Stainless Steel" }, { label: "Application", value: "Orthodontic Ligation over Brackets" }],
     price: 1700,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/osl-ss-kobayashi-ligature-ties-short-0-010-pack-of-100.webp",
+      alt: "SS Kobayashi Ligature Ties - Short 0.010 (Pack Of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "u-ortho-double-sided-stainless-steel-photographic-mirrors",
@@ -101,7 +137,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel" }, { label: "Design", value: "Double-sided with angulated mirrors" }, { label: "Size", value: "Various sizes available to suit different needs" }, { label: "Surface Finish", value: "Polished" }, { label: "Weight", value: "Lightweight" }],
     price: null,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/u-ortho-double-sided-stainless-steel-photographic-mirrors.webp",
+      alt: "U Ortho Double Sided Stainless Steel Photographic Mirrors Angulated product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "uu-ortho-self-ligating-bracket-instruments",
@@ -114,7 +156,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless Steel" }, { label: "Autoclavable", value: "Yes" }, { label: "Type", value: "Self-ligating bracket opener (orthodontic hand instrument)" }, { label: "Design", value: "Slim tips" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/uu-ortho-self-ligating-bracket-instruments.webp",
+      alt: "UU Ortho Self Ligating Bracket Instruments product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "u-ortho-vacuum-forming-splint-sheets-hard",
@@ -127,7 +175,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Thickness", value: "1mm, 1.5mm, 2mm" }, { label: "Material", value: "PET-G" }, { label: "Shapes", value: "Round (125mm), Square (127 x 127mm)" }, { label: "Color", value: "Translucent" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/u-ortho-vacuum-forming-splint-sheets-hard.webp",
+      alt: "U Ortho Vacuum Forming Splint Sheets - Hard product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "uu-ortho-preformed-ligature-wire-15-5cm-pack-of-100",
@@ -140,7 +194,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Product Type", value: "Preformed Orthodontic Ligature Wire" }, { label: "Length", value: "15.5 cm" }, { label: "Material", value: "Stainless steel" }, { label: "Form", value: "Pre-cut and preformed" }, { label: "Packaging", value: "Pack of 100 wires" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/uu-ortho-preformed-ligature-wire-15-5cm-pack-of-100.webp",
+      alt: "UU Ortho Preformed Ligature Wire 15.5cm (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "orthometric-ss-orthodontic-stops",
@@ -153,7 +213,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Function", value: "Archwire Stopper" }, { label: "Material", value: "Stainless Steel" }, { label: "Placement", value: "Crimp-On Type" }, { label: "Size Range", value: "Universal Fit" }, { label: "Use", value: "Torque Control" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/orthometric-ss-orthodontic-stops.webp",
+      alt: "SS Orthodontic Stops product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "osl-beta-3-titanium-cna-mushroom-loop-archwires-pack-of-5",
@@ -166,7 +232,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Material", value: "Beta titanium alloy" }, { label: "Nickel Content", value: "Nickel-free composition" }, { label: "Loop Design", value: "Mushroom loop shape" }, { label: "Wire Sizes", value: "0.016x0.022, 0.017x0.025 inches" }, { label: "Lengths", value: "24mm to 44mm" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/osl-beta-3-titanium-cna-mushroom-loop-archwires-pack-of-5.webp",
+      alt: "Beta 3 Titanium CNA Mushroom Loop Archwires (Pack Of 5) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "orthometric-elastomerics-modular-ligatures",
@@ -179,7 +251,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Type", value: "Elastomeric Modular Ligature" }, { label: "Material", value: "High-quality elastomer for durability and elasticity" }, { label: "Elasticity", value: "Excellent elasticity, maintaining force over extended periods" }, { label: "Design", value: "Unique design for easy application and fitting to bracket wings" }, { label: "Color Options", value: "Crystal,Gray,Silver" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/orthometric-elastomerics-modular-ligatures.webp",
+      alt: "Elastomerics Modular Ligatures product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "orthometric-elastomerics-intraoral-latex-elastic-pack-of-100-i",
@@ -192,7 +270,13 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Material", value: "High-quality surgical latex" }, { label: "Pack Size", value: "100 elastics" }, { label: "Calibrated Forces", value: "Available in light, medium, and heavy" }, { label: "Sizes", value: "Includes 1/4\", 1/8\", 3/16\", and 5/16\"" }, { label: "Shape Memory", value: "Excellent for consistent force delivery" }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/orthometric-elastomerics-intraoral-latex-elastic-pack-of-100-i.webp",
+      alt: "Elastomerics Intraoral Latex Elastic (Pack of 100) I One Free Elastic Inserter product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "phyx-elastic-ligature-ties",
@@ -205,6 +289,12 @@ export const orthodontics: Product[] = [
     specs: [{ label: "Material", value: "Made from high-quality elastic material for durability and flexibility." }, { label: "Color Variety", value: "Offered in a range of colors for aesthetic customization in orthodontic treatments." }, { label: "Stretch Resistance", value: "Designed to maintain elasticity and resist stretching for consistent performance." }, { label: "Ease of Use", value: "Simple application process for orthodontists, ensuring efficient bonding and removal." }, { label: "Compatibility", value: "Suitable for use with various orthodontic appliances and brackets." }],
     price: null,
     visual: "bracket",
-    image: null,
+    image: {
+      src: "/products/phyx-elastic-ligature-ties.webp",
+      alt: "Phyx Elastic Ligature Ties product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

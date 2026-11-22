@@ -20,7 +20,13 @@ export const pedodontics: Product[] = [
     price: 7705,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-pedodontic-extraction-forceps-kit-premium-set-of-7-k1-9.webp",
+      alt: "Pedodontic Extraction Forceps Kit - Premium (set of 7) K1/9 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "u-ortho-1st-molar-space-maintainer-10set-box",
@@ -34,7 +40,13 @@ export const pedodontics: Product[] = [
     price: 2460,
     visual: "crown",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/u-ortho-1st-molar-space-maintainer-10set-box.webp",
+      alt: "U Ortho 1st Molar Space Maintainer (10Set/box) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "u-ortho-2nd-molar-space-maintainer-10set-box",
@@ -47,7 +59,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel wires and bands." }, { label: "Quantity", value: "10 sets per box." }, { label: "Application", value: "Used to retain space after the loss of an upper second molar." }, { label: "Attachment", value: "Secures to adjacent teeth using dental cement or bonding agents." }, { label: "Purpose", value: "Prevents neighboring teeth from shifting, maintaining proper spacing for future tooth eruption." }],
     price: 2460,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/u-ortho-2nd-molar-space-maintainer-10set-box.webp",
+      alt: "U Ortho 2nd Molar Space Maintainer (10Set/box) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "tor-vm-transparent-crowns-40-pcs-premolar-no-1-911p",
@@ -61,7 +79,13 @@ export const pedodontics: Product[] = [
     price: 795,
     visual: "crown",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/tor-vm-transparent-crowns-40-pcs-premolar-no-1-911p.webp",
+      alt: "Transparent Crowns 40 pcs - Premolar No. 1.911P product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "pedo-crown-permanent-1st-molar-kits",
@@ -74,7 +98,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Flexural Strength", value: "≥190 Mpa" }, { label: "Flexural Modulus", value: "≥4.2 Gpa" }, { label: "Compressive Strength", value: "≥320 Mpa" }, { label: "Water Sorption", value: "3-4.5 ug/mm³" }, { label: "Water Solubility", value: "0.5-1.8 ug/mm³" }],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/pedo-crown-permanent-1st-molar-kits.webp",
+      alt: "Permanent 1st Molar Kits product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "pedo-crown-primary-molar-mini-kits",
@@ -87,7 +117,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Flexural Strength", value: "≥190 Mpa" }, { label: "Flexural Modulus", value: "≥4.2 Gpa" }, { label: "Compressive Strength", value: "≥320 Mpa" }, { label: "Water Sorption", value: "3-4.5 ug/mm³" }, { label: "Water Solubility", value: "0.5-1.8 ug/mm³" }],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/pedo-crown-primary-molar-mini-kits.webp",
+      alt: "Primary Molar Mini Kits product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "3m-espe-stainless-steel-primary-crown-e-2nd-molar",
@@ -100,7 +136,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Arch", value: "Lower, Upper" }, { label: "Dentition", value: "Primary" }, { label: "Number of Crowns", value: "5" }, { label: "Patient", value: "Pediatric" }, { label: "Side", value: "Left , Right" }],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/3m-espe-stainless-steel-primary-crown-e-2nd-molar.webp",
+      alt: "Stainless Steel Primary Crown E( 2nd Molar) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "3m-espe-ss-crown-permanent-molar-intro-kit-po96",
@@ -113,7 +155,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Variety of Shapes and Sizes", value: "Wide array of sizes and shapes" }, { label: "Material", value: "High-quality stainless steel" }],
     price: 33366,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/3m-espe-ss-crown-permanent-molar-intro-kit-po96.webp",
+      alt: "Ss Crown Permanent Molar - Intro Kit Po96 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-caries-detector",
@@ -126,7 +174,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Must be stored at 2", value: "25°C / 36 - 77°F" }],
     price: 125,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/waldent-caries-detector.webp",
+      alt: "Caries Detector product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kuraray-caries-detector",
@@ -139,7 +193,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Must be stored at 2", value: "25°C / 36 - 77°F" }],
     price: 3930,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/kuraray-caries-detector.webp",
+      alt: "Caries Detector product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-fissureseal-pit-and-fissure-sealant-lc",
@@ -152,7 +212,13 @@ export const pedodontics: Product[] = [
     specs: [],
     price: 335,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/waldent-fissureseal-pit-and-fissure-sealant-lc.webp",
+      alt: "FissureSeal Pit & Fissure Sealant LC product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-v-carie-solve",
@@ -165,7 +231,13 @@ export const pedodontics: Product[] = [
     specs: [],
     price: 549,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-v-carie-solve.webp",
+      alt: "V‐ CARIE‐ SOLVE product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "tor-vm-transparent-crowns",
@@ -178,7 +250,13 @@ export const pedodontics: Product[] = [
     specs: [{ label: "Material", value: "Resin" }, { label: "Color", value: "Transparent" }],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/tor-vm-transparent-crowns.webp",
+      alt: "Transparent Crowns product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "3m-espe-pedodontic-strip-crown-kit",
@@ -191,7 +269,13 @@ export const pedodontics: Product[] = [
     specs: [],
     price: 22487,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/3m-espe-pedodontic-strip-crown-kit.webp",
+      alt: "Pedodontic Strip Crown Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kids-e-crown-anterior-master-kit-universal-canines-and-incisors",
@@ -204,6 +288,12 @@ export const pedodontics: Product[] = [
     specs: [],
     price: null,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/kids-e-crown-anterior-master-kit-universal-canines-and-incisors.webp",
+      alt: "Kids-e-Crown Anterior Master Kit -Universal Canines & Incisors product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

@@ -20,7 +20,13 @@ export const burs: Product[] = [
     price: 4395,
     visual: "bur",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/abrasive-tech-stainbuster-burs-for-cement-and-stain-removal.webp",
+      alt: "Abrasive Tech Stainbuster Burs For Cement & Stain Removal product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "youdent-diamond-polishers-kit-for-zirconia-hp-th1031",
@@ -34,7 +40,13 @@ export const burs: Product[] = [
     price: 3279,
     visual: "bur",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/youdent-diamond-polishers-kit-for-zirconia-hp-th1031.webp",
+      alt: "Diamond Polishers Kit For Zirconia HP (TH1031) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prima-dental-needle-bur-fg-pack-of-5-burs-859-016",
@@ -47,7 +59,13 @@ export const burs: Product[] = [
     specs: [{ label: "Type", value: "Needle Bur FG (Friction Grip)" }, { label: "Shape", value: "Needle" }, { label: "Shank Type", value: "FG - Friction Grip" }, { label: "Grit & Color", value: "Medium (Blue)" }, { label: "Material", value: "High-quality stainless steel shank" }],
     price: 325,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/prima-dental-needle-bur-fg-pack-of-5-burs-859-016.webp",
+      alt: "Needle Bur FG (Pack Of 5 Burs) 859 (016) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "youdent-ceramic-polishing-assorted-kit-hp-th0206",
@@ -61,7 +79,13 @@ export const burs: Product[] = [
     price: 2815,
     visual: "bur",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/youdent-ceramic-polishing-assorted-kit-hp-th0206.webp",
+      alt: "Ceramic Polishing Assorted Kit HP (TH0206) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "youdent-diamond-polishers-kit-for-pre-polishing-tr1021",
@@ -75,7 +99,13 @@ export const burs: Product[] = [
     price: 2345,
     visual: "bur",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/youdent-diamond-polishers-kit-for-pre-polishing-tr1021.webp",
+      alt: "Diamond Polishers Kit For Pre - Polishing (TR1021) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prima-dental-lindemann-cross-cut-straight-handpiece-bur-162",
@@ -88,7 +118,13 @@ export const burs: Product[] = [
     specs: [{ label: "Type", value: "Lindemann Cross Cut Bur" }, { label: "Application", value: "Bone cutting" }, { label: "Material", value: "Tungsten carbide" }, { label: "Shank Type", value: "HP (Handpiece)" }, { label: "Head lenght (mm)", value: "10" }],
     price: 2100,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/prima-dental-lindemann-cross-cut-straight-handpiece-bur-162.webp",
+      alt: "Lindemann Cross Cut Straight Handpiece Bur -162 (Pack of 5) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ss-white-carbide-sl-flat-end-cross-cut-airotor-burs-fg-558-pack",
@@ -101,7 +137,13 @@ export const burs: Product[] = [
     specs: [{ label: "Product Type", value: "Surgical Carbide Bur" }, { label: "Bur Number", value: "FG #558" }, { label: "Design", value: "Flat End Cross Cut" }, { label: "Material", value: "Tungsten Carbide" }, { label: "Shank Type", value: "FG (Friction Grip)" }],
     price: 2835,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/ss-white-carbide-sl-flat-end-cross-cut-airotor-burs-fg-558-pack.webp",
+      alt: "SS White Carbide SL Flat End Cross Cut Airotor Burs FG #558 (Pack Of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ss-white-round-finishing-bur-12-blades-7008-pack-of-10",
@@ -114,7 +156,13 @@ export const burs: Product[] = [
     specs: [{ label: "Product Type", value: "Finishing Carbide Bur" }, { label: "Bur Shape", value: "Round" }, { label: "Bur Number", value: "#7008" }, { label: "Blade Configuration", value: "12 Blades" }, { label: "Material", value: "Tungsten Carbide" }],
     price: 7750,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/ss-white-round-finishing-bur-12-blades-7008-pack-of-10.webp",
+      alt: "SS White Round Finishing Bur-12 Blades #7008 (Pack Of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prima-dental-needle-bur-fg-pack-of-5-burs-859-010",
@@ -127,7 +175,13 @@ export const burs: Product[] = [
     specs: [{ label: "Type", value: "Needle Bur FG (Friction Grip)" }, { label: "Shape", value: "Needle" }, { label: "Shank Type", value: "FG - Friction Grip" }, { label: "Grit & Color", value: "Medium (Blue)" }, { label: "Material", value: "High-quality stainless steel shank" }],
     price: 309,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/prima-dental-needle-bur-fg-pack-of-5-burs-859-010.webp",
+      alt: "Needle Bur FG (Pack Of 5 Burs) 859 (010) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "3m-espe-sof-lex-extra-thin-polishing-discs-intro-kit",
@@ -140,7 +194,13 @@ export const burs: Product[] = [
     specs: [{ label: "Disc Thickness", value: "Extra-thin profile for improved access and contouring" }, { label: "Abrasive Type", value: "Aluminum oxide for controlled and effective polishing" }, { label: "Grit System", value: "Color-coded sequence for stepwise finishing and polishing" }, { label: "Compatibility", value: "Designed for use with standard dental mandrels" }, { label: "Application Area", value: "Suitable for composite and resin restorations" }],
     price: 9205,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/3m-espe-sof-lex-extra-thin-polishing-discs-intro-kit.webp",
+      alt: "Sof-Lex Extra Thin Polishing Discs Intro Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "pivo-micromotor-burs-kit-contra-angle-handpiece-set-of-4",
@@ -153,7 +213,13 @@ export const burs: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel with diamond coating" }, { label: "Compatibility", value: "Micromotors" }, { label: "Kit Includes", value: "4 burs (CA-08, CA-09, CA-10)" }, { label: "Grit", value: "Standard" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/pivo-micromotor-burs-kit-contra-angle-handpiece-set-of-4.webp",
+      alt: "Micromotor Burs Kit - Contra-Angle Handpiece (Set Of 4) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "frank-dental-flame-ogival-fg-diamond-burs-fo-series-fine",
@@ -166,7 +232,13 @@ export const burs: Product[] = [
     specs: [{ label: "Shape", value: "Flame ogival head" }, { label: "Shank Type", value: "Friction Grip (FG)" }, { label: "Material", value: "Stainless steel working part coated with fine diamond crystals" }, { label: "Compatibility", value: "Airotor" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/frank-dental-flame-ogival-fg-diamond-burs-fo-series-fine.webp",
+      alt: "Flame Ogival FG Diamond Burs FO Series (Fine) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentsply-endo-access-airotor-bur",
@@ -179,7 +251,13 @@ export const burs: Product[] = [
     specs: [{ label: "Type", value: "Endodontic Bur" }, { label: "Material", value: "Tungsten Carbide" }, { label: "Shank Type", value: "Friction grip" }, { label: "Cutting Edge Design", value: "rounded cutting edge" }, { label: "Total length", value: "21 mm" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/dentsply-endo-access-airotor-bur.webp",
+      alt: "Endo Access Airotor Bur product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "frank-dental-straight-ogival-fg-diamond-burs-so-series-regular",

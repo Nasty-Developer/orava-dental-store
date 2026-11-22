@@ -1,0 +1,35 @@
+{
+ "brand": "OrthoMetric",
+ "domain": "orthometric.com.br",
+ "checked": "2026-11-21T22:49:10.874Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "orthometric-ss-orthodontic-stops",
+   "name": "SS Orthodontic Stops",
+   "closest": {
+    "title": "Stops",
+    "page": "https://orthometric.com.br/produtos/stops/",
+    "score": 0.2
+   }
+  },
+  {
+   "slug": "orthometric-elastomerics-modular-ligatures",
+   "name": "Elastomerics Modular Ligatures",
+   "closest": {
+    "title": "Ligadura Modular",
+    "page": "https://orthometric.com.br/produtos/ligadura-modular/",
+    "score": 0.2
+   }
+  },
+  {
+   "slug": "orthometric-elastomerics-intraoral-latex-elastic-pack-of-100-i",
+   "name": "Elastomerics Intraoral Latex Elastic (Pack of 100) I One Free Elastic Inserter",
+   "closest": {
+    "title": "Flexy NiTi Super Elastic",
+    "page": "https://orthometric.com.br/produtos/flexy-niti-super-elastic/",
+    "score": 0.086
+   }
+  }
+ ]
+}

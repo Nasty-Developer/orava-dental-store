@@ -20,7 +20,13 @@ export const oralSurgery: Product[] = [
     price: 396000,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/nsk-variosurg-3-fiber-optic-piezoelectric-surgery-unit-y1002726.webp",
+      alt: "VarioSurg 3 Fiber Optic Piezoelectric Surgery Unit (Y1002726) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-surgic-smart-piezosurgery-unit",
@@ -34,7 +40,13 @@ export const oralSurgery: Product[] = [
     price: 265825,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/woodpecker-surgic-smart-piezosurgery-unit.webp",
+      alt: "Surgic Smart Piezosurgery Unit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-ultra-surgery-x",
@@ -47,7 +59,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Dimension", value: "276mm x 267mm x 110mm" }, { label: "Intermittent Running Device", value: "Intermittent Running with 10s pause after 60s operation" }, { label: "Water Flow", value: "25~ 110ml/m" }, { label: "Power", value: "70W" }, { label: "Mains Voltage", value: "100-240V" }],
     price: 181995,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/woodpecker-ultra-surgery-x.webp",
+      alt: "Ultra Surgery X product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-oral-surgical-impaction-kit-set-of-21-k9-2",
@@ -61,7 +79,13 @@ export const oralSurgery: Product[] = [
     price: 8384,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-oral-surgical-impaction-kit-set-of-21-k9-2.webp",
+      alt: "Oral Surgical Impaction Kit Set of 21 (K9/2) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-sonic-pneumatic-elevator-kit-204",
@@ -75,7 +99,13 @@ export const oralSurgery: Product[] = [
     price: 17900,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/julldent-sonic-pneumatic-elevator-kit-204.webp",
+      alt: "Julldent Sonic Pneumatic Elevator Kit # 204 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hn-dental-root-buddy-root-remover-system-pack-of-3",
@@ -88,7 +118,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Diameter", value: "1mm Size" }, { label: "Lengths Available", value: "25mm, 30mm, 40mm" }, { label: "Material", value: "Stainless Steel" }, { label: "Application Area", value: "Root Tip Removal" }, { label: "Design Feature", value: "Tapered Drill Tip" }],
     price: 1800,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/hn-dental-root-buddy-root-remover-system-pack-of-3.webp",
+      alt: "Root - Buddy Root Remover System (Pack Of 3) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "lm-rootout-instrument-for-root-removal",
@@ -101,7 +137,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Instrument Type", value: "Root Luxator Pick" }, { label: "Blade Design", value: "Slim Curved Tip" }, { label: "Handle Type", value: "LM-ErgoTouch Grip" }, { label: "Material", value: "LM-DuraGradeMAX® Steel" }, { label: "Surface Texture", value: "Non-slip Surface" }],
     price: 6595,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/lm-rootout-instrument-for-root-removal.webp",
+      alt: "LM-RootOut|Instrument For Root Removal product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-root-extractor-handle-2-0-4x-strength-jull-dent-185",
@@ -114,7 +156,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Instrument Type", value: "Root Extractor" }, { label: "Tip Size", value: "2.0 mm" }, { label: "Strength Type", value: "4x Tip" }, { label: "Weight", value: "20grams" }, { label: "Material Tip", value: "Stainless Steel" }],
     price: 2495,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/julldent-root-extractor-handle-2-0-4x-strength-jull-dent-185.webp",
+      alt: "Julldent Root Extractor Handle 2.0 - 4x Strength (JULL-DENT 185) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gii-dental-luxators-multicolor-set-of-8",
@@ -127,7 +175,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Instrument Name", value: "Luxators" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Latex / Latex", value: "free: Latex Free" }],
     price: 3370,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gii-dental-luxators-multicolor-set-of-8.webp",
+      alt: "GII Dental Luxators - Multicolor (Set Of 8) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-root-elevators-set-of-9-in-pouch-premium-repp9",
@@ -140,7 +194,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Type", value: "Root Elevators" }, { label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Rust Free", value: "Corrosion Resistant: Passivated" }],
     price: 7988,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-root-elevators-set-of-9-in-pouch-premium-repp9.webp",
+      alt: "Root Elevators Set Of 9 In Pouch Premium (Repp9) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-root-elevators-warwick-james-set-of-3-ewjs3",
@@ -153,7 +213,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Rust Free", value: "Corrosion Resistant: Passivated" }, { label: "Disinfection", value: "Autoclavble" }],
     price: 1412,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-root-elevators-warwick-james-set-of-3-ewjs3.webp",
+      alt: "Root Elevators Warwick James Set Of 3 (Ewjs3) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-hemostats-kelly-curved-14cm-h2",
@@ -166,7 +232,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Type", value: "Hemostat" }, { label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Length", value: "14cm Curved" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 405,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-hemostats-kelly-curved-14cm-h2.webp",
+      alt: "Hemostats Kelly Curved - (14cm) (H2) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-hemostatic-liquid",
@@ -179,7 +251,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Formulation", value: "Sterile, liquid hemostatic agent designed for dental use." }, { label: "Volume", value: "Typically available in 15ml or 30ml bottles." }, { label: "Composition", value: "Contains active ingredients such as ferric sulfate or similar compounds for effective coagulation." }],
     price: 130,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-hemostatic-liquid.webp",
+      alt: "Hemostatic Liquid product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ethicon-mersilk-2-0-black-braided-suture",
@@ -192,7 +270,13 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Colour", value: "Black." }, { label: "Suture Type", value: "Braided Silk Black." }, { label: "Absorption Profile", value: "Non-Absorbable." }, { label: "Suture Material", value: "Filaments of Silk Fibre from the Cocoon of the Silkworm Bombyx Mori." }, { label: "Coating", value: "Beeswax Coating." }],
     price: null,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/ethicon-mersilk-2-0-black-braided-suture.webp",
+      alt: "Mersilk #2-0 Black Braided Suture product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "all-med-silk-surgical-sutures",
@@ -205,6 +289,12 @@ export const oralSurgery: Product[] = [
     specs: [{ label: "Category", value: "Oral Surgery" }, { label: "Type", value: "Surgical Suture" }, { label: "Needle Type", value: "3/8 Circle Reverse Cutting" }, { label: "Needle Dimension", value: "26mm" }, { label: "Suture Size", value: "3-0" }],
     price: null,
     visual: "suture",
-    image: null,
+    image: {
+      src: "/products/all-med-silk-surgical-sutures.webp",
+      alt: "Silk Surgical Sutures product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

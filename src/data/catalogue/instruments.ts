@@ -20,7 +20,13 @@ export const instruments: Product[] = [
     price: 12990,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k1.webp",
+      alt: "Tooth Extraction Forcep Kit set of 12 - Anatomic Ultra (K1/11) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5",
@@ -34,7 +40,13 @@ export const instruments: Product[] = [
     price: 2990,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5.webp",
+      alt: "Composite Anterior Instrument Kit - Blue - Set of 5 (K14/5) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-p-k-thomas-wax-carvers-set-of-5-k15-8",
@@ -47,7 +59,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Product Type", value: "Wax Carver Set" }, { label: "Brand", value: "Waldent" }, { label: "Model", value: "K15/8" }, { label: "Technique", value: "P.K Thomas waxing" }, { label: "Set Quantity", value: "5 double-ended carvers" }],
     price: 734,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/waldent-p-k-thomas-wax-carvers-set-of-5-k15-8.webp",
+      alt: "P.K Thomas Wax Carvers - Set of 5 (K15/8) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-micro-friedman-with-legrange-bending-s-shape-bone-rongeur",
@@ -61,7 +79,13 @@ export const instruments: Product[] = [
     price: 1315,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/gdc-micro-friedman-with-legrange-bending-s-shape-bone-rongeur.webp",
+      alt: "Micro Friedman With Legrange Bending(S Shape) Bone Rongeur RMFML product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "superendo-maxvision-rhodium-coated-anti-fog-mouth-mirror-pack",
@@ -75,7 +99,13 @@ export const instruments: Product[] = [
     price: 1275,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/superendo-maxvision-rhodium-coated-anti-fog-mouth-mirror-pack.webp",
+      alt: "MaxVision Rhodium-Coated Anti-Fog Mouth Mirror (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-london-college-tweezer-dpu17",
@@ -88,7 +118,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Instrument Name", value: "London College" }, { label: "Type", value: "Dental Tweezer" }, { label: "Category", value: "Diagnostic, Endodontics, Oral Surgery, Periodontics" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 225,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-london-college-tweezer-dpu17.webp",
+      alt: "London College Tweezer (DPU17) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-bracket-holding-tweezer-with-flap-1006",
@@ -101,7 +137,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Type", value: "Bracket holding tweezer" }, { label: "Category", value: "Orthodontics" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 660,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gdc-bracket-holding-tweezer-with-flap-1006.webp",
+      alt: "Bracket Holding Tweezer With Flap (1006) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "koden-bracket-placing-tweezer",
@@ -114,7 +156,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "Surgical Grade Stainless Steel" }, { label: "Temperature Resistance", value: "Heat sterilizable up to 180°C" }, { label: "Design", value: "Specially designed joints for maximum precision and smooth handle rotation" }, { label: "Corrosion Resistance", value: "High corrosion resistance for longevity and durability" }, { label: "Application", value: "Suitable for precise bracket placement in dental and orthodontic procedures" }],
     price: 671,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/koden-bracket-placing-tweezer.webp",
+      alt: "Bracket Placing Tweezer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "hahnenkratt-who-probe-ref-5010",
@@ -127,7 +175,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "Stainless Steel" }, { label: "Grip", value: "Non Sliper" }, { label: "Marking", value: "0.5mm, 3.5mm, 5.5mm, 8.5mm, 11.5mm" }, { label: "Sterlization", value: "Autoclavable upto 134° C" }],
     price: 680,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/hahnenkratt-who-probe-ref-5010.webp",
+      alt: "WHO Probe Ref 5010 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gi-dental-round-condenser",
@@ -140,7 +194,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "Stainless Steel" }, { label: "Type", value: "Dental condenser" }, { label: "Design", value: "Round tip" }, { label: "Handle", value: "Ergonomic" }, { label: "Sterilization", value: "Autoclavable" }],
     price: 35,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gi-dental-round-condenser.webp",
+      alt: "GI Dental Round Condenser product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gi-dental-parallelogram-condenser",
@@ -153,7 +213,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "High-quality stainless steel, corrosion-resistant." }, { label: "Design", value: "Parallelogram-shaped working end for efficient condensation of restorative materials." }, { label: "Handle", value: "Ergonomically designed for a comfortable grip and precision control." }, { label: "Surface Finish", value: "Smooth, polished finish for easy cleaning and sterilization." }, { label: "Application", value: "Ideal for condensing amalgam or composite materials in cavity preparations." }],
     price: 35,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/gi-dental-parallelogram-condenser.webp",
+      alt: "GI Dental Parallelogram Condenser product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "et-dental-alginate-mixing-spatula-plastic-pack-of-1",
@@ -166,7 +232,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Product Type", value: "Alginate Spatula" }, { label: "Material", value: "Plastic" }, { label: "Dimensions", value: "195 x 32 mm" }, { label: "Application", value: "Alginate Mixing" }],
     price: 25,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/et-dental-alginate-mixing-spatula-plastic-pack-of-1.webp",
+      alt: "Alginate Mixing Spatula Plastic (Pack of 1) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-mixing-flexible-spatula-ps6",
@@ -179,7 +251,13 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "High-quality stainless steel" }, { label: "Type", value: "Mixing spatula" }, { label: "Blade Shape", value: "Varying sizes and shapes" }, { label: "Application", value: "Elastomer manipulation" }, { label: "Flexibility", value: "Highly flexible for precise handling" }],
     price: 327,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/oracraft-mixing-flexible-spatula-ps6.webp",
+      alt: "Mixing Flexible Spatula - PS6 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-stainless-steel-double-ended-cement-spatula-3-cs4",
@@ -205,6 +283,12 @@ export const instruments: Product[] = [
     specs: [{ label: "Material", value: "High-quality stainless steel" }, { label: "Matrix System", value: "Universal (Tofflemire)" }, { label: "Intended Use", value: "Class II restorations" }, { label: "Function", value: "Restore anatomical proximal contours" }, { label: "Compatibility", value: "Accommodates various tooth sizes and shapes" }],
     price: 379,
     visual: "instrument",
-    image: null,
+    image: {
+      src: "/products/oracraft-tofflemire-matrix-retainer-mrtu.webp",
+      alt: "Tofflemire Matrix Retainer - MRTU product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

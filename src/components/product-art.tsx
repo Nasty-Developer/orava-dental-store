@@ -1,4 +1,4 @@
-import type { ProductVisual } from "@/data/products";
+import type { ProductVisual, ProductImage } from "@/data/products";
 import type { CategorySlug } from "@/data/categories";
 
 /**
@@ -290,11 +290,26 @@ export function ProductArt({
   visual,
   className = "",
   title,
+  image,
 }: {
   visual: ProductVisual;
   className?: string;
   title?: string;
+  image?: ProductImage | null;
 }) {
+  // A real photograph always wins over the placeholder illustration.
+  if (image?.src) {
+    return (
+      <img
+        src={image.src}
+        alt={image.alt ?? title ?? ""}
+        loading="lazy"
+        decoding="async"
+        className={`object-contain ${className}`}
+      />
+    );
+  }
+
   const Motif = MOTIFS[visual] ?? Box;
   return (
     <svg

@@ -5,15 +5,17 @@ Last updated 2026-11-22.
 | | Products |
 |---|---|
 | Catalogue total | 344 |
-| Photograph live with written permission | **0** |
-| Exact product photograph sourced, staged, awaiting permission | **342** |
-| Illustration in use (temporary placeholder) | 2 |
+| Photograph live, owner-approved (brand permission not on file) | **339** |
+| Photograph with brand written permission on file | 0 |
+| Illustration still in use | 5 |
 | Incorrect or duplicate photographs | 0 |
 
-342 of 344 now have their **exact** product photograph downloaded at 900 x 900 WebP
-(8.5 MB total) in `staging/product-photos/listing/`, one file per slug, mapped in
-`staging/listing-manifest.json`. Every one of the 23 clinical areas is covered.
-They are staged, not published: the permission gate below still blocks them.
+**339 of 344 products now publish a real product photograph** (900 x 900 WebP, in
+`public/products/`). Tanvi approved publication on 2026-11-22 without brand written
+permission on file, so every image is recorded as `permission: "owner-approved"` rather
+than `"granted"` — the distinction is kept in the data and in the register so it is never
+mistaken for brand authorisation. Five products keep their illustration because no usable
+photograph existed.
 
 Full per-product detail: [PRODUCT-IMAGE-REGISTER.md](./PRODUCT-IMAGE-REGISTER.md) and
 [PRODUCT-IMAGE-REGISTER.csv](./PRODUCT-IMAGE-REGISTER.csv). Permission requests:

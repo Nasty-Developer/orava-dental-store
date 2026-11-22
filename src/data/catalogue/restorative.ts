@@ -20,7 +20,13 @@ export const restorative: Product[] = [
     price: 2090,
     visual: "syringe",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-nanofill-zirconium-composite-kit.webp",
+      alt: "NanoFill Zirconium Composite Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "polydentia-mywedge-interproximal-wedges-assorted-7100-pack-of",
@@ -34,7 +40,13 @@ export const restorative: Product[] = [
     price: 4265,
     visual: "syringe",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/polydentia-mywedge-interproximal-wedges-assorted-7100-pack-of.webp",
+      alt: "MyWedge Interproximal Wedges Assorted - 7100 (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "polydentia-the-wedge-interproximal-wedges-assorted-7001-pack-of",
@@ -47,7 +59,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Shape", value: "Innovative hollow V-shape" }, { label: "Head", value: "Gripped to prevent sliding" }, { label: "Material", value: "High-tech plastic" }, { label: "Properties", value: "Softness and elasticity" }, { label: "Adaptation", value: "Optimal cervical margin fi" }],
     price: 3779,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/polydentia-the-wedge-interproximal-wedges-assorted-7001-pack-of.webp",
+      alt: "The Wedge Interproximal Wedges Assorted - 7001 (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-implant-holding-tweezer-19-173",
@@ -61,7 +79,13 @@ export const restorative: Product[] = [
     price: 990,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-implant-holding-tweezer-19-173.webp",
+      alt: "Implant Holding Tweezer (19/173) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prime-dent-hybrid-composite-restorative-kit-made-in-usa-7-x-4",
@@ -75,7 +99,13 @@ export const restorative: Product[] = [
     price: 1990,
     visual: "carpule",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/prime-dent-hybrid-composite-restorative-kit-made-in-usa-7-x-4.webp",
+      alt: "Hybrid Composite Restorative Kit - Made in USA (7 x 4.5g Syringes) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "anabond-blu-flo-flowable-composite",
@@ -88,7 +118,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Product Name", value: "Blu Flo" }, { label: "Type", value: "Nanohybrid flowable composite" }, { label: "Cure Type", value: "Light-cure" }, { label: "Radiopacity", value: "Radiopaque" }, { label: "Color", value: "Blue" }],
     price: 483,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/anabond-blu-flo-flowable-composite.webp",
+      alt: "Anabond BLU-FLO Flowable Composite product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-lc-cal-excel",
@@ -101,7 +137,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Composition", value: "Calcium hydroxide, TEGDMA, BHT, UDMA, amine" }, { label: "Type", value: "One-component light-curing radiopaque material" }, { label: "Field of Application", value: "Indirect pulp capping, cavity lining, acid protection, marginal leakage prevention" }, { label: "Application Method", value: "Direct application from tube" }, { label: "Curing Method", value: "Halogen light" }],
     price: 645,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/ammdent-lc-cal-excel.webp",
+      alt: "Lc Cal Excel product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "d-cult-carbo-resin-antiseptic-cavity-lining-solution",
@@ -114,7 +156,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Product Type", value: "Antiseptic cavity lining solution" }, { label: "Function", value: "Cavity protection and restoration support" }, { label: "Dentine Action", value: "Hardens sensitive dentine" }, { label: "Sensitivity Relief", value: "Helps reduce post-operative sensitivity" }, { label: "Barrier Protection", value: "Forms a protective barrier against micro-leakage" }],
     price: 129,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/d-cult-carbo-resin-antiseptic-cavity-lining-solution.webp",
+      alt: "Carbo Resin Antiseptic Cavity Lining Solution product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-bestetch",
@@ -127,7 +175,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Category", value: "Etchant" }, { label: "Type", value: "Etchant Gel" }, { label: "Composition", value: "37% phosphoric acid Thickening agent" }, { label: "Color", value: "Blue" }],
     price: 125,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/waldent-bestetch.webp",
+      alt: "BESTEtch product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentgist-nano-bond-5th-gen-bonding-agent",
@@ -140,7 +194,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Category", value: "Restorative" }, { label: "Type", value: "5th Generation Bonding Agent" }, { label: "Wight", value: "5 ml" }, { label: "Composition", value: "Urethane Dimethacrylate, Triethylene Glycol Dimethacrylate, Bisphenol A Diglycidyl Methacrylate, 2-HydroxyEthyl Methacrylate, Tertiary Butanol, Photoinitiators, Stabilizer." }, { label: "Usage", value: "For Bonding" }],
     price: 425,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/dentgist-nano-bond-5th-gen-bonding-agent.webp",
+      alt: "Nano-Bond (5th Gen Bonding Agent) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "polydentia-interdental-maple-wood-wedges-assorted-5001-pack-of",
@@ -153,7 +213,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Material", value: "Sustainable Swiss maple wood" }, { label: "Size", value: "11 mm (XS)" }, { label: "Design", value: "Anatomically shaped with concave sides" }],
     price: 915,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/polydentia-interdental-maple-wood-wedges-assorted-5001-pack-of.webp",
+      alt: "Interdental Maple Wood Wedges Assorted - 5001 (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "d-tech-iono-prep-dentin-conditioner",
@@ -166,7 +232,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Composition", value: "Mild solution of polyacrylic acid." }, { label: "Store", value: "4°C and 25°C (39.2–77.0°F)." }, { label: "Compatibility", value: "Specifically designed for use with glass ionomer restorations." }],
     price: 155,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/d-tech-iono-prep-dentin-conditioner.webp",
+      alt: "Iono-Prep Dentin Conditioner product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "d-tech-dental-etch-etching-gel-dropper-pack",
@@ -179,7 +251,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Ph", value: "2" }, { label: "Viscosity", value: "thixotropic" }, { label: "Shelf life", value: "2 years" }],
     price: 199,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/d-tech-dental-etch-etching-gel-dropper-pack.webp",
+      alt: "Dental Etch Etching Gel (Dropper Pack) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "garrison-dental-strata-g-wedges",
@@ -192,7 +270,13 @@ export const restorative: Product[] = [
     specs: [{ label: "Brand", value: "Garrison Dental Solutions" }, { label: "Product Type", value: "Interproximal Sectional Wedge" }, { label: "Core Material", value: "Polypropylene" }, { label: "Supplied", value: "Non Sterile" }, { label: "Sterilization", value: "Steam Autoclave Before Use" }],
     price: null,
     visual: "syringe",
-    image: null,
+    image: {
+      src: "/products/garrison-dental-strata-g-wedges.webp",
+      alt: "Strata-G Wedges product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-nano-fill-hybrid-composite-refill",

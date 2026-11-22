@@ -20,7 +20,13 @@ export const handpieces: Product[] = [
     price: 3090,
     visual: "handpiece",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-internal-water-spray-straight-handpiece-w-156.webp",
+      alt: "Internal Water Spray Straight Handpiece (W-156) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-internal-water-spray-contra-angle-handpiece-w-155",
@@ -34,7 +40,13 @@ export const handpieces: Product[] = [
     price: 3152,
     visual: "handpiece",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-internal-water-spray-contra-angle-handpiece-w-155.webp",
+      alt: "Internal Water Spray Contra Angle Handpiece (W-155) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-surgical-saw-handpiece-reciprocating-up-and-down",
@@ -47,7 +59,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Product Type", value: "Surgical Saw Straight Handpiece" }, { label: "Model", value: "DGZ-R" }, { label: "Category", value: "Surgical Handpiece" }, { label: "Construction", value: "Surgical-Grade Metal Body" }, { label: "Motion Type", value: "Reciprocating" }],
     price: 15490,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/waldent-surgical-saw-handpiece-reciprocating-up-and-down.webp",
+      alt: "Surgical Saw Handpiece - Reciprocating (Up & Down Cutting Motion) | DGZ-R product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "nsk-fx-plus-with-arv-airotor-handpiece-standard-head-fxp-su-b2",
@@ -61,7 +79,13 @@ export const handpieces: Product[] = [
     price: 11995,
     visual: "handpiece",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/nsk-fx-plus-with-arv-airotor-handpiece-standard-head-fxp-su-b2.webp",
+      alt: "FX Plus With ARV Airotor Handpiece Standard Head (FXP-SU-B2) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "endoking-premium-contra-angle-push-button-handpiece-wj-144",
@@ -75,7 +99,13 @@ export const handpieces: Product[] = [
     price: 1100,
     visual: "handpiece",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/endoking-premium-contra-angle-push-button-handpiece-wj-144.webp",
+      alt: "Premium Contra Angle Push Button Handpiece (WJ-144) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-rta-endo-space-brushless-endomotor-with-in-built",
@@ -88,7 +118,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Battery", value: "3.6V / 2000mAh lithium" }, { label: "Adapter Input", value: "100V-240V, 50Hz/60Hz, 0.4A-0.2A" }, { label: "Adapter Output", value: "DC 5V / 1A" }, { label: "Torque Range", value: "0.4N·cm - 5.0N·cm (4mNm-50mNm)" }, { label: "Speed Range", value: "100 rpm - 1800 rpm" }],
     price: 28100,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/woodpecker-rta-endo-space-brushless-endomotor-with-in-built.webp",
+      alt: "RTA Endo Space Brushless Endomotor With In-Built Apex Locator product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-endopace-brushless-endomotor",
@@ -101,7 +137,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Lithium battery in motor handpiece", value: "3.6V /850mAh" }, { label: "Power Adapter Input", value: "100V-240V 50Hz/60Hz 0.4A Max" }, { label: "Power Adapter Output", value: "DC5V/1A" }, { label: "Rotate speed", value: "100-1500 rpm" }, { label: "Torque", value: "0.4-4.2ncm, 4 Ncm" }],
     price: 19111,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/woodpecker-endopace-brushless-endomotor.webp",
+      alt: "Endopace Brushless Endomotor product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "endoking-endomotor-white-endoking-apex-locator",
@@ -114,7 +156,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Speed Range", value: "120-500 rpm" }, { label: "Gear Ratio", value: "16:1" }, { label: "Torque Range", value: "0.6-4.0N.cm" }, { label: "Battery Voltage", value: "3.7vdc" }, { label: "Battery Capacity", value: "800mAh" }],
     price: 11320,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/endoking-endomotor-white-endoking-apex-locator.webp",
+      alt: "Endomotor White + Endoking Apex Locator product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-e-com-cordless-endomotor",
@@ -127,7 +175,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Power Source", value: "Lithium Battery (3.7V / 2000mAh)" }, { label: "Torque", value: "0.6Ncm-5.0Ncm(6mNm ~ 50mNm)" }, { label: "Screen Type", value: "All-Angle OLED" }, { label: "User Modes", value: "9 Customizable Modes" }, { label: "Motor Type", value: "Imported (15.5:1 Reduction Ratio)" }],
     price: 15995,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/woodpecker-e-com-cordless-endomotor.webp",
+      alt: "E-com Cordless Endomotor product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-dental-laboratory-micromotor-unit",
@@ -140,7 +194,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Model", value: "BT-M4H37LN" }, { label: "Maximum Speed", value: "45,000 rpm" }, { label: "Speed Range", value: "0 – 45,000 rpm" }, { label: "Maximum Torque", value: "3.8 N·cm" }, { label: "Motor Type", value: "E-type handpiece compatible" }],
     price: 6490,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/labodent-dental-laboratory-micromotor-unit.webp",
+      alt: "Dental Laboratory Micromotor Unit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "nsk-nlx-nano-brushless-fiber-optic-tabletop-micromotor-y1001362",
@@ -153,7 +213,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Speed", value: "1,000 ~ 40,000 min⁻¹" }, { label: "Torque", value: "3.4 Ncm" }, { label: "Rated Input", value: "AC 28V 50/60 Hz" }, { label: "Motor Type", value: "Brushless Micromotor" }, { label: "Dimensions", value: "W127 x D149 x H54 (mm)" }],
     price: 86620,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/nsk-nlx-nano-brushless-fiber-optic-tabletop-micromotor-y1001362.webp",
+      alt: "NLX Nano Brushless Fiber Optic Tabletop Micromotor (Y1001362) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ortist-clinical-micromotor-kit-with-engine",
@@ -166,7 +232,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Max Speed", value: "Up to 35,000 rpm" }, { label: "Torque", value: "2.9 Ncm" }, { label: "Input Voltage", value: "220V" }, { label: "Output Voltage", value: "32V" }],
     price: 3749,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/ortist-clinical-micromotor-kit-with-engine.webp",
+      alt: "Clinical Micromotor Kit With Engine product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "marathon-eco-450-laboratory-micromotor-with-37l-h-p",
@@ -179,7 +251,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Power Supply", value: "AC100-120V or 200-240V, 50/60 Hz" }, { label: "Electric Power", value: "SOW" }, { label: "Speed", value: "Max 40,000 RPM" }, { label: "Dimensions", value: "W141 x D186 x H97(mm)" }, { label: "Safety Features", value: "Automatic overload protection" }],
     price: 19880,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/marathon-eco-450-laboratory-micromotor-with-37l-h-p.webp",
+      alt: "Eco 450 Laboratory Micromotor with 37L H/p. product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "apple-contra-angle-push-button-handpiece",
@@ -192,7 +270,13 @@ export const handpieces: Product[] = [
     specs: [{ label: "Noise", value: "≤ 65 dB" }, { label: "Water Supply", value: "External" }, { label: "Speed", value: "30~2000rpm" }],
     price: 1861,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/apple-contra-angle-push-button-handpiece.webp",
+      alt: "Apple Contra Angle Push Button Handpiece product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "endoking-cordless-endomotor-led",
@@ -205,6 +289,12 @@ export const handpieces: Product[] = [
     specs: [{ label: "Speed Range", value: "130-600 rpm" }, { label: "Gear Ratio", value: "16:1" }, { label: "Torque Range", value: "0.6-4.0 Ncm" }, { label: "Battery Voltage", value: "3.7v DC" }, { label: "Battery Capacity", value: "800mAh" }],
     price: null,
     visual: "handpiece",
-    image: null,
+    image: {
+      src: "/products/endoking-cordless-endomotor-led.webp",
+      alt: "Cordless Endomotor LED product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

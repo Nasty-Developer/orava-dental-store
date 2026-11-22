@@ -20,7 +20,13 @@ export const infectionControl: Product[] = [
     price: 625,
     visual: "bottle",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/raman-and-weil-korsolex-rapid-instrument-sterilizer-500ml-cidex.webp",
+      alt: "Korsolex Rapid Instrument Sterilizer 500ml (Cidex) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "durr-dental-fd-366-sensitive-surface-disinfectant-solution",
@@ -34,7 +40,13 @@ export const infectionControl: Product[] = [
     price: 4915,
     visual: "bottle",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/durr-dental-fd-366-sensitive-surface-disinfectant-solution.webp",
+      alt: "FD 366 Sensitive Surface Disinfectant Solution product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mdm-dental-floor-and-tile-cleaner-1l",
@@ -47,7 +59,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Volume", value: "1 Liter" }, { label: "Usage", value: "Floor and tile cleaning in dental clinics" }, { label: "Disinfection", value: "Kills bacteria, germs, and viruses" }, { label: "Formula", value: "Non-corrosive, fast-drying, and residue-free" }],
     price: 275,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/mdm-dental-floor-and-tile-cleaner-1l.webp",
+      alt: "Dental Floor & Tile Cleaner 1L product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mgs-chlorine-tablets-200-tablets",
@@ -61,7 +79,13 @@ export const infectionControl: Product[] = [
     price: 1150,
     visual: "bottle",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/mgs-chlorine-tablets-200-tablets.webp",
+      alt: "Chlorine Tablets (200 Tablets) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "xcem-caresept-enzymatic-disinfectant-11275",
@@ -75,7 +99,13 @@ export const infectionControl: Product[] = [
     price: 995,
     visual: "bottle",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/xcem-caresept-enzymatic-disinfectant-11275.webp",
+      alt: "Caresept Enzymatic Disinfectant - 11275 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "xcem-hexpron-water-line-disinfectant-hex200",
@@ -88,7 +118,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Category", value: "Disinfectant and Descaler" }, { label: "Type", value: "Water Line Disinfectant" }, { label: "Form", value: "Solution" }, { label: "Composition", value: "Chloramine - T Phenylamine" }],
     price: 995,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/xcem-hexpron-water-line-disinfectant-hex200.webp",
+      alt: "Hexpron Water Line Disinfectant - HEX200 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "anabond-stedman-germafin-neo-5-ltr",
@@ -101,7 +137,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Composition", value: "Nano silver(0.001%) and Hydrogen peroxide (1.1%)" }, { label: "Antimicrobial Activity", value: "Broad-spectrum" }, { label: "Surface Compatibility", value: "Wide range" }, { label: "Application", value: "Surface disinfection" }, { label: "Rapid Action", value: "Yes" }],
     price: 1560,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/anabond-stedman-germafin-neo-5-ltr.webp",
+      alt: "Anabond-Stedman Germafin Neo 5 ltr product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-sterigem-hand-rub-500ml",
@@ -114,7 +156,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Composition", value: "2-Propanol: 45.00%, 1-Propanol: 30.00%" }, { label: "Formulation", value: "Ready-to-use liquid" }, { label: "Microbial Activity", value: "Broad-spectrum microbicidal" }, { label: "Skin Compatibility", value: "Exceptionally kind to skin" }, { label: "Compliance", value: "Tested as per EN standards" }],
     price: 295,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/ammdent-sterigem-hand-rub-500ml.webp",
+      alt: "Sterigem Hand Rub 500ml product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "durr-dental-fd-333-surface-disinfectant-wipes-110-pulls",
@@ -127,7 +175,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Wipe Size", value: "14 x 22 cm" }, { label: "Active Ingredients", value: "Alcohols, Quaternary Ammonium Compounds" }, { label: "Spectrum of Activity", value: "Bactericidal, Tuberculocidal, Yeasticidal, Fungicidal, Limited Virucidal Plus (enveloped viruses incl. HBV, HCV, HIV, coronaviruses, adenoviruses, and noroviruses)" }, { label: "Disinfection Effect", value: "Quick-acting with fast drying times" }, { label: "Storage", value: "Resealable lid for maintaining moisture and freshness" }],
     price: 1495,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/durr-dental-fd-333-surface-disinfectant-wipes-110-pulls.webp",
+      alt: "FD 333 Surface Disinfectant Wipes (110 Pulls) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "purexa-bamboo-charcoal-adult-and-kids-toothbrush-with-q-shape",
@@ -140,7 +194,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Product Type", value: "Oral Hygiene Combo" }, { label: "Toothbrush Type", value: "Bamboo Toothbrush" }, { label: "Adult Bristle Type", value: "Charcoal Bristles" }, { label: "Kids' Age Group", value: "3–12 Years" }, { label: "Kids' Bristle Type", value: "Super Soft Nylon" }],
     price: 2010,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/purexa-bamboo-charcoal-adult-and-kids-toothbrush-with-q-shape.webp",
+      alt: "Bamboo Charcoal Adult & Kids Toothbrush with Q-Shape Copper Tongue Cleaner Combo (Pack of 5 Each) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "icpa-replay-denture-kit",
@@ -153,7 +213,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Components", value: "Cleaning solutions, brushes, and accessories" }, { label: "Cleaning Solution", value: "For effective removal of stains and bacteria" }, { label: "Brushes", value: "Ergonomically designed brush" }, { label: "Convenience", value: "Portable packaging" }],
     price: 360,
     visual: "crown",
-    image: null,
+    image: {
+      src: "/products/icpa-replay-denture-kit.webp",
+      alt: "Replay Denture Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sterillium-alcohol-rub",
@@ -166,7 +232,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Appearance", value: "transparent, light blue" }, { label: "Density", value: "0.851g/cm3" }, { label: "Flashpoint", value: "23oC" }, { label: "Mecetroniumetilsulfate", value: "0.2g" }],
     price: null,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/sterillium-alcohol-rub.webp",
+      alt: "Sterillium Alcohol Rub product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "palmtex-pro-nitrile-gloves-blue-pack-of-100",
@@ -179,7 +251,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Material", value: "Nitrile" }, { label: "Type", value: "Exam Gloves" }, { label: "Color", value: "Blue" }, { label: "Thickness", value: "4mil" }, { label: "Texture", value: "Fingertip Textured" }],
     price: null,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/palmtex-pro-nitrile-gloves-blue-pack-of-100.webp",
+      alt: "Pro Nitrile Gloves Blue (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "palmtex-pro-nitrile-gloves-black-pack-of-100",
@@ -192,7 +270,13 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Material", value: "Nitrile" }, { label: "Type", value: "Exam Gloves" }, { label: "Color", value: "Black" }, { label: "Thickness", value: "4mil" }, { label: "Texture", value: "Fingertip Textured" }],
     price: null,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/palmtex-pro-nitrile-gloves-black-pack-of-100.webp",
+      alt: "Pro Nitrile Gloves Black (Pack of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prevest-fusion-flo",
@@ -205,6 +289,12 @@ export const infectionControl: Product[] = [
     specs: [{ label: "Curing Time", value: "40 Sec." }, { label: "Depth of Cure", value: "1.0 (Opaque Shade), 1.5 (Other Shade)" }, { label: "Compressive Strength", value: "150 – 200 MPa" }, { label: "Flexural Strength", value: "100 – 120 MPa" }],
     price: null,
     visual: "ppe",
-    image: null,
+    image: {
+      src: "/products/prevest-fusion-flo.webp",
+      alt: "Prevest Fusion Flo product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

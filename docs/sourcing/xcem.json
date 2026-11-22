@@ -1,0 +1,33 @@
+{
+ "brand": "Xcem",
+ "domain": "xcem.co.uk",
+ "checked": "2026-11-21T22:43:24.590Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "xcem-caresept-enzymatic-disinfectant-11275",
+   "name": "Caresept Enzymatic Disinfectant - 11275",
+   "closest": null
+  },
+  {
+   "slug": "xcem-hexpron-water-line-disinfectant-hex200",
+   "name": "Hexpron Water Line Disinfectant - HEX200",
+   "closest": null
+  },
+  {
+   "slug": "xcem-osspore-perio-chip",
+   "name": "Osspore Perio Chip",
+   "closest": null
+  },
+  {
+   "slug": "xcem-osspore-collagen-membranes",
+   "name": "Osspore Collagen Membranes",
+   "closest": null
+  },
+  {
+   "slug": "xcem-osspore-ptfe-membranes",
+   "name": "Osspore PTFE Membranes",
+   "closest": null
+  }
+ ]
+}

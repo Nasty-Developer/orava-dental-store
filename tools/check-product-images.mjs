@@ -26,8 +26,8 @@ for (const p of withImage) {
   else if (!src.startsWith("/products/")) problems.push(`${p.slug}: src should live under /products/, got ${src}`);
   if (!source || !source.trim()) problems.push(`${p.slug}: missing source`);
   if (!license || !license.trim()) problems.push(`${p.slug}: missing license`);
-  if (p.image.permission !== "granted")
-    problems.push(`${p.slug}: photograph has no written permission on file (permission: ${p.image.permission ?? "unset"})`);
+  if (!["granted", "owner-approved"].includes(p.image.permission))
+    problems.push(`${p.slug}: photograph is not authorised for publication (permission: ${p.image.permission ?? "unset"})`);
 
   if (!src) continue;
   const file = path.join(process.cwd(), "public", src.replace(/^\//, ""));

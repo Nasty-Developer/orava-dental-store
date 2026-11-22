@@ -1,0 +1,35 @@
+{
+ "brand": "Frank Dental",
+ "domain": "frank-dental.com",
+ "checked": "2026-11-21T22:49:37.175Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "frank-dental-flame-ogival-fg-diamond-burs-fo-series-fine",
+   "name": "Flame Ogival FG Diamond Burs FO Series (Fine)",
+   "closest": {
+    "title": "C.1.004.FG",
+    "page": "https://www.frank-dental.com/products/c-1-004-fg-rosenbohrer",
+    "score": 0.075
+   }
+  },
+  {
+   "slug": "frank-dental-straight-ogival-fg-diamond-burs-so-series-regular",
+   "name": "Straight Ogival FG Diamond Burs SO-Series (Regular)",
+   "closest": {
+    "title": "C.1.004.FG",
+    "page": "https://www.frank-dental.com/products/c-1-004-fg-rosenbohrer",
+    "score": 0.075
+   }
+  },
+  {
+   "slug": "frank-dental-straight-ogival-fg-diamond-burs-so-series-coarse",
+   "name": "Straight Ogival FG Diamond Burs SO-Series (Coarse)",
+   "closest": {
+    "title": "C.1.004.FG",
+    "page": "https://www.frank-dental.com/products/c-1-004-fg-rosenbohrer",
+    "score": 0.075
+   }
+  }
+ ]
+}

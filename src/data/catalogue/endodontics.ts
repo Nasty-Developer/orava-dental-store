@@ -20,7 +20,13 @@ export const endodontics: Product[] = [
     price: 1090,
     visual: "file",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-gutta-percha-obturator-bars-pack-of-50.webp",
+      alt: "Gutta Percha Obturator Bars (Pack of 50) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-biocanal-bioceramic-root-canal-sealer",
@@ -34,7 +40,13 @@ export const endodontics: Product[] = [
     price: 1269,
     visual: "file",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/ammdent-biocanal-bioceramic-root-canal-sealer.webp",
+      alt: "Biocanal Bioceramic Root Canal Sealer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "superendo-blue-files-25mm-assorted-pack-of-6",
@@ -47,7 +59,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Type", value: "Thermally-treated NiTi rotary file" }, { label: "Category", value: "Endodontic instrument" }, { label: "Material Base", value: "Nickel-titanium alloy" }, { label: "Treatment", value: "Blue heat-treated" }, { label: "Taper", value: "Variable" }],
     price: 835,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/superendo-blue-files-25mm-assorted-pack-of-6.webp",
+      alt: "Blue Files 25mm Assorted (Pack of 6) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ammdent-canalarge",
@@ -61,7 +79,13 @@ export const endodontics: Product[] = [
     price: 360,
     visual: "bottle",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/ammdent-canalarge.webp",
+      alt: "Canalarge product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-twin-kleen-18-root-canal-irrigant-3032-250",
@@ -75,7 +99,13 @@ export const endodontics: Product[] = [
     price: 830,
     visual: "bottle",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/maarc-twin-kleen-18-root-canal-irrigant-3032-250.webp",
+      alt: "Twin Kleen 18% Root Canal Irrigant (3032/250) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-cmcp",
@@ -88,7 +118,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Product Type", value: "Endodontic Medicament" }, { label: "Composition", value: "Parachlorophenol and Camphor" }, { label: "Form", value: "Oily Liquid Solution" }, { label: "Pack Size", value: "15 ml" }, { label: "Application", value: "Root Canal Disinfection" }],
     price: 119,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-cmcp.webp",
+      alt: "CMCP product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentact-ezee-pex-calcium-hydroxide-based-root-canal-sealer",
@@ -101,7 +137,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Mixing time", value: "2 minutes" }, { label: "Initial setting time", value: "60 minutes" }, { label: "Final setting time", value: "8-16 hours" }],
     price: 1120,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/dentact-ezee-pex-calcium-hydroxide-based-root-canal-sealer.webp",
+      alt: "EZee Pex - Calcium Hydroxide Based Root Canal Sealer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prime-dental-citra-wash",
@@ -114,7 +156,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Active Ingredient", value: "20% Citric Acid" }, { label: "Solution Type", value: "Slightly Thickened, Water-Soluble Solution" }, { label: "Indications", value: "Root Canal Cleanser and Conditioner, Dissolving/Cleaning Residues of Calcium Hydroxide" }],
     price: 200,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/prime-dental-citra-wash.webp",
+      alt: "Prime Dental Citra Wash product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mani-jizai-niti-rotary-files",
@@ -127,7 +175,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Allowable engine speed", value: "300min-1 – 500min-1" }, { label: "Allowable torque setting", value: "1.0Ncm – 3.0Ncm" }, { label: "Material", value: "NiTi" }, { label: "Design", value: "Rotary" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/mani-jizai-niti-rotary-files.webp",
+      alt: "Jizai NiTi Rotary Files product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "micro-mega-one-curve-mini-rotary-files",
@@ -140,7 +194,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Material", value: "Heat-treated Nickel-Titanium alloy" }, { label: "Design", value: "Patented variable cutting section design" }, { label: "Type", value: "Single-use rotary files" }, { label: "Canal Shaping", value: "Enables shaping of full canal length with a single instrument, directly to the apex Sizes/Taper: Smaller sizes and taper configurations" }, { label: "Cutting Efficiency", value: "High cutting efficiency for efficient procedures" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/micro-mega-one-curve-mini-rotary-files.webp",
+      alt: "Micro Mega One Curve Mini Rotary Files product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-flexiwave-reciprocating-files-25mm",
@@ -153,7 +213,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Material", value: "NiTi" }, { label: "Sterilization", value: "≤126°C" }, { label: "Color", value: "Blue" }, { label: "Length", value: "25mm" }, { label: "Cross Section", value: "S-shaped" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/waldent-flexiwave-reciprocating-files-25mm.webp",
+      alt: "Flexiwave Reciprocating Files (25mm) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-flexiwave-reciprocating-files-21mm",
@@ -166,7 +232,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Material", value: "NiTi" }, { label: "Sterilization", value: "≤126°C" }, { label: "Color", value: "Blue" }, { label: "Length", value: "21mm" }, { label: "Cross Section", value: "S shaped" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/waldent-flexiwave-reciprocating-files-21mm.webp",
+      alt: "Flexiwave Reciprocating Files (21mm) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mani-sec-o-k-files-25mm",
@@ -179,7 +251,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Tip Design", value: "Safe-ended rounded tip for reduced canal transportation" }, { label: "Material", value: "High-strength stainless steel" }, { label: "Cutting Profile", value: "Traditional K-file fluting with controlled cutting action" }, { label: "Sterilization Tolerance", value: "Withstands dry heat up to 200°C" }, { label: "Taper", value: "2%" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/mani-sec-o-k-files-25mm.webp",
+      alt: "Sec O K-Files 25mm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "neoendo-gutta-percha-points-4-length-marked",
@@ -192,7 +270,13 @@ export const endodontics: Product[] = [
     specs: [{ label: "Category", value: "Obturation material" }, { label: "Type", value: "Length - marked GP points" }, { label: "Composition", value: "Gutta percha" }, { label: "Taper", value: "6%" }, { label: "Sizes", value: "#10, #15, #20, #25, #30,#35, #40" }],
     price: null,
     visual: "file",
-    image: null,
+    image: {
+      src: "/products/neoendo-gutta-percha-points-4-length-marked.webp",
+      alt: "Gutta Percha Points 4% (Length Marked) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "vishal-dentocare-quick-seal-root-canal-sealer-with-dexamethasone",
@@ -205,6 +289,12 @@ export const endodontics: Product[] = [
     specs: [{ label: "Powder", value: "Dexamethasone, Hydrocortisone-Acetate, Thymol Iodide, paraformaldehyde, Radiopaque Q.s." }, { label: "Liquid", value: "Eugenol, Peppermint, and Anise Q.s." }],
     price: 1500,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/vishal-dentocare-quick-seal-root-canal-sealer-with-dexamethasone.webp",
+      alt: "Quick Seal Root Canal Sealer With Dexamethasone product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

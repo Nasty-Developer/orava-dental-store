@@ -1,12 +1,12 @@
 # Product photograph register
 
-Every one of the 344 catalogue products, its image status, where any photograph came from, and its permission position. Generated 2026-11-21 by `node tools/image-register.mjs`.
+Every one of the 344 catalogue products, its image status, where any photograph came from, and its permission position. Generated 2026-11-22 by `node tools/image-register.mjs`.
 
 | | Products |
 |---|---|
 | Photograph live with written permission | 0 |
-| Photograph sourced, staged, not published | 27 |
-| Illustration in use | 317 |
+| Photograph sourced, staged, not published | 37 |
+| Illustration in use | 307 |
 | **Total** | **344** |
 
 Nothing is published without written permission: `npm run images:check` fails on any photograph that is not marked `permission: "granted"`.
@@ -16,10 +16,10 @@ Nothing is published without written permission: `npm run images:check` fails on
 | Brand | Products | Live | Staged | Still illustrated |
 |---|---|---|---|---|
 | Waldent | 33 | 0 | 27 | 6 |
-| GDC | 21 | 0 | 0 | 21 |
+| GDC | 21 | 0 | 2 | 19 |
 | Woodpecker | 10 | 0 | 0 | 10 |
 | Oracraft | 8 | 0 | 0 | 8 |
-| Ammdent | 7 | 0 | 0 | 7 |
+| Ammdent | 7 | 0 | 5 | 2 |
 | Labodent | 7 | 0 | 0 | 7 |
 | Jull-Dent | 6 | 0 | 0 | 6 |
 | Maarc | 6 | 0 | 0 | 6 |
@@ -36,7 +36,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 | 3M ESPE | 4 | 0 | 0 | 4 |
 | Generic instruments | 4 | 0 | 0 | 4 |
 | NSK | 4 | 0 | 0 | 4 |
-| oro | 4 | 0 | 0 | 4 |
+| oro | 4 | 0 | 1 | 3 |
 | prima dental | 4 | 0 | 0 | 4 |
 | Sandika Pharma | 4 | 0 | 0 | 4 |
 | Zhermack | 4 | 0 | 0 | 4 |
@@ -51,7 +51,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 | MDM | 3 | 0 | 0 | 3 |
 | MyOra | 3 | 0 | 0 | 3 |
 | OrthoMetric | 3 | 0 | 0 | 3 |
-| OSL | 3 | 0 | 0 | 3 |
+| OSL | 3 | 0 | 2 | 1 |
 | Purexa | 3 | 0 | 0 | 3 |
 | Stim | 3 | 0 | 0 | 3 |
 | Surgident | 3 | 0 | 0 | 3 |
@@ -543,7 +543,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 76 | Biocanal Bioceramic Root Canal Sealer | Endodontics | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 76 | Biocanal Bioceramic Root Canal Sealer | Endodontics | Photograph sourced, staged (not published) | [source](https://ammdent.com/biocanal/) | Pending: written permission not received |
 
 ### SuperEndo (5)
 
@@ -555,7 +555,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 78 | Canalarge | Endodontics | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 78 | Canalarge | Endodontics | Photograph sourced, staged (not published) | [source](https://ammdent.com/canalarge/) | Pending: written permission not received |
 
 ### Maarc (6)
 
@@ -773,8 +773,8 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 121 | X-Ray Film Hanger For 6 Films (AFH6) | Dental Imaging | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
-| 122 | X-Ray Film Hanger For 14 Films (AFH14) | Dental Imaging | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 121 | X-Ray Film Hanger For 6 Films (AFH6) | Dental Imaging | Photograph sourced, staged (not published) | [source](https://gdc-marketing.com/product/x-ray-film-hanger-6/) | Pending: written permission not received |
+| 122 | X-Ray Film Hanger For 14 Films (AFH14) | Dental Imaging | Photograph sourced, staged (not published) | [source](https://gdc-marketing.com/product/x-ray-film-hanger-14/) | Pending: written permission not received |
 
 ### Carestream (3)
 
@@ -808,7 +808,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 131 | X - Ray Film Holder (Pack of 4) | Dental Imaging | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 131 | X - Ray Film Holder (Pack of 4) | Dental Imaging | Photograph sourced, staged (not published) | [source](https://orohealthcare.com/products/oro-x-ray-film-holder) | Pending: written permission not received |
 
 ### Generic instruments (4)
 
@@ -1310,7 +1310,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 228 | Wire Cincher / Distal End Bending Instrument | Orthodontics | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 228 | Wire Cincher / Distal End Bending Instrument | Orthodontics | Photograph sourced, staged (not published) | [source](https://osldental.com/product/osl-wire-cincher-distal-end-bending-instrument) | Pending: written permission not received |
 
 ### U Orthodontics (5)
 
@@ -1358,7 +1358,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 236 | Beta 3 Titanium CNA Mushroom Loop Archwires (Pack Of 5) | Orthodontics | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 236 | Beta 3 Titanium CNA Mushroom Loop Archwires (Pack Of 5) | Orthodontics | Photograph sourced, staged (not published) | [source](https://osldental.com/product/osl-beta-3-titanium-cna-mushroom-loop-archwires-pack-of-5) | Pending: written permission not received |
 
 ### OrthoMetric (3)
 
@@ -1718,7 +1718,7 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 306 | Lc Cal Excel | Restorative Dentistry | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 306 | Lc Cal Excel | Restorative Dentistry | Photograph sourced, staged (not published) | [source](https://ammdent.com/lc-cal-excel/) | Pending: written permission not received |
 
 ### D'Cult (3)
 
@@ -1880,8 +1880,8 @@ Nothing is published without written permission: `npm run images:check` fails on
 
 | # | Product | Category | Image status | Source | Permission |
 |---|---|---|---|---|---|
-| 338 | D-Sense Desensitizing Gel | Whitening | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
-| 339 | Flurosolve (For Hypersensitivity) | Whitening | Illustration (no photograph sourced) | — | Not applicable: illustration in use |
+| 338 | D-Sense Desensitizing Gel | Whitening | Photograph sourced, staged (not published) | [source](https://ammdent.com/d-sense/) | Pending: written permission not received |
+| 339 | Flurosolve (For Hypersensitivity) | Whitening | Photograph sourced, staged (not published) | [source](https://ammdent.com/fluorosolve/) | Pending: written permission not received |
 
 ### Medicept (1)
 

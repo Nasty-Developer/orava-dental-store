@@ -1,194 +1,113 @@
 {
  "brand": "GDC",
- "domain": "gdc-marketing.com",
- "checked": "2026-11-21T22:35:53.969Z",
- "matched": [
-  {
-   "slug": "gdc-x-ray-film-hanger-for-6-films-afh6",
-   "name": "X-Ray Film Hanger For 6 Films (AFH6)",
-   "source": "https://gdc-marketing.com/product/x-ray-film-hanger-6/",
-   "title": "X-RAY FILM HANGER 6",
-   "score": 1
-  },
-  {
-   "slug": "gdc-x-ray-film-hanger-for-14-films-afh14",
-   "name": "X-Ray Film Hanger For 14 Films (AFH14)",
-   "source": "https://gdc-marketing.com/product/x-ray-film-hanger-14/",
-   "title": "X-RAY FILM HANGER 14",
-   "score": 1
-  }
- ],
+ "domain": "gdcdental.com",
+ "checked": "2026-11-22T14:26:38.702Z",
+ "matched": [],
  "unmatched": [
   {
    "slug": "gdc-offer-package-set-instruments-kit-opp-with-trolley",
    "name": "Offer Package Set Instruments Kit OPP With Trolley",
-   "closest": {
-    "title": "OFFER PACKAGE PREMIUM",
-    "page": "https://gdc-marketing.com/product/offer-package-premium/",
-    "score": 0.24
-   }
+   "closest": null
   },
   {
    "slug": "gdc-offer-package-set-instruments-kit-ops-with-trolley",
    "name": "Offer Package Set Instruments Kit OPS With Trolley",
-   "closest": {
-    "title": "OFFER PACKAGE PREMIUM",
-    "page": "https://gdc-marketing.com/product/offer-package-premium/",
-    "score": 0.24
-   }
+   "closest": null
   },
   {
    "slug": "gdc-offer-package-premium-set-for-new-clinic-setup-without",
    "name": "Offer Package Premium Set for New Clinic Setup Without Trolley Bag",
-   "closest": {
-    "title": "OFFER PACKAGE PREMIUM",
-    "page": "https://gdc-marketing.com/product/offer-package-premium/",
-    "score": 0.225
-   }
+   "closest": null
   },
   {
    "slug": "gdc-cotton-holder-accessories-ach",
    "name": "Cotton Holder Accessories (ACH)",
-   "closest": {
-    "title": "COTTON HOLDER",
-    "page": "https://gdc-marketing.com/product/cotton-holder/",
-    "score": 0.3
-   }
+   "closest": null
+  },
+  {
+   "slug": "gdc-x-ray-film-hanger-for-6-films-afh6",
+   "name": "X-Ray Film Hanger For 6 Films (AFH6)",
+   "closest": null
+  },
+  {
+   "slug": "gdc-x-ray-film-hanger-for-14-films-afh14",
+   "name": "X-Ray Film Hanger For 14 Films (AFH14)",
+   "closest": null
   },
   {
    "slug": "gdc-membrane-placement-instrument-pmpis",
    "name": "Membrane Placement Instrument (Pmpis)",
-   "closest": {
-    "title": "Purchasing dental instruments, consumables, equipment, and products is possible online at GDC Marketing.",
-    "page": "https://gdc-marketing.com/purchasing-dental-instruments-consumables-equipment-and-products-is-possible-online-at-gdc-marketing/",
-    "score": 0.15
-   }
+   "closest": null
   },
   {
    "slug": "gdc-micro-friedman-with-legrange-bending-s-shape-bone-rongeur",
    "name": "Micro Friedman With Legrange Bending(S Shape) Bone Rongeur RMFML",
-   "closest": {
-    "title": "ORTHODONTICS PLIERS TC ADAM&#8217;S",
-    "page": "https://gdc-marketing.com/product/adams-plier-tc-tungsten-carbide/",
-    "score": 0.067
-   }
+   "closest": null
   },
   {
    "slug": "gdc-london-college-tweezer-dpu17",
    "name": "London College Tweezer (DPU17)",
-   "closest": {
-    "title": "BRACKET HOLDING TWEEZER",
-    "page": "https://gdc-marketing.com/product/bracket-holding-tweezer/",
-    "score": 0.2
-   }
+   "closest": null
   },
   {
    "slug": "gdc-bracket-holding-tweezer-with-flap-1006",
    "name": "Bracket Holding Tweezer With Flap (1006)",
-   "closest": {
-    "title": "BRACKET HOLDING TWEEZER",
-    "page": "https://gdc-marketing.com/product/bracket-holding-tweezer/",
-    "score": 0.45
-   }
+   "closest": null
   },
   {
    "slug": "gdc-plaster-shears-210mm-pcs",
    "name": "Plaster Shears (210mm) (Pcs)",
-   "closest": {
-    "title": "",
-    "page": "https://gdc-marketing.com/why-buy-gdc-trauma-kit-online-for-your-dental-clinic/",
-    "score": 0
-   }
+   "closest": null
   },
   {
    "slug": "gdc-root-elevators-set-of-9-in-pouch-premium-repp9",
    "name": "Root Elevators Set Of 9 In Pouch Premium (Repp9)",
-   "closest": {
-    "title": "ROOT ELEVATORS PREMIUM SET OF 9 WITH CASSETTE",
-    "page": "https://gdc-marketing.com/product/root-elevators-premium-set-of-9-with-cassette/",
-    "score": 0.4
-   }
+   "closest": null
   },
   {
    "slug": "gdc-root-elevators-warwick-james-set-of-3-ewjs3",
    "name": "Root Elevators Warwick James Set Of 3 (Ewjs3)",
-   "closest": {
-    "title": "CASSETTE FOR ROOT ELEVATOR",
-    "page": "https://gdc-marketing.com/product/cassette-for-root-elevator/",
-    "score": 0.24
-   }
+   "closest": null
   },
   {
    "slug": "gdc-hemostats-kelly-curved-14cm-h2",
    "name": "Hemostats Kelly Curved - (14cm) (H2)",
-   "closest": {
-    "title": "ORTHODONTICS PLIERS TC HOW CURVED 2MM",
-    "page": "https://gdc-marketing.com/product/orthodontics-pliers-tc-how-curved-2mm/",
-    "score": 0.2
-   }
+   "closest": null
   },
   {
    "slug": "gdc-distal-bending-instrument-75-0mm-55-0mm-2815",
    "name": "Distal Bending Instrument 75.0mm/ 55.0mm (2815)",
-   "closest": {
-    "title": "DISTAL BENDING INSTRUMENT",
-    "page": "https://gdc-marketing.com/product/distal-bending-instrument/",
-    "score": 0.3
-   }
+   "closest": null
   },
   {
    "slug": "gdc-periosteal-elevator-6-php3",
    "name": "Periosteal Elevator # 6 Php3",
-   "closest": {
-    "title": "CASSETTE FOR 6 INSTRUMENTS",
-    "page": "https://gdc-marketing.com/product/cassette-for-6-instruments/",
-    "score": 0.15
-   }
+   "closest": null
   },
   {
    "slug": "gdc-vista-tunneling-procedure-instrument-vista2-6",
    "name": "Vista Tunneling Procedure Instrument (VISTA2 #6)",
-   "closest": {
-    "title": "Purchasing dental instruments, consumables, equipment, and products is possible online at GDC Marketing.",
-    "page": "https://gdc-marketing.com/purchasing-dental-instruments-consumables-equipment-and-products-is-possible-online-at-gdc-marketing/",
-    "score": 0.15
-   }
+   "closest": null
   },
   {
    "slug": "gdc-vista-tunneling-procedure-instrument-vista3-6",
    "name": "Vista Tunneling Procedure Instrument (VISTA3 #6)",
-   "closest": {
-    "title": "Purchasing dental instruments, consumables, equipment, and products is possible online at GDC Marketing.",
-    "page": "https://gdc-marketing.com/purchasing-dental-instruments-consumables-equipment-and-products-is-possible-online-at-gdc-marketing/",
-    "score": 0.15
-   }
+   "closest": null
   },
   {
    "slug": "gdc-post-and-silver-point-removal-forceps-straight-rfstr",
    "name": "Post And Silver Point Removal Forceps - Straight (Rfstr)",
-   "closest": {
-    "title": "TISSUE FORCEPS SEMKEN STRAIGHT 1X2 12.5CM",
-    "page": "https://gdc-marketing.com/product/tissue-forceps-semken-straight-1x2-12-5cm/",
-    "score": 0.171
-   }
+   "closest": null
   },
   {
    "slug": "gdc-post-and-silver-point-removal-forceps-45-degree-rf45",
    "name": "Post And Silver Point Removal Forceps - 45 Degree (Rf45)",
-   "closest": {
-    "title": "CASSETTE FOR EXTRACTION FORCEPS",
-    "page": "https://gdc-marketing.com/product/cassette-for-extraction-forceps/",
-    "score": 0.086
-   }
+   "closest": null
   },
   {
    "slug": "gdc-post-and-silver-point-removal-forceps-90-degree-rf90",
    "name": "Post And Silver Point Removal Forceps - 90 Degree (Rf90)",
-   "closest": {
-    "title": "CASSETTE FOR EXTRACTION FORCEPS",
-    "page": "https://gdc-marketing.com/product/cassette-for-extraction-forceps/",
-    "score": 0.086
-   }
+   "closest": null
   }
  ]
 }

@@ -20,7 +20,13 @@ export const preventive: Product[] = [
     price: 699,
     visual: "tube",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/group-pharma-diadent-gum-care-toothpaste-pack-of-6.webp",
+      alt: "Diadent Gum Care Toothpaste (Pack of 6) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sandika-pharma-pyx-kidz-tooth-gel-pack-of-12",
@@ -34,7 +40,13 @@ export const preventive: Product[] = [
     price: 1185,
     visual: "tube",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/sandika-pharma-pyx-kidz-tooth-gel-pack-of-12.webp",
+      alt: "Pyx Kidz Tooth Gel (Pack of 12) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "stim-unique-brush-pack-of-12",
@@ -47,7 +59,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Bristle Type", value: "Soft bristles" }, { label: "Handle Design", value: "Ergonomic" }, { label: "Usage", value: "Suitable for both adults and children" }, { label: "Hygiene", value: "Easy to clean and maintain" }],
     price: 825,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/stim-unique-brush-pack-of-12.webp",
+      alt: "Unique Brush (Pack Of 12) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "purexa-bamboo-charcoal-adult-toothbrush-and-q-shape-copper",
@@ -61,7 +79,13 @@ export const preventive: Product[] = [
     price: 1360,
     visual: "box",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/purexa-bamboo-charcoal-adult-toothbrush-and-q-shape-copper.webp",
+      alt: "Bamboo Charcoal Adult Toothbrush & Q-Shape Copper Tongue Cleaner Combo (Pack of 5 Each) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "stim-floss-pack-of-12",
@@ -75,7 +99,13 @@ export const preventive: Product[] = [
     price: 1415,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/stim-floss-pack-of-12.webp",
+      alt: "Floss (Pack of 12) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sandika-pharma-pyx-proxy-floss-pack-of-10",
@@ -88,7 +118,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Texture", value: "Slightly waxed, shred-resistant" }, { label: "Function", value: "Removes food debris and plaque" }, { label: "Benefits", value: "Prevents plaque, tooth decay, sensitivity, and gingivitis" }, { label: "Usage", value: "Gentle back-and-forth and up-and-down motion" }, { label: "Purpose", value: "Promotes healthy teeth and gums" }],
     price: 815,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/sandika-pharma-pyx-proxy-floss-pack-of-10.webp",
+      alt: "Pyx Proxy Floss (Pack of 10) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "myora-glideease-floss-pack-of-12-50-pcs-pack",
@@ -101,7 +137,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Type", value: "Dental Floss Picks" }, { label: "Material", value: "Shred-resistant, smooth glide filament" }, { label: "Coating", value: "Waxed for easy glide" }, { label: "Color", value: "White" }, { label: "Diamension", value: "58cm/23 inches" }],
     price: 3545,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/myora-glideease-floss-pack-of-12-50-pcs-pack.webp",
+      alt: "GlideEase Floss - Pack Of 12 (50 Pcs/Pack) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "myora-freshglide-waxed-floss-50m-mint-pack-of-12",
@@ -114,7 +156,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Type", value: "Waxed dental floss" }, { label: "Length", value: "50 m per dispenser" }, { label: "Flavour", value: "Refreshing mint" }, { label: "Pack Size", value: "12 dispensers" }, { label: "Material", value: "Durable, shred-resistant nylon filament" }],
     price: 730,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/myora-freshglide-waxed-floss-50m-mint-pack-of-12.webp",
+      alt: "FreshGlide Waxed Floss 50m - Mint (Pack Of 12) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "stim-flosal-pack-of-1",
@@ -127,7 +175,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Type", value: "Flosal" }, { label: "Floss Material", value: "Polytetrafluoroethylene (PTFE) for smooth glide" }, { label: "Floss", value: "Smooth and shred-resistant" }, { label: "Toothpick End", value: "Flexible and tapered" }, { label: "Grip Texture", value: "Micro-patterned for enhanced control" }],
     price: 130,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/stim-flosal-pack-of-1.webp",
+      alt: "Flosal (Pack of 1) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "myora-flosssure-dental-floss-picks-pack-of-10-50-picks-pack",
@@ -140,7 +194,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Type", value: "Dental Floss Picks" }, { label: "Material", value: "Durable floss with precision-engineered toothpick tip" }, { label: "Design", value: "Ergonomically contoured, travel-friendly casing" }, { label: "Floss Length", value: "Sufficient for effective cleaning between teeth and under the gum line" }, { label: "Handle", value: "Comfortable, non-slip grip for secure use" }],
     price: 675,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/myora-flosssure-dental-floss-picks-pack-of-10-50-picks-pack.webp",
+      alt: "FlossSure Dental Floss Picks - Pack Of 10 (50 Picks/Pack) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "bluem-fluoride-free-mouthwash-500ml",
@@ -153,7 +213,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Formula Type", value: "Fluoride-free" }, { label: "Alcohol Content", value: "Alcohol-free" }, { label: "Net Quantity", value: "500ml" }, { label: "Core Technology", value: "Active oxygen" }, { label: "Functionality", value: "Antibacterial action" }],
     price: 1645,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/bluem-fluoride-free-mouthwash-500ml.webp",
+      alt: "Fluoride Free Mouthwash - 500ml product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sandika-pharma-proflo-ortho-acidulated-mouthwash-pack-of-12",
@@ -166,7 +232,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Active Ingredient", value: "0.044% Sodium Fluoride" }, { label: "Purpose", value: "Cavity prevention" }, { label: "Formulation", value: "Orthodontic mouthwash" }, { label: "Flavor", value: "Mint flavor" }, { label: "Properties", value: "Antimicrobial, non-staining" }],
     price: 2275,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/sandika-pharma-proflo-ortho-acidulated-mouthwash-pack-of-12.webp",
+      alt: "Proflo Ortho Acidulated Mouthwash (Pack of 12) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "anabond-sdf-gold",
@@ -179,7 +251,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Active Ingredient", value: "Silver Diamine Fluoride" }, { label: "Concentration", value: "38%" }, { label: "Viscosity", value: "Optimal" }, { label: "Antimicrobial Efficacy", value: "Proven" }, { label: "Application", value: "Safe and Painless" }],
     price: 1421,
     visual: "tube",
-    image: null,
+    image: {
+      src: "/products/anabond-sdf-gold.webp",
+      alt: "Anabond SDF Gold product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracura-sb300-sonic-smart-electric-rechargeable-toothbrush-head",
@@ -192,7 +270,13 @@ export const preventive: Product[] = [
     specs: [{ label: "Compatibility", value: "SB300 Sonic Smart Electric Rechargeable Toothbrush" }, { label: "Bristle material", value: "soft DuPont nylon" }, { label: "Pack contents", value: "3 replacement brush heads" }, { label: "Colour", value: "White / Black" }, { label: "Bristle grade", value: "regular soft Recommended replacement interval: every 3 months" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/oracura-sb300-sonic-smart-electric-rechargeable-toothbrush-head.webp",
+      alt: "SB300 Sonic Smart Electric Rechargeable Toothbrush Head Refills (Pack of 3) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracura-sb200-sonic-lite-electric-toothbrush-heads-pack-of-3",
@@ -205,6 +289,12 @@ export const preventive: Product[] = [
     specs: [{ label: "Compatibility", value: "SB100 Sonic Lite Battery Operated and SB200 Sonic Lite Rechargeable Toothbrush" }, { label: "Bristle type", value: "Soft DuPont" }, { label: "Pack quantity", value: "3 brush heads" }, { label: "Colours available", value: "Blue, Peach, Green and Black" }, { label: "Wear indicator", value: "Blue fade-out bristles" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/oracura-sb200-sonic-lite-electric-toothbrush-heads-pack-of-3.webp",
+      alt: "SB200 Sonic Lite Electric Toothbrush Heads (Pack of 3) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

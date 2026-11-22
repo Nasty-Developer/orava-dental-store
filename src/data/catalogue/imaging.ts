@@ -20,7 +20,13 @@ export const imaging: Product[] = [
     price: 1095,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/uniclave-metal-developer-box.webp",
+      alt: "Uniclave Metal Developer Box product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-x-ray-film-hanger-for-6-films-afh6",
@@ -34,7 +40,13 @@ export const imaging: Product[] = [
     price: 660,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/gdc-x-ray-film-hanger-for-6-films-afh6.webp",
+      alt: "X-Ray Film Hanger For 6 Films (AFH6) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-x-ray-film-hanger-for-14-films-afh14",
@@ -47,7 +59,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Type", value: "Accessories" }, { label: "Color", value: "Silver" }, { label: "Category", value: "Dental X-Ray" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 885,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/gdc-x-ray-film-hanger-for-14-films-afh14.webp",
+      alt: "X-Ray Film Hanger For 14 Films (AFH14) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "carestream-insight-ip-01-pedo-x-ray-film",
@@ -61,7 +79,13 @@ export const imaging: Product[] = [
     price: 5450,
     visual: "box",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/carestream-insight-ip-01-pedo-x-ray-film.webp",
+      alt: "Insight Ip-01 Pedo X-Ray Film product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kodak-carestream-x-ray-film-e-speed-pack-of-150",
@@ -75,7 +99,13 @@ export const imaging: Product[] = [
     price: 3740,
     visual: "box",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/kodak-carestream-x-ray-film-e-speed-pack-of-150.webp",
+      alt: "Kodak Carestream X Ray Film E Speed (Pack of 150) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "carestream-occlusal-films",
@@ -88,7 +118,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Film Size", value: "5.7 × 7.6 cm" }, { label: "Speed", value: "True F-speed film (INSIGHT)" }, { label: "Radiation Exposure", value: "Requires up to 60% less radiation per exposure" }, { label: "Image Quality", value: "Excellent contrast and clarity for detailed visualization" }, { label: "Design", value: "Durable and easy to handle" }],
     price: 4998,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/carestream-occlusal-films.webp",
+      alt: "Occlusal Films product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-intraoral-camera-usb-model-for-laptop",
@@ -101,7 +137,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Image Sensor", value: "CMOS 1/4" }, { label: "Focus Range", value: "5mm - 50mm" }, { label: "Backup Mode", value: "Backup to PC automatically" }, { label: "Operating System", value: "Windows & Android" }, { label: "System Operation", value: "Key Control" }],
     price: 3945,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-intraoral-camera-usb-model-for-laptop.webp",
+      alt: "Intraoral Camera USB Model ( For Laptop ) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-intra-oral-camera-with-screen-ergo-10-mp",
@@ -114,7 +156,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Manufacturer Model", value: "DA-MC01" }, { label: "Image Sensor", value: "1/4\" CMOS, 10 Megapixel" }, { label: "Image Resolution", value: "1280 × 1024" }, { label: "Focus Range", value: "5 mm – 50 mm" }, { label: "Illumination", value: "6 High-Intensity LEDs" }],
     price: 21000,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-intra-oral-camera-with-screen-ergo-10-mp.webp",
+      alt: "Intra Oral Camera with Screen - Ergo (10 MP) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-intraoral-camera-monitor-clamp",
@@ -127,7 +175,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Material", value: "Epoxy-coated stainless steel" }, { label: "Compatibility", value: "Monitor screens" }, { label: "Assembly", value: "Easy to assemble stand components" }, { label: "Attachment to Dental Chair", value: "Firm attachment with chair extensions" }, { label: "Ideal Use", value: "Monitor screens only" }],
     price: 2201,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-intraoral-camera-monitor-clamp.webp",
+      alt: "Waldent Intraoral Camera Monitor Clamp product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-cord-for-intraoral-camera-smart-cam-with-pms",
@@ -140,7 +194,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Cord Shape", value: "Spiral design" }, { label: "Length", value: "90 cm (spiral state)" }, { label: "Material", value: "High-quality Plastic" }, { label: "Color", value: "White" }, { label: "Function", value: "Camera-to-screen connection" }],
     price: 1565,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-cord-for-intraoral-camera-smart-cam-with-pms.webp",
+      alt: "Waldent Cord For Intraoral Camera Smart Cam with PMS product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "cotisen-x-ray-film-holder",
@@ -153,7 +213,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Specification", value: "126 x 25 x 11mm" }, { label: "Material", value: "High-quality, durable plastic (ABS)" }, { label: "Design", value: "Ergonomic shape" }, { label: "Hygiene", value: "Easy to clean and sterilize" }, { label: "Weight", value: "25 gm" }],
     price: 65,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/cotisen-x-ray-film-holder.webp",
+      alt: "X-Ray Film Holder product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oro-x-ray-film-holder-pack-of-4",
@@ -166,7 +232,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Material", value: "High-quality, durable plastic (ABS)" }, { label: "Design", value: "Ergonomic shape" }, { label: "Hygiene", value: "Easy to clean and sterilize" }, { label: "Weight", value: "25 gm" }],
     price: 220,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/oro-x-ray-film-holder-pack-of-4.webp",
+      alt: "X - Ray Film Holder (Pack of 4) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gi-dental-film-developing-clip",
@@ -179,7 +251,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Material", value: "Durable steel with corrosion-resistant stainless-steel spring." }, { label: "Purpose", value: "Holds wet films straight and flat during drying." }, { label: "Design", value: "Prevents curling or distortion of films." }, { label: "Durability", value: "Long-lasting and resistant to moisture and chemicals." }, { label: "Usage", value: "Easy to attach and hang on drying racks or lines." }],
     price: 35,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/gi-dental-film-developing-clip.webp",
+      alt: "GI Dental Film Developing Clip product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-ai-ray-portable-x-ray-machine",
@@ -192,7 +270,13 @@ export const imaging: Product[] = [
     specs: [{ label: "Maximum power", value: "0.21kw（70kV, 3mA, 0.1s）" }, { label: "Nominal electric power", value: "0.21kw（70kV, 3mA, 0.1s）" }, { label: "Focal spot", value: "0.4mm;" }, { label: "Target angle", value: "12.5°;" }, { label: "Total filtration", value: "1.5mmAl/70 kV;" }],
     price: 86118,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/woodpecker-ai-ray-portable-x-ray-machine.webp",
+      alt: "Ai Ray Portable X-Ray Machine product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-dental-x-ray-film-e-speed-pack-of-100",
@@ -205,6 +289,12 @@ export const imaging: Product[] = [
     specs: [{ label: "For Child", value: "Reduce the exposure time by approx.33%" }, { label: "For empty spaces", value: "Reduce the exposure time by approx.25%" }],
     price: 3425,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-dental-x-ray-film-e-speed-pack-of-100.webp",
+      alt: "Dental X-Ray Film E-Speed (Pack Of 100) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

@@ -20,7 +20,13 @@ export const equipment: Product[] = [
     price: 8270,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-ultrawave-maxpiezo-4-led-ultrasonic-scaler.webp",
+      alt: "Ultrawave MaxPiezo 4 LED Ultrasonic Scaler product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-max-piezo-2-ultrasonic-scaler",
@@ -34,7 +40,13 @@ export const equipment: Product[] = [
     price: 5775,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/waldent-max-piezo-2-ultrasonic-scaler.webp",
+      alt: "Max Piezo 2 Ultrasonic Scaler product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-u-600-led-ultrasonic-scaler",
@@ -47,7 +59,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Main Unit Input", value: "220-240V~ 50Hz/60Hz 150mA" }, { label: "Output Primary Tip Vibration Excursion", value: "≤90μm" }, { label: "Output Tip Vibration Frequency", value: "28kHz ± 3kHz" }, { label: "Output Power", value: "3W to 20W" }, { label: "Main Unit Fuse", value: "T0.5AL 250V" }],
     price: 34749,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/woodpecker-u-600-led-ultrasonic-scaler.webp",
+      alt: "U-600 LED Ultrasonic Scaler product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-uds-j-ultrasonic-scaler",
@@ -61,7 +79,13 @@ export const equipment: Product[] = [
     price: 6925,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/woodpecker-uds-j-ultrasonic-scaler.webp",
+      alt: "UDS-J Ultrasonic Scaler product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "woodpecker-rta-d1-ultrasonic-scaler-blue",
@@ -75,7 +99,13 @@ export const equipment: Product[] = [
     price: 6800,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/woodpecker-rta-d1-ultrasonic-scaler-blue.webp",
+      alt: "RTA D1 Ultrasonic Scaler Blue product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-triple-head-dental-air-compressor-3-3-hp-sd-210-8gl",
@@ -88,7 +118,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Product Type", value: "Triple Head Oil-Free Air Compressor with Air Dryer" }, { label: "Brand", value: "Labodent" }, { label: "Model Code", value: "SD-210/8GL" }, { label: "Number of Motors", value: "3 units (850 W each)" }, { label: "Total Motor Power", value: "2550 W (3 × 850 W)" }],
     price: 90000,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/labodent-triple-head-dental-air-compressor-3-3-hp-sd-210-8gl.webp",
+      alt: "Triple Head Dental Air Compressor 3.3 HP (SD-210/8GL) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-oil-free-dental-compressor-head-1-1hp",
@@ -101,7 +137,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Motor Power", value: "1.1 HP (efficient and durable performance)" }, { label: "Tank Volume", value: "35 L (ample storage for continuous use)" }, { label: "Maximum Pressure", value: "115 PSI (stable air supply for dental procedures)" }, { label: "Noise Level", value: "≤ 55 dB (quiet, patient-friendly operation)" }, { label: "Technology", value: "Oil-free system (clean, maintenance-free compressed air)" }],
     price: 6815,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-oil-free-dental-compressor-head-1-1hp.webp",
+      alt: "Oil Free Dental Compressor Head 1.1HP product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "waldent-chair-light-for-eezee-portable-dental-chair",
@@ -114,7 +156,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Product Type", value: "Chair light accessory" }, { label: "Compatibility", value: "Waldent Eezee Portable Dental Chair" }, { label: "Light Source", value: "LED" }, { label: "Design", value: "Compact & adjustable" }, { label: "Power Supply", value: "Connects with chair unit" }],
     price: 2090,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/waldent-chair-light-for-eezee-portable-dental-chair.webp",
+      alt: "Waldent Chair Light For Eezee Portable Dental Chair product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "bestodent-classic-dental-chair",
@@ -127,7 +175,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Operating System", value: "Electrically Operated Dental Treatment Unit" }, { label: "Preset Positions", value: "Zero Position and Supine Position" }, { label: "Type", value: "Seamless Soft Upholstery" }, { label: "Benefit", value: "Enhanced patient comfort and easy maintenance" }, { label: "Type", value: "LED Sensor Operating Light" }],
     price: 99885,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/bestodent-classic-dental-chair.webp",
+      alt: "Classic Dental Chair product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentsply-smartlite-focus-pen-style-led-curing-light",
@@ -140,7 +194,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Product Type", value: "Pen-Style LED Curing Light" }, { label: "Operation", value: "Cordless" }, { label: "Light Source", value: "LED" }, { label: "Wavelength", value: "460–490 nm" }, { label: "Curing Cycle", value: "Up to 20 seconds" }],
     price: 55156,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/dentsply-smartlite-focus-pen-style-led-curing-light.webp",
+      alt: "SmartLite Focus - Pen Style LED Curing Light product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ortist-smart-led-curing-light-1500mw-black",
@@ -153,7 +213,13 @@ export const equipment: Product[] = [
     specs: [{ label: "input Voltage", value: "AC 110-220V, 50-60Hz" }, { label: "Battery Voltage", value: "3.7-4.2V" }, { label: "Wavelength Range", value: "420-480nm" }, { label: "Illumination Intensity", value: "1200-1500mW/cm²" }, { label: "Curing Depth", value: "2-3mm in 5 to 40 seconds" }],
     price: 1095,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/ortist-smart-led-curing-light-1500mw-black.webp",
+      alt: "Smart-LED Curing Light 1500mW - Black product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "endoking-eco-plus-composite-light-cure-unit",
@@ -166,7 +232,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Input Voltage", value: "AC 110-240V, 50-60HZ" }, { label: "Output Voltage", value: "DC4.2 V" }, { label: "Battery voltage", value: "3.7V" }, { label: "Wavelength", value: "420-480nm" }, { label: "Light power", value: "1200-2000mw/ cm²" }],
     price: 2090,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/endoking-eco-plus-composite-light-cure-unit.webp",
+      alt: "ECO Plus Composite Light Cure Unit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "endoking-icure-light-cure-unit-1-sec",
@@ -179,7 +251,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Dimension", value: "25 mm x 240 mm" }, { label: "Weight", value: "278g" }, { label: "Battery Voltage", value: "3.7 V" }, { label: "Capacity", value: "2200 mAh" }, { label: "Power Input AC", value: "100V - 240V, 50 Hz - 60 Hz" }],
     price: 2677,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/endoking-icure-light-cure-unit-1-sec.webp",
+      alt: "ICure Light Cure Unit (1 Sec) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "bestodent-direct-drain-motorised-suction",
@@ -192,7 +270,13 @@ export const equipment: Product[] = [
     specs: [{ label: "Power input", value: "220V AC/ 50Hz" }, { label: "Suction Pressure mbar/HPa", value: "350/min" }, { label: "Motor power", value: "350 watt" }, { label: "Noise", value: "62 db" }, { label: "Size", value: "380*330*500 mm" }],
     price: 21995,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/bestodent-direct-drain-motorised-suction.webp",
+      alt: "Direct Drain Motorised Suction product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "sparedent-dental-chair-water-bottle-1-litre",
@@ -205,6 +289,12 @@ export const equipment: Product[] = [
     specs: [{ label: "Item Type", value: "Dental chair accessories" }, { label: "Bottle Capacity", value: "1000ml" }, { label: "Color", value: "Transparent" }, { label: "Material", value: "High-quality plastic" }, { label: "Height", value: "33cm" }],
     price: 190,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/sparedent-dental-chair-water-bottle-1-litre.webp",
+      alt: "Dental Chair Water Bottle (1 Litre) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

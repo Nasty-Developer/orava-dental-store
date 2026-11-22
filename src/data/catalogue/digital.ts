@@ -20,7 +20,13 @@ export const digital: Product[] = [
     price: 3140,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/waldent-blz-intravue-900-ai-intraoral-scanner-tip-adult.webp",
+      alt: "BLZ IntraVue 900 Ai Intraoral Scanner Tip - Adult product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "medit-i900m-true-wireless-intraoral-scanner",
@@ -34,7 +40,13 @@ export const digital: Product[] = [
     price: 1450000,
     visual: "machine",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/medit-i900m-true-wireless-intraoral-scanner.webp",
+      alt: "I900M True Wireless Intraoral Scanner product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "medit-i900-classic-intraoral-scanner",
@@ -47,7 +59,13 @@ export const digital: Product[] = [
     specs: [{ label: "Product Name", value: "Medit i900 Classic Intraoral Scanner" }, { label: "Scanner Weight", value: "165 g including tip" }, { label: "Scanner Width", value: "35 mm" }, { label: "Imaging Technology", value: "10-bit imaging" }, { label: "Optical Engine", value: "Third-generation optical engine" }],
     price: 110000,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/medit-i900-classic-intraoral-scanner.webp",
+      alt: "I900 Classic Intraoral Scanner product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "upcera-flntscan-r2-intraoral-scanner",
@@ -61,7 +79,13 @@ export const digital: Product[] = [
     price: 285000,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/upcera-flntscan-r2-intraoral-scanner.webp",
+      alt: "FLNTScan R2 Intraoral Scanner product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-cobalt-chrome-tungsten-dmls-powder-molybdenum-free-15",
@@ -75,7 +99,13 @@ export const digital: Product[] = [
     price: 59990,
     visual: "bottle",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/labodent-cobalt-chrome-tungsten-dmls-powder-molybdenum-free-15.webp",
+      alt: "Cobalt Chrome Tungsten DMLS Powder - Molybdenum Free 15-53µm (5kg) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "fastform-deskfab-x1-accessories-power-sieving-system",
@@ -88,7 +118,13 @@ export const digital: Product[] = [
     specs: [{ label: "Product Name", value: "Power Sieving System" }, { label: "Operation Mode", value: "Intermittent and Continuous Shifting Motion" }, { label: "Intermittent Interval", value: "0.5 seconds" }, { label: "Capacity", value: "Up to 8 Sieves (200 mm diameter x 50 mm height)" }, { label: "Shake Time", value: "Programmable from 1 to 99 minutes" }],
     price: 74999,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/fastform-deskfab-x1-accessories-power-sieving-system.webp",
+      alt: "DeskFab X1 Accessories Power Sieving System product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "mdm-carving-wax-blocks",
@@ -101,7 +137,13 @@ export const digital: Product[] = [
     specs: [{ label: "Type", value: "Dental carving wax block" }, { label: "Material", value: "High-quality refined dental wax" }, { label: "Consistency", value: "Medium hard" }, { label: "Texture", value: "Smooth, non-grainy surface" }, { label: "Application", value: "Preclinical tooth carving practice" }],
     price: 160,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/mdm-carving-wax-blocks.webp",
+      alt: "Carving Wax Blocks product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "samit-carving-wax-blocks-pack-of-40",
@@ -114,7 +156,13 @@ export const digital: Product[] = [
     specs: [{ label: "Material", value: "High-Quality Dental Wax" }, { label: "Type", value: "Carving Wax" }, { label: "Application", value: "Tooth Model Carving" }, { label: "Indication", value: "Dental Anatomy Learning & Tooth Carving" }],
     price: 120,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/samit-carving-wax-blocks-pack-of-40.webp",
+      alt: "Samit Carving Wax Blocks (Pack of 40) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "prestocraft-3d-printing-surgical-guide-resin-500-gm",
@@ -127,7 +175,13 @@ export const digital: Product[] = [
     specs: [{ label: "Colour", value: "Clear-translucent" }, { label: "Wavelength", value: "385-405 nm" }, { label: "Odour", value: "Low" }],
     price: 7150,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/prestocraft-3d-printing-surgical-guide-resin-500-gm.webp",
+      alt: "PrestoCraft 3D Printing Surgical Guide Resin - 500 Gm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "fastform-deskfab-x1-accessories-powder-drying-oven",
@@ -140,7 +194,13 @@ export const digital: Product[] = [
     specs: [{ label: "Compatible", value: "DeskFab X1" }, { label: "Material", value: "Stainless Steel Inner Chamber" }, { label: "Ambient Temperature", value: "+5°C to 40°C" }],
     price: 34999,
     visual: "bottle",
-    image: null,
+    image: {
+      src: "/products/fastform-deskfab-x1-accessories-powder-drying-oven.webp",
+      alt: "DeskFab X1 Accessories powder Drying Oven product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "nexy-metal-milling-bur-round-nose-knife-jdm5dw-type",
@@ -153,7 +213,13 @@ export const digital: Product[] = [
     specs: [{ label: "Bur Type", value: "Round nose profile" }, { label: "Material", value: "High-grade carbide" }, { label: "Balance Accuracy", value: "≤ 0.01 mm for smooth, low-vibration milling" }, { label: "Applicable Materials", value: "Titanium, Co-Cr, dental metals" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/nexy-metal-milling-bur-round-nose-knife-jdm5dw-type.webp",
+      alt: "Metal Milling Bur - Round Nose Knife (JDM5DW Type) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-metal-milling-burs-aln-nexy-type",
@@ -166,7 +232,13 @@ export const digital: Product[] = [
     specs: [{ label: "Type", value: "Metal Milling Bur" }, { label: "System", value: "Nexy Type" }, { label: "Head Shape", value: "Ball end" }, { label: "Head Diameter", value: "1.0mm, 1.5mm, 2.0mm, 3.0mm" }, { label: "Shank Diameter", value: "6mm" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/labodent-metal-milling-burs-aln-nexy-type.webp",
+      alt: "Metal Milling Burs ALN (Nexy Type) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-zirconia-milling-burs-dlc-roland-type",
@@ -179,7 +251,13 @@ export const digital: Product[] = [
     specs: [{ label: "Type", value: "Zirconia Milling Bur" }, { label: "System", value: "Roland Type" }, { label: "Shank Diameter", value: "4.0mm" }, { label: "Head Diameter", value: "0.6mm, 1.0mm, 1.5mm, 2.0mm" }, { label: "Coating", value: "DLC / Diamond-Like Carbon" }],
     price: null,
     visual: "bur",
-    image: null,
+    image: {
+      src: "/products/labodent-zirconia-milling-burs-dlc-roland-type.webp",
+      alt: "Zirconia Milling Burs DLC (Roland Type) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "upcera-dental-zirconia-blanks-st-pre-shaded-st-color-b1-shade",
@@ -192,7 +270,13 @@ export const digital: Product[] = [
     specs: [{ label: "Shade", value: "B1" }, { label: "Material", value: "Zirconia" }, { label: "Diameter", value: "98cm" }, { label: "Available Thickness", value: "10mm,12mm, 14mm, 16mm, 18mm, 20mm, 22mm, 25mm" }, { label: "Strength", value: "1300MPa" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/upcera-dental-zirconia-blanks-st-pre-shaded-st-color-b1-shade.webp",
+      alt: "Dental Zirconia Blanks ST Pre-Shaded/ ST Color (B1 Shade) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "denfac-zirconia-ceramic-blank-st-white-shade-cad-cam-disc",
@@ -205,6 +289,12 @@ export const digital: Product[] = [
     specs: [{ label: "Product Type", value: "Zirconia ceramic blank" }, { label: "Brand", value: "DenFac" }, { label: "Series", value: "ST" }, { label: "Shade", value: "White" }, { label: "Disc Diameter", value: "98 mm" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/denfac-zirconia-ceramic-blank-st-white-shade-cad-cam-disc.webp",
+      alt: "Zirconia Ceramic Blank ST | White Shade | CAD/CAM Disc product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

@@ -20,7 +20,13 @@ export const implantology: Product[] = [
     price: 22530,
     visual: "implant",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/dentalplant-implant-stability-tester-golden.webp",
+      alt: "Implant Stability Tester - Golden product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "nsk-s-max-sg20m-implant-contra-angle-handpiece-ca13020001",
@@ -34,7 +40,13 @@ export const implantology: Product[] = [
     price: 29995,
     visual: "implant",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/nsk-s-max-sg20m-implant-contra-angle-handpiece-ca13020001.webp",
+      alt: "S-Max SG20M Implant Contra-Angle Handpiece (CA13020001) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentaltech-osstem-regular-implant-compatible-scan-body",
@@ -47,7 +59,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Implant Scan Body" }, { label: "Compatibility", value: "Osstem Regular Platform Implants" }, { label: "Material", value: "Titanium" }, { label: "Total Length", value: "1.1 cm" }, { label: "Diameter", value: "3 mm" }],
     price: 840,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/dentaltech-osstem-regular-implant-compatible-scan-body.webp",
+      alt: "Osstem Regular Implant Compatible Scan Body product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentaltech-osstem-regular-compatible-digital-analog",
@@ -61,7 +79,13 @@ export const implantology: Product[] = [
     price: 525,
     visual: "implant",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/dentaltech-osstem-regular-compatible-digital-analog.webp",
+      alt: "Osstem Regular Compatible Digital Analog product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "novabone-perioglas-bioactive-glass-6-x-0-5cc",
@@ -75,7 +99,13 @@ export const implantology: Product[] = [
     price: 11295,
     visual: "implant",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/novabone-perioglas-bioactive-glass-6-x-0-5cc.webp",
+      alt: "Perioglas Bioactive Glass (6 x 0.5cc) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "dentaltech-premill-abutment-blank-regular-osstem-compatible-ossr",
@@ -88,7 +118,13 @@ export const implantology: Product[] = [
     specs: [{ label: "System Compatibility", value: "Korean Regular Implant System ( Osstem Implant System, Dentium Implant System, DIO implant system, Cowellmedi implant system, Neobiotech implant system, DENTIS implant system )" }, { label: "Model Code", value: "OSSR" }, { label: "Type", value: "Premill Abutment Blank" }, { label: "Connection Type", value: "Regular Internal Connection" }, { label: "Material", value: "Titanium Alloy" }],
     price: 630,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/dentaltech-premill-abutment-blank-regular-osstem-compatible-ossr.webp",
+      alt: "Premill Abutment Blank Regular - Osstem Compatible (OSSR) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-micro-trephine-drill-jull-dent-114",
@@ -101,7 +137,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Micro Trephine Drill" }, { label: "Model", value: "JULL-DENT 114" }, { label: "Material", value: "Stainless Steel" }, { label: "Compatible", value: "Low-Speed Contra-Angle Handpieces" }, { label: "Application", value: "Bone Harvesting and Implant Retrieval" }],
     price: 1495,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/julldent-micro-trephine-drill-jull-dent-114.webp",
+      alt: "Julldent Micro Trephine Drill (JULL-DENT 114) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "surgident-trephine-bur-20mm-long-assorted-sd-ltba",
@@ -114,7 +156,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Trephine Bur Set (Long, Assorted)" }, { label: "Brand", value: "Surgident" }, { label: "Model Code", value: "SD-LTBA" }, { label: "Number of Burs", value: "5 trephine burs" }, { label: "Diameters Included", value: "Ø4.0, 5.0, 6.0, 7.0, 8.0 mm" }],
     price: 8240,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/surgident-trephine-bur-20mm-long-assorted-sd-ltba.webp",
+      alt: "Trephine Bur 20mm - Long Assorted (SD-LTBA) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-long-diamond-drill-for-quad-zygoma",
@@ -127,7 +175,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Material", value: "Diamond-coated" }, { label: "Length", value: "Long design" }, { label: "Compatibility", value: "Contra-angle handpiece" }, { label: "Usage", value: "Zygomatic implants" }, { label: "Function", value: "Sinus corticotomy" }],
     price: 2499,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/julldent-long-diamond-drill-for-quad-zygoma.webp",
+      alt: "Julldent Long Diamond Drill for Quad Zygoma product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "julldent-bone-profile-drill-6mm-pack-of-1",
@@ -140,7 +194,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Material", value: "Stainless steel" }, { label: "Diameter", value: "6 mm" }, { label: "Scope", value: "Surgery, bone profiling" }, { label: "Maximum Rotation Speed", value: "300 rpm" }, { label: "Maximum Number of Uses", value: "30 uses" }],
     price: 4509,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/julldent-bone-profile-drill-6mm-pack-of-1.webp",
+      alt: "Julldent Bone Profile Drill 6mm (Pack of 1) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "surgident-basic-implant-surgical-kit-sd-bk",
@@ -153,7 +213,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Basic Implant Surgical Kit" }, { label: "Model Number", value: "SD-BK" }, { label: "Total Instruments", value: "22 pieces" }, { label: "Material", value: "Surgical-grade stainless steel" }, { label: "Application", value: "Routine implant surgery" }],
     price: 30600,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/surgident-basic-implant-surgical-kit-sd-bk.webp",
+      alt: "Basic Implant Surgical Kit (SD-BK) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "surgident-bone-profiler-kit-sd-bp",
@@ -166,7 +232,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Implant Bone Profiling Kit" }, { label: "Model", value: "SD-BP" }, { label: "Application", value: "Bone Reduction for Prosthetic Seating" }, { label: "Compatibility", value: "Universal Internal Connection Implant Systems" }, { label: "Handpiece Compatibility", value: "20:1 Implant Handpiece" }],
     price: 18540,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/surgident-bone-profiler-kit-sd-bp.webp",
+      alt: "Bone Profiler Kit (SD-BP) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-membrane-placement-instrument-pmpis",
@@ -179,7 +251,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Type", value: "Membrane Placement Instrument" }, { label: "Category", value: "Implantology" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 1717,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/gdc-membrane-placement-instrument-pmpis.webp",
+      alt: "Membrane Placement Instrument (Pmpis) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "oracraft-membrane-placement-pmpis",
@@ -192,7 +270,13 @@ export const implantology: Product[] = [
     specs: [{ label: "Type", value: "Membrane Placement Instrument" }, { label: "Category", value: "Implantology" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 1560,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/oracraft-membrane-placement-pmpis.webp",
+      alt: "Membrane Placement (PMPIS) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "b-ostin-ha-nano-bonegraft-materials-0-355-0-500mm",
@@ -205,6 +289,12 @@ export const implantology: Product[] = [
     specs: [{ label: "Product Type", value: "Synthetic Bone Graft Substitute" }, { label: "Brand", value: "B-Ostin" }, { label: "Composition", value: "100% Hydroxyapatite (HA Nano)" }, { label: "Material Type", value: "Synthetic Bioceramic Bone Graft" }, { label: "Biocompatibility", value: "Highly Biocompatible" }],
     price: null,
     visual: "implant",
-    image: null,
+    image: {
+      src: "/products/b-ostin-ha-nano-bonegraft-materials-0-355-0-500mm.webp",
+      alt: "HA Nano Bonegraft Materials 0.355 - 0.500mm product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];

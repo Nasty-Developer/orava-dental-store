@@ -1,0 +1,43 @@
+{
+ "brand": "Labodent",
+ "domain": "labodent.com",
+ "checked": "2026-11-22T14:26:46.194Z",
+ "matched": [],
+ "unmatched": [
+  {
+   "slug": "labodent-cobalt-chrome-tungsten-dmls-powder-molybdenum-free-15",
+   "name": "Cobalt Chrome Tungsten DMLS Powder - Molybdenum Free 15-53µm (5kg)",
+   "closest": null
+  },
+  {
+   "slug": "labodent-metal-milling-burs-aln-nexy-type",
+   "name": "Metal Milling Burs ALN (Nexy Type)",
+   "closest": null
+  },
+  {
+   "slug": "labodent-zirconia-milling-burs-dlc-roland-type",
+   "name": "Zirconia Milling Burs DLC (Roland Type)",
+   "closest": null
+  },
+  {
+   "slug": "labodent-triple-head-dental-air-compressor-3-3-hp-sd-210-8gl",
+   "name": "Triple Head Dental Air Compressor 3.3 HP (SD-210/8GL)",
+   "closest": null
+  },
+  {
+   "slug": "labodent-dental-laboratory-micromotor-unit",
+   "name": "Dental Laboratory Micromotor Unit",
+   "closest": null
+  },
+  {
+   "slug": "labodent-zirconia-ceramic-blanks-st-c-a1-shade-pre-shaded-cad",
+   "name": "Zirconia Ceramic Blanks ST-C | A1 Shade | Pre-Shaded CAD/CAM Discs",
+   "closest": null
+  },
+  {
+   "slug": "labodent-glaze-paste-15gm",
+   "name": "Glaze Paste 15gm",
+   "closest": null
+  }
+ ]
+}

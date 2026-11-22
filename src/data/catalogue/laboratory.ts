@@ -20,7 +20,13 @@ export const laboratory: Product[] = [
     price: 225000,
     visual: "machine",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/piocreat-pionext-ultra-dental-lcd-resin-3d-printer-dj-89.webp",
+      alt: "Piocreat PioNext Ultra Dental LCD Resin 3D Printer DJ-89 product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "gdc-plaster-shears-210mm-pcs",
@@ -34,7 +40,13 @@ export const laboratory: Product[] = [
     price: 1763,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/gdc-plaster-shears-210mm-pcs.webp",
+      alt: "Plaster Shears (210mm) (Pcs) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "ackuretta-sol-130-dental-3d-printer",
@@ -47,7 +59,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "3D Print Technology", value: "Monochrome LCD Panel" }, { label: "Dimensions", value: "29.2 (L) x 27.1 (W) x 41.6 (H) cm" }, { label: "Print Area", value: "14 (L) x 8 (W) x 12.8 (H) cm" }, { label: "XY Resolution", value: "49 μm" }, { label: "Layer Thickness", value: "30 - 150 μm" }],
     price: 518905,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/ackuretta-sol-130-dental-3d-printer.webp",
+      alt: "SOL-130 Dental 3D Printer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "arum-5x-400-cad-cam-milling-machine",
@@ -61,7 +79,13 @@ export const laboratory: Product[] = [
     price: 2475510,
     visual: "instrument",
     featured: true,
-    image: null,
+    image: {
+      src: "/products/arum-5x-400-cad-cam-milling-machine.webp",
+      alt: "5X-400 CAD/CAM Milling Machine product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "shofu-porcelain-instruments-kit",
@@ -75,7 +99,13 @@ export const laboratory: Product[] = [
     price: 17239,
     visual: "instrument",
     popular: true,
-    image: null,
+    image: {
+      src: "/products/shofu-porcelain-instruments-kit.webp",
+      alt: "Porcelain Instruments Kit product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kalabhai-ultra-rock-die-brown-stone-3kg",
@@ -88,7 +118,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Color", value: "Brown" }, { label: "Type", value: "Class IV" }, { label: "Water/Powder Ratio", value: "20 ml / 100 g" }, { label: "Soaking Time", value: "30 seconds" }, { label: "Mixing Time (Mechanical)", value: "30 seconds" }],
     price: 959,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/kalabhai-ultra-rock-die-brown-stone-3kg.webp",
+      alt: "Ultra Rock Die (Brown) Stone (3kg) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "zhermack-elite-rock-c410010",
@@ -101,7 +137,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Water/Powder Ratio", value: "20ml/100g" }, { label: "MixingTime (manual)", value: "0:30 sec" }, { label: "Mixing Time (vacuum)", value: "0:30 sec" }, { label: "Working Time", value: "12:00 min" }, { label: "Setting Time (VICAT)", value: "14:00 min" }],
     price: 780,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/zhermack-elite-rock-c410010.webp",
+      alt: "Elite Rock (C410010) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kalabhai-ultra-blue-stone-3kg",
@@ -114,7 +156,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Colour", value: "Azure Blue" }, { label: "Type", value: "Class lll" }, { label: "Water/Plaster Ratio", value: "28ml/100g" }, { label: "Mixing Time", value: "15 seconds" }, { label: "Setting Time", value: "8 Minutes" }],
     price: 429,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/kalabhai-ultra-blue-stone-3kg.webp",
+      alt: "Ultra (Blue) Stone 3Kg product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "kalabhai-kalstone-green-3kg",
@@ -127,7 +175,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Colour", value: "Green" }, { label: "Type", value: "Class lll" }, { label: "Water/Plaster Ratio", value: "30ml/100g" }, { label: "Working Time", value: "5 Minutes" }, { label: "Mixing Time", value: "15 seconds" }],
     price: 291,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/kalabhai-kalstone-green-3kg.webp",
+      alt: "Kalstone (Green) - 3Kg product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "maarc-casting-wax-sheets-2206-200",
@@ -140,7 +194,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Thin Sheets", value: "Ensures minimal casting defects." }, { label: "Easy Burnout", value: "Leaves no residue during casting." }, { label: "Precision Casting", value: "Reduces machining requirements." }, { label: "Smooth Adaptation", value: "Conforms well to molds for accurate castings." }, { label: "Thickness", value: "0.3 to 0.6 mm." }],
     price: 960,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/maarc-casting-wax-sheets-2206-200.webp",
+      alt: "Casting Wax Sheets (2206/200) product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "samit-blue-inlay-wax",
@@ -153,7 +213,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Color", value: "Deep blue for high visibility" }, { label: "Texture", value: "Medium hardness with easy carving and adaptation" }, { label: "Stability", value: "Does not shrink, flake, or distort upon cooling" }, { label: "Quantity", value: "25gm" }],
     price: 90,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/samit-blue-inlay-wax.webp",
+      alt: "Samit Blue Inlay Wax product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "rolex-inlay-casting-wax",
@@ -166,7 +232,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Category", value: "Prosthodontic material" }, { label: "Type", value: "Inlay casting wax" }, { label: "Recommended Use", value: "For fabrication of wax pattern for inlays, onlays and crowns" }, { label: "Colour", value: "Blue" }],
     price: 140,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/rolex-inlay-casting-wax.webp",
+      alt: "Inlay Casting Wax product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "unident-dental-palatal-trimmer",
@@ -179,7 +251,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Rpm", value: "2800" }, { label: "Material", value: "304 Grade Stainless Steel" }, { label: "Finish", value: "Dull Finish Work Surface" }, { label: "Dust Collection", value: "Rear-mounted with Adapter Hose" }, { label: "Cutting Speed", value: "Fast" }],
     price: 23415,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/unident-dental-palatal-trimmer.webp",
+      alt: "Dental Palatal Trimmer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "unident-imported-model-arch-trimmer",
@@ -192,7 +270,13 @@ export const laboratory: Product[] = [
     specs: [{ label: "Voltage", value: "220V 50HZ (+ 10%)" }, { label: "Power", value: "140W" }, { label: "Weight", value: "18KG" }],
     price: 12605,
     visual: "machine",
-    image: null,
+    image: {
+      src: "/products/unident-imported-model-arch-trimmer.webp",
+      alt: "Imported Model ARCH Trimmer product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
   {
     slug: "labodent-zirconia-ceramic-blanks-st-c-a1-shade-pre-shaded-cad",
@@ -205,6 +289,12 @@ export const laboratory: Product[] = [
     specs: [{ label: "Shade", value: "A1 (VITA Classic)" }, { label: "Translucency", value: "43%" }, { label: "Flexural Strength", value: "1,100 MPa" }, { label: "Density", value: "≥6.0 g/cm³" }, { label: "Hardness", value: "(Hv10) 1250" }],
     price: null,
     visual: "box",
-    image: null,
+    image: {
+      src: "/products/labodent-zirconia-ceramic-blanks-st-c-a1-shade-pre-shaded-cad.webp",
+      alt: "Zirconia Ceramic Blanks ST-C | A1 Shade | Pre-Shaded CAD/CAM Discs product photograph",
+      source: "Supplier product listing, Nov 2026",
+      license: "Owner-authorised publication, 2026-11-22; brand permission not on file",
+      permission: "owner-approved",
+    },
   },
 ];
