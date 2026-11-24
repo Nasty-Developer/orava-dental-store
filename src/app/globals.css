@@ -294,3 +294,12 @@
     animation-delay: 0ms !important;
   }
 }
+
+/* A decorative layer overhangs the viewport and created a 732px horizontal
+   scrollbar at 1440. overflow-x: clip removes the scroll without turning the
+   element into a scroll container, so position: sticky on the header still works
+   (unlike overflow-x: hidden). */
+html,
+body {
+  overflow-x: clip;
+}
