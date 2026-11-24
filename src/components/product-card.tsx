@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import type { Product } from "@/data/products";
+import type { ProductSummary } from "@/data/types";
 import { formatINR, buildProductEnquiry, orderLink } from "@/lib/whatsapp";
 import { useCart } from "@/lib/cart";
 import { categoryTint } from "./product-art";
@@ -15,7 +15,7 @@ export function ProductCard({
   priority = false,
   compact = false,
 }: {
-  product: Product;
+  product: ProductSummary;
   priority?: boolean;
   compact?: boolean;
 }) {
@@ -56,7 +56,7 @@ export function ProductCard({
               <button
                 onClick={(e) => {
                   e.preventDefault();
-                  add(product.slug, 1);
+                  add(product, 1);
                 }}
                 className="flex w-full items-center justify-center gap-2 rounded-full bg-white/95 py-2.5 text-[12.5px] font-medium text-ink shadow-lift backdrop-blur transition-colors hover:bg-ink hover:text-white"
               >
@@ -82,7 +82,7 @@ export function ProductCard({
             <button
               onClick={(e) => {
                 e.preventDefault();
-                add(product.slug, 1);
+                add(product, 1);
               }}
               aria-label={`Add ${product.name} to cart`}
               className="absolute bottom-3 right-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/95 text-ink shadow-lift backdrop-blur transition-colors active:bg-ink active:text-white md:hidden"

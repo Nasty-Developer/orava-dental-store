@@ -1,5 +1,4 @@
 import { site } from "@/data/site";
-import type { Product } from "@/data/products";
 
 /** Build a wa.me link with a prefilled message. */
 export function waLink(number: string, message: string) {
@@ -92,8 +91,16 @@ export function buildOrderMessage(lines: OrderLine[], customer: OrderCustomer) {
   return { message, subtotal, shipping, total, ref };
 }
 
+/** The only product facts an enquiry message needs. */
+export type EnquiryProduct = {
+  name: string;
+  brand: string;
+  packaging: string | null;
+  price: number | null;
+};
+
 /** Single-product enquiry message from a product page. */
-export function buildProductEnquiry(product: Product, qty = 1) {
+export function buildProductEnquiry(product: EnquiryProduct, qty = 1) {
   const bits = [`*${product.name}*`, product.brand];
   if (product.packaging) bits.push(`Pack: ${product.packaging}`);
   if (product.price !== null) {

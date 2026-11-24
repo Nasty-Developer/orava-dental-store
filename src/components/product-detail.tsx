@@ -171,7 +171,7 @@ export function ProductDetail({ product }: { product: Product }) {
 
             {priced ? (
               <button
-                onClick={() => add(product.slug, qty)}
+                onClick={() => add(product, qty)}
                 className="btn-primary flex-1 min-w-[190px] sm:flex-none"
               >
                 Add to cart

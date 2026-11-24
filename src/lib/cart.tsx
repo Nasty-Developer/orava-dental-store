@@ -7,18 +7,57 @@ import {
   useEffect,
   useMemo,
   useReducer,
+  useRef,
   useState,
   type ReactNode,
 } from "react";
-import { products } from "@/data/products";
+import type {
+  CategorySlug,
+  ProductImage,
+  ProductSummary,
+  ProductVisual,
+} from "@/data/types";
+import { loadSearchIndex } from "./search-index-client";
 
-export type CartLine = { slug: string; qty: number };
+/**
+ * A cart line carries everything needed to render and total itself: name,
+ * brand, price, artwork. That is deliberate — it means the cart never imports
+ * the catalogue, so a 3,000-product catalogue costs the cart nothing.
+ */
+export type CartLine = {
+  slug: string;
+  qty: number;
+  name: string;
+  brand: string;
+  category: CategorySlug;
+  subcategory: string;
+  packaging: string | null;
+  price: number;
+  visual: ProductVisual;
+  image: ProductImage | null;
+};
 
-type State = { lines: CartLine[]; ready: boolean };
+/** The product half of a line: what a component must hand to `add()`. */
+export type CartProductInput = Omit<CartLine, "qty" | "price"> & { price: number | null };
+
+export type CartProduct = Omit<CartLine, "qty">;
+
+export type CartItem = {
+  slug: string;
+  qty: number;
+  /** Only priced products can be added to a cart, so price is always known here. */
+  product: CartProduct & { price: number };
+  lineTotal: number;
+};
+
+/** A line restored from storage may predate this shape and hold only a slug. */
+type StoredLine = { slug: string; qty: number } & Partial<Omit<CartLine, "slug" | "qty">>;
+
+type State = { lines: StoredLine[]; ready: boolean };
 
 type Action =
-  | { type: "hydrate"; lines: CartLine[] }
-  | { type: "add"; slug: string; qty: number }
+  | { type: "hydrate"; lines: StoredLine[] }
+  | { type: "add"; line: CartLine }
   | { type: "setQty"; slug: string; qty: number }
   | { type: "remove"; slug: string }
   | { type: "clear" };
@@ -28,18 +67,25 @@ const STORAGE_KEY = "somil.cart.v1";
 const LEGACY_KEY = "orava.cart.v1";
 const MAX_QTY = 20;
 
+const isComplete = (line: StoredLine): line is CartLine =>
+  typeof line.price === "number" &&
+  typeof line.name === "string" &&
+  typeof line.brand === "string" &&
+  typeof line.category === "string" &&
+  typeof line.visual === "string";
+
 function reducer(state: State, action: Action): State {
   switch (action.type) {
     case "hydrate":
       return { lines: action.lines, ready: true };
     case "add": {
-      const existing = state.lines.find((l) => l.slug === action.slug);
+      const existing = state.lines.find((l) => l.slug === action.line.slug);
       if (existing) {
         return {
           ...state,
           lines: state.lines.map((l) =>
-            l.slug === action.slug
-              ? { ...l, qty: Math.min(MAX_QTY, l.qty + action.qty) }
+            l.slug === action.line.slug
+              ? { ...action.line, qty: Math.min(MAX_QTY, l.qty + action.line.qty) }
               : l,
           ),
         };
@@ -48,7 +94,7 @@ function reducer(state: State, action: Action): State {
         ...state,
         lines: [
           ...state.lines,
-          { slug: action.slug, qty: Math.min(MAX_QTY, Math.max(1, action.qty)) },
+          { ...action.line, qty: Math.min(MAX_QTY, Math.max(1, action.line.qty)) },
         ],
       };
     }
@@ -73,14 +119,6 @@ function reducer(state: State, action: Action): State {
   }
 }
 
-export type CartItem = {
-  slug: string;
-  qty: number;
-  /** Only priced products can be added to a cart, so price is always known here. */
-  product: (typeof products)[number] & { price: number };
-  lineTotal: number;
-};
-
 type CartContextValue = {
   items: CartItem[];
   count: number;
@@ -90,7 +128,7 @@ type CartContextValue = {
   ready: boolean;
   isOpen: boolean;
   lastAdded: string | null;
-  add: (slug: string, qty?: number) => void;
+  add: (product: CartProductInput, qty?: number) => void;
   setQty: (slug: string, qty: number) => void;
   remove: (slug: string) => void;
   clear: () => void;
@@ -103,41 +141,91 @@ const CartContext = createContext<CartContextValue | null>(null);
 const FREE_SHIPPING = 1499;
 const FLAT_SHIPPING = 79;
 
-function parseStored(raw: string | null): CartLine[] {
-  if (!raw) return [];
+/** Split stored JSON into usable lines and lines that still need a lookup. */
+function readStored(raw: string | null): { lines: CartLine[]; unresolved: { slug: string; qty: number }[] } {
+  const empty = { lines: [], unresolved: [] };
+  if (!raw) return empty;
   try {
     const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed)) return [];
-    const valid = new Set(products.map((p) => p.slug));
-    return parsed
-      .filter(
-        (l): l is CartLine =>
-          !!l &&
-          typeof l.slug === "string" &&
-          typeof l.qty === "number" &&
-          valid.has(l.slug) &&
-          l.qty > 0,
-      )
-      .map((l) => ({ slug: l.slug, qty: Math.min(MAX_QTY, Math.round(l.qty)) }));
+    if (!Array.isArray(parsed)) return empty;
+
+    const lines: CartLine[] = [];
+    const unresolved: { slug: string; qty: number }[] = [];
+
+    for (const l of parsed) {
+      if (!l || typeof l.slug !== "string" || typeof l.qty !== "number" || l.qty <= 0) continue;
+      const qty = Math.min(MAX_QTY, Math.round(l.qty));
+      const line: StoredLine = { ...l, slug: l.slug, qty };
+      if (isComplete(line)) lines.push({ ...line, qty });
+      else unresolved.push({ slug: l.slug, qty });
+    }
+    return { lines, unresolved };
   } catch {
-    return [];
+    return empty;
   }
 }
+
+const lineFrom = (item: ProductSummary | CartProductInput, qty: number): CartLine => ({
+  slug: item.slug,
+  qty: Math.min(MAX_QTY, Math.max(1, qty)),
+  name: item.name,
+  brand: item.brand,
+  category: item.category,
+  subcategory: item.subcategory,
+  packaging: item.packaging,
+  price: item.price as number,
+  visual: item.visual,
+  image: item.image,
+});
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(reducer, { lines: [], ready: false });
   const [isOpen, setIsOpen] = useState(false);
   const [lastAdded, setLastAdded] = useState<string | null>(null);
+  const hydrated = useRef(false);
 
   // hydrate once on mount
   useEffect(() => {
+    if (hydrated.current) return;
+    hydrated.current = true;
+
     const current = localStorage.getItem(STORAGE_KEY);
     const legacy = current ? null : localStorage.getItem(LEGACY_KEY);
-    dispatch({ type: "hydrate", lines: parseStored(current ?? legacy) });
+    const raw = current ?? legacy;
+    const { lines, unresolved } = readStored(raw);
+
     if (!current && legacy) {
       localStorage.setItem(STORAGE_KEY, legacy);
       localStorage.removeItem(LEGACY_KEY);
     }
+
+    if (!unresolved.length) {
+      dispatch({ type: "hydrate", lines });
+      return;
+    }
+
+    // A cart saved before lines carried their own product data holds slugs only.
+    // Resolve it from the static index. If the index is unavailable the lines
+    // are kept exactly as they are, so nothing is lost and the next visit retries.
+    let cancelled = false;
+    loadSearchIndex().then((index) => {
+      if (cancelled) return;
+      if (!index.length) {
+        dispatch({ type: "hydrate", lines: [...lines, ...unresolved] });
+        return;
+      }
+      const bySlug = new Map(index.map((p) => [p.slug, p]));
+      const resolved = unresolved
+        .map((l) => {
+          const hit = bySlug.get(l.slug);
+          return hit && hit.price !== null ? lineFrom(hit, l.qty) : null;
+        })
+        .filter((l): l is CartLine => l !== null);
+      dispatch({ type: "hydrate", lines: [...lines, ...resolved] });
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // persist + sync across tabs
@@ -149,7 +237,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const onStorage = (e: StorageEvent) => {
       if (e.key === STORAGE_KEY) {
-        dispatch({ type: "hydrate", lines: parseStored(e.newValue) });
+        dispatch({ type: "hydrate", lines: readStored(e.newValue).lines });
       }
     };
     window.addEventListener("storage", onStorage);
@@ -166,18 +254,26 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const items = useMemo<CartItem[]>(() => {
     return state.lines
+      .filter(isComplete)
       .map((line) => {
-        const product = products.find((p) => p.slug === line.slug);
-        // products without a confirmed price are handled by enquiry, not the cart
-        if (!product || product.price === null) return null;
+        const product = {
+          slug: line.slug,
+          name: line.name,
+          brand: line.brand,
+          category: line.category,
+          subcategory: line.subcategory,
+          packaging: line.packaging,
+          price: line.price,
+          visual: line.visual,
+          image: line.image,
+        };
         return {
           slug: line.slug,
           qty: line.qty,
           product,
-          lineTotal: (product.price as number) * line.qty,
+          lineTotal: product.price * line.qty,
         };
-      })
-      .filter((x): x is CartItem => x !== null);
+      });
   }, [state.lines]);
 
   const count = items.reduce((s, i) => s + i.qty, 0);
@@ -185,9 +281,11 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const shipping = subtotal === 0 || subtotal >= FREE_SHIPPING ? 0 : FLAT_SHIPPING;
   const total = subtotal + shipping;
 
-  const add = useCallback((slug: string, qty = 1) => {
-    dispatch({ type: "add", slug, qty });
-    setLastAdded(slug);
+  const add = useCallback((product: CartProductInput, qty = 1) => {
+    // products without a confirmed price are handled by enquiry, not the cart
+    if (product.price === null) return;
+    dispatch({ type: "add", line: lineFrom(product, qty) });
+    setLastAdded(product.slug);
     setIsOpen(true);
   }, []);
 
