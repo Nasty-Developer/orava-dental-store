@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node tools/validate-catalogue.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -12,7 +13,8 @@
     "images:queue": "node tools/product-image-queue.mjs",
     "images:register": "node tools/image-register.mjs",
     "images:permissions": "node tools/photo-permissions.mjs",
-    "images:drafts": "node tools/media-kit-drafts.mjs"
+    "images:drafts": "node tools/media-kit-drafts.mjs",
+    "validate": "node tools/validate-catalogue.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
