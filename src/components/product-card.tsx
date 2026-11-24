@@ -64,16 +64,21 @@ export function ProductCard({
                 Add to cart
               </button>
             ) : (
-              <a
-                href={orderLink(buildProductEnquiry(product))}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
+              <button
+                type="button"
+                onClick={(e) => {
+                  // The whole card is a link, so this cannot be an anchor
+                  // without nesting one inside the other. Open WhatsApp
+                  // directly instead.
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open(orderLink(buildProductEnquiry(product)), "_blank", "noopener,noreferrer");
+                }}
                 className="flex w-full items-center justify-center gap-2 rounded-full bg-white/95 py-2.5 text-[12.5px] font-medium text-ink shadow-lift backdrop-blur transition-colors hover:bg-ink hover:text-white"
               >
                 <IconWhatsApp size={14} />
                 Ask for price
-              </a>
+              </button>
             )}
           </div>
 
