@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { products, priceRange, formatPrice, brands } from "@/data/products";
+import { products, priceRange, brands } from "@/data/products";
+import { formatINR } from "@/lib/whatsapp";
 import { categories, categoryMap, type CategorySlug } from "@/data/categories";
 import { ProductCard } from "@/components/product-card";
 import { IconSearch, IconClose, IconChevronDown, IconCheck } from "@/components/icons";
@@ -265,8 +266,8 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
           className="w-full accent-[#0C6E8F]"
         />
         <div className="mt-1 flex justify-between text-[11.5px] text-ink-mute">
-          <span>{formatPrice(0)}</span>
-          <span className="tabular-nums text-ink">{formatPrice(maxPrice)}</span>
+          <span>{formatINR(0)}</span>
+          <span className="tabular-nums text-ink">{formatINR(maxPrice)}</span>
         </div>
       </FilterSection>
 

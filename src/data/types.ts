@@ -106,3 +106,31 @@ export type Product = {
   popular?: boolean;
   tags?: string[];
 };
+
+/**
+ * What a client surface is allowed to receive: a card, a cart line, a search
+ * hit. Deliberately omits `specs`, `source`, `verification` and the private
+ * label fields so that a large catalogue never ships its full records to the
+ * browser. Full `Product` records stay on the server.
+ */
+export type ProductSummary = {
+  slug: string;
+  name: string;
+  brand: string;
+  category: CategorySlug;
+  subcategory: string;
+  packaging: string | null;
+  summary: string;
+  price: number | null;
+  visual: ProductVisual;
+  image: ProductImage | null;
+  featured?: boolean;
+  popular?: boolean;
+};
+
+/**
+ * One row of the static search index served from /search-index.json. It is
+ * fetched lazily by the header search and used as the fallback when a cart
+ * saved before this index existed only holds slugs.
+ */
+export type SearchIndexItem = Omit<ProductSummary, "featured" | "popular">;

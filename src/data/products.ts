@@ -1,8 +1,15 @@
 import { catalogue } from "./catalogue";
 import { categories, categoryMap, type CategorySlug } from "./categories";
-import type { Product } from "./types";
+import type { Product, ProductSummary } from "./types";
 
-export type { Product, ProductVisual, ProductImage, CategorySlug } from "./types";
+export type {
+  Product,
+  ProductSummary,
+  SearchIndexItem,
+  ProductVisual,
+  ProductImage,
+  CategorySlug,
+} from "./types";
 
 /**
  * The whole catalogue. Products live in src/data/catalogue/<area>.ts —
@@ -11,6 +18,26 @@ export type { Product, ProductVisual, ProductImage, CategorySlug } from "./types
  * read from here.
  */
 export const products: Product[] = catalogue;
+
+/**
+ * The client-safe projection of a product. Every surface that ships to the
+ * browser — cards, the shop grid, the cart, search — receives this shape, so
+ * adding a 3,000th product never inflates the JavaScript bundle.
+ */
+export const toSummary = (p: Product): ProductSummary => ({
+  slug: p.slug,
+  name: p.name,
+  brand: p.brand,
+  category: p.category,
+  subcategory: p.subcategory,
+  packaging: p.packaging,
+  summary: p.summary,
+  price: p.price,
+  visual: p.visual,
+  image: p.image,
+  featured: p.featured,
+  popular: p.popular,
+});
 
 export const productMap = Object.fromEntries(products.map((p) => [p.slug, p])) as Record<
   string,
@@ -54,13 +81,6 @@ export const priceRange = {
   min: Math.min(...priced),
   max: Math.max(...priced),
 };
-
-export const formatPrice = (value: number) =>
-  new Intl.NumberFormat("en-IN", {
-    style: "currency",
-    currency: "INR",
-    maximumFractionDigits: 0,
-  }).format(value);
 
 /** Simple weighted search over name, brand, subcategory and category. */
 export function searchProducts(query: string): Product[] {
