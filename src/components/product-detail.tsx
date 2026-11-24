@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import type { Product } from "@/data/products";
-import { productsByCategory } from "@/data/products";
+import type { Product, ProductSummary } from "@/data/products";
 import { categoryMap } from "@/data/categories";
 import { site } from "@/data/site";
 import { formatINR, orderLink, buildProductEnquiry } from "@/lib/whatsapp";
@@ -56,17 +55,18 @@ function Accordion({
   );
 }
 
-export function ProductDetail({ product }: { product: Product }) {
+export function ProductDetail({
+  product,
+  related,
+}: {
+  product: Product;
+  related: ProductSummary[];
+}) {
   const { add } = useCart();
   const [qty, setQty] = useState(1);
   const [open, setOpen] = useState<string | null>("specs");
   const category = categoryMap[product.category];
   const priced = product.price !== null;
-
-  const related = productsByCategory(product.category)
-    .filter((p) => p.slug !== product.slug)
-    .sort((a, b) => (a.subcategory === product.subcategory ? -1 : 0) - (b.subcategory === product.subcategory ? -1 : 0))
-    .slice(0, 4);
 
   return (
     <div className="shell pt-8">

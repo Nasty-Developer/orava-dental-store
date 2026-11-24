@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { products, priceRange, brands } from "@/data/products";
+import type { ProductSummary } from "@/data/types";
 import { formatINR } from "@/lib/whatsapp";
 import { categories, categoryMap, type CategorySlug } from "@/data/categories";
 import { ProductCard } from "@/components/product-card";
@@ -81,7 +81,17 @@ function CheckRow({
   );
 }
 
-export function ShopClient({ initialCategory }: { initialCategory?: string }) {
+export function ShopClient({
+  items,
+  brands,
+  priceRange,
+  initialCategory,
+}: {
+  items: ProductSummary[];
+  brands: { name: string; count: number }[];
+  priceRange: { min: number; max: number };
+  initialCategory?: string;
+}) {
   const params = useSearchParams();
   const router = useRouter();
 
@@ -121,7 +131,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
     const q = query.trim().toLowerCase();
     const terms = q.split(/\s+/).filter(Boolean);
 
-    const list = products.filter((p) => {
+    const list = items.filter((p) => {
       if (activeCats.length && !activeCats.includes(p.category)) return false;
       if (activeBrands.length && !activeBrands.includes(p.brand)) return false;
       if (activeSubs.length && !activeSubs.includes(p.subcategory)) return false;
@@ -167,8 +177,8 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
   // Refine within the chosen area: "Composite Kits", "Alginate", "Airotor" ...
   const subOptions = useMemo(() => {
     const pool = activeCats.length
-      ? products.filter((p) => activeCats.includes(p.category))
-      : products;
+      ? items.filter((p) => activeCats.includes(p.category))
+      : items;
     return [...new Set(pool.map((p) => p.subcategory))].sort((a, b) => a.localeCompare(b));
   }, [activeCats]);
 
@@ -189,7 +199,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
             <CheckRow
               key={c.slug}
               label={c.shortName}
-              meta={products.filter((p) => p.category === c.slug).length}
+              meta={items.filter((p) => p.category === c.slug).length}
               checked={activeCats.includes(c.slug)}
               onChange={() => toggle(activeCats, c.slug, setActiveCats)}
             />
@@ -205,7 +215,7 @@ export function ShopClient({ initialCategory }: { initialCategory?: string }) {
                 key={sub}
                 label={sub}
                 meta={
-                  products.filter(
+                  items.filter(
                     (p) =>
                       p.subcategory === sub &&
                       (!activeCats.length || activeCats.includes(p.category)),

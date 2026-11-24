@@ -3,14 +3,16 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
 import { ShopClient } from "@/components/shop-client";
 import { ProductCardSkeleton } from "@/components/product-card";
-import { products } from "@/data/products";
+import { products, brands, priceRange, toSummary } from "@/data/products";
 
 export const metadata: Metadata = {
   title: "Shop all dental care",
   description:
-    "Browse the full SOMIL range: enamel-safe whitening, sonic brushes, alcohol-free rinses, clinical gels and orthodontic kits.",
+    "Browse the full SOMIL clinical range: restorative, endodontics, prosthodontics, impressions, instruments, burs, handpieces, orthodontics and surgery supplies, priced in INR and ordered on WhatsApp.",
   alternates: { canonical: "/shop" },
 };
+
+const items = products.map(toSummary);
 
 export default function ShopPage() {
   return (
@@ -37,7 +39,7 @@ export default function ShopPage() {
           </div>
         }
       >
-        <ShopClient />
+        <ShopClient items={items} brands={brands} priceRange={priceRange} />
       </Suspense>
     </>
   );

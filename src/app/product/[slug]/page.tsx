@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { products, getProduct } from "@/data/products";
+import { products, getProduct, toSummary } from "@/data/products";
 import { categoryMap } from "@/data/categories";
 import { Breadcrumbs } from "@/components/page-header";
 import { ProductDetail } from "@/components/product-detail";
@@ -34,6 +34,18 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   if (!product) notFound();
 
   const category = categoryMap[product.category];
+
+  // Related products are chosen on the server so the browser never receives
+  // the whole catalogue just to render four cards.
+  const related = products
+    .filter((p) => p.category === product.category && p.slug !== product.slug)
+    .sort(
+      (a, b) =>
+        Number(b.subcategory === product.subcategory) -
+        Number(a.subcategory === product.subcategory),
+    )
+    .slice(0, 4)
+    .map(toSummary);
 
   /**
    * Only facts we actually hold are published. No rating, review count or
@@ -84,7 +96,10 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       <Breadcrumbs items={[{ label: "Shop", href: "/shop" }, { label: product.name }]} />
-      <ProductDetail product={product} />
+      <ProductDetail
+        product={product}
+        related={related}
+      />
     </>
   );
 }
