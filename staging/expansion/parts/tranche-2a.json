@@ -1,0 +1,702 @@
+[
+ {
+  "slug": "ammdent-pc-seal-polycarboxylate-cement",
+  "name": "AMMDENT PC Seal",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Luting Cement",
+  "packaging": "Powder jar with liquid bottle",
+  "summary": "A polycarboxylate dental cement supplied as a powder and liquid system for luting and as a base under restorations.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Polycarboxylate dental cement"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Mixing time",
+    "value": "Approximately 30–40 seconds"
+   },
+   {
+    "label": "Setting time",
+    "value": "Approximately 5–9 minutes (depending on mix)"
+   },
+   {
+    "label": "Colour",
+    "value": "Off-white / natural shade"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/pc-seal/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/pc-seal/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-zinogen-zinc-oxide-eugenol-cement",
+  "name": "AMMDENT ZinoGen",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Temporary Cement",
+  "packaging": "Powder jar and liquid bottle",
+  "summary": "A zinc oxide eugenol cement in a powder and liquid system for temporary cementation and as a base material.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Zinc oxide eugenol cement"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Colour",
+    "value": "Natural / Off-white"
+   },
+   {
+    "label": "Consistency",
+    "value": "Mixable paste with workable setting time"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/zino-gen/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/zino-gen/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-gi-core-glass-ionomer-core-build-up",
+  "name": "AMMDENT GI Core",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Core Build-Up",
+  "packaging": "Powder jar and liquid bottle",
+  "summary": "A reinforced glass ionomer core build-up material combining high compressive and flexural strength with sustained fluoride release.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Glass ionomer core build-up material"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Colour",
+    "value": "Tooth-colored / natural shade"
+   },
+   {
+    "label": "Fluoride release",
+    "value": "Sustained post-set fluoride release"
+   },
+   {
+    "label": "Strength",
+    "value": "High compressive and flexural strength"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/gi-core/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/gi-core/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-gi-fill-premium-glass-ionomer-restorative",
+  "name": "AMMDENT GI Fill Premium",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Glass Ionomer Restorative",
+  "packaging": "Powder jar and liquid bottle",
+  "summary": "A glass ionomer restorative cement with sustained fluoride release and improved mechanical strength for permanent and transitional restorations.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Glass ionomer restorative cement"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Colour",
+    "value": "Tooth-colored / natural shade"
+   },
+   {
+    "label": "Fluoride release",
+    "value": "Sustained release after setting"
+   },
+   {
+    "label": "Strength",
+    "value": "Improved mechanical strength for durability"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/gi-fill-premium/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/gi-fill-premium/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-gi-silver-reinforced-glass-ionomer",
+  "name": "AMMDENT GI Silver",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Glass Ionomer Restorative",
+  "packaging": "Powder jar and liquid bottle",
+  "summary": "A silver-reinforced glass ionomer restorative cement offering enhanced mechanical properties alongside sustained post-set fluoride release.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Silver reinforced glass ionomer cement"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Colour",
+    "value": "Tooth shade / light-natural"
+   },
+   {
+    "label": "Fluoride release",
+    "value": "Sustained post-set fluoride release"
+   },
+   {
+    "label": "Strength",
+    "value": "Enhanced mechanical properties due to silver reinforcement"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/gi-silver/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/gi-silver/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-nano-fill-bond-dental-adhesive",
+  "name": "AMMDENT Nano Fill Bond",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Bonding Agent",
+  "packaging": "6 ml bottle with dispensing cap",
+  "summary": "A light-cure dental adhesive for bonding composite restoratives to enamel and dentin, compatible with nano-hybrid and micro-hybrid composites.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Light-cure dental adhesive"
+   },
+   {
+    "label": "Form",
+    "value": "Liquid adhesive"
+   },
+   {
+    "label": "Volume",
+    "value": "6 ml bottle with dispensing cap"
+   },
+   {
+    "label": "Curing mode",
+    "value": "Light-activated polymerization"
+   },
+   {
+    "label": "Compatibility",
+    "value": "Nano-hybrid, micro-hybrid, and other composite resins"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/nano-fill-bond/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/nano-fill-bond/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-nano-fill-hybrid-composite-kit",
+  "name": "AMMDENT Nano Fill Hybrid Composite Kit",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Composite",
+  "packaging": "Kit of multiple composite syringes in different shades",
+  "summary": "A light-cure nano-hybrid composite restorative kit in multiple VITA-compatible shades for anterior and posterior direct restorations.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Light-cure nano-hybrid composite restorative"
+   },
+   {
+    "label": "Curing mode",
+    "value": "Light cured"
+   },
+   {
+    "label": "Filler technology",
+    "value": "Nano-hybrid filler system"
+   },
+   {
+    "label": "Radiopacity",
+    "value": "Yes"
+   },
+   {
+    "label": "Consistency",
+    "value": "Sculptable, non-sticky"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/nano-fill-hybrid-composite-kit/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/nano-fill-hybrid-composite-kit/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-ammbond-7-self-etch-bonding-agent",
+  "name": "AMMDENT AMMBOND 7",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Bonding Agent",
+  "packaging": "5 ml dropper bottle",
+  "summary": "A single-component self-etch bonding agent that combines etching, priming and bonding in one step.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Self-Etch Dental Bonding Agent"
+   },
+   {
+    "label": "Formulation",
+    "value": "One-component adhesive"
+   },
+   {
+    "label": "Light cure",
+    "value": "Yes"
+   },
+   {
+    "label": "Shelf life",
+    "value": "3 years from manufacturing"
+   },
+   {
+    "label": "Storage",
+    "value": "Store between 10°C – 24°C, keep away from moisture"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/ammbond-7/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/ammbond-7/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-megafrost-37-phosphoric-acid-etching-gel",
+  "name": "AMMDENT MegaFrost",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Etching Gel",
+  "packaging": "60 g jumbo syringe with multiple applicator tips",
+  "summary": "A 37% phosphoric acid etching gel for enamel and dentin conditioning before adhesive restorative work.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Dental phosphoric acid etching gel"
+   },
+   {
+    "label": "Acid concentration",
+    "value": "37% phosphoric acid"
+   },
+   {
+    "label": "Consistency",
+    "value": "Controlled viscosity for precise placement"
+   },
+   {
+    "label": "Presentation",
+    "value": "60 g jumbo syringe with multiple applicator tips for ease of use and versatility in clinical settings"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/megafrost/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/megafrost/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-cariclear-caries-detecting-gel",
+  "name": "AMMDENT CariClear",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Caries Detection",
+  "packaging": "15 g syringe with dispensing tip",
+  "summary": "A caries detecting gel that stains softened, infected dentin so it can be identified and selectively removed during cavity preparation.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Caries detecting gel"
+   },
+   {
+    "label": "Form",
+    "value": "Gel"
+   },
+   {
+    "label": "Function",
+    "value": "Stains infected dentin for visual identification"
+   },
+   {
+    "label": "Colour",
+    "value": "Contrasting indicator color"
+   },
+   {
+    "label": "Usage",
+    "value": "Professional dental use only"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/cariclear/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/cariclear/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-flowable-composite",
+  "name": "AMMDENT Flowable Composite",
+  "brand": "AMMDENT",
+  "category": "restorative",
+  "subcategory": "Flowable Composite",
+  "packaging": "Syringe or compule dispenser with tips",
+  "summary": "A light-cured low-viscosity flowable composite for small restorations, fissure sealing and liner applications.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Light-cured flowable composite"
+   },
+   {
+    "label": "Formulation",
+    "value": "Resin composite with filler particles"
+   },
+   {
+    "label": "Shades",
+    "value": "Tooth-colored shades (selectable)"
+   },
+   {
+    "label": "Polymerization",
+    "value": "Visible light cure"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/flowable/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/flowable/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-calpex-calcium-hydroxide-paste",
+  "name": "AMMDENT Calpex",
+  "brand": "AMMDENT",
+  "category": "endodontics",
+  "subcategory": "Intracanal Medicament",
+  "packaging": "Syringe dispenser with mixing and delivery tips",
+  "summary": "A calcium hydroxide intracanal paste supplied in a syringe dispenser with delivery tips for endodontic medicament placement.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Calcium hydroxide intracanal paste"
+   },
+   {
+    "label": "Formulation",
+    "value": "Thick, flowable paste"
+   },
+   {
+    "label": "Active ingredient",
+    "value": "Calcium hydroxide"
+   },
+   {
+    "label": "Appearance",
+    "value": "White paste"
+   },
+   {
+    "label": "Consistency",
+    "value": "Smooth and injectable"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/calpex/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/calpex/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-calform-rc-root-canal-filling-material",
+  "name": "AMMDENT Calform RC",
+  "brand": "AMMDENT",
+  "category": "endodontics",
+  "subcategory": "Obturation Material",
+  "packaging": "Powder jar and liquid bottle / syringe format",
+  "summary": "A radiopaque root canal filling material with smooth, injectable handling for obturation of cleaned and shaped canals.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Root canal filling material"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid or pre-mixed system (as supplied)"
+   },
+   {
+    "label": "Radiopacity",
+    "value": "Present for clear X-ray diagnosis"
+   },
+   {
+    "label": "Handling",
+    "value": "Smooth flow and injectable consistency"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/calform-rc/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/calform-rc/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-canalsolve-r-resin-sealer-solvent",
+  "name": "AMMDENT CanalSolve R",
+  "brand": "AMMDENT",
+  "category": "endodontics",
+  "subcategory": "Retreatment",
+  "packaging": "13 ml bottle",
+  "summary": "A formamide-based solvent for softening resin sealers and gutta-percha during endodontic retreatment.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Root canal filling remover / solvent"
+   },
+   {
+    "label": "Formulation",
+    "value": "Liquid solvent containing formamide"
+   },
+   {
+    "label": "Appearance",
+    "value": "Clear liquid medium"
+   },
+   {
+    "label": "Application method",
+    "value": "Topical application to canal filling materials"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/canalsolve-r/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/canalsolve-r/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-endoflux-root-canal-filling-cement",
+  "name": "AMMDENT EndoFlux",
+  "brand": "AMMDENT",
+  "category": "endodontics",
+  "subcategory": "Sealer",
+  "packaging": "Powder jar and liquid bottle (may include accelerator)",
+  "summary": "A powder and liquid root canal filling material radiopaque with barium sulphate, formulated with zinc oxide, calcium hydroxide, eugenol and iodoform.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Root canal filling material"
+   },
+   {
+    "label": "Formulation",
+    "value": "Powder and liquid system"
+   },
+   {
+    "label": "Colour",
+    "value": "Natural cement shade"
+   },
+   {
+    "label": "Radiopacity",
+    "value": "Enhanced with barium sulphate for X-ray visibility"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/endolfux/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/endolfux/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-resino-seal-resin-root-canal-sealer",
+  "name": "AMMDENT Resino-Seal",
+  "brand": "AMMDENT",
+  "category": "endodontics",
+  "subcategory": "Sealer",
+  "packaging": "Syringe applicator with dispensing tip",
+  "summary": "A light-cured resin-based endodontic sealer supplied in a syringe applicator with a dispensing tip.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Resin-based endodontic sealer"
+   },
+   {
+    "label": "Formulation",
+    "value": "Light-cured resin system"
+   },
+   {
+    "label": "Setting method",
+    "value": "Visible light curing"
+   },
+   {
+    "label": "Colour",
+    "value": "Tooth-colored/translucent"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/resino-seal/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/resino-seal/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-ultra-white-bleaching-gel",
+  "name": "AMMDENT Ultra White",
+  "brand": "AMMDENT",
+  "category": "whitening",
+  "subcategory": "In-Office Bleaching",
+  "packaging": "Syringe dispenser with dispensing tip",
+  "summary": "A professional peroxide-based bleaching gel supplied in a syringe dispenser with a dispensing tip.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Dental bleaching gel"
+   },
+   {
+    "label": "Formulation",
+    "value": "Gel with peroxide-based active ingredient"
+   },
+   {
+    "label": "Active ingredient",
+    "value": "Carbamide peroxide or hydrogen peroxide variant (refer to packaging)"
+   },
+   {
+    "label": "Colour",
+    "value": "Transparent / tinted gel"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/ultra-white/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/ultra-white/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-pit-fissure-sealant",
+  "name": "AMMDENT Pit & Fissure Sealant",
+  "brand": "AMMDENT",
+  "category": "preventive",
+  "subcategory": "Pit & Fissure Sealant",
+  "packaging": "Syringe applicator with dispensing tip",
+  "summary": "A light-cured flowable resin sealant for preventive sealing of occlusal pits and fissures.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Light-cured pit & fissure sealant"
+   },
+   {
+    "label": "Formulation",
+    "value": "Flowable resin"
+   },
+   {
+    "label": "Colour",
+    "value": "Clear / Translucent (or tooth shade, if applicable)"
+   },
+   {
+    "label": "Curing method",
+    "value": "Visible light curing"
+   },
+   {
+    "label": "Indications",
+    "value": "Preventive fissure sealing"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/pit-fissure-sealant/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/pit-fissure-sealant/ (HTTP 200) and read the product name, packaging and the 5 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-prolax-prophylaxis-paste",
+  "name": "AMMDENT Prolax",
+  "brand": "AMMDENT",
+  "category": "preventive",
+  "subcategory": "Prophylaxis Paste",
+  "packaging": "Tube with dispensing cap",
+  "summary": "A prophylaxis paste with mild abrasives for professional tooth cleaning and polishing.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Prophylaxis paste"
+   },
+   {
+    "label": "Formulation",
+    "value": "Polishing paste with mild abrasives"
+   },
+   {
+    "label": "Abrasive level",
+    "value": "Mild to moderate, clinic-safe"
+   },
+   {
+    "label": "Colour",
+    "value": "White / pastel shade (as applicable)"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/prolax/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/prolax/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ },
+ {
+  "slug": "ammdent-dentochlor-sterilization-disinfection-solution",
+  "name": "AMMDENT Dentochlor",
+  "brand": "AMMDENT",
+  "category": "infection-control",
+  "subcategory": "Surface & Instrument Disinfectant",
+  "packaging": "Bottle with dispensing cap (various sizes available)",
+  "summary": "An aqueous antimicrobial solution for disinfecting dental instruments and clinical surfaces by soaking, spraying or wiping.",
+  "specs": [
+   {
+    "label": "Type",
+    "value": "Sterilization & disinfection solution"
+   },
+   {
+    "label": "Formulation",
+    "value": "Aqueous antimicrobial solution"
+   },
+   {
+    "label": "Application",
+    "value": "Instrument soaking, surface spraying or wiping"
+   },
+   {
+    "label": "Appearance",
+    "value": "Clear solution with characteristic disinfectant properties"
+   }
+  ],
+  "price": null,
+  "sourceUrl": "https://ammdent.com/dentochlor/",
+  "sourceType": "manufacturer",
+  "verifiedOn": "2026-11-24",
+  "verificationNote": "Opened https://ammdent.com/dentochlor/ (HTTP 200) and read the product name, packaging and the 4 listed specifications from the page's own Specifications section.",
+  "imagePermission": "none"
+ }
+]
