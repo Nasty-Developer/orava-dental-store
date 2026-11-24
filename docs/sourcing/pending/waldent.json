@@ -7,7 +7,17 @@
    "alt": "Waldent Rubber Dam Clamps Kit Titanium Black (set of 11) (K16/4)",
    "source": "https://www.waldent.com/products/waldent-titaniumblack",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/black-ruberdam.jpg?v=1571146072",
+    "waldent_sku": "WALXX00649",
+    "note": null
+   }
   },
   {
    "slug": "waldent-pedo-rubber-dam-frame-small-16-139",
@@ -15,7 +25,17 @@
    "alt": "Waldent Pedo Rubber Dam Frame - Small (16/139)",
    "source": "https://www.waldent.com/products/waldent-pedo-rubber-dam-frame-small-16-139",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/waldent-pedo-rubber-dam-frame-small-16139-1.jpg?v=1787037408",
+    "waldent_sku": "WALXX02170",
+    "note": "Page live; product currently OutOfStock (page still exists, so the photograph remains correct)."
+   }
   },
   {
    "slug": "waldent-blz-intravue-900-ai-intraoral-scanner-tip-adult",
@@ -23,7 +43,17 @@
    "alt": "Waldent BLZ IntraVue 900 Ai Intraoral Scanner Tip - Adult",
    "source": "https://www.waldent.com/products/waldent-blz-intravue-900-ai-intraoral-scanner-tip-adult",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/dddeefdd_1.jpg?v=1774853838",
+    "waldent_sku": "WALXX01964",
+    "note": null
+   }
   },
   {
    "slug": "waldent-gutta-percha-obturator-bars-pack-of-50",
@@ -31,7 +61,17 @@
    "alt": "Waldent Gutta Percha Obturator Bars (Pack of 50)",
    "source": "https://www.waldent.com/products/waldent-gutta-percha-obturator-bars-pack-of-50",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/waldent-gutta-percha-obturator-4.jpg?v=1784007886",
+    "waldent_sku": "WALXX01995",
+    "note": null
+   }
   },
   {
    "slug": "waldent-flexiwave-reciprocating-files-25mm",
@@ -39,7 +79,17 @@
    "alt": "Waldent Flexiwave Reciprocating Files  (25mm)",
    "source": "https://www.waldent.com/products/waldent-flexiwave-reciprocating-files-25mm",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9995,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/dtyrtyukiul_2.jpg?v=1686912393",
+    "waldent_sku": "WALXX01287",
+    "note": "Waldent uses the same visual asset on both the 21 mm and 25 mm pages, so the photograph matches the page but does not itself distinguish length."
+   }
   },
   {
    "slug": "waldent-flexiwave-reciprocating-files-21mm",
@@ -47,7 +97,17 @@
    "alt": "Waldent Flexiwave Reciprocating Files (21mm)",
    "source": "https://www.waldent.com/products/waldent-flexiwave-reciprocating-files-21mm",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9995,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/dtyrtyukiul.jpg?v=1686891271",
+    "waldent_sku": "WALXX01283",
+    "note": "Waldent uses the same visual asset on both the 21 mm and 25 mm pages, so the photograph matches the page but does not itself distinguish length."
+   }
   },
   {
    "slug": "waldent-ultrawave-maxpiezo-4-led-ultrasonic-scaler",
@@ -55,7 +115,17 @@
    "alt": "Waldent Ultrawave MaxPiezo 4 LED Ultrasonic Scaler",
    "source": "https://www.waldent.com/products/waldent-ultrawave-maxpiezo-4-led-ultrasonic-scaler",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9999,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/base_image_3__1_1.jpg?v=1712125813",
+    "waldent_sku": "WALXX01292",
+    "note": null
+   }
   },
   {
    "slug": "waldent-max-piezo-2-ultrasonic-scaler",
@@ -63,7 +133,17 @@
    "alt": "Waldent Max Piezo 2 Ultrasonic Scaler ( 5 Scaler Tips Free )",
    "source": "https://www.waldent.com/products/waldent-max-piezo-2-ultrasonic-scaler-5-scaler-tips-free",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9996,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/2020-09-14.jpg?v=1683956926",
+    "waldent_sku": "WALXX00541",
+    "note": "Live title adds the promotion '( 5 Scaler Tips Free )'; product identity unchanged."
+   }
   },
   {
    "slug": "waldent-oil-free-dental-compressor-head-1-1hp",
@@ -71,7 +151,17 @@
    "alt": "Waldent Oil Free Dental Compressor Head 1.1HP",
    "source": "https://www.waldent.com/products/waldent-oil-free-dental-compressor-head-1-1hp",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/56_1_6_625a842f-9d10-40bc-aeb8-f90de1a2ea3b.jpg?v=1759930737",
+    "waldent_sku": "WALXX01842",
+    "note": null
+   }
   },
   {
    "slug": "waldent-internal-water-spray-straight-handpiece-w-156",
@@ -79,7 +169,17 @@
    "alt": "Waldent Internal Water Spray Straight Handpiece (W-156)",
    "source": "https://www.waldent.com/products/waldent-internal-water-spray-straight-handpiece-w-156",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/z_2_3.jpg?v=1660292323",
+    "waldent_sku": "WALXX01075",
+    "note": null
+   }
   },
   {
    "slug": "waldent-internal-water-spray-contra-angle-handpiece-w-155",
@@ -87,7 +187,17 @@
    "alt": "Waldent Internal Water Spray Contra Angle Handpiece (W-155)",
    "source": "https://www.waldent.com/products/waldent-internal-water-spray-contra-angle-handpiece-w-155",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/e_4.jpg?v=1665638084",
+    "waldent_sku": "WALXX01074",
+    "note": null
+   }
   },
   {
    "slug": "waldent-intraoral-camera-usb-model-for-laptop",
@@ -95,7 +205,17 @@
    "alt": "Waldent Intraoral Camera USB Model For ( For Laptop )",
    "source": "https://www.waldent.com/products/waldent-intraoralcamera",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9997,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/products-_276.jpg?v=1571294815",
+    "waldent_sku": "WALXX00531",
+    "note": null
+   }
   },
   {
    "slug": "waldent-intra-oral-camera-with-screen-ergo-10-mp",
@@ -103,7 +223,17 @@
    "alt": "Waldent Intra Oral Camera with Screen - Ergo (10 MP)",
    "source": "https://www.waldent.com/products/waldent-iocamerawithmonitor-ergo",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/ergo-2.jpg?v=1615808639",
+    "waldent_sku": "WALXX00776",
+    "note": null
+   }
   },
   {
    "slug": "waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k1",
@@ -111,7 +241,17 @@
    "alt": "Waldent Tooth Extraction Forcep Kit set of 12 - Anatomic Ultra (K1/11)",
    "source": "https://www.waldent.com/products/waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k1-11",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/waldent-tooth-extraction-forcep-kit-set-of-12-anatomic-ultra-k111-5_4db2411d-fa47-4eba-b96f-43635c2677aa.jpg?v=1782122067",
+    "waldent_sku": "WALXX02070",
+    "note": null
+   }
   },
   {
    "slug": "waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5",
@@ -119,7 +259,17 @@
    "alt": "Waldent Composite Anterior Instrument Kit - Blue - Set of 5 (K14/5)",
    "source": "https://www.waldent.com/products/waldent-composite-anterior-instrument-kit-blue-set-of-5-k14-5",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9999,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/985.jpg?v=1779790107",
+    "waldent_sku": "WALXX02072",
+    "note": "Page live; product currently OutOfStock (page still exists, so the photograph remains correct)."
+   }
   },
   {
    "slug": "waldent-p-k-thomas-wax-carvers-set-of-5-k15-8",
@@ -127,7 +277,17 @@
    "alt": "Waldent P.K Thomas Wax Carvers - Set of 5 (K15/8)",
    "source": "https://www.waldent.com/products/waldent-p-k-thomas-wax-carvers-set-of-5-k15-8",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/waldent-pk-thomas-wax-carvers-set-of-5-k158-3-6e1a8a.jpg?v=1782115440",
+    "waldent_sku": "WALXX02073",
+    "note": null
+   }
   },
   {
    "slug": "waldent-oral-surgical-impaction-kit-set-of-21-k9-2",
@@ -135,7 +295,17 @@
    "alt": "Waldent Oral Surgical Impaction Kit Set of 21 (K9/2)",
    "source": "https://www.waldent.com/products/walse21",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/impaction-kit.jpg?v=1571146532",
+    "waldent_sku": "WALXX00163",
+    "note": null
+   }
   },
   {
    "slug": "waldent-hemostatic-liquid",
@@ -143,7 +313,17 @@
    "alt": "Waldent Hemostatic Liquid",
    "source": "https://www.waldent.com/products/waldent-hemostatic-liquid",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/waldent_hemos.jpg?v=1663310493",
+    "waldent_sku": "WALXX01010",
+    "note": null
+   }
   },
   {
    "slug": "waldent-orthodontic-tweed-loop-forming-pliers-10-107",
@@ -151,7 +331,17 @@
    "alt": "Waldent Orthodontic Tweed Loop Forming Pliers 10/107",
    "source": "https://www.waldent.com/products/waldent-orthodontic-tweed",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9999,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/tweed-loop-forming.jpg?v=1571146192",
+    "waldent_sku": "WALXX00420",
+    "note": null
+   }
   },
   {
    "slug": "waldent-pedodontic-extraction-forceps-kit-premium-set-of-7-k1-9",
@@ -159,7 +349,17 @@
    "alt": "Waldent Pedodontic Extraction Forceps Kit - Premium (set of 7) K1/9",
    "source": "https://www.waldent.com/products/waldent-pedodontic-extraction-forceps-kit-premium-set-of-7-k1-9",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/1artboard_17_1.jpg?v=1663316486",
+    "waldent_sku": "WALXX00430",
+    "note": "Page live; product currently OutOfStock (page still exists, so the photograph remains correct)."
+   }
   },
   {
    "slug": "waldent-caries-detector",
@@ -167,7 +367,17 @@
    "alt": "Waldent Caries Detector",
    "source": "https://www.waldent.com/products/waldent-caries-detector",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/product_caries_3_2.jpg?v=1640774940",
+    "waldent_sku": "WALXX01000",
+    "note": null
+   }
   },
   {
    "slug": "waldent-fissureseal-pit-and-fissure-sealant-lc",
@@ -175,7 +385,17 @@
    "alt": "Waldent FissureSeal Pit &amp; Fissure Sealant LC",
    "source": "https://www.waldent.com/products/waldent-fissureseal",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/mockup_-_fissure_seal_1.jpg?v=1685946089",
+    "waldent_sku": "WALXX01294",
+    "note": null
+   }
   },
   {
    "slug": "waldent-crown-and-bridge-tooth-preparation-diamond-bur-kit-set",
@@ -183,7 +403,17 @@
    "alt": "Waldent Crown &amp; Bridge Tooth Preparation Diamond Bur Kit (Set of 14)",
    "source": "https://www.waldent.com/products/waldent-crown-bridge-tooth-preparation-diamond-bur-kit-set-of-14",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/whatsapp_image_2024-11-12_at_4.15.16_pm_55507a3a-1d7d-4934-a46f-b5c168ab2e51.jpg?v=1752491340",
+    "waldent_sku": "WALXX01543",
+    "note": null
+   }
   },
   {
    "slug": "waldent-nanofill-zirconium-composite-kit",
@@ -191,7 +421,17 @@
    "alt": "Waldent NanoFill Zirconium Composite Kit",
    "source": "https://www.waldent.com/products/waldent-nanofill-zirconium-composite-kit",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9999,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/1_5__1.jpg?v=1664543254",
+    "waldent_sku": "WALXX01089",
+    "note": null
+   }
   },
   {
    "slug": "waldent-implant-holding-tweezer-19-173",
@@ -199,7 +439,17 @@
    "alt": "Waldent Implant Holding Tweezers (19/173)",
    "source": "https://www.waldent.com/products/waldent-implant-holding-tweezers-19-173",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 1.0,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/waldent-implant-holding-tweezer-19173-3.jpg?v=1787050645",
+    "waldent_sku": "WALXX02177",
+    "note": null
+   }
   },
   {
    "slug": "waldent-bestetch",
@@ -207,7 +457,17 @@
    "alt": "Waldent BESTEtch",
    "source": "https://www.waldent.com/products/waldent-bestetch",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9999,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/products/bestetch_2_2.jpg?v=1640766253",
+    "waldent_sku": "WALXX00525",
+    "note": null
+   }
   },
   {
    "slug": "waldent-schuster-class-b-autoclave-23l",
@@ -215,7 +475,17 @@
    "alt": "Waldent Schuster Class B Autoclave 23L",
    "source": "https://www.waldent.com/products/waldent-schuster-class-b-autoclave-23l",
    "license": "Waldent official product image, www.waldent.com, sourced 2026-11-21; reseller permission requested, not yet confirmed",
-   "staged_on": "2026-11-21"
+   "staged_on": "2026-11-21",
+   "reverified_on": "2026-11-24",
+   "reverify": {
+    "http_status": 200,
+    "product_still_live": true,
+    "photo_still_matches": true,
+    "image_similarity_r": 0.9998,
+    "primary_image_url": "https://cdn.shopify.com/s/files/1/0279/6591/5229/files/schuster_autocalve_2.jpg?v=1714541537",
+    "waldent_sku": "WALXX01530",
+    "note": null
+   }
   }
  ]
 }

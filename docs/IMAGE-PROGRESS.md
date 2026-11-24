@@ -55,6 +55,10 @@ written yes from Waldent's dealer team puts 27 photographs live with a single co
 |---|---|---|
 | Waldent | 27 of 33 listed | waldent.com product pages, one photograph per product, exact title match |
 
+All 27 were re-opened against their recorded Waldent source pages on 2026-11-24: every page
+still exists and all 27 photographs still match their product, model and variant. Detail:
+[WALDENT-27-REVERIFIED.md](./WALDENT-27-REVERIFIED.md). Nothing was published or moved.
+
 Six Waldent products were deliberately excluded because the brand's listing is a different
 product:
 
