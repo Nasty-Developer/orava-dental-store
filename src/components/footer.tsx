@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { site } from "@/data/site";
 import { categories, type CategorySlug } from "@/data/categories";
-import { products } from "@/data/products";
 import { Wordmark } from "./wordmark";
 import { IconWhatsApp, IconMail, IconArrowUpRight, IconPhone } from "./icons";
 import { orderLink, mailLink } from "@/lib/whatsapp";
@@ -41,7 +40,7 @@ const help = [
   { href: "/categories", label: "Categories" },
 ];
 
-export function Footer() {
+export function Footer({ productCount }: { productCount: number }) {
   return (
     <footer className="mt-24 border-t border-line bg-white">
       <div className="shell py-16 md:py-20">
@@ -106,7 +105,7 @@ export function Footer() {
                 href="/shop"
                 className="group flex items-center gap-1.5 text-[13px] font-medium text-clinic-700 transition-colors hover:text-clinic-800"
               >
-                All {products.length} products
+                All {productCount} products
                 <IconArrowUpRight
                   size={13}
                   className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"

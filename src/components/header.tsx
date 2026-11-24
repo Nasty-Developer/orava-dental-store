@@ -2,14 +2,16 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, useRef } from "react";
+import { useCallback, useEffect, useMemo, useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCart } from "@/lib/cart";
+import { loadSearchIndex } from "@/lib/search-index-client";
 import { site } from "@/data/site";
-import { products } from "@/data/products";
 import { categories } from "@/data/categories";
+import type { SearchIndexItem } from "@/data/types";
 import { formatINR } from "@/lib/whatsapp";
 import { Wordmark } from "./wordmark";
+import { ProductShot } from "./product-shot";
 import {
   IconBag,
   IconClose,
@@ -26,7 +28,19 @@ const NAV = [
   { href: "/contact", label: "Contact" },
 ];
 
-export function Header() {
+/**
+ * The header is in the root layout, so anything it imports ships on every
+ * page. It therefore takes the two numbers it needs (catalogue size and
+ * per-area counts) as props from the server layout instead of importing the
+ * catalogue, and loads the search index only when search is actually opened.
+ */
+export function Header({
+  productCount,
+  categoryCounts,
+}: {
+  productCount: number;
+  categoryCounts: Record<string, number>;
+}) {
   const pathname = usePathname();
   const { count, openCart } = useCart();
   const [scrolled, setScrolled] = useState(false);
@@ -138,6 +152,8 @@ export function Header() {
           <div className="flex items-center gap-1 sm:gap-2">
             <button
               onClick={() => setSearchOpen(true)}
+              onPointerEnter={() => void loadSearchIndex()}
+              onFocus={() => void loadSearchIndex()}
               className="group flex items-center gap-2 rounded-full px-3 py-2 text-ink-mute transition-colors hover:text-ink lg:hidden"
               aria-label="Search products"
             >
@@ -189,7 +205,7 @@ export function Header() {
             </button>
           </div>
 
-          <CategoryStrip />
+          <CategoryStrip productCount={productCount} categoryCounts={categoryCounts} />
         </div>
       </header>
 
@@ -199,16 +215,17 @@ export function Header() {
   );
 }
 
-const CATEGORY_COUNTS = products.reduce<Record<string, number>>((acc, p) => {
-  acc[p.category] = (acc[p.category] ?? 0) + 1;
-  return acc;
-}, {});
-
 /**
  * The category bar. Dentists shop by clinical area, so every one of the 23 is
  * reachable in a single click instead of through a landing page.
  */
-function CategoryStrip() {
+function CategoryStrip({
+  productCount,
+  categoryCounts,
+}: {
+  productCount: number;
+  categoryCounts: Record<string, number>;
+}) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   useEffect(() => setOpen(false), [pathname]);
@@ -231,7 +248,7 @@ function CategoryStrip() {
               />
             ))}
           </span>
-          All 23 areas
+          All {categories.length} areas
           <IconArrowRight size={11} className={open ? "-rotate-90" : "rotate-90"} />
         </button>
 
@@ -251,7 +268,7 @@ function CategoryStrip() {
           href="/shop"
           className="ml-auto flex items-center gap-1.5 text-[12.5px] text-clinic-700"
         >
-          <span className="link-underline">Shop all {products.length}</span>
+          <span className="link-underline">Shop all {productCount}</span>
           <IconArrowRight size={12} />
         </Link>
       </div>
@@ -282,7 +299,7 @@ function CategoryStrip() {
                       {c.name}
                     </span>
                     <span className="text-[11px] tabular-nums text-ink-faint">
-                      {CATEGORY_COUNTS[c.slug] ?? 0}
+                      {categoryCounts[c.slug] ?? 0}
                     </span>
                   </Link>
                 ))}
@@ -295,16 +312,29 @@ function CategoryStrip() {
   );
 }
 
+const POPULAR = ["Whitening", "Composite", "Rotary files", "Alginate", "Burs"];
+
 function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [q, setQ] = useState("");
+  const [index, setIndex] = useState<SearchIndexItem[] | null>(null);
+  const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  // The index is fetched the first time search is opened — never as part of the
+  // page bundle — and reused for the rest of the session.
   useEffect(() => {
-    if (open) {
-      setQ("");
-      const t = setTimeout(() => inputRef.current?.focus(), 120);
-      return () => clearTimeout(t);
-    }
+    if (!open) return;
+    setQ("");
+    setActive(0);
+    const t = setTimeout(() => inputRef.current?.focus(), 120);
+    let cancelled = false;
+    loadSearchIndex().then((rows) => {
+      if (!cancelled) setIndex(rows);
+    });
+    return () => {
+      cancelled = true;
+      clearTimeout(t);
+    };
   }, [open]);
 
   useEffect(() => {
@@ -315,18 +345,48 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
   }, [open]);
 
   const term = q.trim().toLowerCase();
-  const results = term
-    ? products
-        .filter(
-          (p) =>
-            p.name.toLowerCase().includes(term) ||
-            p.brand.toLowerCase().includes(term) ||
-            p.subcategory.toLowerCase().includes(term) ||
-            p.category.includes(term) ||
-            p.summary.toLowerCase().includes(term),
-        )
-        .slice(0, 6)
-    : [];
+  const results = useMemo(() => {
+    if (!term || !index) return [];
+    return index
+      .filter(
+        (p) =>
+          p.name.toLowerCase().includes(term) ||
+          p.brand.toLowerCase().includes(term) ||
+          p.subcategory.toLowerCase().includes(term) ||
+          p.category.includes(term) ||
+          p.summary.toLowerCase().includes(term),
+      )
+      .slice(0, 6);
+  }, [term, index]);
+
+  useEffect(() => setActive(0), [term]);
+
+  const go = useCallback(
+    (href: string) => {
+      onClose();
+      window.location.assign(href);
+    },
+    [onClose],
+  );
+
+  const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!results.length) return;
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActive((i) => (i + 1) % results.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActive((i) => (i - 1 + results.length) % results.length);
+    } else if (e.key === "Enter") {
+      const hit = results[active];
+      if (hit) {
+        e.preventDefault();
+        go(`/product/${hit.slug}`);
+      }
+    }
+  };
+
+  const searching = Boolean(term) && index === null;
 
   return (
     <AnimatePresence>
@@ -337,6 +397,9 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.25 }}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Search products"
         >
           <div className="absolute inset-0 bg-ink/25 backdrop-blur-[3px]" onClick={onClose} />
           <motion.div
@@ -352,7 +415,9 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
                 ref={inputRef}
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Search products, e.g. whitening, floss, kids"
+                onKeyDown={onKeyDown}
+                placeholder="Search products, e.g. composite, rotary, alginate"
+                aria-label="Search products"
                 className="flex-1 bg-transparent text-[15px] outline-none placeholder:text-ink-faint"
               />
               <button onClick={onClose} className="rounded-full p-1.5 text-ink-faint hover:text-ink" aria-label="Close search">
@@ -365,7 +430,7 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
                 <div className="px-2 py-4">
                   <p className="eyebrow mb-3">Popular searches</p>
                   <div className="flex flex-wrap gap-2">
-                    {["Whitening", "Sonic brush", "Sensitive", "Kids", "Aligner"].map((s) => (
+                    {POPULAR.map((s) => (
                       <button
                         key={s}
                         onClick={() => setQ(s)}
@@ -378,26 +443,57 @@ function SearchOverlay({ open, onClose }: { open: boolean; onClose: () => void }
                 </div>
               )}
 
-              {term && results.length === 0 && (
+              {searching && (
+                <div className="space-y-1 px-1 py-2" aria-hidden>
+                  {[0, 1, 2].map((i) => (
+                    <div key={i} className="flex items-center gap-4 px-1 py-2.5">
+                      <div className="shimmer h-11 w-11 shrink-0 rounded-md" />
+                      <div className="flex-1 space-y-2">
+                        <div className="shimmer h-3 w-1/2 rounded" />
+                        <div className="shimmer h-2.5 w-1/3 rounded" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {term && !searching && results.length === 0 && (
                 <p className="px-2 py-8 text-center text-[14px] text-ink-mute">
                   No products match “{q}”. Try a broader word.
                 </p>
               )}
 
-              {results.map((p) => (
+              {results.map((p, i) => (
                 <Link
                   key={p.slug}
                   href={`/product/${p.slug}`}
                   onClick={onClose}
-                  className="group flex items-center gap-4 rounded-lg px-2 py-3 transition-colors hover:bg-canvas-tint"
+                  onPointerEnter={() => setActive(i)}
+                  className={`group flex items-center gap-4 rounded-lg px-2 py-3 transition-colors ${
+                    i === active ? "bg-canvas-tint" : "hover:bg-canvas-tint"
+                  }`}
                 >
-                  <span className="h-14 w-14 shrink-0 rounded-md bg-canvas-deep" />
+                  <span className="h-11 w-11 shrink-0 overflow-hidden rounded-md bg-canvas-deep">
+                    <ProductShot
+                      image={p.image}
+                      visual={p.visual}
+                      title={p.name}
+                      artClassName="h-[74%] w-[74%]"
+                    />
+                  </span>
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-[14px] text-ink">{p.name}</span>
-                    <span className="block truncate text-[12px] text-ink-faint">{p.brand} · {p.subcategory}</span>
+                    <span className="block truncate text-[12px] text-ink-faint">
+                      {p.brand} · {p.subcategory}
+                    </span>
                   </span>
-                  <span className="text-[13px] tabular-nums text-ink-soft">{p.price !== null ? formatINR(p.price) : "On request"}</span>
-                  <IconArrowRight size={16} className="text-ink-faint transition-transform group-hover:translate-x-0.5" />
+                  <span className="shrink-0 text-[13px] tabular-nums text-ink-soft">
+                    {p.price !== null ? formatINR(p.price) : "On request"}
+                  </span>
+                  <IconArrowRight
+                    size={16}
+                    className="shrink-0 text-ink-faint transition-transform group-hover:translate-x-0.5"
+                  />
                 </Link>
               ))}
 

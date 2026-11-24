@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Manrope, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
+import { products, countByCategory } from "@/data/products";
 import { CartProvider } from "@/lib/cart";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -107,9 +108,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           >
             Skip to content
           </a>
-          <Header />
+          <Header productCount={products.length} categoryCounts={countByCategory} />
           <main id="main">{children}</main>
-          <Footer />
+          <Footer productCount={products.length} />
           <CartDrawer />
           <WhatsAppFab />
         </CartProvider>
