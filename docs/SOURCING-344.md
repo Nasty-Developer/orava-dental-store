@@ -164,3 +164,25 @@ premium package's own trolley configuration is the only one listed.
 
 Remaining: 285 rows still not started, 39 of them the rest of the original batch-2 scope
 (now stage10), starting with Ammdent's 7.
+
+## Batch 3 progress (2026-11-25)
+
+Ammdent's 7 rows are done, written directly by the coordinator because three worker
+attempts at this task stopped mid-run.
+
+| Brand | Rows | Verified | Flagged | Not started |
+| --- | --- | --- | --- | --- |
+| Waldent family | 38 | 34 | 4 | 0 |
+| GDC | 21 | 19 | 2 | 0 |
+| Ammdent | 7 | 6 | 1 | 0 |
+| All other brands | 278 | 0 | 0 | 278 |
+| **Total** | **344** | **59** | **7** | **278** |
+
+Verified against ammdent.com, each page opened on 2026-11-25 at HTTP 200 with the
+product name in the page title: Biocanal, Canalarge, LC Cal Excel, D-Sense, FluroSolve,
+and Nano Fill (cited on the syringe-pack page, since AMMDENT prints no "refill" SKU;
+the kit page is a separate presentation).
+
+Flagged: Sterigem Hand Rub 500ml. The manufacturer's whole sitemap (95 URLs) has no
+hand-rub, sanitizer or Sterigem page, and site search returns nothing, so no source is
+recorded rather than a guessed one.

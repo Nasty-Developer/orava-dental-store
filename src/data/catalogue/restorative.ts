@@ -146,6 +146,13 @@ export const restorative: Product[] = [
     subcategory: "Ca-OH Based Medicaments",
     packaging: null,
     summary: "Ca-OH Based Medicaments from Ammdent. Composition: Calcium hydroxide, TEGDMA, BHT, UDMA, amine; Application Method: Direct application from tube.",
+
+    source: "https://ammdent.com/lc-cal-excel/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT LC Cal Excel - Light-Cure Calcium Hydroxide Paste – Endodontic Medicament\". Row is AMMDENT LC Cal Excel; the manufacturer's own page for LC Cal Excel documents the light-cure calcium hydroxide paste. A separate non-light-cure Cal Excel page also exists, so the LC page is the correct record for this row. No stock state is published on the page."
+    },
     specs: [{ label: "Composition", value: "Calcium hydroxide, TEGDMA, BHT, UDMA, amine" }, { label: "Type", value: "One-component light-curing radiopaque material" }, { label: "Field of Application", value: "Indirect pulp capping, cavity lining, acid protection, marginal leakage prevention" }, { label: "Application Method", value: "Direct application from tube" }, { label: "Curing Method", value: "Halogen light" }],
     price: 645,
     visual: "syringe",
@@ -304,6 +311,13 @@ export const restorative: Product[] = [
     subcategory: "Packable Composites",
     packaging: null,
     summary: "Packable Composites from Ammdent. Filler system: Methacrylate resin matrix with nano and micro-sized inorganic fillers; Filler particle size: 0.1–2 micrometer glass/resin particles plus 100nm nanoparticles.",
+
+    source: "https://ammdent.com/nano-fill-syringes/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT Nano Fill – Nano Hybrid Composite Resin Syringes (All Shades)\". Manufacturer documents the Nano Fill nano-hybrid composite as a SYRINGE PACK (shades A1, A2, A3, A3.5, A20P, B1, B2, B3, C1) on this page; the separate /nano-fill-hybrid-composite-kit/ page is the kit presentation. AMMDENT does not print the word 'refill' anywhere on the site, so this row's 'Refill' name matches the syringe-pack presentation rather than a distinct SKU. Packaging recorded as the manufacturer states it. No stock state is published on the page."
+    },
     specs: [{ label: "Type", value: "Nano-hybrid light-cure composite restorative" }, { label: "Filler system", value: "Methacrylate resin matrix with nano and micro-sized inorganic fillers" }, { label: "Filler particle size", value: "0.1–2 micrometer glass/resin particles plus 100nm nanoparticles" }, { label: "Curing time", value: "40 seconds" }, { label: "Depth of cure", value: "1.0mm (opaque shade), 1.5mm (other shades)" }],
     price: null,
     visual: "syringe",

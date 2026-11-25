@@ -172,6 +172,13 @@ export const whitening: Product[] = [
     subcategory: "Desensitizers",
     packaging: null,
     summary: "Desensitizers from Ammdent. Composition: 1.1% Natural Sodium fluoride; Treatment Doses per Tube: 6 doses.",
+
+    source: "https://ammdent.com/d-sense/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT D-Sense Desensitizing Gel – Fast Relief for Dentinal Hypersensitivity\". Row is AMMDENT D-Sense desensitizing gel; the manufacturer's own D-Sense page documents the gel for dentinal hypersensitivity. Matched on product name. No stock state is published on the page."
+    },
     specs: [{ label: "Composition", value: "1.1% Natural Sodium fluoride" }, { label: "Treatment Doses per Tube", value: "6 doses" }, { label: "Gel Volume per Dose", value: "3ml" }, { label: "Gel Usage per Tray", value: "Approximately 0.5ml" }],
     price: 365,
     visual: "tube",
@@ -191,6 +198,13 @@ export const whitening: Product[] = [
     subcategory: "Desensitizers",
     packaging: null,
     summary: "Desensitizers from Ammdent. Purpose: Dental hypersensitivity relief and enamel fortification; Active Ingredient: Fluorides.",
+
+    source: "https://ammdent.com/fluorosolve/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT FluroSolve - Fluoride Desensitizing Dental Solution for Hypersensitivity\". Row prints 'Flurosolve'; the manufacturer spells the product 'FluroSolve' and its own page documents the fluoride desensitizing solution for hypersensitivity. Matched on product name and indication, not on the row's spelling. No stock state is published on the page."
+    },
     specs: [{ label: "Purpose", value: "Dental hypersensitivity relief and enamel fortification" }, { label: "Active Ingredient", value: "Fluorides" }, { label: "Action", value: "Dual-action - Inhibits microbial growth; Strengthens enamel structure" }, { label: "Application Method", value: "Topical application" }, { label: "Storage", value: "Store in a cool, dry place away from sunlight" }],
     price: 404,
     visual: "tube",

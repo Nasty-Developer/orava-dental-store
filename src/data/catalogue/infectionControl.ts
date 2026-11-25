@@ -153,6 +153,12 @@ export const infectionControl: Product[] = [
     subcategory: "Hand sanitizers",
     packaging: "500ml",
     summary: "Hand sanitizers from Ammdent, supplied as 500ml. Composition: 2-Propanol: 45.00%, 1-Propanol: 30.00%; Formulation: Ready-to-use liquid.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "FLAGGED: ammdent.com does not document a Sterigem hand rub. The manufacturer's full sitemap (95 URLs, fetched 2026-11-25) contains no hand-rub, sanitizer or Sterigem page, and site search for 'sterigem' and 'hand rub' returns no product. No manufacturer or authorised-distributor page was found for this exact product, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Composition", value: "2-Propanol: 45.00%, 1-Propanol: 30.00%" }, { label: "Formulation", value: "Ready-to-use liquid" }, { label: "Microbial Activity", value: "Broad-spectrum microbicidal" }, { label: "Skin Compatibility", value: "Exceptionally kind to skin" }, { label: "Compliance", value: "Tested as per EN standards" }],
     price: 295,
     visual: "bottle",

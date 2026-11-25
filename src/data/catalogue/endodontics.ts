@@ -42,6 +42,13 @@ export const endodontics: Product[] = [
     subcategory: "Root Canal Sealers",
     packaging: null,
     summary: "Root Canal Sealers from Ammdent. Form: Pre-loaded syringe; Setting Time: 1–3 hours.",
+
+    source: "https://ammdent.com/biocanal/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT Biocanal - Bioceramic Root Canal Sealer – Endodontic Material\". Row is AMMDENT's bioceramic root canal sealer; the manufacturer's own page for Biocanal is the product of record. Page lists the sealer's composition, radiopacity and setting behaviour. No stock state is published on the page."
+    },
     specs: [{ label: "Form", value: "Pre-loaded syringe" }, { label: "Setting Time", value: "1–3 hours" }, { label: "Radiopacity", value: "Equivalent to ≥ 3 mm of aluminum" }, { label: "Film Thicknes", value: "50 μm" }, { label: "Material", value: "Bioceramic-based sealer" }],
     price: 1269,
     visual: "file",
@@ -81,6 +88,13 @@ export const endodontics: Product[] = [
     subcategory: "Irrigation solutions",
     packaging: null,
     summary: "Irrigation solutions from Ammdent. Composition: Disodium Edetate 17% W/V, Excipients q.s. ad 100ml; Function: Cleans and prepares root canals.",
+
+    source: "https://ammdent.com/canalarge/",
+    verification: {
+      method: "manufacturer product page on ammdent.com located via the manufacturer sitemap and matched on product name; page opened and title and product description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "AMMDENT page opened 2026-11-25: HTTP 200, page title \"AMMDENT Canalarge - Root Canal Irrigant & Chelating Solution – Endodontic Preparation\". Row is AMMDENT's Canalarge irrigant; the manufacturer's own Canalarge page documents the irrigant/chelating solution. Matched on product name. No stock state is published on the page."
+    },
     specs: [{ label: "Composition", value: "Disodium Edetate 17% W/V, Excipients q.s. ad 100ml" }, { label: "Type", value: "Chelating agent solution" }, { label: "Function", value: "Cleans and prepares root canals" }, { label: "Toxicity", value: "Non-toxic and non-caustic" }, { label: "Harmlessness", value: "Safe for peri-apical tissues" }],
     price: 360,
     visual: "bottle",
