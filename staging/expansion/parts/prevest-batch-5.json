@@ -1,0 +1,289 @@
+[
+  {
+    "slug": "prevest-denpro-hyposol",
+    "name": "Hyposol",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40019 1 x 500ml Plastic Bottle, 3% REF 40020 1 x 500ml Plastic Bottle, 5%",
+    "summary": "Hyposol — 3%, 5% Sodium Hypochlorite Solution. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "3%, 5% Sodium Hypochlorite Solution"
+      },
+      {
+        "label": "pH",
+        "value": "12.10"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 15, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-pulp-x",
+    "name": "Pulp-X",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Pulp Devitalizer",
+    "packaging": "REF 40021 Jar Pack : 1 x 6g Plastic Jar, 1 x Instructional Manual REF 40022 1 x 3g Syringe, 10 x Applicator Tips, 1 x Instructional Manual REF 40022-1 2 x 3g Syringe, 10 x Applicator Tips, 1 x Instructional Manual",
+    "summary": "Pulp-X — Pulp Devitalizer. Listed in Prevest DenPro's own catalogue under pulp devitalizer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Pulp Devitalizer"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40021 Jar Pack : 1 x 6g Plastic Jar, 1 x Instructional Manual REF 40022 1 x 3g Syringe, 10 x Applicator Tips, 1 x Instructional Manual REF 40022-1 2 x 3g Sy"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 15, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-carvene",
+    "name": "Carvene",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Gutta Percha Solvent",
+    "packaging": "REF 40030 1 x 10ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual.",
+    "summary": "Carvene — Gutta Percha Solvent. Listed in Prevest DenPro's own catalogue under gutta percha solvent.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Gutta Percha Solvent"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40030 1 x 10ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual."
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 15, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-eposolv",
+    "name": "Eposolv",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Gutta Percha Solvent",
+    "packaging": "REF 40035 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "Eposolv — Solvent For Resin & Phenolic Compounds. Listed in Prevest DenPro's own catalogue under gutta percha solvent.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Solvent For Resin & Phenolic Compounds"
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 17730"
+      },
+      {
+        "label": "Total Flouride Content",
+        "value": "13 %"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 15, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-formacresol",
+    "name": "Formacresol",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Intracanal Medicament",
+    "packaging": "REF 40014 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual.",
+    "summary": "Formacresol — Tricresol Formaldehyde Solution. Listed in Prevest DenPro's own catalogue under intracanal medicament.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Tricresol Formaldehyde Solution"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40014 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual."
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 16, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-camphenol",
+    "name": "Camphenol",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Intracanal Medicament",
+    "packaging": "REF 40015 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual.",
+    "summary": "Camphenol — Camphorated Para Chlorophenol Solution. Listed in Prevest DenPro's own catalogue under intracanal medicament.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Camphorated Para Chlorophenol Solution"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40015 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual."
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 16, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zinc-oxide-eugenol",
+    "name": "Zinc Oxide / Eugenol",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Temporary Cement",
+    "packaging": "Zinc Oxide REF 40028 1 x Jar, 110g, 1 x Instruction Manual Eugenol REF 40016 1 x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40017 1 x 30ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40018 1 x 110ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "Zinc Oxide / Eugenol — Zinc Oxide Powder / Eugenol. Listed in Prevest DenPro's own catalogue under temporary cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Zinc Oxide Powder / Eugenol"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "60 sec."
+      },
+      {
+        "label": "Setting Time",
+        "value": "4 - 6 Min. ISO 3107"
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "20 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 16, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-maxgenol",
+    "name": "Maxgenol",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Temporary Cement",
+    "packaging": "REF 40038 1x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40039 1x 30ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40040 1x 110ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "Maxgenol — Liquid for temporary cementation with zinc oxide. Listed in Prevest DenPro's own catalogue under temporary cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Liquid for temporary cementation with zinc oxide"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40038 1x 15ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40039 1x 30ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual RE"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 16, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-chlor-x",
+    "name": "Chlor X",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40026 1 x 100ml Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40026-1 1 x 500ml Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "Chlor X — 2% Chlorhexidine Solution. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "2% Chlorhexidine Solution"
+      },
+      {
+        "label": "Consistence",
+        "value": "2% Chlorhexidine"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 17, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-chlor-x-gel",
+    "name": "Chlor X Gel",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40026-2 1 x 2g Syringe Chlor-X Gel, 5 x Applicator Tips, 1 x Instruction Manual",
+    "summary": "Chlor X Gel — 2% Chlorhexidine Solution. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "2% Chlorhexidine Solution"
+      },
+      {
+        "label": "Consistence",
+        "value": "2% Chlorhexidine Gel"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 17, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-5-step-endo-smart-kit",
+    "name": "5 Step Endo Smart Kit",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Endodontic Kit",
+    "packaging": "REF 40036 1 x 2g Syringe Calcigel, 5 x Applicator Tips (Ref : 40007), 1 x 2g Syringe Calplus, 5 x Applicator Tips (Ref : 40005), 1 x 2g Syringe Dolo, 5 x Applicator Tips (Ref : 40002), 1 x 3g Syringe Pulp-X, 5 x Applicator Tips (Ref : 40022), 1 x 3g Syringe Orafil-LC (Ref : 11002-",
+    "summary": "5 Step Endo Smart Kit — 5-Steps Systematic Endodontic Treatment Kit For Predictable & Efficient Endodontics.. Listed in Prevest DenPro's own catalogue under endodontic kit.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "5-Steps Systematic Endodontic Treatment Kit For Predictable & Efficient Endodontics."
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40036 1 x 2g Syringe Calcigel, 5 x Applicator Tips (Ref : 40007), 1 x 2g Syringe Calplus, 5 x Applicator Tips (Ref : 40005), 1 x 2g Syringe Dolo, 5 x Applic"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 17, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  }
+]
