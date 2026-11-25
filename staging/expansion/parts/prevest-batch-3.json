@@ -1,0 +1,442 @@
+[
+  {
+    "slug": "prevest-denpro-fusion-self-lute",
+    "name": "Fusion Self Lute",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30008 Intro Pack : 1 x 9g Automix Syringe, 10 x Automix Tips, 1 x Instruction Manual",
+    "summary": "Fusion Self Lute — Self Curing / Chemical Curing Resin Based Luting Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Self Curing / Chemical Curing Resin Based Luting Cement"
+      },
+      {
+        "label": "Working Time",
+        "value": "2 – 2.30 min."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 4049"
+      },
+      {
+        "label": "Setting Time",
+        "value": "3 – 4 min."
+      },
+      {
+        "label": "Film Thickness",
+        "value": "35 mm"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 8, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-superior",
+    "name": "Micron Superior",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Glass Ionomer Restorative",
+    "packaging": "REF 30010 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Instruction Manual. REF 30010-2 Micron Superior GIC Universal Liquid : 1 x 10ml Liquid Bottle, 1 x Instruction Manual.",
+    "summary": "Micron Superior — Aesthetic Fine Particle Glass lonomer Restorative Material. Listed in Prevest DenPro's own catalogue under glass ionomer restorative.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Aesthetic Fine Particle Glass lonomer Restorative Material"
+      },
+      {
+        "label": "Ratio (Powder / Liquid)",
+        "value": "1 : 1 SHADES"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "35 – 40 Sec. ISO 9917-1 A1, A2, A3"
+      },
+      {
+        "label": "Setting Time",
+        "value": "1.30 – 2 min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "145 – 160 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 8, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-superior-capsule",
+    "name": "Micron Superior Capsule",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Glass Ionomer Restorative",
+    "packaging": "REF 30010-3 10 x Single Shade Capsules, 1 x Instruction Manual.",
+    "summary": "Micron Superior Capsule — Aesthetic Fine Particle Glass Ionomer Restorative Material In Capsules. Listed in Prevest DenPro's own catalogue under glass ionomer restorative.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Aesthetic Fine Particle Glass Ionomer Restorative Material In Capsules"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 30010-3 10 x Single Shade Capsules, 1 x Instruction Manual."
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 8, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-luting",
+    "name": "Micron Luting",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30011 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Instruction Manual",
+    "summary": "Micron Luting — Translucent Fine Particle Glass Ionomer Luting Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Translucent Fine Particle Glass Ionomer Luting Cement"
+      },
+      {
+        "label": "Ratio (Powder / Liquid)",
+        "value": "1 : 2"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45 – 60 Sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 9917-1"
+      },
+      {
+        "label": "Setting Time",
+        "value": "2 Min 30 Sec."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "108.43 MPa"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "20 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 8, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-silver",
+    "name": "Micron Silver",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Glass Ionomer Restorative",
+    "packaging": "REF 30009 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Instruction Manual",
+    "summary": "Micron Silver — Radiopaque Silver Alloy-Glass Ionomer Cement, Restorative. Listed in Prevest DenPro's own catalogue under glass ionomer restorative.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Radiopaque Silver Alloy-Glass Ionomer Cement, Restorative"
+      },
+      {
+        "label": "Ratio (Powder / Liquid)",
+        "value": "2 : 3"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "35 – 40 Sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 9917-1"
+      },
+      {
+        "label": "Working Time",
+        "value": "1.30 – 2.00 min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "4 – 5 min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "150 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 9, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-bioactive",
+    "name": "Micron Bioactive",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Glass Ionomer Restorative",
+    "packaging": "REF 30009-1 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Instruction Manual",
+    "summary": "Micron Bioactive — Radiopaque Hydroxyapatite Modified-Glass Ionomer Cement, Restorative. Listed in Prevest DenPro's own catalogue under glass ionomer restorative.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Radiopaque Hydroxyapatite Modified-Glass Ionomer Cement, Restorative"
+      },
+      {
+        "label": "Ratio (Powder / Liquid)",
+        "value": "2 : 3"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "35 – 40 Sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 9917-1"
+      },
+      {
+        "label": "Setting Time",
+        "value": "1.30 – 2.00 min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "150 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 9, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-micron-dentin-conditioner",
+    "name": "Micron Dentin Conditioner",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Dentine Conditioner",
+    "packaging": "REF 30010-1 Packaging : 1 x 10ml Liquid Bottle, 1 x Instruction Manual",
+    "summary": "Micron Dentin Conditioner — Polyacrylic Acid Cavity Conditioner. Listed in Prevest DenPro's own catalogue under dentine conditioner.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Polyacrylic Acid Cavity Conditioner"
+      },
+      {
+        "label": "pH",
+        "value": "1.5 – 2"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 9, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-poly-zinc-plus",
+    "name": "Poly Zinc +",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30012 Intro Pack : 1 x 30g Powder Jar, 1 x 15ml Liquid Bottle,1 x Spoon, 1 x Mixing Pad, 1 x Instruction Manual REF 30013 Economy Pack : 1 x 120g Powder Jar, 1 x 90ml Liquid Bottle, 1 x Spoon, 1 x Mixing Pad, 1 x Instruction Manual",
+    "summary": "Poly Zinc + — Zinc Polycarboxylate Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Zinc Polycarboxylate Cement"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45-60 Sec."
+      },
+      {
+        "label": "Setting Time",
+        "value": "2 - 2:15 min. (Luting)"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 9, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zinc-f-plus",
+    "name": "Zinc F+",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30014 Intro Powder - Liquid Kit : 30g Powder Jar, 15ml Liquid Bottle, 1 x Spoon, 1 x Instruction Manual. REF 30014-1 Economy Powder - Liquid Kit : 120g Powder Jar, 90ml Liquid Bottle, 1 x Spoon, 1 x Instruction Manual.",
+    "summary": "Zinc F+ — Zinc Phosphate Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Zinc Phosphate Cement"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45-60 Sec."
+      },
+      {
+        "label": "Setting Time",
+        "value": "3 .15 min (Luting)"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "22 m m"
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "105 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 10, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zinconol",
+    "name": "Zinconol",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Temporary Cement",
+    "packaging": "REF 30015 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Dispensing Dropper, 1 x Instruction Manual REF 30015-1 Powder - Liquid Kit : 1 x 75g Powder Jar, 1 x 40ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Dispensing Dropper , 1 x Instruction Manual",
+    "summary": "Zinconol — Polymer Reinforced ZOE Cement. Listed in Prevest DenPro's own catalogue under temporary cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Polymer Reinforced ZOE Cement"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45-60 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "2 min-30 sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 3107"
+      },
+      {
+        "label": "Setting Time",
+        "value": "4-6 Min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "35 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 10, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zinconol-xs",
+    "name": "Zinconol XS",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Temporary Cement",
+    "packaging": "REF 30022 Powder - Liquid Kit : 1 x 38g Powder Jar, 1 x 14ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Dispensing Dropper , 1 x Instruction Manual",
+    "summary": "Zinconol XS — Polymer Reinforced ZOE Cement. Listed in Prevest DenPro's own catalogue under temporary cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Polymer Reinforced ZOE Cement"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45-60 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "2 min-30 sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 3107"
+      },
+      {
+        "label": "Setting Time",
+        "value": "4-6 Min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "60 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 10, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zitemp",
+    "name": "Zitemp",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Temporary Cement",
+    "packaging": "REF 30016 Powder - Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Mixing Pad, 1 x Spoon, 1 x Dispensing Dropper , 1 x Instruction Manual",
+    "summary": "Zitemp — ZOE Cement Quick Set. Listed in Prevest DenPro's own catalogue under temporary cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "ZOE Cement Quick Set"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45-60 Sec."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 3107"
+      },
+      {
+        "label": "Setting Time",
+        "value": "5 - 7 Min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "10 - 20 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 10, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  }
+]
