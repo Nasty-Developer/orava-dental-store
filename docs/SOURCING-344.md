@@ -142,3 +142,25 @@ For 1 and 2 the catalogue row may describe an item Waldent no longer lists; for
 3 and 4 the row is a bundle rather than a manufacturer product. Both cases need
 a decision from the owner (drop the row, or keep it flagged as
 retailer-sourced), which is why they are flagged rather than removed.
+
+## Batch 2 progress (2026-11-25)
+
+Commit `437ac1a`. The batch-2 worker timed out mid-run; its edits were salvaged from its
+local clone, audited and pushed by the coordinator.
+
+| Brand | Rows | Verified | Flagged | Not started |
+| --- | --- | --- | --- | --- |
+| Waldent family | 38 | 34 | 4 | 0 |
+| GDC | 21 | 19 | 2 | 0 |
+| Ammdent | 7 | 0 | 0 | 7 |
+| All other brands | 278 | 0 | 0 | 278 |
+| **Total** | **344** | **53** | **6** | **285** |
+
+Every one of the 19 GDC source URLs was re-fetched by the coordinator on 2026-11-25:
+19 of 19 returned HTTP 200 and every page title matched its row. The two flagged GDC rows
+are the clinic package configurations GDC does not document: the OPP package is supplied
+with a trolley bag, so the without-trolley variant has no manufacturer page, and the
+premium package's own trolley configuration is the only one listed.
+
+Remaining: 285 rows still not started, 39 of them the rest of the original batch-2 scope
+(now stage10), starting with Ammdent's 7.
