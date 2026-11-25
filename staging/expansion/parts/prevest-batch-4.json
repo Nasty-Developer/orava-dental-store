@@ -1,0 +1,570 @@
+[
+  {
+    "slug": "prevest-denpro-dolo",
+    "name": "Dolo",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40002 Trial Pack : 1 x 2g Syringe, 5 x Applicator Tips, 1 x Instruction Manual REF 40002-1 Intro Pack : 1 x 3g Syringe, 10 x Applicator Tips, 1 x Instruction Manual REF 40003 Economy Pack : 4 x 2g Syringes, 20 x Applicator Tips, 1 x Instruction Manual",
+    "summary": "Dolo — EDTA Gel For Root Canals. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "EDTA Gel For Root Canals"
+      },
+      {
+        "label": "pH",
+        "value": "3.42"
+      },
+      {
+        "label": "Consistency",
+        "value": "30 mm"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "58 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 11, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-edta-solution",
+    "name": "EDTA Solution",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40004 1 x 15 ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40004-1 1 x 100 ml Glass Bottle, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "EDTA Solution — 17% EDTA Solution. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "17% EDTA Solution"
+      },
+      {
+        "label": "pH",
+        "value": "7.25"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 11, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-citrogen-gel",
+    "name": "Citrogen Gel",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40045 1 x 10ml Syringe, 5 x Applicator Tips, 1 x Instructional Manual REF 40045-1 1 x 30ml Syringe, 10 x Applicator Tips, 2 x 5ml Empty Syringe, 1 x Instructional Manual",
+    "summary": "Citrogen Gel — 20% Citric Acid Gel. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "20% Citric Acid Gel"
+      },
+      {
+        "label": "pH",
+        "value": "1.5 - 2"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 11, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-citrogen",
+    "name": "Citrogen",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Irrigant",
+    "packaging": "REF 40047 1 x 50ml Bottle, 1 x Dropper, 1 x Instruction Manual REF 40048 1 x 100ml Bottle, 1 x Dropper, 1 x Instruction Manual",
+    "summary": "Citrogen — (20% Citric Acid Liquid) Dentine Conditioner and Chelating Agent. Listed in Prevest DenPro's own catalogue under irrigant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "(20% Citric Acid Liquid) Dentine Conditioner and Chelating Agent"
+      },
+      {
+        "label": "pH",
+        "value": "1.75"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 11, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-calplus",
+    "name": "CalPlus",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Intracanal Medicament",
+    "packaging": "REF 40005 Trial Pack : 1 x 2g Syringe, 5 x Applicator Tips, 1 x Instructional Manual REF 40005-1 Intro Pack : 1 x 3g Syringe, 10 x Applicator Tips, 1 x Instructional Manual REF 40006 Economy Pack : 4 x 2g Syringes, 20 x Applicator Tips, 1 x Instructional Manual",
+    "summary": "CalPlus — Calcium Hydroxide Paste With Iodoform. Listed in Prevest DenPro's own catalogue under intracanal medicament.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Calcium Hydroxide Paste With Iodoform"
+      },
+      {
+        "label": "Consistency",
+        "value": "28 mm"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "68 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 12, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-calcigel",
+    "name": "Calcigel",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Intracanal Medicament",
+    "packaging": "REF 40007 Trial Pack : 1 x 2g Syringe, 5 x Applicator Tips, 1 x Instruction Manual REF 40007-1 Intro Pack : 1 x 3g Syringe, 10 x Applicator Tips, 1 x Instruction Manual REF 40007-2 Trial Pack : 1 x 2.2g Syringe, 20 x Applicator Tips, 1 x Instruction Manual REF 40008 Economy Pack : 4 x 2g Syringes, 20 x Applicator Tips, 1 x Instruction Manual",
+    "summary": "Calcigel — All Purpose Calcium Hydroxide Paste. Listed in Prevest DenPro's own catalogue under intracanal medicament.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "All Purpose Calcium Hydroxide Paste"
+      },
+      {
+        "label": "Consistency",
+        "value": "40 mm"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "20 m m"
+      },
+      {
+        "label": "Setting Time",
+        "value": "35 Min."
+      },
+      {
+        "label": "pH",
+        "value": "11.97"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 12, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-calcium-hydroxide-powder-extra-fine",
+    "name": "Calcium Hydroxide Powder, Extra Fine",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Intracanal Medicament",
+    "packaging": "REF 40029 1x 10g Plastic Jar",
+    "summary": "Calcium Hydroxide Powder, Extra Fine — Powder, Extra Fine. Listed in Prevest DenPro's own catalogue under intracanal medicament.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Powder, Extra Fine"
+      },
+      {
+        "label": "Mesh",
+        "value": "200# ISO 6876"
+      },
+      {
+        "label": "Resing",
+        "value": "99.9%"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 12, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-cerafill-rcs",
+    "name": "Cerafill RCS",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40037-1 Regular Pack: 1x 2g Premixed Syringe, 10 x Applicator Tips, 1 x Instruction Manual. REF 40037-2 Regular Pack: 1x 2g Premixed Syringe, 10 x Applicator Tips, 1 x Instruction Manual. REF 40057 Regular Pack: 1x 3g Premixed Syringe, 10 x Applicator Tips,",
+    "summary": "Cerafill RCS — Bioceramic Root Canal Filling and Sealing Material. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Bioceramic Root Canal Filling and Sealing Material"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40037-1 Regular Pack: 1x 2g Premixed Syringe, 10 x Applicator Tips, 1 x Instruction Manual. REF 40037-2 Regular Pack: 1x 2g Premixed Syringe, 10 x Applicato"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 12, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-cerafill-putty",
+    "name": "Cerafill Putty",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Repair Material",
+    "packaging": "REF 40049 1 x 1.2g Premixed Syringe, 7 x Applicator Tips, 1 x Instruction Manual REF 40049-1 1 x 2g Premixed Syringe, 10 x Applicator Tips, 1 x Instruction Manual",
+    "summary": "Cerafill Putty — Bioceramic material for permanent root repair. Listed in Prevest DenPro's own catalogue under root repair material.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Bioceramic material for permanent root repair"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 40049 1 x 1.2g Premixed Syringe, 7 x Applicator Tips, 1 x Instruction Manual REF 40049-1 1 x 2g Premixed Syringe, 10 x Applicator Tips, 1 x Instruction Manu"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 13, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-mta-plus",
+    "name": "MTA Plus",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Repair Material",
+    "packaging": "REF 40024 Trial Pack : 1 x 1g powder Jar, 1 x 2cc Gel Bottle, 1 x Measuring spoon, 1 x Instruction Manual REF 40025 Intro Pack : 1 x 2g powder Jar, 1 x 2cc Gel Bottle, 1 x Measuring spoon, 1 x Instruction Manual REF 40032 Economy Pack : 1 x 6g powder Jar, 1 x 9cc Gel Bottle, 1 x Measuring spoon, 1 x Instruction Manual",
+    "summary": "MTA Plus — Vital Pulp Therapy & Root Treatment Material. Listed in Prevest DenPro's own catalogue under root repair material.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Vital Pulp Therapy & Root Treatment Material"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45 – 60 sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "25 Min."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 6876"
+      },
+      {
+        "label": "Setting Time",
+        "value": "55 Min 30 Sec."
+      },
+      {
+        "label": "Film Thickness",
+        "value": "45 m m"
+      },
+      {
+        "label": "Solubility <",
+        "value": "2"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 13, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-calapex",
+    "name": "Calapex",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40041 1 x 20g Automix Cartridge, 20 x Mixing Tips, 1 x Instruction Manual. REF 40041-1 Net Content 20g, 1 x Base Paste, 1 x Catalyst Paste, 1 x Mixing Pad, 1 x Instruction Manual. REF 40041-2 1 x 20g Manual Mix Cartridge, Base & Catalyst, 1 x Mixing Spatula,",
+    "summary": "Calapex — Non-eugenol, Calcium Hydroxide Based Polymeric Root Canal Sealant. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Non-eugenol, Calcium Hydroxide Based Polymeric Root Canal Sealant"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "30 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "30 Min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "45 - 60 Min. ISO 6876"
+      },
+      {
+        "label": "Flow",
+        "value": "17 mm"
+      },
+      {
+        "label": "Solubility >",
+        "value": "2%"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "45 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 13, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zical",
+    "name": "Zical",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40009 Powder Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1x Spoon, 1 x Mixing Pad, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40010 Automix Mix Kit : 1 x 15g Cartridge (Base / Catalyst), 20 x Auto Mix Tips, 1 x Instruction Manual REF 40011 Manual Mix Kit : 1 x 15g Cartridge (Base / Catalyst), 1 x Mixing",
+    "summary": "Zical — ZOE Root Canal Sealer. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "ZOE Root Canal Sealer"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "30 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "30 Min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "45 - 60 Min. ISO 6876"
+      },
+      {
+        "label": "Flow",
+        "value": "17 mm"
+      },
+      {
+        "label": "Solubility >",
+        "value": "2%"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "45 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 13, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zical-ultra-p-l",
+    "name": "Zical Ultra P/L",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40044 Powder Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Spoon, 1 x Mixing Pad, 1 x Dispensing Dropper, 1 x Instruction Manual",
+    "summary": "Zical Ultra P/L — ZOE Root Canal Sealer. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "ZOE Root Canal Sealer"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "30 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "30 Min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "45 - 60 Min. ISO 6876"
+      },
+      {
+        "label": "Flow",
+        "value": "17 mm"
+      },
+      {
+        "label": "Solubility >",
+        "value": "2%"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "45 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 14, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-zical-ultra",
+    "name": "Zical Ultra",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40043 Auto Mix Pack: 1 x 15g Automix Cartridge, 20 x Automix Tips, 1 x Instructional Manual REF 40042 Manual Mix Pack: 1 x 15g Cartridge, Base & Catalyst Paste, 1 x Mixing Spatula, 1 x Mixing Pad, 1 x Instructional Manual",
+    "summary": "Zical Ultra — ZOE Root Canal Sealer(Automix / Manual Mix Cartridge). Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "ZOE Root Canal Sealer(Automix / Manual Mix Cartridge)"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "30 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "30 Min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "45 - 60 Min. ISO 6876"
+      },
+      {
+        "label": "Flow",
+        "value": "17 mm"
+      },
+      {
+        "label": "Solubility >",
+        "value": "2%"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "45 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 14, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-endoseal",
+    "name": "Endoseal",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40031 Powder Liquid Kit : 1 x 15g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Spoon, 1 x Mixing Pad, 1 x Dispensing Dropper, 1 x Instruction Manual REF 40031-1 Powder Liquid Kit : 1 x 20g Powder Jar, 1 x 10ml Liquid Bottle, 1 x Spoon, 1 x Mixing Pad, 1 x Dispensing Dropper, 1 x Instruction",
+    "summary": "Endoseal — Root Canal Obturation Cement. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Root Canal Obturation Cement"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45 - 60 Sec."
+      },
+      {
+        "label": "Working Time",
+        "value": "25 Min."
+      },
+      {
+        "label": "Setting Time",
+        "value": "55 Min - 30 Sec. ISO 6876"
+      },
+      {
+        "label": "Flow",
+        "value": "48 m m"
+      },
+      {
+        "label": "Solubility >",
+        "value": "2%"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "20 - 25 mm"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 14, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-nanoseal-s",
+    "name": "Nanoseal-S",
+    "brand": "Prevest DenPro",
+    "category": "endodontics",
+    "subcategory": "Root Canal Sealer",
+    "packaging": "REF 40001-1 Manual Mix : 1 x 10g Cartridge (Base / Catalyst), 1 x Mixing Spatula, 1 x Mixing Pad, 1 x Instruction Manual",
+    "summary": "Nanoseal-S — VPS Root Canal Sealer. Listed in Prevest DenPro's own catalogue under root canal sealer.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "VPS Root Canal Sealer"
+      },
+      {
+        "label": "Mixing Time",
+        "value": "45 – 60 sec."
+      },
+      {
+        "label": "Working Time <",
+        "value": "10 Min."
+      },
+      {
+        "label": "Standard applied",
+        "value": "ISO 6876"
+      },
+      {
+        "label": "Setting Time",
+        "value": "10 - 15 Min."
+      },
+      {
+        "label": "Film Thickness",
+        "value": "65 mm"
+      },
+      {
+        "label": "Solubility <",
+        "value": "2%"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 14, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  }
+]
