@@ -1,0 +1,329 @@
+[
+  {
+    "slug": "prevest-denpro-magma-nt",
+    "name": "Magma NT",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Composite",
+    "packaging": "REF 20002 Master Kit : 7 x 4g Syringes Regular Shade 1 x 5ml Bottle Fusion Bond 7, 1 x 5ml Bottle Fusion Nano Coat, 1 x 2g Syringe Fusion Flo - A2 Shade, 1 x 4g Syringe Platina Hi-Gloss, 20 x Micro Brushes, 10 x Applicator tips, 1 x Instruction Manual, 1 x Shade Card",
+    "summary": "Magma NT — Nano Ceramic Universal Restorative. Listed in Prevest DenPro's own catalogue under composite.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Nano Ceramic Universal Restorative"
+      },
+      {
+        "label": "Curing Time",
+        "value": "40 Sec. SHADES"
+      },
+      {
+        "label": "Depth of Cure",
+        "value": "1.0 (Opaque Shade),"
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "300 MPa OA1, OA2, OA3, Bleach, Gingival G1, G2, G3, G4"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "140 – 150 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 5, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-universal",
+    "name": "Fusion Universal",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Composite",
+    "packaging": "REF 20004 Refills : 1 x Syringe, 4g, 1 x Instruction Manual REF 20005 Intro Kit : 4 x 4g syringes , 1 x 5ml Fusion Bond 5, 1 x 2ml syringe Actino Gel , 10 x Micro Brushes, 10 x Applicator Tips, 1 x Instruction Manual REF 20006 Combo Kit : 7 x 4g Syringes Combo / Intro Kit Accessories : 1 x 5ml Fusion Bond 5, 1 x 2ml",
+    "summary": "Fusion Universal — Light Cured Universal Nano Hybrid Composite. Listed in Prevest DenPro's own catalogue under composite.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Light Cured Universal Nano Hybrid Composite"
+      },
+      {
+        "label": "Curing Time",
+        "value": "40 Sec. - A1, A2, A3, A3.5, A4, B1, B2, B3, C1, C2, C3, D1, D2, Opaque,"
+      },
+      {
+        "label": "Depth of Cure",
+        "value": "1.0 (Opaque Shade), 1.5 (Other Shade) ISO 4049 Incisal, OA1, OA2, OA3, Bleach, Gingival G1, G2, G3, G4"
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "300 MPa"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "140 – 150 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 5, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-pf-seal",
+    "name": "PF Seal",
+    "brand": "Prevest DenPro",
+    "category": "preventive",
+    "subcategory": "Pit and Fissure Sealant",
+    "packaging": "REF 20012-1 1 x 2g Syringe, 5 x Applicator Tips, 1 x Instruction Manual REF 20012 2 x 2g Syringe, 10 x Applicator Tips, 1 x Instruction Manual",
+    "summary": "PF Seal — Light Cured Pit and Fissure Sealant. Listed in Prevest DenPro's own catalogue under pit and fissure sealant.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Light Cured Pit and Fissure Sealant"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 20012-1 1 x 2g Syringe, 5 x Applicator Tips, 1 x Instruction Manual REF 20012 2 x 2g Syringe, 10 x Applicator Tips, 1 x Instruction Manual"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 5, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-flo",
+    "name": "Fusion Flo",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Flowable Composite",
+    "packaging": "REF 20008 Intro Pack : 2 x 2g Syringes, 10 x Applicator Tips , 1 x Instruction Manual REF 20009 Combo Kit : 4 x 2g Syringes , 20 x Applicator Tips , 1 x Instruction Manual REF 20008-1 Trial Pack : 1 x 2g Syringes, 5 x Applicator Tips , 1 x Instruction Manual",
+    "summary": "Fusion Flo — Light Cured Nano Hybrid Flowable Composite. Listed in Prevest DenPro's own catalogue under flowable composite.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Light Cured Nano Hybrid Flowable Composite"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 20008 Intro Pack : 2 x 2g Syringes, 10 x Applicator Tips , 1 x Instruction Manual REF 20009 Combo Kit : 4 x 2g Syringes , 20 x Applicator Tips , 1 x Instruc"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 5, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-core-dc-flo",
+    "name": "Fusion Core DC Flo",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Core Build-Up Composite",
+    "packaging": "REF 20011 Intro Pack - Auto Mix : 1 x 9g Automix Syringe, 10 x Intra-oral Tips, 10 x Endo Tips, 1 x Instruction Manual REF 20011-1 Combo Kit : 1 x 9g Core Build Up Automix Syringe, 1 x 9g Ultra D/C Automix Syringe, 1 x 3ml Bonding Agent, 1 x 3ml Activator, 10 x Intra Oral Tips,",
+    "summary": "Fusion Core DC Flo — Flowable, Dual Curing, Nano-tech Core Build-Up Composite. Listed in Prevest DenPro's own catalogue under core build-up composite.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Flowable, Dual Curing, Nano-tech Core Build-Up Composite"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 20011 Intro Pack - Auto Mix : 1 x 9g Automix Syringe, 10 x Intra-oral Tips, 10 x Endo Tips, 1 x Instruction Manual REF 20011-1 Combo Kit : 1 x 9g Core Build"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 6, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-i-seal",
+    "name": "Fusion I-Seal",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30002-1 Trial Pack : 1 x 2g Syringe, 5 x Applicators Tips, 1 x Instruction Manual REF 30002 Intro Pack : 2 x 2g Syringes, 10 x Applicators Tips, 1 x Instruction Manual REF 30003 Economy Pack : 4 x 2g Syringes, 20 x Applicators Tips, 1 x Instruction Manual REF 30003-1 Intro Pack : 1 x 3g Syringe, 10 x Applicators Tips, 1 x Instruction Manual",
+    "summary": "Fusion I-Seal — Light Curing Glass lonomer Composite Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Light Curing Glass lonomer Composite Cement"
+      },
+      {
+        "label": "Curing Time",
+        "value": "30 – 40 Sec. ISO 9917-2"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "80 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 6, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-cal-lc",
+    "name": "Cal LC",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Pulp Capping and Liner",
+    "packaging": "REF 30004 Trial Pack : 1 x 2g Syringes, 5 Applicator Tips, 1 x Instruction Manual REF 30005 Intro Pack : 2 x 2g Syringes, 10 Applicator Tips, 1 x Instruction Manual REF 30005-1 Economy Pack : 4 x 2g Syringes, 20 Applicator Tips, 1 x Instruction Manual",
+    "summary": "Cal LC — Light Cured Radiopaque Calcium Hydroxide Paste. Listed in Prevest DenPro's own catalogue under pulp capping and liner.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Light Cured Radiopaque Calcium Hydroxide Paste"
+      },
+      {
+        "label": "Curing Time",
+        "value": "30 – 40 Sec. ISO 9917-2"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "80 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 6, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-apacal-art",
+    "name": "Apacal ART",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Pulp Capping and Liner",
+    "packaging": "REF 30001-1 Trial Pack : 1 x 2g Syringe, 5 x Applicators Tips, 1 x Instruction Manual REF 30001 Economy Pack : 2 x 2g Syringe, 10 x Applicators Tips, 1 x Instruction Manual",
+    "summary": "Apacal ART — Photo Cure Pulp Protectant / Liner. Listed in Prevest DenPro's own catalogue under pulp capping and liner.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Photo Cure Pulp Protectant / Liner"
+      },
+      {
+        "label": "Curing Time",
+        "value": "30 – 40 Sec. ISO 9917-2"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "80 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 7, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-calultra",
+    "name": "CalUltra",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Pulp Capping and Liner",
+    "packaging": "REF 40046 Net contents: 24g, Base Paste/Catalyst Paste Tubes, 1 x Mixing Pad, 1 x Instructional Manual",
+    "summary": "CalUltra — Calcium Hydroxide Cavity Liners. Listed in Prevest DenPro's own catalogue under pulp capping and liner.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Calcium Hydroxide Cavity Liners"
+      },
+      {
+        "label": "Setting Time",
+        "value": "1 Min."
+      },
+      {
+        "label": "Compressive Strength",
+        "value": "10 MPa"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 7, left column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-ultra-d-c",
+    "name": "Fusion Ultra D/C",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30006 Intro Pack - Auto Mix : 1 x 9g Automix Syringe, 10 x Automix Tips, 1 x Instruction Manual",
+    "summary": "Fusion Ultra D/C — Dual Curing, Resin Based Luting Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Dual Curing, Resin Based Luting Cement"
+      },
+      {
+        "label": "Pack",
+        "value": "REF 30006 Intro Pack - Auto Mix : 1 x 9g Automix Syringe, 10 x Automix Tips, 1 x Instruction Manual"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 7, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  },
+  {
+    "slug": "prevest-denpro-fusion-ultra-d-c-universal",
+    "name": "Fusion Ultra D/C Universal",
+    "brand": "Prevest DenPro",
+    "category": "restorative",
+    "subcategory": "Luting Cement",
+    "packaging": "REF 30007 1 x 9 g Automix Syringe, 10 x Mixing Tips, 10 x Intraoral Delivery Tips, 1 x Instruction Manual",
+    "summary": "Fusion Ultra D/C Universal — Dual Curing Self Adhesive Universal Resin Cement. Listed in Prevest DenPro's own catalogue under luting cement.",
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Dual Curing Self Adhesive Universal Resin Cement"
+      },
+      {
+        "label": "Working Time",
+        "value": "60 Sec"
+      },
+      {
+        "label": "Setting Time",
+        "value": "3 – 4 Min ISO 4049"
+      },
+      {
+        "label": "Flexural Strength",
+        "value": "90 MPa"
+      },
+      {
+        "label": "Film Thickness",
+        "value": "25 m m"
+      }
+    ],
+    "price": null,
+    "sourceUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+    "sourceType": "manufacturer",
+    "verifiedOn": "2026-11-25",
+    "verificationNote": "Read from Prevest DenPro's own catalogue PDF, https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf, PDF page 7, right column. Product name, descriptor and pack line taken verbatim from the page; this page prints no technical-data table for the product, so the specification fields are that printed descriptor and pack line.",
+    "imagePermission": "none"
+  }
+]
