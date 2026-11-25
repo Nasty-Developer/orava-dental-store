@@ -50,6 +50,13 @@ export const periodontics: Product[] = [
     subcategory: "Periosteal Elevators",
     packaging: null,
     summary: "Periosteal Elevators from GDC. Model / Code: PHP3; Instrument Number: #6.",
+    source: "https://www.gdcdental.com/product-periosteal-elevator-php3-323.php",
+    verification: {
+      method: "manufacturer product page located through the gdcdental.com site search; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"PERIOSTEAL ELEVATOR PHP3\", SKU PHP3. Page is the PHP3 periosteal elevator named in the row. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Model / Code", value: "PHP3" }, { label: "Instrument Number", value: "#6" }, { label: "Tip Size", value: "3mm / 3mm" }, { label: "End Type", value: "Double-Ended" }, { label: "Material", value: "High-Grade Stainless Steel" }],
     price: 1615,
     visual: "instrument",
@@ -69,6 +76,13 @@ export const periodontics: Product[] = [
     subcategory: "Periodontal Instruments",
     packaging: null,
     summary: "Periodontal Instruments from GDC. Instrument Type: VISTA Tunneling Instrument; Model: VISTA2 #6.",
+    source: "https://www.gdcdental.com/product-vista-no-2-1017.php",
+    verification: {
+      method: "manufacturer product page located through the gdcdental.com site search; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"VISTA No. 2\", SKU VISTA2. Page is VISTA No. 2, the tunnelling procedure instrument the row calls VISTA2 #6; the \"#6\" handle suffix is not printed on the page. No stock state is shown.",
+    },
+
     specs: [{ label: "Instrument Type", value: "VISTA Tunneling Instrument" }, { label: "Category", value: "Periodontal Surgical Instrument" }, { label: "Model", value: "VISTA2 #6" }, { label: "Design", value: "Double-ended tunneling instrument" }, { label: "Tip Configuration", value: "Specialized tunneling tips for subperiosteal dissection" }],
     price: 1748,
     visual: "implant",
@@ -89,6 +103,13 @@ export const periodontics: Product[] = [
     subcategory: "Periodontal Instruments",
     packaging: null,
     summary: "Periodontal Instruments from GDC. Instrument Type: VISTA Tunneling Instrument; Model: VISTA3 #6.",
+    source: "https://www.gdcdental.com/product-vista-no-3-1018.php",
+    verification: {
+      method: "manufacturer product page located through the gdcdental.com site search; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"VISTA No. 3\", SKU VISTA3. Page is VISTA No. 3, the tunnelling procedure instrument the row calls VISTA3 #6; the \"#6\" handle suffix is not printed on the page. No stock state is shown.",
+    },
+
     specs: [{ label: "Instrument Type", value: "VISTA Tunneling Instrument" }, { label: "Category", value: "Periodontal Surgical Instrument" }, { label: "Model", value: "VISTA3 #6" }, { label: "Design", value: "Double-ended tunneling instrument" }, { label: "Tip Configuration", value: "Specialized tunneling tips for subperiosteal dissection" }],
     price: 1705,
     visual: "implant",

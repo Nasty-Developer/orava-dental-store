@@ -36,6 +36,13 @@ export const clinicKits: Product[] = [
     subcategory: "New Clinic Set Up Kits",
     packaging: "Kit",
     summary: "New Clinic Set Up Kits from GDC, supplied as Kit. Material: Stainless Steel; Disposable / Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-offer-package-premium-971.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"OFFER PACKAGE PREMIUM\", SKU OPP. The page is the manufacturer's \"Offer Package Premium\" and its instrument list ends with a Trolley Bag, which matches the row's OPP-with-trolley description. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Type", value: "New Clinic Setup" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 46280,
     visual: "box",
@@ -56,6 +63,13 @@ export const clinicKits: Product[] = [
     subcategory: "New Clinic Set Up Kits",
     packaging: "Kit",
     summary: "New Clinic Set Up Kits from GDC, supplied as Kit. Material: High-quality stainless steel; Corrosion resistance: Yes.",
+    source: "https://www.gdcdental.com/product-offer-package-standard-970.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"OFFER PACKAGE STANDARD\", SKU OPS. The page is the manufacturer's \"Offer Package Standard\" and its instrument list ends with a Trolley Bag, which matches the row's OPS-with-trolley description. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Type", value: "Dental Instruments" }, { label: "Material", value: "High-quality stainless steel" }, { label: "Corrosion resistance", value: "Yes" }, { label: "Trolley Color", value: "Not specified" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: 25800,
     visual: "box",
@@ -95,6 +109,12 @@ export const clinicKits: Product[] = [
     subcategory: "Impression Trays",
     packaging: null,
     summary: "Impression Trays from GDC. Material: Stainless Steel; Disposable / Reusable: Reusable.",
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "FLAGGED: the manufacturer's premium clinic package (OPP, page opened 2026-11-25, HTTP 200) is supplied WITH a Trolley Bag; there is no without-trolley-bag variant on gdcdental.com. Site searches for \"trolley\", \"new clinic\" and \"clinic\" return no product, so no manufacturer page documents this exact configuration. Source left blank rather than guessed.",
+    },
+
     specs: [{ label: "Type", value: "New Clinic Setup" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 44098,
     visual: "box",

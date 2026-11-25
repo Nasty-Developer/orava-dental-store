@@ -197,6 +197,13 @@ export const oralSurgery: Product[] = [
     subcategory: "Root Elevators/Luxators",
     packaging: null,
     summary: "Root Elevators/Luxators from GDC. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-root-elevator-premium-in-pouch-940.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"ROOT ELEVATOR PREMIUM IN POUCH\", SKU REPP9. Page lists the nine premium elevators supplied in the pouch (Flohr, Cryer, London Hospital, Coupland, Winter), matching the row's set of 9. No stock state is shown.",
+    },
+
     specs: [{ label: "Type", value: "Root Elevators" }, { label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Rust Free", value: "Corrosion Resistant: Passivated" }],
     price: 7988,
     visual: "instrument",
@@ -216,6 +223,12 @@ export const oralSurgery: Product[] = [
     subcategory: "Root Elevators/Luxators",
     packaging: null,
     summary: "Root Elevators/Luxators from GDC. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "FLAGGED: no gdcdental.com page for a Warwick James set of 3 (SKU EWJS3). The manufacturer lists only the single Warwick James elevator (EWJS, page opened 2026-11-25, HTTP 200) and the right/left pair (EWJL-EWJR); the warwick-james search returns five products, none a set of 3, and a search for \"set of 3\" returns nothing. Source left blank rather than guessed.",
+    },
+
     specs: [{ label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Rust Free", value: "Corrosion Resistant: Passivated" }, { label: "Disinfection", value: "Autoclavble" }],
     price: 1412,
     visual: "instrument",
@@ -235,6 +248,13 @@ export const oralSurgery: Product[] = [
     subcategory: "Hemostats",
     packaging: "14cm",
     summary: "Hemostats from GDC, supplied as 14cm. Material: Stainless Steel; Length: 14cm Curved.",
+    source: "https://www.gdcdental.com/product-kelly-curved-222.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"KELLY CURVED\", SKU H2. SKU H2 is the curved Kelly hemostat; the 14cm length in the row is not printed on the page, so the length is not confirmed by the source. No stock state is shown.",
+    },
+
     specs: [{ label: "Type", value: "Hemostat" }, { label: "Category", value: "Oral Surgery" }, { label: "Material", value: "Stainless Steel" }, { label: "Length", value: "14cm Curved" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 405,
     visual: "instrument",

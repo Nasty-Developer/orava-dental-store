@@ -229,6 +229,13 @@ export const consumables: Product[] = [
     subcategory: "Cotton Holders",
     packaging: null,
     summary: "Cotton Holders from GDC. Material: Stainless Steel; Disposable / Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-cotton-holder-1042.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"COTTON HOLDER\", SKU ACH. Page describes cotton roll dispensers and holders. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Type", value: "Cotton Holder" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 885,
     visual: "box",

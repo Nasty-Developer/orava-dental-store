@@ -36,6 +36,13 @@ export const imaging: Product[] = [
     subcategory: "X-Ray Film Hanger",
     packaging: null,
     summary: "X-Ray Film Hanger from GDC. Name: X-Ray Film Hanger; Color: Silver.",
+    source: "https://www.gdcdental.com/product-x--ray-film-hanger-for-six-film-788.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"X - RAY FILM HANGER FOR SIX FILM\", SKU AFH6. Six-film hanger matches the row. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Name", value: "X-Ray Film Hanger" }, { label: "Type", value: "Accessories" }, { label: "Color", value: "Silver" }, { label: "Category", value: "Dental X-Ray" }, { label: "Material", value: "Stainless Steel" }],
     price: 660,
     visual: "machine",
@@ -56,6 +63,13 @@ export const imaging: Product[] = [
     subcategory: "X-Ray Film Hanger",
     packaging: null,
     summary: "X-Ray Film Hanger from GDC. Color: Silver; Material: Stainless Steel.",
+    source: "https://www.gdcdental.com/product-xray-film-hanger-for-fourteen-films-790.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"X-RAY FILM HANGER FOR FOURTEEN FILMS\", SKU AFH14. Fourteen-film hanger matches the row. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Type", value: "Accessories" }, { label: "Color", value: "Silver" }, { label: "Category", value: "Dental X-Ray" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 885,
     visual: "machine",

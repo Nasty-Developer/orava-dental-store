@@ -93,6 +93,13 @@ export const instruments: Product[] = [
     subcategory: "Bone Rongeurs/Filer",
     packaging: "2.0mm",
     summary: "Bone Rongeurs/Filer from GDC, supplied as 2.0mm. Product Code: RMFML; Instrument Type: Bone Rongeur.",
+    source: "https://www.gdcdental.com/product-micro-friedman-30--s-shape-168.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"MICRO FRIEDMAN 30° ( S -SHAPE)\", SKU RMFML. The page is the S-shape (LeGrangé-bend) Micro Friedman bone rongeur carrying SKU RMFML, which the row also prints. The degree sign is double-encoded in the page source (renders as Â°). No stock state is shown.",
+    },
+
     specs: [{ label: "Product Code", value: "RMFML" }, { label: "Instrument Type", value: "Bone Rongeur" }, { label: "Tip Size", value: "2.0 mm Micro Tip" }, { label: "Angulation", value: "30°" }, { label: "Shank Design", value: "S-Shape Lagrange Bending" }],
     price: 1315,
     visual: "instrument",
@@ -133,6 +140,13 @@ export const instruments: Product[] = [
     subcategory: "Dental Instruments",
     packaging: null,
     summary: "Dental Instruments from GDC. Instrument Name: London College; Material: Stainless Steel.",
+    source: "https://www.gdcdental.com/product-london-college-tweezer-441.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"LONDON COLLEGE TWEEZER\", SKU DPU17. Page describes angled serrated-tip London College tweezers. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Instrument Name", value: "London College" }, { label: "Type", value: "Dental Tweezer" }, { label: "Category", value: "Diagnostic, Endodontics, Oral Surgery, Periodontics" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }],
     price: 225,
     visual: "instrument",
@@ -152,6 +166,13 @@ export const instruments: Product[] = [
     subcategory: "Bracket Tweezers",
     packaging: null,
     summary: "Bracket Tweezers from GDC. Material: Stainless Steel; Disposable / Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-bracket-holding-tweezer-371.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"BRACKET HOLDING TWEEZER\", SKU 1006. SKU 1006 is the only bracket holding tweezer on the site; the page describes the diamond-serrated beaks and the flat handle end used to press the bracket, i.e. the flapped pattern named in the row. No stock state is shown.",
+    },
+
     specs: [{ label: "Type", value: "Bracket holding tweezer" }, { label: "Category", value: "Orthodontics" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 660,
     visual: "instrument",

@@ -36,6 +36,13 @@ export const laboratory: Product[] = [
     subcategory: "Dental Laboratory",
     packaging: "210mm",
     summary: "Dental Laboratory from GDC, supplied as 210mm. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-plaster-shears-647.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"PLASTER SHEARS\", SKU PCS. This is the manufacturer's only plaster shears page; the 210mm length in the row is not printed on the page, so the length is not confirmed by the source. No stock state is shown.",
+    },
+
     specs: [{ label: "Type", value: "Dental Plaster Cutter" }, { label: "Category", value: "Prosthodontics" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 1763,
     visual: "instrument",

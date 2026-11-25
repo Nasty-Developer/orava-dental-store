@@ -68,6 +68,13 @@ export const orthodontics: Product[] = [
     subcategory: "Banding",
     packaging: "75.0mm",
     summary: "Banding from GDC, supplied as 75.0mm. Material: Stainless Steel; Corrosion resistance: Yes.",
+    source: "https://www.gdcdental.com/product-distal-bending-instrument-1169.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"DISTAL BENDING INSTRUMENT\", SKU 2815. Page describes the orthodontic distal-end bending instrument; the 75.0/55.0mm dimensions in the row are not printed on the page, so they are not confirmed by the source. No stock state is shown.",
+    },
+
     specs: [{ label: "Type", value: "Wire Bending Instrument" }, { label: "Category", value: "Orthodontics Instruments" }, { label: "Material", value: "Stainless Steel" }, { label: "Corrosion resistance", value: "Yes" }, { label: "Disposable/Reusable", value: "Reusable" }],
     price: 1040,
     visual: "bracket",

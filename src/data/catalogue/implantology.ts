@@ -248,6 +248,13 @@ export const implantology: Product[] = [
     subcategory: "Surgical Instruments",
     packaging: null,
     summary: "Surgical Instruments from GDC. Material: Stainless Steel; Disposable / Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-membrane-placement-1030.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"MEMBRANE PLACEMENT\", SKU PMPIS. Page describes membrane positioning instruments. No stock state is shown on the page.",
+    },
+
     specs: [{ label: "Type", value: "Membrane Placement Instrument" }, { label: "Category", value: "Implantology" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable / Reusable", value: "Reusable" }, { label: "Autoclavable", value: "Yes" }],
     price: 1717,
     visual: "implant",

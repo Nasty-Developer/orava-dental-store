@@ -202,6 +202,13 @@ export const prosthodontics: Product[] = [
     subcategory: "Posts & Drills",
     packaging: null,
     summary: "Posts & Drills from GDC. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-root-fragment-straight-898.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"ROOT FRAGMENT STRAIGHT\", SKU RFSTR. GDC lists this instrument as the straight root fragment forceps, SKU RFSTR, which the row prints; the row's \"post and silver point removal\" wording is the distributor's description of the same forceps. No stock state is shown.",
+    },
+
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 845,
     visual: "instrument",
@@ -240,6 +247,13 @@ export const prosthodontics: Product[] = [
     subcategory: "Prosthodontics",
     packaging: null,
     summary: "Prosthodontics from GDC. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-root-fragment-rf45-899.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"ROOT FRAGMENT #RF45°\", SKU RF45°. GDC lists this as the 45-degree root fragment forceps, SKU RF45°, which the row prints. Degree sign double-encoded in the page source (renders as Â°). No stock state is shown.",
+    },
+
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 845,
     visual: "instrument",
@@ -259,6 +273,13 @@ export const prosthodontics: Product[] = [
     subcategory: "Posts & Drills",
     packaging: null,
     summary: "Posts & Drills from GDC. Material: Stainless Steel; Disposable/Reusable: Reusable.",
+    source: "https://www.gdcdental.com/product-root-fragment-rf90-900.php",
+    verification: {
+      method: "manufacturer product page located in the gdcdental.com product index and matched on SKU; page opened and title, SKU and description compared with the row",
+      checkedOn: "2026-11-25",
+      note: "GDC product page opened 2026-11-25: HTTP 200, page title \"ROOT FRAGMENT #RF90°\", SKU RF90°. GDC lists this as the 90-degree root fragment forceps, SKU RF90°, which the row prints. Degree sign double-encoded in the page source (renders as Â°). No stock state is shown.",
+    },
+
     specs: [{ label: "Category", value: "Endodontic Re-Treatment" }, { label: "Material", value: "Stainless Steel" }, { label: "Disposable/Reusable", value: "Reusable" }, { label: "Corrosion Resistant", value: "Passivated" }, { label: "Autoclavable", value: "Yes" }],
     price: 820,
     visual: "instrument",
