@@ -1,0 +1,1151 @@
+{
+ "brand": "Prevest DenPro",
+ "pdfUrl": "https://www.prevestdenpro.com/wp-content/uploads/2025/11/E-CATALOG.pdf",
+ "sourceType": "manufacturer",
+ "verifiedOn": "2026-11-25",
+ "pdfPages": 33,
+ "notes": "Human mapping over the tool's own block inventory (--json). page/column/block come from that inventory; display is the product name as printed, in title case; category and subcategory are our taxonomy, not the catalogue's.",
+ "entries": [
+  {
+   "page": 3,
+   "column": "left",
+   "block": 1,
+   "display": "Fusion Bond 7",
+   "category": "restorative",
+   "subcategory": "Bonding Agent",
+   "batch": 1
+  },
+  {
+   "page": 3,
+   "column": "left",
+   "block": 2,
+   "display": "Fusion Bond 5",
+   "category": "restorative",
+   "subcategory": "Bonding Agent",
+   "batch": 1
+  },
+  {
+   "page": 3,
+   "column": "right",
+   "block": 1,
+   "display": "Fusion Bond DC",
+   "category": "restorative",
+   "subcategory": "Bonding Agent",
+   "batch": 1
+  },
+  {
+   "page": 3,
+   "column": "right",
+   "block": 2,
+   "display": "Renew MDP",
+   "category": "restorative",
+   "subcategory": "Bonding Agent",
+   "batch": 1
+  },
+  {
+   "page": 4,
+   "column": "left",
+   "block": 1,
+   "display": "Renew Universal",
+   "category": "restorative",
+   "subcategory": "Bonding Agent",
+   "batch": 1
+  },
+  {
+   "page": 4,
+   "column": "left",
+   "block": 2,
+   "display": "Actino Gel / Liquid",
+   "category": "restorative",
+   "subcategory": "Etching Gel",
+   "batch": 1
+  },
+  {
+   "page": 4,
+   "column": "right",
+   "block": 1,
+   "display": "Microgel SF",
+   "category": "restorative",
+   "subcategory": "Etching Gel",
+   "batch": 1
+  },
+  {
+   "page": 5,
+   "column": "left",
+   "block": 1,
+   "display": "Magma NT",
+   "category": "restorative",
+   "subcategory": "Composite",
+   "batch": 2
+  },
+  {
+   "page": 5,
+   "column": "left",
+   "block": 2,
+   "display": "Fusion Universal",
+   "category": "restorative",
+   "subcategory": "Composite",
+   "batch": 2
+  },
+  {
+   "page": 5,
+   "column": "right",
+   "block": 1,
+   "display": "PF Seal",
+   "category": "preventive",
+   "subcategory": "Pit and Fissure Sealant",
+   "batch": 2
+  },
+  {
+   "page": 5,
+   "column": "right",
+   "block": 3,
+   "display": "Fusion Flo",
+   "category": "restorative",
+   "subcategory": "Flowable Composite",
+   "batch": 2
+  },
+  {
+   "page": 6,
+   "column": "left",
+   "block": 1,
+   "display": "Fusion Core DC Flo",
+   "category": "restorative",
+   "subcategory": "Core Build-Up Composite",
+   "batch": 2
+  },
+  {
+   "page": 6,
+   "column": "right",
+   "block": 1,
+   "display": "Fusion I-Seal",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 2
+  },
+  {
+   "page": 6,
+   "column": "right",
+   "block": 2,
+   "display": "Cal LC",
+   "category": "restorative",
+   "subcategory": "Pulp Capping and Liner",
+   "batch": 2
+  },
+  {
+   "page": 7,
+   "column": "left",
+   "block": 1,
+   "display": "Apacal ART",
+   "category": "restorative",
+   "subcategory": "Pulp Capping and Liner",
+   "batch": 2
+  },
+  {
+   "page": 7,
+   "column": "left",
+   "block": 2,
+   "display": "CalUltra",
+   "category": "restorative",
+   "subcategory": "Pulp Capping and Liner",
+   "batch": 2
+  },
+  {
+   "page": 7,
+   "column": "right",
+   "block": 1,
+   "display": "Fusion Ultra D/C",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 2
+  },
+  {
+   "page": 7,
+   "column": "right",
+   "block": 3,
+   "display": "Fusion Ultra D/C Universal",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 2
+  },
+  {
+   "page": 8,
+   "column": "left",
+   "block": 1,
+   "display": "Fusion Self Lute",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 3
+  },
+  {
+   "page": 8,
+   "column": "left",
+   "block": 2,
+   "display": "Micron Superior",
+   "category": "restorative",
+   "subcategory": "Glass Ionomer Restorative",
+   "batch": 3
+  },
+  {
+   "page": 8,
+   "column": "right",
+   "block": 1,
+   "display": "Micron Superior Capsule",
+   "category": "restorative",
+   "subcategory": "Glass Ionomer Restorative",
+   "batch": 3
+  },
+  {
+   "page": 8,
+   "column": "right",
+   "block": 3,
+   "display": "Micron Luting",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 3
+  },
+  {
+   "page": 9,
+   "column": "left",
+   "block": 1,
+   "display": "Micron Silver",
+   "category": "restorative",
+   "subcategory": "Glass Ionomer Restorative",
+   "batch": 3
+  },
+  {
+   "page": 9,
+   "column": "left",
+   "block": 2,
+   "display": "Micron Bioactive",
+   "category": "restorative",
+   "subcategory": "Glass Ionomer Restorative",
+   "batch": 3
+  },
+  {
+   "page": 9,
+   "column": "right",
+   "block": 1,
+   "display": "Micron Dentin Conditioner",
+   "category": "restorative",
+   "subcategory": "Dentine Conditioner",
+   "batch": 3
+  },
+  {
+   "page": 9,
+   "column": "right",
+   "block": 2,
+   "display": "Poly Zinc +",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 3
+  },
+  {
+   "page": 10,
+   "column": "left",
+   "block": 1,
+   "display": "Zinc F+",
+   "category": "restorative",
+   "subcategory": "Luting Cement",
+   "batch": 3
+  },
+  {
+   "page": 10,
+   "column": "left",
+   "block": 2,
+   "display": "Zinconol",
+   "category": "restorative",
+   "subcategory": "Temporary Cement",
+   "batch": 3
+  },
+  {
+   "page": 10,
+   "column": "right",
+   "block": 1,
+   "display": "Zinconol XS",
+   "category": "restorative",
+   "subcategory": "Temporary Cement",
+   "batch": 3
+  },
+  {
+   "page": 10,
+   "column": "right",
+   "block": 2,
+   "display": "Zitemp",
+   "category": "restorative",
+   "subcategory": "Temporary Cement",
+   "batch": 3
+  },
+  {
+   "page": 11,
+   "column": "left",
+   "block": 1,
+   "display": "Dolo",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 4
+  },
+  {
+   "page": 11,
+   "column": "left",
+   "block": 2,
+   "display": "EDTA Solution",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 4
+  },
+  {
+   "page": 11,
+   "column": "right",
+   "block": 1,
+   "display": "Citrogen Gel",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 4
+  },
+  {
+   "page": 11,
+   "column": "right",
+   "block": 2,
+   "display": "Citrogen",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 4
+  },
+  {
+   "page": 12,
+   "column": "left",
+   "block": 1,
+   "display": "CalPlus",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 4
+  },
+  {
+   "page": 12,
+   "column": "left",
+   "block": 2,
+   "display": "Calcigel",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 4
+  },
+  {
+   "page": 12,
+   "column": "right",
+   "block": 1,
+   "display": "Calcium Hydroxide Powder, Extra Fine",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 4
+  },
+  {
+   "page": 12,
+   "column": "right",
+   "block": 2,
+   "display": "Cerafill RCS",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 13,
+   "column": "left",
+   "block": 1,
+   "display": "Cerafill Putty",
+   "category": "endodontics",
+   "subcategory": "Root Repair Material",
+   "batch": 4
+  },
+  {
+   "page": 13,
+   "column": "left",
+   "block": 2,
+   "display": "MTA Plus",
+   "category": "endodontics",
+   "subcategory": "Root Repair Material",
+   "batch": 4
+  },
+  {
+   "page": 13,
+   "column": "right",
+   "block": 1,
+   "display": "Calapex",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 13,
+   "column": "right",
+   "block": 2,
+   "display": "Zical",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 14,
+   "column": "left",
+   "block": 1,
+   "display": "Zical Ultra P/L",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 14,
+   "column": "left",
+   "block": 2,
+   "display": "Zical Ultra",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 14,
+   "column": "right",
+   "block": 1,
+   "display": "Endoseal",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 14,
+   "column": "right",
+   "block": 2,
+   "display": "Nanoseal-S",
+   "category": "endodontics",
+   "subcategory": "Root Canal Sealer",
+   "batch": 4
+  },
+  {
+   "page": 15,
+   "column": "left",
+   "block": 1,
+   "display": "Hyposol",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 5
+  },
+  {
+   "page": 15,
+   "column": "left",
+   "block": 2,
+   "display": "Pulp-X",
+   "category": "endodontics",
+   "subcategory": "Pulp Devitalizer",
+   "batch": 5
+  },
+  {
+   "page": 15,
+   "column": "right",
+   "block": 1,
+   "display": "Carvene",
+   "category": "endodontics",
+   "subcategory": "Gutta Percha Solvent",
+   "batch": 5
+  },
+  {
+   "page": 15,
+   "column": "right",
+   "block": 2,
+   "display": "Eposolv",
+   "category": "endodontics",
+   "subcategory": "Gutta Percha Solvent",
+   "batch": 5
+  },
+  {
+   "page": 16,
+   "column": "left",
+   "block": 1,
+   "display": "Formacresol",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 5
+  },
+  {
+   "page": 16,
+   "column": "left",
+   "block": 2,
+   "display": "Camphenol",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 5
+  },
+  {
+   "page": 16,
+   "column": "right",
+   "block": 1,
+   "display": "Zinc Oxide / Eugenol",
+   "category": "restorative",
+   "subcategory": "Temporary Cement",
+   "batch": 5
+  },
+  {
+   "page": 16,
+   "column": "right",
+   "block": 2,
+   "display": "Maxgenol",
+   "category": "restorative",
+   "subcategory": "Temporary Cement",
+   "batch": 5
+  },
+  {
+   "page": 17,
+   "column": "left",
+   "block": 1,
+   "display": "Chlor X",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 5
+  },
+  {
+   "page": 17,
+   "column": "left",
+   "block": 2,
+   "display": "Chlor X Gel",
+   "category": "endodontics",
+   "subcategory": "Irrigant",
+   "batch": 5
+  },
+  {
+   "page": 17,
+   "column": "right",
+   "block": 1,
+   "display": "5 Step Endo Smart Kit",
+   "category": "endodontics",
+   "subcategory": "Endodontic Kit",
+   "batch": 5
+  },
+  {
+   "page": 18,
+   "column": "left",
+   "block": 1,
+   "display": "Fusion Crysta Orthodontic Adhesive Kit",
+   "category": "orthodontics",
+   "subcategory": "Bonding Adhesive",
+   "batch": 6
+  },
+  {
+   "page": 18,
+   "column": "left",
+   "block": 2,
+   "display": "Fusion Crysta Adhesive Primer",
+   "category": "orthodontics",
+   "subcategory": "Bonding Primer",
+   "batch": 6
+  },
+  {
+   "page": 19,
+   "column": "left",
+   "block": 1,
+   "display": "Platina Hi-Gloss",
+   "category": "restorative",
+   "subcategory": "Polishing Paste",
+   "batch": 6
+  },
+  {
+   "page": 19,
+   "column": "left",
+   "block": 2,
+   "display": "Spectra",
+   "category": "preventive",
+   "subcategory": "Prophylaxis Paste",
+   "batch": 6
+  },
+  {
+   "page": 19,
+   "column": "right",
+   "block": 1,
+   "display": "A.C.E",
+   "category": "prosthodontics",
+   "subcategory": "Ceramic Repair Kit",
+   "batch": 6
+  },
+  {
+   "page": 19,
+   "column": "right",
+   "block": 2,
+   "display": "Cera Etch",
+   "category": "prosthodontics",
+   "subcategory": "Porcelain Etching Gel",
+   "batch": 6
+  },
+  {
+   "page": 20,
+   "column": "left",
+   "block": 1,
+   "display": "Silane-X",
+   "category": "prosthodontics",
+   "subcategory": "Silane Coupling Agent",
+   "batch": 6
+  },
+  {
+   "page": 20,
+   "column": "right",
+   "block": 1,
+   "display": "Copal-F",
+   "category": "restorative",
+   "subcategory": "Cavity Varnish",
+   "batch": 6
+  },
+  {
+   "page": 20,
+   "column": "right",
+   "block": 2,
+   "display": "Fluorodip Bioactive",
+   "category": "preventive",
+   "subcategory": "Fluoride Varnish",
+   "batch": 6
+  },
+  {
+   "page": 21,
+   "column": "left",
+   "block": 1,
+   "display": "Fusion Nanocoat",
+   "category": "restorative",
+   "subcategory": "Surface Sealant",
+   "batch": 6
+  },
+  {
+   "page": 21,
+   "column": "left",
+   "block": 2,
+   "display": "Shield Activ",
+   "category": "preventive",
+   "subcategory": "Dentin Desensitizer",
+   "batch": 6
+  },
+  {
+   "page": 21,
+   "column": "right",
+   "block": 1,
+   "display": "Bioenamel",
+   "category": "preventive",
+   "subcategory": "Remineralising Gel",
+   "batch": 6
+  },
+  {
+   "page": 22,
+   "column": "left",
+   "block": 1,
+   "display": "Reveal",
+   "category": "restorative",
+   "subcategory": "Caries Indicator",
+   "batch": 6
+  },
+  {
+   "page": 22,
+   "column": "left",
+   "block": 2,
+   "display": "Fluorotop APF",
+   "category": "preventive",
+   "subcategory": "Topical Fluoride",
+   "batch": 6
+  },
+  {
+   "page": 22,
+   "column": "right",
+   "block": 1,
+   "display": "Fluorotop NF",
+   "category": "preventive",
+   "subcategory": "Topical Fluoride",
+   "batch": 6
+  },
+  {
+   "page": 22,
+   "column": "right",
+   "block": 2,
+   "display": "Alvocure",
+   "category": "endodontics",
+   "subcategory": "Intracanal Medicament",
+   "batch": 6
+  },
+  {
+   "page": 23,
+   "column": "left",
+   "block": 1,
+   "display": "Ultra Dry",
+   "category": "endodontics",
+   "subcategory": "Drying Agent",
+   "batch": 6
+  },
+  {
+   "page": 23,
+   "column": "right",
+   "block": 1,
+   "display": "Accusil Putty",
+   "category": "impression",
+   "subcategory": "VPS Impression Material",
+   "batch": 7
+  },
+  {
+   "page": 23,
+   "column": "right",
+   "block": 2,
+   "display": "Accusil Light Body",
+   "category": "impression",
+   "subcategory": "VPS Impression Material",
+   "batch": 7
+  },
+  {
+   "page": 24,
+   "column": "left",
+   "block": 1,
+   "display": "Accusil Combo Kit",
+   "category": "impression",
+   "subcategory": "VPS Impression Material",
+   "batch": 7
+  },
+  {
+   "page": 24,
+   "column": "left",
+   "block": 2,
+   "display": "Accusil Bite Registration",
+   "category": "impression",
+   "subcategory": "Bite Registration",
+   "batch": 7,
+   "name": "ACCUSIL BITE REGISTRATION",
+   "subtitle": "Hydrophilic Vinyl Polysiloxane Impression Material, Bite Body"
+  },
+  {
+   "page": 24,
+   "column": "right",
+   "block": 1,
+   "display": "Accusil Heavy Body",
+   "category": "impression",
+   "subcategory": "VPS Impression Material",
+   "batch": 7,
+   "name": "ACCUSIL HEAVY BODY",
+   "subtitle": "Hydrophilic Vinyl Polysiloxane Impression Material, Heavy Body"
+  },
+  {
+   "page": 24,
+   "column": "right",
+   "block": 2,
+   "display": "Accusil Monophase",
+   "category": "impression",
+   "subcategory": "VPS Impression Material",
+   "batch": 7,
+   "name": "ACCUSIL MONOPHASE",
+   "subtitle": "Hydrophilic Vinyl Polysiloxane Impression Material, Monophase"
+  },
+  {
+   "page": 25,
+   "column": "left",
+   "block": 1,
+   "display": "Alfina",
+   "category": "impression",
+   "subcategory": "Alginate",
+   "batch": 7
+  },
+  {
+   "page": 25,
+   "column": "left",
+   "block": 2,
+   "display": "Hiflex Green Sticks",
+   "category": "impression",
+   "subcategory": "Impression Compound",
+   "batch": 7
+  },
+  {
+   "page": 25,
+   "column": "right",
+   "block": 1,
+   "display": "Hiflex Impression Compound",
+   "category": "impression",
+   "subcategory": "Impression Compound",
+   "batch": 7
+  },
+  {
+   "page": 25,
+   "column": "right",
+   "block": 2,
+   "display": "Hiflex Impression Paste",
+   "category": "impression",
+   "subcategory": "Impression Paste",
+   "batch": 7
+  },
+  {
+   "page": 26,
+   "column": "left",
+   "block": 1,
+   "display": "Hiflex Impression Paste",
+   "category": "impression",
+   "subcategory": "Impression Paste",
+   "batch": 7,
+   "name": "HIFLEX IMPRESSION PASTE",
+   "qualifier": "Eugenol Free"
+  },
+  {
+   "page": 26,
+   "column": "right",
+   "block": 1,
+   "display": "Florence",
+   "category": "whitening",
+   "subcategory": "In-Office Whitening System",
+   "batch": 7
+  },
+  {
+   "page": 26,
+   "column": "right",
+   "block": 2,
+   "display": "Gingiva Shield VLC",
+   "category": "whitening",
+   "subcategory": "Gingival Barrier",
+   "batch": 7
+  },
+  {
+   "page": 27,
+   "column": "left",
+   "block": 1,
+   "display": "24 Carat",
+   "category": "whitening",
+   "subcategory": "Tooth Whitening Gel",
+   "batch": 8
+  },
+  {
+   "page": 27,
+   "column": "right",
+   "block": 1,
+   "display": "Hemostal",
+   "category": "periodontics",
+   "subcategory": "Gingival Retraction Solution",
+   "batch": 8
+  },
+  {
+   "page": 27,
+   "column": "right",
+   "block": 2,
+   "display": "Hemostal Gel",
+   "category": "periodontics",
+   "subcategory": "Gingival Retraction Gel",
+   "batch": 8
+  },
+  {
+   "page": 28,
+   "column": "left",
+   "block": 1,
+   "display": "Orafil-G / Orafil Plus",
+   "category": "restorative",
+   "subcategory": "Temporary Filling Material",
+   "batch": 8
+  },
+  {
+   "page": 28,
+   "column": "left",
+   "block": 2,
+   "display": "Orafil LC",
+   "category": "restorative",
+   "subcategory": "Temporary Filling Material",
+   "batch": 8
+  },
+  {
+   "page": 28,
+   "column": "right",
+   "block": 1,
+   "display": "Oratemp NE",
+   "category": "prosthodontics",
+   "subcategory": "Temporary Luting Cement",
+   "batch": 8
+  },
+  {
+   "page": 28,
+   "column": "right",
+   "block": 2,
+   "display": "Oratemp C&B",
+   "category": "prosthodontics",
+   "subcategory": "Temporary Crown and Bridge Material",
+   "batch": 8
+  },
+  {
+   "page": 29,
+   "column": "left",
+   "block": 1,
+   "display": "Ultra Bloc VLC",
+   "category": "prosthodontics",
+   "subcategory": "Block-Out Resin",
+   "batch": 8
+  },
+  {
+   "page": 29,
+   "column": "left",
+   "block": 2,
+   "display": "Hiflex Base Plates",
+   "category": "laboratory",
+   "subcategory": "Base Plate Wax",
+   "batch": 8
+  },
+  {
+   "page": 29,
+   "column": "right",
+   "block": 1,
+   "display": "Hiflex Modelling Wax",
+   "category": "laboratory",
+   "subcategory": "Modelling Wax",
+   "batch": 8
+  },
+  {
+   "page": 29,
+   "column": "right",
+   "block": 2,
+   "display": "Hiflex Inlay Casting Wax",
+   "category": "laboratory",
+   "subcategory": "Casting Wax",
+   "batch": 8
+  },
+  {
+   "page": 30,
+   "column": "left",
+   "block": 1,
+   "display": "Hiflex Carving Wax",
+   "category": "laboratory",
+   "subcategory": "Carving Wax",
+   "batch": 8
+  },
+  {
+   "page": 30,
+   "column": "left",
+   "block": 2,
+   "display": "Hiflex Sticky Wax",
+   "category": "laboratory",
+   "subcategory": "Sticky Wax",
+   "batch": 8
+  },
+  {
+   "page": 30,
+   "column": "right",
+   "block": 1,
+   "display": "Isolate",
+   "category": "laboratory",
+   "subcategory": "Separating Medium",
+   "batch": 8
+  },
+  {
+   "page": 30,
+   "column": "right",
+   "block": 2,
+   "display": "Hiflex H",
+   "category": "laboratory",
+   "subcategory": "Denture Base Resin",
+   "batch": 8
+  },
+  {
+   "page": 31,
+   "column": "left",
+   "block": 1,
+   "display": "Hiflex RR",
+   "category": "laboratory",
+   "subcategory": "Denture Repair Resin",
+   "batch": 8
+  }
+ ],
+ "exclude": [
+  {
+   "page": 1,
+   "column": "left",
+   "block": 1,
+   "reason": "cover sheet (document control block)"
+  },
+  {
+   "page": 1,
+   "column": "right",
+   "block": 1,
+   "reason": "cover sheet (catalogue title)"
+  },
+  {
+   "page": 2,
+   "column": "left",
+   "block": 1,
+   "reason": "about-the-company page"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 1,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 2,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 3,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 4,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 5,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 6,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 7,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 8,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 9,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 10,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 11,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 12,
+   "reason": "contents list"
+  },
+  {
+   "page": 2,
+   "column": "right",
+   "block": 13,
+   "reason": "contents list"
+  },
+  {
+   "page": 4,
+   "column": "right",
+   "block": 2,
+   "reason": "section divider (ADHESIVES PRODUCTS)"
+  },
+  {
+   "page": 5,
+   "column": "right",
+   "block": 2,
+   "reason": "shade list for PF Seal, not a separate product"
+  },
+  {
+   "page": 5,
+   "column": "right",
+   "block": 4,
+   "reason": "shade list for Fusion Flo, not a separate product"
+  },
+  {
+   "page": 6,
+   "column": "left",
+   "block": 2,
+   "reason": "shade list for Fusion Core DC Flo"
+  },
+  {
+   "page": 6,
+   "column": "left",
+   "block": 3,
+   "reason": "section divider (COMPOSITES PRODUCTS)"
+  },
+  {
+   "page": 7,
+   "column": "right",
+   "block": 2,
+   "reason": "shade list for Fusion Ultra D/C"
+  },
+  {
+   "page": 8,
+   "column": "right",
+   "block": 2,
+   "reason": "shade list for Micron Superior Capsule"
+  },
+  {
+   "page": 18,
+   "column": "right",
+   "block": 1,
+   "reason": "descriptive copy for Fusion Crysta Adhesive, already mapped on p18 left block 1"
+  },
+  {
+   "page": 27,
+   "column": "left",
+   "block": 2,
+   "reason": "second 24 Carat block, same product as p27 left block 1"
+  },
+  {
+   "page": 28,
+   "column": "right",
+   "block": 3,
+   "reason": "shade list for Oratemp C&B"
+  },
+  {
+   "page": 30,
+   "column": "right",
+   "block": 3,
+   "reason": "shade list for Hiflex H"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 1,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 2,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 3,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 4,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 5,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 32,
+   "column": "left",
+   "block": 6,
+   "reason": "milestones / accreditations page"
+  },
+  {
+   "page": 33,
+   "column": "left",
+   "block": 1,
+   "reason": "back cover"
+  }
+ ]
+}
