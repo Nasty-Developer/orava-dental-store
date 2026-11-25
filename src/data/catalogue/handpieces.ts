@@ -132,6 +132,12 @@ export const handpieces: Product[] = [
     subcategory: "Handpieces",
     packaging: null,
     summary: "Handpieces from Woodpecker. Battery: 3.6V / 2000mAh lithium; Adapter Input: 100V-240V, 50Hz/60Hz, 0.4A-0.2A.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Battery", value: "3.6V / 2000mAh lithium" }, { label: "Adapter Input", value: "100V-240V, 50Hz/60Hz, 0.4A-0.2A" }, { label: "Adapter Output", value: "DC 5V / 1A" }, { label: "Torque Range", value: "0.4N·cm - 5.0N·cm (4mNm-50mNm)" }, { label: "Speed Range", value: "100 rpm - 1800 rpm" }],
     price: 28100,
     visual: "box",
@@ -151,6 +157,13 @@ export const handpieces: Product[] = [
     subcategory: "Handpieces",
     packaging: null,
     summary: "Handpieces from Woodpecker. Lithium battery in motor handpiece: 3.6V /850mAh; Power Adapter Input: 100V-240V 50Hz/60Hz 0.4A Max.",
+
+    source: "https://www.glwoodpecker.com/#/pcdetails?e=390&type=pc",
+    verification: {
+      method: "manufacturer product page on glwoodpecker.com (Guilin Woodpecker) opened and read in a browser, matched on the product name in the page body",
+      checkedOn: "2026-11-25",
+      note: "Page read 2026-11-25 shows product heading \"Endo Pace\". Manufacturer product page for Endo Pace opened in a real browser on 2026-11-25 and its content read: brushless motor, 6:1 mini contra-angle, battery 3.6V/850mAh in the handpiece, torque range 0.4-4.2 N.cm, speed range 100-1500 r/min. glwoodpecker.com is a client-rendered single-page app, so a plain HTTP fetch returns only the app shell (HTTP 200) and the product body renders in the browser; the hash route above is the page that was read. No stock state is published."
+    },
     specs: [{ label: "Lithium battery in motor handpiece", value: "3.6V /850mAh" }, { label: "Power Adapter Input", value: "100V-240V 50Hz/60Hz 0.4A Max" }, { label: "Power Adapter Output", value: "DC5V/1A" }, { label: "Rotate speed", value: "100-1500 rpm" }, { label: "Torque", value: "0.4-4.2ncm, 4 Ncm" }],
     price: 19111,
     visual: "box",
@@ -189,6 +202,13 @@ export const handpieces: Product[] = [
     subcategory: "Handpieces",
     packaging: null,
     summary: "Handpieces from Woodpecker. Power Source: Lithium Battery (3.7V / 2000mAh); Torque: 0.6Ncm-5.0Ncm(6mNm ~ 50mNm).",
+
+    source: "https://www.glwoodpecker.com/#/pcdetails?e=336&type=pc",
+    verification: {
+      method: "manufacturer product page on glwoodpecker.com (Guilin Woodpecker) opened and read in a browser, matched on the product name in the page body",
+      checkedOn: "2026-11-25",
+      note: "Page read 2026-11-25 shows product heading \"E-COM\". Manufacturer product page for E-COM opened in a real browser on 2026-11-25 and its content read: cordless endo motor, battery 3.6V/750mAh in the handpiece, torque 0.6-5.0 Ncm, rotate speed 100-1000 rpm, preset file systems. Client-rendered hash route (plain HTTP fetch returns the app shell only, HTTP 200). No stock state is published."
+    },
     specs: [{ label: "Power Source", value: "Lithium Battery (3.7V / 2000mAh)" }, { label: "Torque", value: "0.6Ncm-5.0Ncm(6mNm ~ 50mNm)" }, { label: "Screen Type", value: "All-Angle OLED" }, { label: "User Modes", value: "9 Customizable Modes" }, { label: "Motor Type", value: "Imported (15.5:1 Reduction Ratio)" }],
     price: 15995,
     visual: "handpiece",

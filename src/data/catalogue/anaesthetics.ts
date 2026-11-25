@@ -172,6 +172,12 @@ export const anaesthetics: Product[] = [
     subcategory: "Oral Anaesthesia Injectors",
     packaging: null,
     summary: "Oral Anaesthesia Injectors from Woodpecker. 2 speed modes: High Speed, Low Speed; 2 aspiration modes: Auto aspiration, Manual aspiration.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "2 speed modes", value: "High Speed, Low Speed" }, { label: "2 aspiration modes", value: "Auto aspiration, Manual aspiration" }, { label: "Lithium battery in charging base", value: "3.7V /2000mAh" }, { label: "Lithium battery in handpiece", value: "3.7V /200mAh" }, { label: "Input Powe", value: "~100V-240V 50Hz/60Hz 0.4A Max" }],
     price: 23495,
     visual: "carpule",

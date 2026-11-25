@@ -175,8 +175,9 @@ attempts at this task stopped mid-run.
 | Waldent family | 38 | 34 | 4 | 0 |
 | GDC | 21 | 19 | 2 | 0 |
 | Ammdent | 7 | 6 | 1 | 0 |
-| All other brands | 278 | 0 | 0 | 278 |
-| **Total** | **344** | **59** | **7** | **278** |
+| Woodpecker | 10 | 3 | 7 | 0 |
+| All other brands | 268 | 0 | 0 | 268 |
+| **Total** | **344** | **62** | **14** | **268** |
 
 Verified against ammdent.com, each page opened on 2026-11-25 at HTTP 200 with the
 product name in the page title: Biocanal, Canalarge, LC Cal Excel, D-Sense, FluroSolve,
@@ -186,3 +187,20 @@ the kit page is a separate presentation).
 Flagged: Sterigem Hand Rub 500ml. The manufacturer's whole sitemap (95 URLs) has no
 hand-rub, sanitizer or Sterigem page, and site search returns nothing, so no source is
 recorded rather than a guessed one.
+
+
+## Woodpecker slice (2026-11-25)
+
+3 of 10 verified against the manufacturer, 7 flagged.
+
+Verified on glwoodpecker.com (Guilin Woodpecker), each page opened in a real browser
+and read: Endo Pace (`#/pcdetails?e=390`), E-COM (`#/pcdetails?e=336`),
+Ai Ray (`#/pcdetails?e=380`). The site is a client-rendered single-page app, so a
+plain HTTP fetch returns only the app shell; the product body and specification table
+render in the browser. Each note records the specs seen on the page.
+
+Flagged, no source invented: Star Pen, U-600 LED, UDS-J, RTA D1, RTA Endo Space,
+Surgic Smart, Ultra Surgery X. glwoodpecker.com publishes no sitemap (404), no
+server-side product URLs, and its JSON API rejected every documented route tried, so
+the page for each of these exact models could not be located and confirmed. They stay
+not started rather than guessed.

@@ -36,6 +36,12 @@ export const oralSurgery: Product[] = [
     subcategory: "Oral Surgery",
     packaging: null,
     summary: "Oral Surgery from Woodpecker. Compliance: Directive 93/42EEC; Ingress Protection Rating: Device: IPX1, Foot Pedal: IPX6 (EN60529).",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Compliance", value: "Directive 93/42EEC" }, { label: "Ingress Protection Rating", value: "Device: IPX1, Foot Pedal: IPX6 (EN60529)" }, { label: "Software Version", value: "BoneSurgical4-V1.0.0" }, { label: "Operation Cycle", value: "60 seconds ON, 10 seconds OFF" }, { label: "Power Consumption", value: "170VA" }],
     price: 265825,
     visual: "instrument",
@@ -56,6 +62,12 @@ export const oralSurgery: Product[] = [
     subcategory: "Bite Registration Trays",
     packaging: null,
     summary: "Bite Registration Trays from Woodpecker. Dimension: 276mm x 267mm x 110mm; Intermittent Running Device: Intermittent Running with 10s pause after 60s operation.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Dimension", value: "276mm x 267mm x 110mm" }, { label: "Intermittent Running Device", value: "Intermittent Running with 10s pause after 60s operation" }, { label: "Water Flow", value: "25~ 110ml/m" }, { label: "Power", value: "70W" }, { label: "Mains Voltage", value: "100-240V" }],
     price: 181995,
     visual: "instrument",

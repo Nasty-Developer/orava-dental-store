@@ -68,6 +68,12 @@ export const equipment: Product[] = [
     subcategory: "Ultrasonic Scalers",
     packaging: null,
     summary: "Ultrasonic Scalers from Woodpecker. Main Unit Input: 220-240V~ 50Hz/60Hz 150mA; Output Primary Tip Vibration Excursion: ≤90μm.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Main Unit Input", value: "220-240V~ 50Hz/60Hz 150mA" }, { label: "Output Primary Tip Vibration Excursion", value: "≤90μm" }, { label: "Output Tip Vibration Frequency", value: "28kHz ± 3kHz" }, { label: "Output Power", value: "3W to 20W" }, { label: "Main Unit Fuse", value: "T0.5AL 250V" }],
     price: 34749,
     visual: "machine",
@@ -87,6 +93,12 @@ export const equipment: Product[] = [
     subcategory: "Woodpecker UDS-J Ultrasonic Scaler (5 scaler Tips FREE)",
     packaging: null,
     summary: "Woodpecker UDS-J Ultrasonic Scaler (5 scaler Tips FREE) from Woodpecker. Power supply input: 220-240V 50Hz/60Hz 150mA; Main unit input: 24V- 50Hz/60Hz 1.3A.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Power supply input", value: "220-240V 50Hz/60Hz 150mA" }, { label: "Main unit input", value: "24V- 50Hz/60Hz 1.3A" }, { label: "Output power", value: "3W to 20W" }, { label: "Output tip vibration frequency", value: "30kHz±3kHz" }, { label: "Output primary tip vibration excursion", value: "≤100μm" }],
     price: 6925,
     visual: "machine",
@@ -107,6 +119,12 @@ export const equipment: Product[] = [
     subcategory: "Woodpecker RTA D1 Ultrasonic Scaler Blue (5 scaler Tips FREE)",
     packaging: null,
     summary: "Woodpecker RTA D1 Ultrasonic Scaler Blue (5 scaler Tips FREE) from Woodpecker. Power supply Input: 220-240V~ 50Hz/60Hz l50mA; Main unit input: 24V~ l.3A.",
+
+    verification: {
+      method: "unverified - no manufacturer page found",
+      checkedOn: "2026-11-25",
+      note: "Not verified in this pass. glwoodpecker.com is a client-rendered single-page app: it publishes no sitemap (404), no server-side product URLs, and its JSON API (api.glzmn.com /api/index/detail) rejected every documented route tried. Three Woodpecker rows were matched to manufacturer pages and recorded; the page for this exact model was not located and confirmed in the time available, so no source is recorded rather than a guessed one."
+    },
     specs: [{ label: "Power supply Input", value: "220-240V~ 50Hz/60Hz l50mA" }, { label: "Main unit input", value: "24V~ l.3A" }, { label: "Output primary tip Vibration excursion", value: "≤100μm" }, { label: "Output tip Vibration frequency", value: "28kHz±3kHz" }, { label: "Output power", value: "3W to 20W" }],
     price: 6800,
     visual: "machine",

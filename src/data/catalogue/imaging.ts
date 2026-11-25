@@ -305,6 +305,13 @@ export const imaging: Product[] = [
     subcategory: "Portable X-Ray Machine",
     packaging: null,
     summary: "Portable X-Ray Machine from Woodpecker. Maximum power: 0.21kw（70kV, 3mA, 0.1s）; Nominal electric power: 0.21kw（70kV, 3mA, 0.1s）.",
+
+    source: "https://www.glwoodpecker.com/#/pcdetails?e=380&type=pc",
+    verification: {
+      method: "manufacturer product page on glwoodpecker.com (Guilin Woodpecker) opened and read in a browser, matched on the product name in the page body",
+      checkedOn: "2026-11-25",
+      note: "Page read 2026-11-25 shows product heading \"Ai Ray\". Manufacturer product page for Ai Ray opened in a real browser on 2026-11-25 and its content read: X-ray tube D-045, focal spot 0.4 mm, target angle 12.5 degrees, total filtration 1.5 mmAl/70 kV, 2.8-inch capacitive touch screen, dimensions 114 x 363.8 x 245.6 mm, weight 2.4 kg. Client-rendered hash route (plain HTTP fetch returns the app shell only, HTTP 200). No stock state is published."
+    },
     specs: [{ label: "Maximum power", value: "0.21kw（70kV, 3mA, 0.1s）" }, { label: "Nominal electric power", value: "0.21kw（70kV, 3mA, 0.1s）" }, { label: "Focal spot", value: "0.4mm;" }, { label: "Target angle", value: "12.5°;" }, { label: "Total filtration", value: "1.5mmAl/70 kV;" }],
     price: 86118,
     visual: "machine",
