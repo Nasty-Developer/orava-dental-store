@@ -148,6 +148,9 @@ retailer-sourced), which is why they are flagged rather than removed.
 Commit `437ac1a`. The batch-2 worker timed out mid-run; its edits were salvaged from its
 local clone, audited and pushed by the coordinator.
 
+> Historical snapshot (2026-11-25, after the GDC batch). Current counts are in the
+> per-brand table further down: 62 verified, 14 flagged, 268 not started.
+
 | Brand | Rows | Verified | Flagged | Not started |
 | --- | --- | --- | --- | --- |
 | Waldent family | 38 | 34 | 4 | 0 |
